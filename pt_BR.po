@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: WordPress 2.7.1\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2008-03-29 18:27+0200\n"
-"PO-Revision-Date: 2009-02-10 22:41-0300\n"
-"Last-Translator: Cátia Kitahara <contato@wordpress-br.com>\n"
+"PO-Revision-Date: 2009-06-22 18:41-0300\n"
+"Last-Translator: Gabriel Mazetto <gabriel@npd.ufsc.br>\n"
 "Language-Team: WordPress-BR <contato@wordpress-br.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -63,7 +63,7 @@ msgstr "Nenhuma tag encontrada!"
 
 #: wp-admin/admin-ajax.php:525
 msgid "Error: you are replying to a comment on a draft post."
-msgstr "Erro: você está respondendo um comentário num rascunho de post."
+msgstr "Erro: você está respondendo um comentário num rascunho de artigo."
 
 #: wp-admin/admin-ajax.php:540
 msgid "Sorry, you must be logged in to reply to a comment."
@@ -102,7 +102,7 @@ msgstr "Salvar automaticamente está desativado: %s está editando a página nes
 #: wp-admin/admin-ajax.php:749
 #, php-format
 msgid "Autosave disabled: %s is currently editing this post."
-msgstr "Salvar automaticamente está desativado: %s está editando o post neste momento."
+msgstr "Salvar automaticamente está desativado: %s está editando o artigo neste momento."
 
 #: wp-admin/admin-ajax.php:758
 #: wp-admin/admin-ajax.php:867
@@ -119,7 +119,7 @@ msgstr "Sem permissão para editar esta página."
 #: wp-admin/post.php:166
 #: wp-admin/upload.php:42
 msgid "You are not allowed to edit this post."
-msgstr "Sem permissão para editar este post. "
+msgstr "Sem permissão para editar este artigo. "
 
 #: wp-admin/admin-ajax.php:876
 #, php-format
@@ -129,7 +129,7 @@ msgstr "Salvar automaticamente está desativado: %s está editando a página nes
 #: wp-admin/admin-ajax.php:876
 #, php-format
 msgid "Saving is disabled: %s is currently editing this post."
-msgstr "Salvar automaticamente está desativado: %s está editando o post neste momento."
+msgstr "Salvar automaticamente está desativado: %s está editando o artigo neste momento."
 
 #: wp-admin/admin-ajax.php:922
 #: wp-admin/admin-post.php:20
@@ -175,7 +175,7 @@ msgstr "Tag não atualizada."
 #: wp-admin/edit-attachment-rows.php:205
 #: wp-admin/upload.php:375
 msgid "No posts found."
-msgstr "Nenhum post encontrado."
+msgstr "Nenhum artigo encontrado."
 
 #: wp-admin/admin-ajax.php:1004
 #: wp-admin/includes/dashboard.php:344
@@ -284,7 +284,7 @@ msgstr "Turbo"
 
 #: wp-admin/admin-header.php:110
 msgid "Log Out"
-msgstr "Logout"
+msgstr "Sair"
 
 #: wp-admin/admin.php:41
 msgid "Blue"
@@ -509,7 +509,7 @@ msgstr "Aplicar"
 #: wp-admin/categories.php:236
 #, php-format
 msgid "<strong>Note:</strong><br />Deleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the category <strong>%s</strong>."
-msgstr "<strong>Nota:</strong><br />Excluir uma categoria não exclui os posts e links dessa categoria. Em vez disso, os posts que estavam atribuídos apenas à categoria excluída serão atribuídos à categoria <strong>%s</strong>."
+msgstr "<strong>Nota:</strong><br />Excluir uma categoria não exclui os artigos e links dessa categoria. Em vez disso, os artigos que estavam atribuídos apenas à categoria excluída serão atribuídos à categoria <strong>%s</strong>."
 
 #: wp-admin/categories.php:237
 #, php-format
@@ -532,7 +532,7 @@ msgstr "Nome da categoria"
 #: wp-admin/categories.php:259
 #: wp-admin/edit-category-form.php:53
 msgid "The name is used to identify the category almost everywhere, for example under the post or in the category widget."
-msgstr "O nome é usado para identificar a categoria em quase todo lugar, por exemplo, abaixo do post ou no widget de categorias."
+msgstr "O nome é usado para identificar a categoria em quase todo lugar, por exemplo, abaixo do artigo ou no widget de categorias."
 
 #: wp-admin/categories.php:263
 #: wp-admin/edit-category-form.php:56
@@ -625,16 +625,16 @@ msgstr "Voltar"
 #: wp-admin/comment.php:45
 #: wp-admin/comment.php:149
 msgid "You are not allowed to edit comments on this post."
-msgstr "Sem permissão para editar comentários sobre esse post."
+msgstr "Sem permissão para editar comentários sobre esse artigo."
 
 #: wp-admin/comment.php:67
 msgid "You are not allowed to delete comments on this post."
-msgstr "Sem permissão para excluir comentários sobre esse post. "
+msgstr "Sem permissão para excluir comentários sobre esse artigo. "
 
 #: wp-admin/comment.php:67
 #: wp-admin/comment.php:204
 msgid "You are not allowed to edit comments on this post, so you cannot approve this comment."
-msgstr "Sem permissão para editar comentários sobre esse post; portanto, você não pode aprová-lo."
+msgstr "Sem permissão para editar comentários sobre esse artigo; portanto, você não pode aprová-lo."
 
 #  Não tem porque colocar spam em caixa alta. Além disso,
 #: wp-admin/comment.php:74
@@ -718,7 +718,7 @@ msgstr "Comentário"
 
 #: wp-admin/comment.php:179
 msgid "You are not allowed to edit comments on this post, so you cannot disapprove this comment."
-msgstr "Sem permissão para editar comentários sobre esse post; portanto, você não pode desaprovar este comentário."
+msgstr "Sem permissão para editar comentários sobre esse artigo; portanto, você não pode desaprovar este comentário."
 
 #: wp-admin/comment.php:233
 #: wp-admin/includes/media.php:1495
@@ -1121,12 +1121,12 @@ msgstr ""
 #: wp-admin/edit-form-advanced.php:22
 #, php-format
 msgid "Post updated. Continue editing below or <a href=\"%s\">go back</a>."
-msgstr "Post atualizado. Continue editando abaixo ou <a href=\"%s\">volte para o site</a>."
+msgstr "Artigo atualizado. Continue editando abaixo ou <a href=\"%s\">volte para o site</a>."
 
 #: wp-admin/edit-form-advanced.php:23
 #: wp-admin/edit-page-form.php:22
 msgid "Custom field updated."
-msgstr "Campo personalizado atualizado"
+msgstr "Campo personalizado atualizado."
 
 #: wp-admin/edit-form-advanced.php:24
 #: wp-admin/edit-page-form.php:23
@@ -1135,27 +1135,27 @@ msgstr "Campo personalizado excluído."
 
 #: wp-admin/edit-form-advanced.php:25
 msgid "Post updated."
-msgstr "Post atualizado"
+msgstr "Artigo atualizado."
 
 #: wp-admin/edit-form-advanced.php:26
 #, php-format
 msgid "Post published. <a href=\"%s\">View post</a>"
-msgstr "Post publicado. <a href=\"%s\">Ver post</a>"
+msgstr "Artigo atualizado. <a href=\"%s\">Ver artigo</a>"
 
 #: wp-admin/edit-form-advanced.php:27
 #: wp-admin/sidebar.php:100
 msgid "Post saved."
-msgstr "Post salvo."
+msgstr "Artigo salvo."
 
 #: wp-admin/edit-form-advanced.php:28
 #, php-format
 msgid "Post submitted. <a href=\"%s\">Preview post</a>"
-msgstr "Post enviado. <a href=\"%s\">Ver post</a>"
+msgstr "Artigo enviado. <a href=\"%s\">Ver artigo</a>"
 
 #: wp-admin/edit-form-advanced.php:31
 #, php-format
 msgid "Post restored to revision from %s"
-msgstr "Post restaurado para revisão às %s"
+msgstr "Artigo restaurado para revisão às %s"
 
 #: wp-admin/edit-form-advanced.php:34
 #, php-format
@@ -1302,7 +1302,7 @@ msgstr "Público"
 
 #: wp-admin/edit-form-advanced.php:174
 msgid "Stick this post to the front page"
-msgstr "Fixar esse post na página inicial"
+msgstr "Fixar esse artigo na página inicial"
 
 #: wp-admin/edit-form-advanced.php:176
 #: wp-admin/edit-page-form.php:164
@@ -1363,7 +1363,7 @@ msgid ""
 "You are about to delete this post '%s'\n"
 "  'Cancel' to stop, 'OK' to delete."
 msgstr ""
-"Você está prestes a excluir este post '%s'\n"
+"Você está prestes a excluir este artigo '%s'\n"
 "  'Cancelar' para interromper, 'OK' para excluir."
 
 #: wp-admin/edit-form-advanced.php:236
@@ -1403,7 +1403,7 @@ msgstr "Enviar para revisão"
 #: wp-admin/includes/template.php:1189
 #: wp-includes/script-loader.php:197
 msgid "Update Post"
-msgstr "Atualizar post"
+msgstr "Atualizar artigo"
 
 #: wp-admin/edit-form-advanced.php:268
 #: wp-admin/edit-form-advanced.php:273
@@ -1467,11 +1467,11 @@ msgstr "Adicionar"
 
 #: wp-admin/edit-form-advanced.php:328
 msgid "Keep this post private"
-msgstr "Manter este post privado"
+msgstr "Manter este artigo privado"
 
 #: wp-admin/edit-form-advanced.php:330
 msgid "Post Password"
-msgstr "Senha do post"
+msgstr "Senha do artigo"
 
 #: wp-admin/edit-form-advanced.php:331
 msgid "Password Protect This Post"
@@ -1479,7 +1479,7 @@ msgstr "Proteger com senha"
 
 #: wp-admin/edit-form-advanced.php:332
 msgid "Setting a password will require people who visit your blog to enter the above password to view this post and its comments."
-msgstr "Definir uma senha obrigará os visitantes do seu blog a digitá-la para poderem ver o post e os respectivos comentários."
+msgstr "Definir uma senha obrigará os visitantes do seu blog a digitá-la para poderem ver o artigo e os respectivos comentários."
 
 #: wp-admin/edit-form-advanced.php:346
 #: wp-admin/edit-form-advanced.php:350
@@ -1489,7 +1489,7 @@ msgstr "Resumo"
 
 #: wp-admin/edit-form-advanced.php:347
 msgid "Excerpts are optional hand-crafted summaries of your content. You can <a href=\"http://codex.wordpress.org/Template_Tags/the_excerpt\" target=\"_blank\">use them in your template</a>"
-msgstr "Resumos são pequenas descrições opcionais do conteúdo do seu post feitas manualmente. Você pode <a href=\"http://codex.wordpress.org/Template_Tags/the_excerpt\" target=\"_blank\">usá-los em seu tema</a>"
+msgstr "Resumos são pequenas descrições opcionais do conteúdo do seu artigo feitas manualmente. Você pode <a href=\"http://codex.wordpress.org/Template_Tags/the_excerpt\" target=\"_blank\">usá-los em seu tema</a>"
 
 #: wp-admin/edit-form-advanced.php:362
 msgid "Already pinged:"
@@ -1514,7 +1514,7 @@ msgstr "Enviar trackbacks"
 #: wp-admin/edit-form-advanced.php:396
 #: wp-admin/edit-page-form.php:311
 msgid "Custom fields can be used to add extra metadata to a post that you can <a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">use in your theme</a>."
-msgstr "Os campos personalizados podem ser usados para adicionar metadados adicionais a um post, que você pode <a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">usar no seu tema</a>."
+msgstr "Os campos personalizados podem ser usados para adicionar metadados adicionais a um artigo, que você pode <a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">usar no seu tema</a>."
 
 #: wp-admin/edit-form-advanced.php:399
 #: wp-admin/edit-page-form.php:314
@@ -1523,11 +1523,11 @@ msgstr "Campos personalizados"
 
 #: wp-admin/edit-form-advanced.php:415
 msgid "Allow comments on this post"
-msgstr "Permitir comentários sobre esse post"
+msgstr "Permitir comentários sobre esse artigo"
 
 #: wp-admin/edit-form-advanced.php:416
 msgid "Allow <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks and pingbacks</a> on this post"
-msgstr "Permitir <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks e pingbacks</a> para este post"
+msgstr "Permitir <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks e pingbacks</a> para este artigo"
 
 #: wp-admin/edit-form-advanced.php:437
 msgid "Show comments"
@@ -1542,17 +1542,17 @@ msgstr "Discussão"
 #: wp-admin/edit-form-advanced.php:456
 #: wp-admin/edit-form-advanced.php:460
 msgid "Post Slug"
-msgstr "Slug do post"
+msgstr "Slug do artigo"
 
 #: wp-admin/edit-form-advanced.php:479
 #: wp-admin/edit-form-advanced.php:482
 msgid "Post Author"
-msgstr "Autor do post"
+msgstr "Autor do artigo"
 
 #: wp-admin/edit-form-advanced.php:496
 #: wp-admin/revision.php:141
 msgid "Post Revisions"
-msgstr "Revisões do Post"
+msgstr "Revisões do Artigo"
 
 #: wp-admin/edit-form-advanced.php:581
 #: wp-admin/edit-page-form.php:462
@@ -1649,7 +1649,7 @@ msgstr "Categorias excluídas."
 #: wp-admin/edit-link-categories.php:178
 #, php-format
 msgid "<strong>Note:</strong><br />Deleting a category does not delete the links in that category. Instead, links that were only assigned to the deleted category are set to the category <strong>%s</strong>."
-msgstr "<strong>Nota:</strong><br />Excluir uma categoria não exclui os links da mesma categoria. Em vez disso, os posts que estavam atribuídos apenas à categoria excluída serão atribuídos à categoria <strong>%s</strong>."
+msgstr "<strong>Nota:</strong><br />Excluir uma categoria não exclui os links da mesma categoria. Em vez disso, os artigos que estavam atribuídos apenas à categoria excluída serão atribuídos à categoria <strong>%s</strong>."
 
 #: wp-admin/edit-link-categories.php:199
 #: wp-admin/edit-link-category-form.php:65
@@ -2148,7 +2148,7 @@ msgstr "Rascunho"
 #: wp-admin/edit-pages.php:81
 #: wp-admin/includes/post.php:780
 msgid "Drafts|manage posts header"
-msgstr "Rascunhos|gerenciar o cabeçalho dos posts"
+msgstr "Rascunhos|gerenciar o cabeçalho dos artigos"
 
 #: wp-admin/edit-pages.php:81
 #, php-format
@@ -2331,53 +2331,53 @@ msgstr ""
 #: wp-admin/post.php:207
 #: wp-admin/upload.php:80
 msgid "You are not allowed to delete this post."
-msgstr "Sem permissão para excluir este post."
+msgstr "Sem permissão para excluir este artigo."
 
 #: wp-admin/edit.php:81
 msgid "Edit Posts"
-msgstr "Editar posts"
+msgstr "Editar artigos"
 
 #: wp-admin/edit.php:106
 #: wp-admin/press-this.php:521
 msgid "Your post has been saved."
-msgstr "O seu post foi salvo."
+msgstr "O seu artigo foi salvo."
 
 #: wp-admin/edit.php:106
 #: wp-admin/press-this.php:521
 msgid "View post"
-msgstr "Ver post"
+msgstr "Ver artigo"
 
 #: wp-admin/edit.php:106
 #: wp-admin/press-this.php:521
 #: wp-includes/link-template.php:728
 msgid "Edit post"
-msgstr "Editar post"
+msgstr "Editar artigo"
 
 #: wp-admin/edit.php:113
 #, php-format
 msgid "%s post updated."
 msgid_plural "%s posts updated."
-msgstr[0] "%s post atualizado."
-msgstr[1] "%s posts atualizados."
+msgstr[0] "%s artigo atualizado."
+msgstr[1] "%s artigos atualizados."
 
 #: wp-admin/edit.php:121
 #, php-format
 msgid "%s post not updated, somebody is editing it."
 msgid_plural "%s posts not updated, somebody is editing them."
-msgstr[0] "%s post não atualizado, alguém o está editando."
-msgstr[1] "%s posts não atualizados, alguém os está editando."
+msgstr[0] "%s artigo não atualizado, alguém o está editando."
+msgstr[1] "%s artigos não atualizados, alguém os está editando."
 
 #: wp-admin/edit.php:126
 #, php-format
 msgid "Post deleted."
 msgid_plural "%s posts deleted."
-msgstr[0] "Post excluído."
-msgstr[1] "%s posts excluídos."
+msgstr[0] "Artigo excluído."
+msgstr[1] "%s artigos excluídos."
 
 #: wp-admin/edit.php:167
 #: wp-admin/edit.php:169
 msgid "Search Posts"
-msgstr "Pesquisar posts"
+msgstr "Pesquisar artigos"
 
 #: wp-admin/edit.php:213
 #: wp-admin/includes/media.php:1725
@@ -2399,14 +2399,14 @@ msgstr "Visualização do resumo"
 
 #: wp-admin/edit.php:286
 msgid "No posts found"
-msgstr "Nenhum post encontrado"
+msgstr "Nenhum artigo encontrado"
 
 #: wp-admin/edit.php:305
 msgid ""
 "You are about to delete the selected posts.\n"
 "  'Cancel' to stop, 'OK' to delete."
 msgstr ""
-"Você está prestes a excluir os posts selecionados.\n"
+"Você está prestes a excluir os artigos selecionados.\n"
 "  'Cancelar' para interromper, 'OK' para excluir."
 
 #: wp-admin/export.php:14
@@ -2420,7 +2420,7 @@ msgstr "Quando você clicar no botão abaixo, o WordPress irá criar um arquivo 
 
 #: wp-admin/export.php:30
 msgid "This format, which we call WordPress eXtended RSS or WXR, will contain your posts, pages, comments, custom fields, categories, and tags."
-msgstr "Este formato, ao qual chamamos WordPress eXtended RSS ou WXR, irá conter os seus posts, páginas, comentários, campos personalizados, categorias e tags."
+msgstr "Este formato, ao qual chamamos WordPress eXtended RSS ou WXR, irá conter os seus artigos, páginas, comentários, campos personalizados, categorias e tags."
 
 #: wp-admin/export.php:31
 msgid "Once you&#8217;ve saved the download file, you can use the Import function on another WordPress blog to import this blog."
@@ -2444,7 +2444,7 @@ msgstr "Download do arquivo de exportação"
 
 #: wp-admin/import.php:19
 msgid "If you have posts or comments in another system, WordPress can import those into this blog. To get started, choose a system to import from below:"
-msgstr "Se você tiver posts ou comentários em outro sistema, o WordPress pode importá-los para este blog. Para começar, escolha abaixo o sistema a partir do qual pretende importar:"
+msgstr "Se você tiver artigos ou comentários em outro sistema, o WordPress pode importá-los para este blog. Para começar, escolha abaixo o sistema a partir do qual pretende importar:"
 
 #: wp-admin/import.php:41
 msgid "No importers are available."
@@ -2456,7 +2456,7 @@ msgstr "Importar do Blogger"
 
 #: wp-admin/import/blogger.php:51
 msgid "Howdy! This importer allows you to import posts and comments from your Blogger account into your WordPress blog."
-msgstr "Olá! Este importador permite que você importe posts e comentários de sua conta do Blogger para seu blog do WordPress."
+msgstr "Olá! Este importador permite que você importe artigos e comentários de sua conta do Blogger para seu blog do WordPress."
 
 #: wp-admin/import/blogger.php:52
 msgid "To use this importer, you must have a Google account and an upgraded (New, was Beta) blog hosted on blogspot.com or a custom domain (not FTP)."
@@ -2546,7 +2546,7 @@ msgstr "O Botão Mágico"
 #: wp-admin/includes/template.php:3031
 #: wp-admin/menu.php:32
 msgid "Posts"
-msgstr "Posts"
+msgstr "Artigos"
 
 #: wp-admin/import/blogger.php:206
 msgid "This feature requires Javascript but it seems to be disabled. Please enable Javascript and then reload this page. Don't worry, you can turn it back off when you're done."
@@ -2554,7 +2554,7 @@ msgstr "Esta funcionalidade requer JavaScript, mas este parece estar desativado.
 
 #: wp-admin/import/blogger.php:655
 msgid "All posts were imported with the current user as author. Use this form to move each Blogger user's posts to a different WordPress user. You may <a href=\"users.php\">add users</a> and then return to this page and complete the user mapping. This form may be used as many times as you like until you activate the \"Restart\" function below."
-msgstr "Todos os posts foram importados com o usuário atual como autor. Utilize este formulário para mover cada post de usuários do Blogger para um usuário diferente do WordPress. Você pode <a href=\"users.php\">adicionar usuários</a> e depois voltar a esta página para concluir o mapeamento de usuários. Este formulário pode ser utilizado quantas vezes você quiser, até que você ative a função \"Reiniciar\" abaixo."
+msgstr "Todos os artigos foram importados com o usuário atual como autor. Utilize este formulário para mover cada artigo de usuários do Blogger para um usuário diferente do WordPress. Você pode <a href=\"users.php\">adicionar usuários</a> e depois voltar a esta página para concluir o mapeamento de usuários. Este formulário pode ser utilizado quantas vezes você quiser, até que você ative a função \"Reiniciar\" abaixo."
 
 #: wp-admin/import/blogger.php:656
 msgid "Author mapping"
@@ -2599,12 +2599,12 @@ msgstr "Foi um trabalho pesado! Faça uma pausa."
 
 #: wp-admin/import/blogger.php:798
 msgid "In case you haven't done it already, you can import the posts from your other blogs:"
-msgstr "Caso ainda não tenha feito, você pode importar os posts de outros blogs:"
+msgstr "Caso ainda não tenha feito, você pode importar os artigos de outros blogs:"
 
 #: wp-admin/import/blogger.php:800
 #, php-format
 msgid "Go to <a href=\"%s\" target=\"%s\">Authors &amp; Users</a>, where you can modify the new user(s) or delete them. If you want to make all of the imported posts yours, you will be given that option when you delete the new authors."
-msgstr "Vá para <a href=\"%s\" target=\"%s\">Autores e Usuários</a>, onde você pode modificar o(s) novo(s) usuário(s) ou excluí-lo(s). Se quiser tornar todos os posts importados como sendo seus, você terá essa opção quando excluir os novos autores."
+msgstr "Vá para <a href=\"%s\" target=\"%s\">Autores e Usuários</a>, onde você pode modificar o(s) novo(s) usuário(s) ou excluí-lo(s). Se quiser tornar todos os artigos importados como sendo seus, você terá essa opção quando excluir os novos autores."
 
 #: wp-admin/import/blogger.php:801
 msgid "For security, click the link below to reset this importer."
@@ -2616,7 +2616,7 @@ msgstr "Reiniciar"
 
 #: wp-admin/import/blogger.php:833
 msgid "We have saved some information about your Blogger account in your WordPress database. Clearing this information will allow you to start over. Restarting will not affect any posts you have already imported. If you attempt to re-import a blog, duplicate posts and comments will be skipped."
-msgstr "Salvamos algumas informações sobre a sua conta do Blogger no nosso banco de dados do WordPress. Limpando estas informações, você poderá reiniciar o processo. Reiniciar não irá afetar nenhum post que já tenham sido importado. Se tentar voltar a importar um blog, os posts e comentários duplicados serão ignorados."
+msgstr "Salvamos algumas informações sobre a sua conta do Blogger no nosso banco de dados do WordPress. Limpando estas informações, você poderá reiniciar o processo. Reiniciar não irá afetar nenhum artigo que já tenham sido importado. Se tentar voltar a importar um blog, os artigos e comentários duplicados serão ignorados."
 
 #: wp-admin/import/blogger.php:834
 msgid "Clear account information"
@@ -2628,7 +2628,7 @@ msgstr "Blogger"
 
 #: wp-admin/import/blogger.php:884
 msgid "Import posts, comments, and users from a Blogger blog."
-msgstr "Importar posts, comentários e usuários de um blog Blogger."
+msgstr "Importar artigos, comentários e usuários de um blog Blogger."
 
 #: wp-admin/import/blogware.php:25
 msgid "Import Blogware"
@@ -2636,7 +2636,7 @@ msgstr "Importar Blogware"
 
 #: wp-admin/import/blogware.php:40
 msgid "Howdy! This importer allows you to extract posts from Blogware XML export file into your blog.  Pick a Blogware file to upload and click Import."
-msgstr "Olá! Este importador permite que você extraia posts de um arquivo de exportação XML do Blogware para o seu blog. Selecione um arquivo do Blogware para fazer upload e clique em Importar."
+msgstr "Olá! Este importador permite que você extraia artigos de um arquivo de exportação XML do Blogware para o seu blog. Selecione um arquivo do Blogware para fazer upload e clique em Importar."
 
 #: wp-admin/import/blogware.php:103
 #: wp-admin/import/livejournal.php:83
@@ -2644,7 +2644,7 @@ msgstr "Olá! Este importador permite que você extraia posts de um arquivo de e
 #: wp-admin/import/wordpress.php:415
 #, php-format
 msgid "Post <em>%s</em> already exists."
-msgstr "O post <em>%s</em> já existe."
+msgstr "O artigo <em>%s</em> já existe."
 
 #: wp-admin/import/blogware.php:105
 #: wp-admin/import/livejournal.php:85
@@ -2652,13 +2652,13 @@ msgstr "O post <em>%s</em> já existe."
 #: wp-admin/import/wordpress.php:448
 #, php-format
 msgid "Importing post <em>%s</em>..."
-msgstr "Importar post <em>%s</em>..."
+msgstr "Importando artigo <em>%s</em>..."
 
 #: wp-admin/import/blogware.php:112
 #: wp-admin/import/livejournal.php:91
 #: wp-admin/import/rss.php:132
 msgid "Couldn't get post ID"
-msgstr "Não foi possível obter a ID do post."
+msgstr "Não foi possível obter a ID do artigo."
 
 #: wp-admin/import/blogware.php:158
 #, php-format
@@ -2681,7 +2681,7 @@ msgstr "Blogware"
 
 #: wp-admin/import/blogware.php:214
 msgid "Import posts from Blogware."
-msgstr "Importar posts de um blog Blogware"
+msgstr "Importar artigos de um blog Blogware"
 
 #: wp-admin/import/btt.php:22
 msgid "Import Bunny&#8217;s Technorati Tags"
@@ -2735,8 +2735,8 @@ msgstr "Nenhuma tag encontrada!"
 #, php-format
 msgid "Done! <strong>%s</strong> post with tags were read."
 msgid_plural "Done! <strong>%s</strong> posts with tags were read."
-msgstr[0] "Concluído! <strong>%s</strong> post com tags foi lido."
-msgstr[1] "Concluído! <strong>%s</strong> posts com tags foram lidos."
+msgstr[0] "Concluído! <strong>%s</strong> artigo com tags foi lido."
+msgstr[1] "Concluído! <strong>%s</strong> artigos com tags foram lidos."
 
 #: wp-admin/import/btt.php:108
 #: wp-admin/import/jkw.php:123
@@ -2761,7 +2761,7 @@ msgstr "Importar Dotclear"
 
 #: wp-admin/import/dotclear.php:213
 msgid "Howdy! This importer allows you to extract posts from a DotClear database into your blog.  Mileage may vary."
-msgstr "Olá! Este importador permite que você extraia posts de um banco de dados Dotclear para o seu blog. Pode funcionar ou não."
+msgstr "Olá! Este importador permite que você extraia artigos de um banco de dados Dotclear para o seu blog. Pode funcionar ou não."
 
 #: wp-admin/import/dotclear.php:214
 msgid "Your DotClear Configuration settings are as follows:"
@@ -2808,13 +2808,13 @@ msgstr "Nenhum usuário para importar!"
 #: wp-admin/import/dotclear.php:409
 #: wp-admin/import/textpattern.php:296
 msgid "Importing Posts..."
-msgstr "Importar posts"
+msgstr "Importando Artigos..."
 
 #: wp-admin/import/dotclear.php:492
 #: wp-admin/import/textpattern.php:370
 #, php-format
 msgid "Done! <strong>%1$s</strong> posts imported."
-msgstr "Concluído! <strong>%1$s</strong> posts importados."
+msgstr "Concluído! <strong>%1$s</strong> artigos importados."
 
 #: wp-admin/import/dotclear.php:507
 #: wp-admin/import/textpattern.php:385
@@ -2857,7 +2857,7 @@ msgstr "Importar usuários"
 #: wp-admin/import/dotclear.php:648
 #: wp-admin/import/textpattern.php:521
 msgid "Import Posts"
-msgstr "Importar posts"
+msgstr "Importar artigos"
 
 #: wp-admin/import/dotclear.php:662
 #: wp-admin/import/textpattern.php:535
@@ -2898,7 +2898,7 @@ msgstr "Preservar autores"
 #: wp-admin/import/dotclear.php:715
 #: wp-admin/import/textpattern.php:587
 msgid "Secondly, we have attempted to preserve post authors.  If you are the only author or contributor to your blog, then you are safe.  In most cases, we are successful in this preservation endeavor.  However, if we cannot ascertain the name of the writer due to discrepancies between database tables, we assign it to you, the administrative user."
-msgstr "Em segundo lugar, nós tentamos preservar os autores dos posts. Se você é o único autor ou colaborador em seu blog, então não há problema. Na maioria dos casos, temos sucesso nessa preservação. Entretanto, se não pudermos nos certificar do nome do autor devido à discrepâncias entre as tabelas dos bancos de dados, nós atribuímos a autoria do post em questão à você, o usuário administrador."
+msgstr "Em segundo lugar, nós tentamos preservar os autores dos artigos. Se você é o único autor ou colaborador em seu blog, então não há problema. Na maioria dos casos, temos sucesso nessa preservação. Entretanto, se não pudermos nos certificar do nome do autor devido à discrepâncias entre as tabelas dos bancos de dados, nós atribuímos a autoria do artigo em questão à você, o usuário administrador."
 
 #: wp-admin/import/dotclear.php:716
 #: wp-admin/import/textpattern.php:588
@@ -2907,7 +2907,7 @@ msgstr "Textile"
 
 #: wp-admin/import/dotclear.php:717
 msgid "Also, since you're coming from DotClear, you probably have been using Textile to format your comments and posts.  If this is the case, we recommend downloading and installing <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile for WordPress</a>.  Trust me... You'll want it."
-msgstr "Também, por ter vindo do DotClear, você provavelmente deve estar usando o Textile para formatar seus comentários e posts. Se este é o caso, nós recomendamos que você faça o download e a instalação do <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile para WordPress</a>. Acredite... Você vai querer isto."
+msgstr "Também, por ter vindo do DotClear, você provavelmente deve estar usando o Textile para formatar seus comentários e artigos. Se este é o caso, nós recomendamos que você faça o download e a instalação do <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile para WordPress</a>. Acredite... Você vai querer isto."
 
 #: wp-admin/import/dotclear.php:718
 #: wp-admin/import/textpattern.php:590
@@ -2969,7 +2969,7 @@ msgstr "DotClear"
 
 #: wp-admin/import/dotclear.php:833
 msgid "Import categories, users, posts, comments, and links from a DotClear blog."
-msgstr "Importar categorias, usuários, posts, comentários e links de um blog DotClear"
+msgstr "Importar categorias, usuários, artigos, comentários e links de um blog DotClear"
 
 #: wp-admin/import/greymatter.php:24
 msgid "Import GreyMatter"
@@ -2989,11 +2989,11 @@ msgstr "Processa gm-authors.cgi para importar (novos) autores. No nível 1, são
 
 #: wp-admin/import/greymatter.php:38
 msgid "Parses the entries cgi files to import posts, comments, and karma on posts (although karma is not used on WordPress yet).<br />If authors are found not to be in gm-authors.cgi, imports them at level 0."
-msgstr "Processa os arquivos de entradas cgi para importar posts, comentários e karma de posts (embora o karma ainda não seja utilizado no WordPress).<br />Se os autores não estiverem em gm-authors.cgi, serão importados com o nível 0."
+msgstr "Processa os arquivos de entradas cgi para importar artigos, comentários e karma de artigos (embora o karma ainda não seja utilizado no WordPress).<br />Se os autores não estiverem em gm-authors.cgi, serão importados com o nível 0."
 
 #: wp-admin/import/greymatter.php:39
 msgid "Detects duplicate entries or comments. If you don't import everything the first time, or this import should fail in the middle, duplicate entries will not be made when you try again."
-msgstr "Detecta posts ou comentários duplicados. Se você não importar tudo da primeira vez, ou se esta importação falhar, não serão geradas entradas duplicadas quando você tentar novamente."
+msgstr "Detecta artigos ou comentários duplicados. Se você não importar tudo da primeira vez, ou se esta importação falhar, não serão geradas entradas duplicadas quando você tentar novamente."
 
 #: wp-admin/import/greymatter.php:41
 msgid "What it does not:"
@@ -3029,7 +3029,7 @@ msgstr "Número da última entrada:"
 
 #: wp-admin/import/greymatter.php:66
 msgid "This importer will search for files 00000001.cgi to 000-whatever.cgi,<br />so you need to enter the number of the last GM post here.<br />(if you don't know that number, just log into your FTP and look it out<br />in the entries' folder)"
-msgstr "Este importador irá pesquisar arquivos 00000001.cgi a 000-qualquer_coisa.cgi,<br />portanto, você precisa digitar o número do último post do GM aqui.<br />(Se não souber qual é o número, faça o login em seu FTP e consulte a pasta de entradas)"
+msgstr "Este importador irá pesquisar arquivos 00000001.cgi a 000-qualquer_coisa.cgi,<br />portanto, você precisa digitar o número do último artigo do GM aqui.<br />(Se não souber qual é o número, faça o login em seu FTP e consulte a pasta de entradas)"
 
 #: wp-admin/import/greymatter.php:69
 msgid "Start Importing"
@@ -3075,12 +3075,12 @@ msgstr "Concluído"
 
 #: wp-admin/import/greymatter.php:150
 msgid "importing posts, comments, and karma..."
-msgstr "importando posts, comentários e karma..."
+msgstr "importando artigos, comentários e karma..."
 
 #: wp-admin/import/greymatter.php:186
 #, php-format
 msgid "entry # %s : %s : by %s"
-msgstr "post # %s : %s : por %s"
+msgstr "artigo # %s : %s : por %s"
 
 #: wp-admin/import/greymatter.php:214
 msgid "(already exists)"
@@ -3115,7 +3115,7 @@ msgstr "GreyMatter"
 
 #: wp-admin/import/greymatter.php:333
 msgid "Import users, posts, and comments from a Greymatter blog."
-msgstr "Importar usuários, posts e comentários de um blog Greymatter."
+msgstr "Importar usuários, artigos e comentários de um blog Greymatter."
 
 #: wp-admin/import/jkw.php:21
 msgid "Import Jerome&#8217;s Keywords"
@@ -3164,7 +3164,7 @@ msgstr "Importar do LiveJournal"
 
 #: wp-admin/import/livejournal.php:38
 msgid "Howdy! Upload your LiveJournal XML export file and we&#8217;ll import the posts into this blog."
-msgstr "Olá! Faça o upload do seu arquivo de exportação XML do LiveJournal e os posts serão importados para este blog."
+msgstr "Olá! Faça o upload do seu arquivo de exportação XML do LiveJournal e os artigos serão importados para este blog."
 
 #: wp-admin/import/livejournal.php:39
 msgid "Choose a LiveJournal XML file to upload, then click Upload file and import."
@@ -3185,7 +3185,7 @@ msgstr "LiveJournal"
 
 #: wp-admin/import/livejournal.php:192
 msgid "Import posts from a LiveJournal XML export file."
-msgstr "Importar posts de um arquivo de exportação XML do LiveJournal."
+msgstr "Importar artigos de um arquivo de exportação XML do LiveJournal."
 
 #: wp-admin/import/mt.php:28
 msgid "Import Movable Type or TypePad"
@@ -3222,11 +3222,11 @@ msgstr "Atribuir autores"
 
 #: wp-admin/import/mt.php:197
 msgid "To make it easier for you to edit and save the imported posts and drafts, you may want to change the name of the author of the posts. For example, you may want to import all the entries as admin's entries."
-msgstr "Para tornar mais fácil para você editar e salvar os posts e rascunhos salvos, você deve querer alterar o nome do autor dos posts. Por exemplo, você pode querer importar todas as entradas como sendo propriedade de <code>admin</code>."
+msgstr "Para tornar mais fácil para você editar e salvar os artigos e rascunhos salvos, você deve querer alterar o nome do autor dos artigos. Por exemplo, você pode querer importar todas as entradas como sendo propriedade de <code>admin</code>."
 
 #: wp-admin/import/mt.php:198
 msgid "Below, you can see the names of the authors of the MovableType posts in <em>italics</em>. For each of these names, you can either pick an author in your WordPress installation from the menu, or enter a name for the author in the textbox."
-msgstr "Abaixo, você pode ver os nomes dos autores dos posts do MovableType em <em>itálico</em>. Para cada um destes nomes, pode fazer corresponder um autor desta instalação de WordPress ou digitar um nome na caixa de texto."
+msgstr "Abaixo, você pode ver os nomes dos autores dos artigos do MovableType em <em>itálico</em>. Para cada um destes nomes, pode fazer corresponder um autor desta instalação de WordPress ou digitar um nome na caixa de texto."
 
 #: wp-admin/import/mt.php:199
 #: wp-admin/import/wordpress.php:206
@@ -3276,7 +3276,7 @@ msgstr "Mover Type e TypePad"
 
 #: wp-admin/import/mt.php:513
 msgid "Import posts and comments from a Movable Type or Typepad blog."
-msgstr "Importar posts e comentários de um blog Movable Type ou Typepad."
+msgstr "Importar artigos e comentários de um blog Movable Type ou Typepad."
 
 #: wp-admin/import/opml.php:14
 msgid "Import Blogroll"
@@ -3339,15 +3339,15 @@ msgstr "Importar RSS"
 
 #: wp-admin/import/rss.php:41
 msgid "Howdy! This importer allows you to extract posts from an RSS 2.0 file into your blog. This is useful if you want to import your posts from a system that is not handled by a custom import tool. Pick an RSS file to upload and click Import."
-msgstr "Olá! Este importador permite que você extraia posts de um arquivo RSS 2.0 para o seu blog. Isto é útil se você quer  importar posts a partir de um sistema que não seja suportado por uma ferramenta de importação personalizada. Escolha um arquivo RSS para enviar e clique em Importar."
+msgstr "Olá! Este importador permite que você extraia artigos de um arquivo RSS 2.0 para o seu blog. Isto é útil se você quer  importar artigos a partir de um sistema que não seja suportado por uma ferramenta de importação personalizada. Escolha um arquivo RSS para enviar e clique em Importar."
 
 #: wp-admin/import/rss.php:121
 msgid "Importing post..."
-msgstr "Importando post..."
+msgstr "Importando artigo..."
 
 #: wp-admin/import/rss.php:126
 msgid "Post already imported"
-msgstr "Post já importado"
+msgstr "Artigo já importado"
 
 #: wp-admin/import/rss.php:138
 msgid "Done !"
@@ -3360,7 +3360,7 @@ msgstr "RSS"
 
 #: wp-admin/import/rss.php:197
 msgid "Import posts from an RSS feed."
-msgstr "Importar posts de um feed RSS."
+msgstr "Importar artigos de um feed RSS."
 
 #: wp-admin/import/stp.php:20
 msgid "Import Simple Tagging"
@@ -3390,7 +3390,7 @@ msgstr "Lendo STP Post Tags&#8230;"
 #: wp-admin/import/stp.php:80
 #: wp-admin/import/utw.php:138
 msgid "No posts were found to have tags!"
-msgstr "Nenhum post com tags encontrado!"
+msgstr "Nenhum artigo com tags encontrado!"
 
 #: wp-admin/import/stp.php:91
 #: wp-admin/import/utw.php:153
@@ -3398,7 +3398,7 @@ msgstr "Nenhum post com tags encontrado!"
 msgid "Done! <strong>%s</strong> tag to post relationships were read."
 msgid_plural "Done! <strong>%s</strong> tags to post relationships were read."
 msgstr[0] "Concluído! Foram lidas <strong>%s</strong> relações entre tags e posts."
-msgstr[1] "Concluído! Foram lidas <strong>%s</strong> relações entre tags e posts."
+msgstr[1] "Concluído! Foram lidas <strong>%s</strong> relações entre tags e artigos."
 
 #: wp-admin/import/stp.php:96
 #: wp-admin/import/utw.php:123
@@ -3408,7 +3408,7 @@ msgstr "Passo 2"
 #: wp-admin/import/stp.php:104
 #: wp-admin/import/utw.php:169
 msgid "Adding Tags to Posts&#8230;"
-msgstr "Adicionando tags ao Posts&#8230;"
+msgstr "Adicionando tags aos Artigos&#8230;"
 
 #: wp-admin/import/stp.php:109
 #, php-format
@@ -3441,7 +3441,7 @@ msgstr "Importar do Textpattern"
 
 #: wp-admin/import/textpattern.php:67
 msgid "Howdy! This imports categories, users, posts, comments, and links from any Textpattern 4.0.2+ into this blog."
-msgstr "Olá! Este processo importa categorias, usuários, posts, comentários e links a partir do Textpattern versão 4.0.2 ou superior, para este blog."
+msgstr "Olá! Este processo importa categorias, usuários, artigos, comentários e links a partir do Textpattern versão 4.0.2 ou superior, para este blog."
 
 #: wp-admin/import/textpattern.php:68
 msgid "This has not been tested on previous versions of Textpattern.  Mileage may vary."
@@ -3469,7 +3469,7 @@ msgstr "Você já configurou o WordPress e obteve um nome de usuário e uma senh
 
 #: wp-admin/import/textpattern.php:589
 msgid "Also, since you&#8217;re coming from Textpattern, you probably have been using Textile to format your comments and posts.  If this is the case, we recommend downloading and installing <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile for WordPress</a>.  Trust me... You&#8217;ll want it."
-msgstr "Também, porque você veio do Textpattern, você provavelmente deve estar usando Textile para formatar seus comentários e posts. Se este é o caso, nós recomendamos fazer o download e instalação do <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile para WordPress</a>. Acredite... Você vai querer isto."
+msgstr "Também, porque você veio do Textpattern, você provavelmente deve estar usando Textile para formatar seus comentários e artigos. Se este é o caso, nós recomendamos fazer o download e instalação do <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile para WordPress</a>. Acredite... Você vai querer isto."
 
 #: wp-admin/import/textpattern.php:597
 #, php-format
@@ -3502,7 +3502,7 @@ msgstr "Textpattern"
 
 #: wp-admin/import/textpattern.php:698
 msgid "Import categories, users, posts, comments, and links from a Textpattern blog."
-msgstr "Importar categorias, usuários, posts, comentários e links de um blog Textpattern"
+msgstr "Importar categorias, usuários, artigos, comentários e links de um blog Textpattern"
 
 #: wp-admin/import/utw.php:21
 msgid "Import Ultimate Tag Warrior"
@@ -3534,7 +3534,7 @@ msgstr "Se você não quer importar nenhuma dessas tags, você tem que eliminá-
 
 #: wp-admin/import/utw.php:131
 msgid "Reading UTW Post Tags&#8230;"
-msgstr "Lendo as tags de posts do UTW&hellip;"
+msgstr "Lendo as tags de artigos do UTW&hellip;"
 
 #: wp-admin/import/utw.php:174
 #, php-format
@@ -3561,7 +3561,7 @@ msgstr "Importar do WordPress"
 
 #: wp-admin/import/wordpress.php:53
 msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this blog."
-msgstr "Olá! Faça upload do seu arquivo WordPress eXtended RSS (WXR), e nós vamos importar os posts, páginas, comentários, campos personalizados, categorias e tags para esse blog."
+msgstr "Olá! Faça upload do seu arquivo WordPress eXtended RSS (WXR), e nós vamos importar os artigos, páginas, comentários, campos personalizados, categorias e tags para esse blog."
 
 #: wp-admin/import/wordpress.php:54
 msgid "Choose a WordPress WXR file to upload, then click Upload file and import."
@@ -3569,7 +3569,7 @@ msgstr "Escolha um arquivo WXR do WordPress para fazer upload, aí clique em Upl
 
 #: wp-admin/import/wordpress.php:203
 msgid "To make it easier for you to edit and save the imported posts and drafts, you may want to change the name of the author of the posts. For example, you may want to import all the entries as <code>admin</code>s entries."
-msgstr "Para facilitar sua tarefa de editar e salvar os posts e rascunhos importados, você pode querer mudar os nomes do autor dos posts. Por exemplo, você pode querer importar tudo como sendo do <code>admin</code>."
+msgstr "Para facilitar sua tarefa de editar e salvar os artigos e rascunhos importados, você pode querer mudar os nomes do autor dos artigos. Por exemplo, você pode querer importar tudo como sendo do <code>admin</code>."
 
 #: wp-admin/import/wordpress.php:217
 msgid "Import author:"
@@ -3647,7 +3647,7 @@ msgstr "Desculpe, ocorreu um erro."
 
 #: wp-admin/import/wordpress.php:804
 msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
-msgstr "Importar <strong>posts, páginas, comentários, campos personalizados, categorias e tags</strong> de um arquivo de exportação do WordPress."
+msgstr "Importar <strong>artigos, páginas, comentários, campos personalizados, categorias e tags</strong> de um arquivo de exportação do WordPress."
 
 #: wp-admin/import/wp-cat2tag.php:31
 msgid "Categories to Tags"
@@ -3690,7 +3690,7 @@ msgstr "Marcar todas"
 
 #: wp-admin/import/wp-cat2tag.php:129
 msgid "* This category is also a tag. Converting it will add that tag to all posts that are currently in the category."
-msgstr "* Essa categoria também é uma tag. Ao convertê-la será adicionada a tag a todos os posts que estão atualmente nessa categoria."
+msgstr "* Essa categoria também é uma tag. Ao convertê-la será adicionada a tag a todos os artigos que estão atualmente nessa categoria."
 
 #: wp-admin/import/wp-cat2tag.php:131
 msgid "Convert Categories to Tags"
@@ -3709,7 +3709,7 @@ msgstr "Aqui você pode converter seletivamente tags existentes em categorias. P
 
 #: wp-admin/import/wp-cat2tag.php:147
 msgid "The newly created categories will still be associated with the same posts."
-msgstr "As categorias criadas recentemente ainda serão associadas aos mesmos posts."
+msgstr "As categorias criadas recentemente ainda serão associadas aos mesmos artigos."
 
 #: wp-admin/import/wp-cat2tag.php:151
 msgid "You have no tags to convert!"
@@ -3717,7 +3717,7 @@ msgstr "Você não tem tags para converter!"
 
 #: wp-admin/import/wp-cat2tag.php:193
 msgid "* This tag is also a category. When converted, all posts associated with the tag will also be in the category."
-msgstr "* Essa tag também é uma categoria. Quando for convertida, todos os posts associados a essa tag também estarão na categoria."
+msgstr "* Essa tag também é uma categoria. Quando for convertida, todos os artigos associados a essa tag também estarão na categoria."
 
 #: wp-admin/import/wp-cat2tag.php:195
 msgid "Convert Tags to Categories"
@@ -3747,12 +3747,12 @@ msgstr "Convertidas com sucesso."
 
 #: wp-admin/import/wp-cat2tag.php:297
 msgid "Tag added to all posts in this category."
-msgstr "Tag adicionada a todos os posts nessa categoria."
+msgstr "Tag adicionada a todos os artigos nessa categoria."
 
 #: wp-admin/import/wp-cat2tag.php:341
 #, php-format
 msgid "* This category is also a tag. The converter has added that tag to all posts currently in the category. If you want to remove it, please confirm that all tags were added successfully, then delete it from the <a href=\"%s\">Manage Categories</a> page."
-msgstr "* Essa categoria também é uma tag. O conversor adicionou aquela tag a todos os posts atualmente na categoria. Se você quiser removê-la, confirme se todas as tags foram adicionadas com sucesso, então apague-a através da página <a href=\"%s\">Gerenciar Categorias</a>."
+msgstr "* Essa categoria também é uma tag. O conversor adicionou aquela tag a todos os artigos atualmente na categoria. Se você quiser removê-la, confirme se todas as tags foram adicionadas com sucesso, então apague-a através da página <a href=\"%s\">Gerenciar Categorias</a>."
 
 #: wp-admin/import/wp-cat2tag.php:342
 #: wp-admin/import/wp-cat2tag.php:432
@@ -3767,7 +3767,7 @@ msgstr "Inseridas <strong>%s</strong>"
 
 #: wp-admin/import/wp-cat2tag.php:391
 msgid "All posts were added to the category with the same name."
-msgstr "Todos os posts foram adicionados à categoria com o mesmo nome."
+msgstr "Todos os artigos foram adicionados à categoria com o mesmo nome."
 
 #: wp-admin/import/wp-cat2tag.php:411
 #, php-format
@@ -3777,7 +3777,7 @@ msgstr "A tag #%s não existe!"
 #: wp-admin/import/wp-cat2tag.php:431
 #, php-format
 msgid "* This tag is also a category. The converter has added all posts from it to the category. If you want to remove it, please confirm that all posts were added successfully, then delete it from the <a href=\"%s\">Manage Tags</a> page."
-msgstr "* Essa tag também é uma categoria. O conversor adicionou todos os posts dessa tag para a categoria. Se você quiser removê-la, confirme se todos os posts forsm adicionados com sucesso, então apague-a através da página <a href=\"%s\">Gerenciar Tags</a>."
+msgstr "* Essa tag também é uma categoria. O conversor adicionou todos os artigos dessa tag para a categoria. Se você quiser removê-la, confirme se todos os artigos foram adicionados com sucesso, então apague-a através da página <a href=\"%s\">Gerenciar Tags</a>."
 
 #: wp-admin/import/wp-cat2tag.php:474
 msgid "Categories and Tags Converter"
@@ -3876,7 +3876,7 @@ msgstr "Conexão com o servidor foi interrompida após %s segundos."
 
 #: wp-admin/includes/comment.php:36
 msgid "You are not allowed to edit comments on this post, so you cannot edit this comment."
-msgstr "Sem permissão para editar comentários sobre esse post, portanto, você não pode editar esse comentário."
+msgstr "Sem permissão para editar comentários sobre esse artigo, portanto, você não pode editar esse comentário."
 
 #: wp-admin/includes/dashboard.php:28
 msgid "Right Now"
@@ -3948,8 +3948,8 @@ msgstr "Resumo das atividades"
 #: wp-admin/includes/dashboard.php:184
 msgid "Post"
 msgid_plural "Posts"
-msgstr[0] "Post"
-msgstr[1] "Posts"
+msgstr[0] "Artigo"
+msgstr[1] "Artigos"
 
 #: wp-admin/includes/dashboard.php:210
 msgid "Comment"
@@ -4011,17 +4011,17 @@ msgstr[1] "Tema <span class=\"b\">%1$s</span> com <span class=\"b\">%2$s Widgets
 #: wp-admin/includes/dashboard.php:318
 #, php-format
 msgid "Post Published. <a href=\"%s\">View post</a> | <a href=\"%s\">Edit post</a>"
-msgstr "Post publicado. <a href=\"%s\">Ver post</a> | <a href=\"%s\">Editar post</a>"
+msgstr "Artigo publicado. <a href=\"%s\">Ver artigo</a> | <a href=\"%s\">Editar artigo</a>"
 
 #: wp-admin/includes/dashboard.php:320
 #, php-format
 msgid "Post submitted. <a href=\"%s\">Preview post</a> | <a href=\"%s\">Edit post</a>"
-msgstr "Post enviado. <a href=\"%s\">Ver post</a> | <a href=\"%s\">Editar post</a>"
+msgstr "Artigo enviado. <a href=\"%s\">Ver artigo</a> | <a href=\"%s\">Editar artigo</a>"
 
 #: wp-admin/includes/dashboard.php:322
 #, php-format
 msgid "Draft Saved. <a href=\"%s\">Preview post</a> | <a href=\"%s\">Edit post</a>"
-msgstr "Rascunho salvo. <a href=\"%s\">Visualizar post</a> | <a href=\"%s\">Editar post</a> "
+msgstr "Rascunho salvo. <a href=\"%s\">Visualizar artigo</a> | <a href=\"%s\">Editar artigo</a> "
 
 #: wp-admin/includes/dashboard.php:336
 #, php-format
@@ -4222,7 +4222,7 @@ msgstr "Formulário de pesquisa"
 
 #: wp-admin/includes/file.php:24
 msgid "Single Post"
-msgstr "Post único"
+msgstr "Artigo único"
 
 #: wp-admin/includes/file.php:25
 msgid "404 Template"
@@ -4579,7 +4579,7 @@ msgstr "URL do arquivo"
 
 #: wp-admin/includes/media.php:823
 msgid "Post URL"
-msgstr "URL do post"
+msgstr "URL do artigo"
 
 #: wp-admin/includes/media.php:840
 #: wp-admin/includes/media.php:952
@@ -4629,7 +4629,7 @@ msgstr "Esconder"
 #: wp-admin/includes/media.php:1927
 #: wp-admin/includes/media.php:1962
 msgid "Insert into Post"
-msgstr "Inserir no post"
+msgstr "Inserir no artigo"
 
 #: wp-admin/includes/media.php:1139
 #, php-format
@@ -5225,11 +5225,11 @@ msgstr "Sem permissão para criar páginas como esse usuário."
 
 #: wp-admin/includes/post.php:55
 msgid "You are not allowed to edit posts as this user."
-msgstr "Sem permissão para editar posts como esse usuário."
+msgstr "Sem permissão para editar artigos como esse usuário."
 
 #: wp-admin/includes/post.php:56
 msgid "You are not allowed to post as this user."
-msgstr "Sem permissão para publicar posts como esse usuário."
+msgstr "Sem permissão para publicar artigos como esse usuário."
 
 #: wp-admin/includes/post.php:233
 msgid "You are not allowed to edit pages."
@@ -5237,7 +5237,7 @@ msgstr "Sem permissão para editar páginas."
 
 #: wp-admin/includes/post.php:236
 msgid "You are not allowed to edit posts."
-msgstr "Sem permissão para editar posts. "
+msgstr "Sem permissão para editar artigos. "
 
 #: wp-admin/includes/post.php:440
 msgid "You are not allowed to create pages on this blog."
@@ -5245,11 +5245,11 @@ msgstr "Sem permissão para criar páginas nesse blog."
 
 #: wp-admin/includes/post.php:443
 msgid "You are not allowed to create posts or drafts on this blog."
-msgstr "Sem permissão para criar posts ou rascunhos nesse blog."
+msgstr "Sem permissão para criar artigos ou rascunhos nesse blog."
 
 #: wp-admin/includes/post.php:777
 msgid "Published posts"
-msgstr "Posts publicados"
+msgstr "Artigos publicados"
 
 #: wp-admin/includes/post.php:777
 #, php-format
@@ -5260,7 +5260,7 @@ msgstr[1] "Publicados <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:778
 msgid "Scheduled posts"
-msgstr "Posts agendados"
+msgstr "Artigos agendados"
 
 #: wp-admin/includes/post.php:778
 #, php-format
@@ -5271,7 +5271,7 @@ msgstr[1] "Agendados <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:779
 msgid "Pending posts"
-msgstr "Posts pendentes"
+msgstr "Artigos pendentes"
 
 #: wp-admin/includes/post.php:779
 #, php-format
@@ -5289,7 +5289,7 @@ msgstr[1] "Rascunhos</a> <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:781
 msgid "Private posts"
-msgstr "Posts privados"
+msgstr "Artigos privados"
 
 #: wp-admin/includes/post.php:781
 #, php-format
@@ -5447,7 +5447,7 @@ msgstr ""
 
 #: wp-admin/includes/template.php:692
 msgid "Post|noun"
-msgstr "Post"
+msgstr "Artigo"
 
 #: wp-admin/includes/template.php:698
 #: wp-admin/includes/template.php:745
@@ -5496,7 +5496,7 @@ msgstr "Editar páginas em conjunto"
 
 #: wp-admin/includes/template.php:959
 msgid "Bulk Edit Posts"
-msgstr "Editar posts em conjunto"
+msgstr "Editar artigos em conjunto"
 
 #: wp-admin/includes/template.php:997
 #: wp-admin/includes/template.php:1057
@@ -5518,7 +5518,7 @@ msgstr "Página privada"
 
 #: wp-admin/includes/template.php:1021
 msgid "Private post"
-msgstr "Post privado"
+msgstr "Artigo privado"
 
 #: wp-admin/includes/template.php:1033
 msgid "[more]"
@@ -5549,7 +5549,7 @@ msgstr "Não fixo"
 
 #: wp-admin/includes/template.php:1167
 msgid "Make this post sticky"
-msgstr "Fixar este post"
+msgstr "Fixar este artigo"
 
 #: wp-admin/includes/template.php:1191
 #: wp-admin/includes/template.php:2318
@@ -5563,7 +5563,7 @@ msgstr "Atualizar páginas"
 
 #: wp-admin/includes/template.php:1194
 msgid "Update Posts"
-msgstr "Atualizar posts"
+msgstr "Atualizar artigos"
 
 #: wp-admin/includes/template.php:1368
 msgid "Missed schedule"
@@ -5576,15 +5576,15 @@ msgstr "Modificado pela última vez"
 
 #: wp-admin/includes/template.php:1387
 msgid "Edit this post"
-msgstr "Editar esse post"
+msgstr "Editar esse artigo"
 
 #: wp-admin/includes/template.php:1388
 msgid "Edit this post inline"
-msgstr "Editar esse post aqui"
+msgstr "Editar aqui esse artigo"
 
 #: wp-admin/includes/template.php:1389
 msgid "Delete this post"
-msgstr "Excluir esse post"
+msgstr "Excluir esse artigo"
 
 #: wp-admin/includes/template.php:1389
 #: wp-admin/includes/template.php:1579
@@ -5602,7 +5602,7 @@ msgid ""
 "You are about to delete this post '%s'\n"
 " 'Cancel' to stop, 'OK' to delete."
 msgstr ""
-"Você está prestes a excluir este post '%s'\n"
+"Você está prestes a excluir este artigo '%s'\n"
 "  'Cancelar' para interromper, 'OK' para excluir."
 
 #: wp-admin/includes/template.php:1393
@@ -5641,7 +5641,7 @@ msgstr "email: %s"
 
 #: wp-admin/includes/template.php:1865
 msgid "View posts by this author"
-msgstr "Ver posts desse autor"
+msgstr "Ver artigos desse autor"
 
 #: wp-admin/includes/template.php:1978
 msgid "Y/m/d \\a\\t g:i A"
@@ -5743,7 +5743,7 @@ msgstr "Clique para expandir ou recolher."
 
 #: wp-admin/includes/template.php:3017
 msgid "Find Posts or Pages"
-msgstr "Encontrar páginas ou posts"
+msgstr "Encontrar páginas ou artigos"
 
 #: wp-admin/includes/template.php:3038
 #: wp-includes/js/tinymce/langs/wp-langs.php:31
@@ -5758,7 +5758,7 @@ msgstr "Selecionar"
 
 #: wp-admin/includes/template.php:3164
 msgid "New Post"
-msgstr "Novo post"
+msgstr "Novo artigo"
 
 #: wp-admin/includes/template.php:3165
 msgid "Drafts"
@@ -5779,7 +5779,7 @@ msgstr "Mostrar na tela"
 
 #: wp-admin/includes/template.php:3350
 msgid "<a href=\"http://codex.wordpress.org/Writing_Posts\" target=\"_blank\">Writing Posts</a>"
-msgstr "<a href=\"http://codex.wordpress.org/Writing_Posts\" target=\"_blank\">Escrevendo posts</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Writing_Posts\" target=\"_blank\">Escrevendo artigos</a>"
 
 #: wp-admin/includes/template.php:3370
 msgid "<a href=\"http://codex.wordpress.org/Settings_General_SubPanel\" target=\"_blank\">General Settings</a>"
@@ -5989,7 +5989,7 @@ msgstr "Lista de links"
 
 #: wp-admin/includes/upgrade.php:133
 msgid "Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!"
-msgstr "Bem-vindo ao WordPress. Esse é o seu primeiro post. Edite-o ou exclua-o, e aí comece a brincadeira!"
+msgstr "Bem-vindo ao WordPress. Esse é o seu primeiro artigo. Edite-o ou exclua-o, e aí comece a brincadeira!"
 
 #: wp-admin/includes/upgrade.php:133
 msgid "Hello world!"
@@ -6005,7 +6005,7 @@ msgstr "Sr. WordPress"
 
 #: wp-admin/includes/upgrade.php:137
 msgid "Hi, this is a comment.<br />To delete a comment, just log in and view the post&#039;s comments. There you will have the option to edit or delete them."
-msgstr "Olá, isto é um comentário.<br />Para excluir um comentário, faça o login e veja os comentários dos posts. Lá você vai ter a opção de editá-los ou excluí-los."
+msgstr "Olá, isto é um comentário.<br />Para excluir um comentário, faça o login e veja os comentários dos artigos. Lá você vai ter a opção de editá-los ou excluí-los."
 
 #: wp-admin/includes/upgrade.php:141
 msgid "This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many pages like this one or sub-pages as you like and manage all of your content inside of WordPress."
@@ -6203,7 +6203,7 @@ msgstr "<strong><em>Tome note desta senha</em></strong>! Atenção! é uma senha
 #: wp-login.php:459
 #: wp-login.php:478
 msgid "Log In"
-msgstr "Login"
+msgstr "Entrar"
 
 #: wp-admin/link-add.php:12
 msgid "Add New Link"
@@ -6432,11 +6432,11 @@ msgstr "Configurações de Discussão"
 #: wp-admin/options-discussion.php:27
 #: wp-admin/options-discussion.php:28
 msgid "Default article settings"
-msgstr "Configurações padrões de posts"
+msgstr "Configurações padrões de artigos"
 
 #: wp-admin/options-discussion.php:31
 msgid "Attempt to notify any blogs linked to from the article (slows down posting.)"
-msgstr "Tentar notificar todos os blogs com links a partir do post (retarda a publicação de posts)."
+msgstr "Tentar notificar todos os blogs com links a partir do artigo (retarda a publicação de artigos)."
 
 #: wp-admin/options-discussion.php:35
 msgid "Allow link notifications from other blogs (pingbacks and trackbacks.)"
@@ -6444,11 +6444,11 @@ msgstr "Permitir notificações de link a partir de outros blogs (pingbacks e tr
 
 #: wp-admin/options-discussion.php:39
 msgid "Allow people to post comments on the article"
-msgstr "Permitir que sejam publicados comentários sobre o post"
+msgstr "Permitir que sejam publicados comentários sobre o artigo"
 
 #: wp-admin/options-discussion.php:41
 msgid "These settings may be overridden for individual articles."
-msgstr "Estas configurações poderão ser substituídas para cada post, individualmente."
+msgstr "Estas configurações poderão ser substituídas para cada artigo, individualmente."
 
 #: wp-admin/options-discussion.php:45
 #: wp-admin/options-discussion.php:46
@@ -6466,7 +6466,7 @@ msgstr "Os usuários devem estar registrados e ter feito login para poderem publ
 #: wp-admin/options-discussion.php:57
 #, php-format
 msgid "Automatically close comments on articles older than %s days"
-msgstr "Encerrar automaticamente comentários sobre posts mais velhos que %s dias"
+msgstr "Encerrar automaticamente comentários sobre artigos mais velhos que %s dias"
 
 #: wp-admin/options-discussion.php:73
 #, php-format
@@ -6745,7 +6745,7 @@ msgstr "Tamanho das imagens"
 
 #: wp-admin/options-media.php:27
 msgid "The sizes listed below determine the maximum dimensions in pixels to use when inserting an image into the body of a post."
-msgstr "Os tamanhos abaixo determinam as dimensões máximas em píxel a usar quando uma imagem é inserida no corpo de um post."
+msgstr "Os tamanhos abaixo determinam as dimensões máximas em píxel a usar quando uma imagem é inserida no corpo de um artigo."
 
 #: wp-admin/options-media.php:31
 msgid "Thumbnail size"
@@ -6914,7 +6914,7 @@ msgstr "A página inicial mostra"
 
 #: wp-admin/options-reading.php:32
 msgid "Your latest posts"
-msgstr "Seus posts mais recentes"
+msgstr "Seus artigos mais recentes"
 
 #: wp-admin/options-reading.php:37
 #, php-format
@@ -6929,7 +6929,7 @@ msgstr "Página inicial: %s"
 #: wp-admin/options-reading.php:42
 #, php-format
 msgid "Posts page: %s"
-msgstr "Página de posts: %s"
+msgstr "Página de artigos: %s"
 
 #: wp-admin/options-reading.php:47
 msgid "<strong>Warning:</strong> these pages should not be the same!"
@@ -6942,7 +6942,7 @@ msgstr "As páginas do blog mostram no máximo"
 #: wp-admin/options-reading.php:57
 #: wp-admin/options-reading.php:62
 msgid "posts"
-msgstr "posts"
+msgstr "artigos"
 
 #  registrando aqui a sugestão, conforme discutido em http://www.wordpress-br.com/forum/topic.php?id=39
 #: wp-admin/options-reading.php:61
@@ -6952,7 +6952,7 @@ msgstr "Os feeds RSS mostram os últimos"
 #: wp-admin/options-reading.php:65
 #: wp-admin/options-reading.php:66
 msgid "For each article in a feed, show"
-msgstr "Para cada post em um feed, mostrar"
+msgstr "Para cada artigo em um feed, mostrar"
 
 #: wp-admin/options-reading.php:67
 msgid "Full text"
@@ -6976,7 +6976,7 @@ msgstr "Configurações de escrita"
 
 #: wp-admin/options-writing.php:27
 msgid "Size of the post box"
-msgstr "Tamanho da caixa do post"
+msgstr "Tamanho da caixa do artigo"
 
 #: wp-admin/options-writing.php:29
 msgid "lines"
@@ -6997,7 +6997,7 @@ msgstr "O WordPress deve corrigir automaticamente XHTML aninhado de forma invál
 
 #: wp-admin/options-writing.php:41
 msgid "Default Post Category"
-msgstr "Categoria padrão de post"
+msgstr "Categoria padrão de artigo"
 
 #: wp-admin/options-writing.php:49
 msgid "Default Link Category"
@@ -7060,7 +7060,7 @@ msgstr "Serviços de Atualização"
 
 #: wp-admin/options-writing.php:117
 msgid "When you publish a new post, WordPress automatically notifies the following site update services. For more about this, see <a href=\"http://codex.wordpress.org/Update_Services\">Update Services</a> on the Codex. Separate multiple service <abbr title=\"Universal Resource Locator\">URL</abbr>s with line breaks."
-msgstr "Quando você publica um novo post, o WordPress notifica automaticamente os seguintes serviços de atualização de site. Para mais informações, consulte <a href=\"http://codex.wordpress.org/Update_Services\">Update Services</a> no Codex. Separe várias <abbr title=\"Universal Resource Locator\">URL</abbr>s de serviços com quebra de linha."
+msgstr "Quando você publica um novo artigo, o WordPress notifica automaticamente os seguintes serviços de atualização de site. Para mais informações, consulte <a href=\"http://codex.wordpress.org/Update_Services\">Update Services</a> no Codex. Separe várias <abbr title=\"Universal Resource Locator\">URL</abbr>s de serviços com quebra de linha."
 
 #: wp-admin/options-writing.php:123
 #, php-format
@@ -7348,7 +7348,7 @@ msgstr "Depois de instalar o plugin, ative-o aqui."
 
 #: wp-admin/post-new.php:11
 msgid "Add New Post"
-msgstr "Adicionar novo post"
+msgstr "Adicionar novo artigo"
 
 #: wp-admin/post-new.php:25
 #, php-format
@@ -7363,16 +7363,16 @@ msgstr ""
 
 #: wp-admin/post.php:134
 msgid "You attempted to edit a post that doesn't exist. Perhaps it was deleted?"
-msgstr "Você tentou editar um post que não existe. Talvez ele tenha sido excluído?"
+msgstr "Você tentou editar um artigo que não existe. Talvez ele tenha sido excluído?"
 
 #: wp-admin/post.php:154
 #, php-format
 msgid "Warning: %s is currently editing this post"
-msgstr "Atenção: %s está atualmente editando este post"
+msgstr "Atenção: %s está atualmente editando este artigo"
 
 #: wp-admin/post.php:163
 msgid "Edit Post"
-msgstr "Editar posts"
+msgstr "Editar artigos"
 
 #: wp-admin/press-this.php:128
 msgid "Embed Code"
@@ -7449,7 +7449,7 @@ msgstr "correspondente a &#8220;%s&#8221;"
 #: wp-admin/revision.php:118
 #, php-format
 msgid "Post Revision for &#8220;%1$s&#8221; created on %2$s"
-msgstr "Revisão do Post para  &#8220;%1$s&#8221; criada em %2$s"
+msgstr "Revisão do Artigo para  &#8220;%1$s&#8221; criada em %2$s"
 
 #: wp-admin/revision.php:158
 #, php-format
@@ -7467,7 +7467,7 @@ msgstr "Essas revisões são idênticas."
 
 #: wp-admin/sidebar.php:98
 msgid "Post published."
-msgstr "Post publicado."
+msgstr "Artigo publicado."
 
 #: wp-admin/sidebar.php:103
 #: wp-content/plugins/akismet/akismet.php:875
@@ -7484,7 +7484,7 @@ msgstr "Título:"
 
 #: wp-admin/sidebar.php:108
 msgid "Post:"
-msgstr "Post:"
+msgstr "Artigo:"
 
 #: wp-admin/sidebar.php:113
 #: wp-admin/themes.php:119
@@ -7710,11 +7710,11 @@ msgstr "O Publique Isso é um bookmarklet: um pequeno sistema que roda em seu na
 
 #: wp-admin/tools.php:85
 msgid "Use Press This to clip text, images and videos from any web page. Then edit and add more straight from Press This before you save or publish it in a post on your blog."
-msgstr "Use o Publique isso para recortar texto, imagens e vídeos de qualquer página da web. Depois edite e adicione mais coisas com o Publique Isso antes de salvar ou publicá-los em um post no seu blog."
+msgstr "Use o Publique isso para recortar texto, imagens e vídeos de qualquer página da web. Depois edite e adicione mais coisas com o Publique Isso antes de salvar ou publicá-los em um artigo no seu blog."
 
 #: wp-admin/tools.php:86
 msgid "Drag-and-drop the following link to your bookmarks bar or right click it and add it to your favorites for a posting shortcut."
-msgstr "Arraste e solte o link abaixo para sua barra de favoritos ou clique com o botão direito e o adicione aos seus favoritos. Isso criará um atalho para você escrever posts fora do admin do WordPress."
+msgstr "Arraste e solte o link abaixo para sua barra de favoritos ou clique com o botão direito e o adicione aos seus favoritos. Isso criará um atalho para você escrever artigos fora do admin do WordPress."
 
 #: wp-admin/update-core.php:13
 #: wp-admin/update.php:13
@@ -7937,7 +7937,7 @@ msgstr "Desanexado"
 #: wp-admin/upload.php:247
 #: wp-admin/upload.php:400
 msgid "Attach to a post"
-msgstr "Anexar a um post"
+msgstr "Anexar a um artigo"
 
 #: wp-admin/upload.php:288
 msgid "Scan for lost attachments"
@@ -8204,15 +8204,15 @@ msgstr "ID #%1s: %2s"
 
 #: wp-admin/users.php:163
 msgid "What should be done with posts and links owned by this user?"
-msgstr "O que fazer com os posts e links deste usuário?"
+msgstr "O que fazer com os artigos e links deste usuário?"
 
 #: wp-admin/users.php:166
 msgid "Delete all posts and links."
-msgstr "Excluir todos os posts e links."
+msgstr "Excluir todos os artigos e links."
 
 #: wp-admin/users.php:168
 msgid "Attribute all posts and links to:"
-msgstr "Atribuir todos os post e links a:"
+msgstr "Atribuir todos os artigos e links a:"
 
 #: wp-admin/users.php:171
 msgid "Confirm Deletion"
@@ -8351,7 +8351,7 @@ msgstr "Você não tem permissão para acessar esse blog"
 
 #: wp-app.php:445
 msgid "Sorry, you do not have the right to edit/publish new posts."
-msgstr "Você não tem permissão para editar/publicar novos posts."
+msgstr "Você não tem permissão para editar/publicar novos artigos."
 
 #: wp-app.php:470
 #: wp-app.php:664
@@ -8359,11 +8359,11 @@ msgstr "Você não tem permissão para editar/publicar novos posts."
 #: xmlrpc.php:1878
 #: xmlrpc.php:2219
 msgid "Sorry, your entry could not be posted. Something wrong happened."
-msgstr "Não foi possível publicar seu post. Ocorreu um erro."
+msgstr "Não foi possível publicar seu artigo. Ocorreu um erro."
 
 #: wp-app.php:495
 msgid "Sorry, you do not have the right to access this post."
-msgstr "Você não tem permissão para acessar esse post."
+msgstr "Você não tem permissão para acessar esse artigo."
 
 #: wp-app.php:530
 #: wp-app.php:696
@@ -8371,25 +8371,25 @@ msgstr "Você não tem permissão para acessar esse post."
 #: wp-app.php:814
 #: xmlrpc.php:1921
 msgid "Sorry, you do not have the right to edit this post."
-msgstr "Você não tem permissão para editar esse post."
+msgstr "Você não tem permissão para editar esse artigo."
 
 #: wp-app.php:553
 #: wp-app.php:712
 #: xmlrpc.php:1937
 msgid "For some strange yet very annoying reason, this post could not be edited."
-msgstr "Por algum motivo estranho e muito chato, não foi possível editar esse post."
+msgstr "Por algum motivo estranho e muito chato, não foi possível editar esse artigo."
 
 #: wp-app.php:574
 #: wp-app.php:734
 #: xmlrpc.php:1974
 msgid "Sorry, you do not have the right to delete this post."
-msgstr "Desculpe, você não tem permissão para excluir esse post."
+msgstr "Desculpe, você não tem permissão para excluir esse artigo."
 
 #: wp-app.php:583
 #: wp-app.php:750
 #: xmlrpc.php:1979
 msgid "For some strange yet very annoying reason, this post could not be deleted."
-msgstr "Por algum motivo estranho e muito chato, não foi possível excluir esse post."
+msgstr "Por algum motivo estranho e muito chato, não foi possível excluir esse artigo."
 
 #: wp-app.php:601
 msgid "Sorry, you do not have permission to upload files."
@@ -8399,7 +8399,7 @@ msgstr "Desculpe, você não tem permissão para fazer upload de arquivos."
 #: wp-app.php:779
 #: wp-app.php:821
 msgid "Error ocurred while accessing post metadata for file location."
-msgstr "Erro ao acessar metadados do post para localizar arquivo."
+msgstr "Erro ao acessar metadados do artigo para localizar arquivo."
 
 #: wp-comments-post.php:29
 msgid "Sorry, comments are closed for this item."
@@ -8483,7 +8483,7 @@ msgstr "Isto pode significar uma de duas coisas: você copiou a chave errada ou 
 
 #: wp-content/plugins/akismet/akismet.php:142
 msgid "Automatically discard spam comments on posts older than a month."
-msgstr "Descartar automaticamente comentários de spam sobre posts com mais de um mês."
+msgstr "Descartar automaticamente comentários de spam sobre artigos com mais de um mês."
 
 #: wp-content/plugins/akismet/akismet.php:143
 msgid "Update options &raquo;"
@@ -8582,7 +8582,7 @@ msgstr "Não é Spam"
 
 #: wp-content/plugins/akismet/akismet.php:629
 msgid "View Post"
-msgstr "Ver post"
+msgstr "Ver artigo"
 
 #: wp-content/plugins/akismet/akismet.php:668
 msgid "De-spam marked comments &raquo;"
@@ -8655,11 +8655,11 @@ msgstr "Comentários sobre %s"
 #: wp-content/themes/classic/comments-popup.php:31
 #: wp-content/themes/classic/comments.php:35
 msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on this post."
-msgstr "Feed <abbr title=\"Really Simple Syndication\">RSS</abbr> dos comentários deste post"
+msgstr "Feed <abbr title=\"Really Simple Syndication\">RSS</abbr> dos comentários deste artigo"
 
 #: wp-content/themes/classic/comments-popup.php:34
 msgid "The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this entry is:"
-msgstr "O <abbr title=\"Universal Resource Locator\">URL</abbr> de TrackBack deste post é:"
+msgstr "O <abbr title=\"Universal Resource Locator\">URL</abbr> de TrackBack deste artigo é:"
 
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
@@ -8811,15 +8811,15 @@ msgstr "Comentários (%)"
 
 #: wp-content/themes/classic/index.php:31
 msgid "Sorry, no posts matched your criteria."
-msgstr "Nenhum post corresponde aos seus critérios de pesquisa."
+msgstr "Nenhum artigo corresponde aos seus critérios de pesquisa."
 
 #: wp-content/themes/classic/index.php:34
 msgid "&laquo; Newer Posts"
-msgstr "&laquo; Posts mais novos"
+msgstr "&laquo; Artigos mais novos"
 
 #: wp-content/themes/classic/index.php:34
 msgid "Older Posts &raquo;"
-msgstr "Posts mais antigos &raquo;"
+msgstr "Artigos mais antigos &raquo;"
 
 #: wp-content/themes/classic/sidebar.php:13
 #: wp-includes/post-template.php:420
@@ -8853,7 +8853,7 @@ msgstr "<abbr title=\"em inglês: Really Simple Syndication\">RSS</abbr>"
 #: wp-content/themes/classic/sidebar.php:35
 #: wp-includes/widgets.php:859
 msgid "The latest comments to all posts in RSS"
-msgstr "Os comentários mais recentes de todos os posts em RSS"
+msgstr "Os comentários mais recentes de todos os artigos em RSS"
 
 #: wp-content/themes/classic/sidebar.php:35
 #: wp-includes/widgets.php:859
@@ -8966,7 +8966,7 @@ msgstr "Visitar o site de %s"
 #: wp-includes/author-template.php:496
 #, php-format
 msgid "Posts by %s"
-msgstr "Posts de %s"
+msgstr "Artigos de %s"
 
 #: wp-includes/bookmark-template.php:86
 #, php-format
@@ -8986,7 +8986,7 @@ msgstr "Favoritos"
 #: wp-includes/category-template.php:260
 #, php-format
 msgid "View all posts in %s"
-msgstr "Ver todos os posts em %s"
+msgstr "Ver todos os artigos em %s"
 
 #: wp-includes/category-template.php:497
 #: wp-includes/category-template.php:499
@@ -9089,12 +9089,12 @@ msgstr "O comando falhou"
 #: wp-includes/classes.php:1317
 #, php-format
 msgid "View all posts filed under %s"
-msgstr "Ver todos os posts arquivados em %s"
+msgstr "Ver todos os artigos arquivados em %s"
 
 #: wp-includes/classes.php:1332
 #, php-format
 msgid "Feed for all posts filed under %s"
-msgstr "Feed para todos os posts arquivados em %s"
+msgstr "Feed para todos os artigos arquivados em %s"
 
 #: wp-includes/comment-template.php:29
 #: wp-includes/theme.php:222
@@ -9375,17 +9375,17 @@ msgstr "Não foi possível atualizar este plugin: &quot;%s&quot;."
 
 #: wp-includes/functions.php:2155
 msgid "Your attempt to add this post has failed."
-msgstr "Não foi possível adicionar este post."
+msgstr "Não foi possível adicionar este artigo."
 
 #: wp-includes/functions.php:2156
 #, php-format
 msgid "Your attempt to delete this post: &quot;%s&quot; has failed."
-msgstr "Não foi possível excluir este post: &quot;%s&quot;."
+msgstr "Não foi possível excluir este artigo: &quot;%s&quot;."
 
 #: wp-includes/functions.php:2157
 #, php-format
 msgid "Your attempt to edit this post: &quot;%s&quot; has failed."
-msgstr "Não foi possível editar este post: &quot;%s&quot;."
+msgstr "Não foi possível editar este artigo: &quot;%s&quot;."
 
 #: wp-includes/functions.php:2159
 msgid "Your attempt to add this user has failed."
@@ -9487,11 +9487,11 @@ msgstr "Pesquisar por:"
 #: wp-login.php:320
 #: wp-login.php:388
 msgid "Log in"
-msgstr "Login"
+msgstr "Entrar"
 
 #: wp-includes/general-template.php:134
 msgid "Log out"
-msgstr "Logout"
+msgstr "Sair"
 
 #: wp-includes/general-template.php:190
 #: wp-login.php:318
@@ -9528,7 +9528,7 @@ msgstr "%1$s %2$s|Usado como título da agenda"
 #: wp-includes/general-template.php:999
 #, php-format
 msgid "View posts for %1$s %2$s"
-msgstr "Ver posts de %1$s %2$s"
+msgstr "Ver artigos de %1$s %2$s"
 
 #: wp-includes/general-template.php:1660
 msgid "&laquo; Previous"
@@ -11019,7 +11019,7 @@ msgstr "Na barra de ferramentas do editor, existe um botão para inserir imagens
 
 #: wp-includes/js/tinymce/wp-mce-help.php:194
 msgid "If you need to upload an image or another media file from your computer, you can use the Media Library buttons above the editor. The media library will attempt to create a thumbnail-sized copy from each uploaded image. To insert your image into the post, first click on the thumbnail to reveal a menu of options. When you have selected the options you like, click \"Send to Editor\" and your image or file will appear in the post you are editing. If you are inserting a movie, there are additional options in the \"Media\" dialog that can be opened from the second toolbar row."
-msgstr "Se você precisar fazer upload de um arquivo de imagem ou som a partir do seu computador, você poderá usar os botões do Arquivos de Mídia, acima do editor. A ferramenta tentará criar uma miniatura para cada imagem enviada. Para inserir a imagem enviada no post, clique primeiro na miniatura para que seja apresentado um menu de opções. Quando tiver selecionado as opções pretendidas, clique em \"Enviar Para Editor\" e a imagem ou arquivo irá aparecer no post em edição. Se estiver inserindo um vídeo, existem opções adicionais na caixa de diálogo \"Mídia\" que pode ser aberta a partir da segunda linha da barra de ferramentas."
+msgstr "Se você precisar fazer upload de um arquivo de imagem ou som a partir do seu computador, você poderá usar os botões do Arquivos de Mídia, acima do editor. A ferramenta tentará criar uma miniatura para cada imagem enviada. Para inserir a imagem enviada no artigo, clique primeiro na miniatura para que seja apresentado um menu de opções. Quando tiver selecionado as opções pretendidas, clique em \"Enviar Para Editor\" e a imagem ou arquivo irá aparecer no artigo em edição. Se estiver inserindo um vídeo, existem opções adicionais na caixa de diálogo \"Mídia\" que pode ser aberta a partir da segunda linha da barra de ferramentas."
 
 #: wp-includes/js/tinymce/wp-mce-help.php:195
 msgid "HTML in the Rich Editor"
@@ -11027,7 +11027,7 @@ msgstr "HTML no editor visual"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:196
 msgid "Any HTML entered directly into the rich editor will show up as text when the post is viewed. What you see is what you get. When you want to include HTML elements that cannot be generated with the toolbar buttons, you must enter it by hand in the HTML editor. Examples are tables and &lt;code&gt;. To do this, click the HTML tab and edit the code, then switch back to Visual mode. If the code is valid and understood by the editor, you should see it rendered immediately."
-msgstr "Qualquer código HTML digitado diretamente no editor visual é apresentado como texto quando o post é visualizado. O que você vê, é o que irá obter. Para incluir elementos de HTML que não podem ser gerados com os botões da barra de ferramentas, digite-os manualmente no editor de HTML. São exemplos tabelas e <código>. Para fazer isso, clique na guia HTML e edite o código. A seguir, volte para o modo Visual. Se o código for válido e compreendido pelo editor, você o verá apresentado automaticamente."
+msgstr "Qualquer código HTML digitado diretamente no editor visual é apresentado como texto quando o artigo é visualizado. O que você vê, é o que irá obter. Para incluir elementos de HTML que não podem ser gerados com os botões da barra de ferramentas, digite-os manualmente no editor de HTML. São exemplos tabelas e <código>. Para fazer isso, clique na guia HTML e edite o código. A seguir, volte para o modo Visual. Se o código for válido e compreendido pelo editor, você o verá apresentado automaticamente."
 
 #: wp-includes/js/tinymce/wp-mce-help.php:197
 msgid "Pasting in the Rich Editor"
@@ -11177,11 +11177,11 @@ msgstr "Editar link"
 
 #: wp-includes/link-template.php:959
 msgid "Previous Post"
-msgstr "Post anterior"
+msgstr "Artigo anterior"
 
 #: wp-includes/link-template.php:959
 msgid "Next Post"
-msgstr "Próximo post"
+msgstr "Próximo artigo"
 
 #: wp-includes/link-template.php:1276
 msgid "Newer Comments &raquo;"
@@ -11274,7 +11274,7 @@ msgstr "<strong>ERRO</strong>: Senha incorreta."
 #: wp-includes/pluggable.php:949
 #, php-format
 msgid "New comment on your post #%1$s \"%2$s\""
-msgstr "Novo comentário sobre o seu post #%1$s \"%2$s\""
+msgstr "Novo comentário sobre o seu artigo #%1$s \"%2$s\""
 
 #: wp-includes/pluggable.php:950
 #: wp-includes/pluggable.php:1045
@@ -11311,7 +11311,7 @@ msgstr "Comentário:"
 
 #: wp-includes/pluggable.php:955
 msgid "You can see all comments on this post here: "
-msgstr "Você pode ver todos os comentários sobre esse post aqui:"
+msgstr "Você pode ver todos os comentários sobre esse artigo aqui:"
 
 #: wp-includes/pluggable.php:956
 #, php-format
@@ -11321,7 +11321,7 @@ msgstr "[%1$s] Comentário: \"%2$s\""
 #: wp-includes/pluggable.php:958
 #, php-format
 msgid "New trackback on your post #%1$s \"%2$s\""
-msgstr "Novo trackback para o seu post #%1$s \"%2$s\""
+msgstr "Novo trackback para o seu artigo #%1$s \"%2$s\""
 
 #: wp-includes/pluggable.php:959
 #: wp-includes/pluggable.php:966
@@ -11336,7 +11336,7 @@ msgstr "Resumo:"
 
 #: wp-includes/pluggable.php:962
 msgid "You can see all trackbacks on this post here: "
-msgstr "Você pode ver todos os trackbacks deste post aqui:"
+msgstr "Você pode ver todos os trackbacks deste artigo aqui:"
 
 #: wp-includes/pluggable.php:963
 #, php-format
@@ -11346,11 +11346,11 @@ msgstr "[%1$s] Trackback: \"%2$s\""
 #: wp-includes/pluggable.php:965
 #, php-format
 msgid "New pingback on your post #%1$s \"%2$s\""
-msgstr "Novo pingback para o seu post #%1$s \"%2$s\""
+msgstr "Novo pingback para o seu artigo #%1$s \"%2$s\""
 
 #: wp-includes/pluggable.php:969
 msgid "You can see all pingbacks on this post here: "
-msgstr "Você pode ver todos os pingbacks do seu post aqui:"
+msgstr "Você pode ver todos os pingbacks do seu artigo aqui:"
 
 #: wp-includes/pluggable.php:970
 #, php-format
@@ -11372,7 +11372,7 @@ msgstr "Marcar como spam: %s"
 #: wp-includes/pluggable.php:1029
 #, php-format
 msgid "A new trackback on the post #%1$s \"%2$s\" is waiting for your approval"
-msgstr "Novo trackback para o post #%1$s \"%2$s\" espera sua aprovação"
+msgstr "Novo trackback para o artigo #%1$s \"%2$s\" espera sua aprovação"
 
 #: wp-includes/pluggable.php:1031
 #: wp-includes/pluggable.php:1038
@@ -11387,7 +11387,7 @@ msgstr "Resumo do trackback:"
 #: wp-includes/pluggable.php:1036
 #, php-format
 msgid "A new pingback on the post #%1$s \"%2$s\" is waiting for your approval"
-msgstr "Novo pingback para o post #%1$s \"%2$s\" espera sua aprovação"
+msgstr "Novo pingback para o artigo #%1$s \"%2$s\" espera sua aprovação"
 
 #: wp-includes/pluggable.php:1040
 msgid "Pingback excerpt: "
@@ -11396,7 +11396,7 @@ msgstr "Resumo de pingback:"
 #: wp-includes/pluggable.php:1043
 #, php-format
 msgid "A new comment on the post #%1$s \"%2$s\" is waiting for your approval"
-msgstr "Novo comentário sobre o seu post #%1$s \"%2$s\" aguarda aprovação"
+msgstr "Novo comentário sobre o seu artigo #%1$s \"%2$s\" aguarda aprovação"
 
 #: wp-includes/pluggable.php:1053
 #, php-format
@@ -11471,7 +11471,7 @@ msgstr "Privado: %s"
 
 #: wp-includes/post-template.php:254
 msgid "There is no excerpt because this is a protected post."
-msgstr "Não há resumo por ser um post protegido."
+msgstr "Não há resumo por ser um artigo protegido."
 
 #: wp-includes/post-template.php:422
 msgid "Next page"
@@ -11492,7 +11492,7 @@ msgstr "Falta anexo"
 
 #: wp-includes/post-template.php:984
 msgid "This post is password protected. To view it please enter your password below:"
-msgstr "Este post está protegido por senha. Para vê-lo, digite sua senha abaixo:"
+msgstr "Este artigo está protegido por senha. Para vê-lo, digite sua senha abaixo:"
 
 #: wp-includes/post-template.php:1047
 msgid "j F, Y @ G:i|revision date format"
@@ -11531,11 +11531,11 @@ msgstr "O conteúdo, o título e o resumo estão vazios."
 
 #: wp-includes/post.php:1469
 msgid "Could not update post in the database"
-msgstr "Não foi possível atualizar o post no banco de dados"
+msgstr "Não foi possível atualizar o artigo no banco de dados"
 
 #: wp-includes/post.php:1485
 msgid "Could not insert post into the database"
-msgstr "Não foi possível inserir o post no banco de dados"
+msgstr "Não foi possível inserir o artigo no banco de dados"
 
 #: wp-includes/post.php:1521
 msgid "The page template is invalid."
@@ -11684,7 +11684,7 @@ msgstr "Forte"
 
 #: wp-includes/script-loader.php:184
 msgid "Tags used on this post:"
-msgstr "Tags usadas neste post:"
+msgstr "Tags usadas neste artigo:"
 
 #: wp-includes/script-loader.php:186
 msgid "Add new tag"
@@ -11764,7 +11764,7 @@ msgstr "Pré-visualizar esta página"
 
 #: wp-includes/script-loader.php:386
 msgid "Preview this Post"
-msgstr "Pré-visualizar este post"
+msgstr "Pré-visualizar este artigo"
 
 #: wp-includes/script-loader.php:388
 msgid "Saving Draft&#8230;"
@@ -11864,7 +11864,7 @@ msgstr "Selecionar o mês"
 #: wp-includes/widgets.php:831
 #: wp-includes/widgets.php:1205
 msgid "Show post counts"
-msgstr "Mostrar número de posts"
+msgstr "Mostrar número de artigos"
 
 #: wp-includes/widgets.php:833
 msgid "Display as a drop down"
@@ -11882,7 +11882,7 @@ msgstr "Assinar este site usando RSS 2.0"
 
 #: wp-includes/widgets.php:858
 msgid "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>"
-msgstr "Posts <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr "Artigos <abbr title=\"Really Simple Syndication\">RSS</abbr>"
 
 #: wp-includes/widgets.php:1040
 msgid "Arbitrary text or HTML"
@@ -11916,7 +11916,7 @@ msgstr "Tópicos recentes"
 
 #: wp-includes/widgets.php:1365
 msgid "Number of posts to show:"
-msgstr "Número de posts a exibir:"
+msgstr "Número de artigos a exibir:"
 
 #: wp-includes/widgets.php:1367
 #: wp-includes/widgets.php:1443
@@ -11990,11 +11990,11 @@ msgstr "As páginas do seu blog WordPress"
 
 #: wp-includes/widgets.php:1922
 msgid "A calendar of your blog's posts"
-msgstr "Um calendário dos posts do seu blog"
+msgstr "Um calendário dos artigos do seu blog"
 
 #: wp-includes/widgets.php:1926
 msgid "A monthly archive of your blog's posts"
-msgstr "Um arquivo mensal dos posts do seu blog"
+msgstr "Um arquivo mensal dos artigos do seu blog"
 
 #: wp-includes/widgets.php:1930
 msgid "Your blogroll"
@@ -12010,7 +12010,7 @@ msgstr "Um formulário de pesquisa para o seu blog"
 
 #: wp-includes/widgets.php:1940
 msgid "The most recent posts on your blog"
-msgstr "Os posts mais recentes do seu blog"
+msgstr "Os artigos mais recentes do seu blog"
 
 #: wp-includes/widgets.php:1944
 msgid "Your most used tags in cloud format"
@@ -12276,11 +12276,11 @@ msgstr "Desculpe, você não tem permissão para editar essa página."
 
 #: xmlrpc.php:817
 msgid "Sorry, you can not edit posts on this blog."
-msgstr "Desculpe, você não pode editar posts desse blog."
+msgstr "Desculpe, você não pode editar artigos desse blog."
 
 #: xmlrpc.php:855
 msgid "Sorry, you must be able to edit posts on this blog in order to view tags."
-msgstr "É necessário possuir permissão para editar posts nesse blog para ver as tags."
+msgstr "É necessário possuir permissão para editar artigos nesse blog para ver as tags."
 
 #: xmlrpc.php:904
 msgid "Sorry, you do not have the right to add a category."
@@ -12296,7 +12296,7 @@ msgstr "Desculpe, você não tem permissão para excluir uma categoria."
 
 #: xmlrpc.php:991
 msgid "Sorry, you must be able to edit posts to this blog in order to view categories."
-msgstr "Para ver categorias, é necessário possuir permissão para editar posts."
+msgstr "Para ver categorias, é necessário possuir permissão para editar artigos."
 
 #: xmlrpc.php:1028
 #: xmlrpc.php:1151
@@ -12329,7 +12329,7 @@ msgstr "Você deve ser registrado para comentar"
 #: xmlrpc.php:1269
 #: xmlrpc.php:1272
 msgid "Invalid post ID."
-msgstr "ID de post inválida."
+msgstr "ID de artigo inválida."
 
 #: xmlrpc.php:1299
 msgid "Comment author name and email are required"
@@ -12364,12 +12364,12 @@ msgstr "Desculpe, você não tem acesso aos dados de usuários deste blog."
 #: xmlrpc.php:3030
 #: xmlrpc.php:3141
 msgid "Sorry, you can not edit this post."
-msgstr "Desculpe, você não pode editar esse post."
+msgstr "Desculpe, você não pode editar esse artigo."
 
 #: xmlrpc.php:1714
 #: xmlrpc.php:2892
 msgid "Either there are no posts, or something went wrong."
-msgstr "Não existe post ou algo deu errado."
+msgstr "Não existe artigo ou algo deu errado."
 
 #: xmlrpc.php:1771
 #: xmlrpc.php:1814
@@ -12389,17 +12389,17 @@ msgstr "Desculpe, sem permissão para publicar nesse blog."
 #: xmlrpc.php:2625
 #: xmlrpc.php:3092
 msgid "Sorry, no such post."
-msgstr "Desculpe, esse post não existe."
+msgstr "Desculpe, esse artigo não existe."
 
 #: xmlrpc.php:1926
 #: xmlrpc.php:2469
 msgid "Sorry, you do not have the right to publish this post."
-msgstr "Desculpe, você não tem permissão para publicar esse post."
+msgstr "Desculpe, você não tem permissão para publicar esse artigo."
 
 #: xmlrpc.php:2014
 #: xmlrpc.php:2287
 msgid "Sorry, you are not allowed to publish posts on this blog."
-msgstr "Desculpe, sem permissão para publicar posts nesse blog."
+msgstr "Desculpe, sem permissão para publicar artigos nesse blog."
 
 #: xmlrpc.php:2020
 #: xmlrpc.php:2293
@@ -12411,7 +12411,7 @@ msgstr "Desculpe, sem permissão para publicar páginas nesse blog."
 #: xmlrpc.php:2303
 #: xmlrpc.php:2363
 msgid "Invalid post type."
-msgstr "Tipo de post inválido."
+msgstr "Tipo de artigo inválido."
 
 #: xmlrpc.php:2070
 msgid "You are not allowed to post as this user"
@@ -12423,11 +12423,11 @@ msgstr "Sem permissão para criar páginas como esse usuário"
 
 #: xmlrpc.php:2317
 msgid "Invalid post id."
-msgstr "ID de post inválida."
+msgstr "ID de artigo inválida."
 
 #: xmlrpc.php:2354
 msgid "You are not allowed to change the post author as this user."
-msgstr "Sem permissão para mudar o autor do post como esse usuário."
+msgstr "Sem permissão para mudar o autor do artigo como esse usuário."
 
 #: xmlrpc.php:2359
 msgid "You are not allowed to change the page author as this user."
@@ -12439,12 +12439,12 @@ msgstr "Desculpe, você não tem permissão para publicar essa página."
 
 #: xmlrpc.php:2502
 msgid "Sorry, your entry could not be edited. Something wrong happened."
-msgstr "Seu post não pôde ser editado. Algo deu errado."
+msgstr "Seu artigo não pôde ser editado. Algo deu errado."
 
 #: xmlrpc.php:2755
 #: xmlrpc.php:2945
 msgid "Sorry, you must be able to edit posts on this blog in order to view categories."
-msgstr "Para ver categorias, é necessário possuir permissão para editar posts."
+msgstr "Para ver categorias, é necessário possuir permissão para editar artigos."
 
 #: xmlrpc.php:2812
 msgid "You are not allowed to upload files to this site."
