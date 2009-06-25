@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WordPress 2.7.1\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2009-04-22 13:11+0000\n"
-"PO-Revision-Date: 2009-06-24 18:44-0300\n"
+"PO-Revision-Date: 2009-06-25 15:46-0300\n"
 "Last-Translator: Gabriel Mazetto <gabriel@npd.ufsc.br>\n"
 "Language-Team: WordPress-BR <contato@wordpress-br.com>\n"
 "MIME-Version: 1.0\n"
@@ -7099,7 +7099,7 @@ msgstr "Semana começa em"
 
 #: wp-admin/options-general.php:195
 msgid "Blog language:"
-msgstr "Língua do site:"
+msgstr "Idioma do site:"
 
 #: wp-admin/options-head.php:16
 msgid "Settings saved."
@@ -8723,7 +8723,7 @@ msgstr "WordPress MU : Administrar"
 
 #: wp-admin/wpmu-admin.php:33
 msgid "Create a New Blog"
-msgstr "Criar um novo blog"
+msgstr "Criar um novo site"
 
 #: wp-admin/wpmu-admin.php:34
 msgid "Create a New User"
@@ -8739,7 +8739,7 @@ msgstr "Pesquisar Blogs &raquo;"
 
 #: wp-admin/wpmu-blogs.php:4
 msgid "WordPress MU &rsaquo; Admin &rsaquo; Blogs"
-msgstr "WordPress MU &rsaquo; Administrar &rsaquo; Blogs"
+msgstr "WordPress MU &rsaquo; Administrar &rsaquo; Sites"
 
 #: wp-admin/wpmu-blogs.php:21
 msgid "Blogs mark as not spam !"
@@ -8910,16 +8910,15 @@ msgstr "Ações em massa"
 
 #: wp-admin/wpmu-blogs.php:370
 msgid "Search blogs by name"
-msgstr "Pesquisar blogs pelo nome"
+msgstr "Pesquisar sites pelo nome"
 
 #: wp-admin/wpmu-blogs.php:371
 msgid "by blog ID"
-msgstr "pela ID do blog"
+msgstr "pelo ID do site"
 
 #: wp-admin/wpmu-blogs.php:372
-#, fuzzy
 msgid "by IP address"
-msgstr "Endereço (URL)"
+msgstr "pelo endereço de IP"
 
 #: wp-admin/wpmu-blogs.php:383
 #: wp-admin/wpmu-blogs.php:488
@@ -8937,9 +8936,8 @@ msgid "ID"
 msgstr "ID"
 
 #: wp-admin/wpmu-blogs.php:475
-#, fuzzy
 msgid "Backend"
-msgstr "Fundo"
+msgstr "Painel"
 
 #: wp-admin/wpmu-blogs.php:478
 #, fuzzy, php-format
@@ -9095,9 +9093,8 @@ msgid "Duplicated username or email address."
 msgstr "Usuário ou endereço de email já existe."
 
 #: wp-admin/wpmu-options.php:3
-#, fuzzy
 msgid "WordPress MU &rsaquo; Admin &rsaquo; Site Options"
-msgstr "WordPress &rsaquo; Instalação"
+msgstr "WordPress MU &rsaquo; Administrar &rsaquo; Opções do Portal"
 
 #: wp-admin/wpmu-options.php:14
 #: wp-content/themes/default/functions.php:363
@@ -9107,19 +9104,19 @@ msgstr "Opções salvas."
 
 #: wp-admin/wpmu-options.php:20
 msgid "Site Options"
-msgstr "Opções do Site"
+msgstr "Opções do Portal"
 
 #: wp-admin/wpmu-options.php:24
 msgid "Operational Settings <em>(These settings cannot be modified by blog owners)</em>"
-msgstr "Configurações operacionais <em>(Estas configurações não podem ser modificadas pelos donos de blogs)</em>"
+msgstr "Configurações operacionais <em>(Estas configurações não podem ser modificadas pelos donos de sites)</em>"
 
 #: wp-admin/wpmu-options.php:27
 msgid "Site Name"
-msgstr "Nome do Site"
+msgstr "Nome do Portal"
 
 #: wp-admin/wpmu-options.php:31
 msgid "What you would like to call this website."
-msgstr "Como você gostaria de chamar este site."
+msgstr "Como você gostaria de chamar este portal."
 
 #: wp-admin/wpmu-options.php:36
 msgid "Site Admin Email"
@@ -9140,7 +9137,7 @@ msgstr "Desabilitado"
 
 #: wp-admin/wpmu-options.php:52
 msgid "Enabled. Blogs and user accounts can be created."
-msgstr "Ativado. As contas de Blogs e usuários podem ser criados."
+msgstr "Ativado. As contas de Sites e usuários podem ser criados."
 
 #: wp-admin/wpmu-options.php:53
 msgid "Only user account can be created."
@@ -9148,7 +9145,7 @@ msgstr "Somente conta de usuário pode ser criada."
 
 #: wp-admin/wpmu-options.php:54
 msgid "Only logged in users can create new blogs."
-msgstr "Somente usuários que fizerem login podem criar novos blogs."
+msgstr "Somente usuários que fizerem login podem criar novos sites."
 
 #: wp-admin/wpmu-options.php:55
 msgid "Disable or enable registration and who or what can be registered. (Default=all)"
@@ -9159,46 +9156,44 @@ msgid "If registration is disabled, please set \"NOBLOGREDIRECT\" in wp-config.p
 msgstr "Se o registro estiver desativado, configure \"NOBLOGREDIRECT\" em wp-config.php com um url para a qual você redirecionará os visitantes se eles abrirem um blog inexistente."
 
 #: wp-admin/wpmu-options.php:63
-#, fuzzy
 msgid "Registration notification"
-msgstr "Formulário de registro"
+msgstr "Notificar novos registros"
 
 #: wp-admin/wpmu-options.php:71
 msgid "Send the site admin an email notification every time someone registers a blog or user account."
-msgstr "Enviar ao administrador do site um email de notificação toda vez que alguém registrar um blog ou uma conta de usuário."
+msgstr "Enviar ao administrador do portal um email de notificação toda vez que alguém registrar um site ou uma conta de usuário."
 
 #: wp-admin/wpmu-options.php:76
 msgid "Add New Users"
-msgstr "Adicionar Novos Usuários"
+msgstr "Adicionar novos usuários"
 
 #: wp-admin/wpmu-options.php:81
 msgid "Allow blog administrators to add new users to their blog via the Users->Add New page."
-msgstr "Permitir que administradores adicionem novos usuários aos seus blogs através da página Usuários->Adicionar novo."
+msgstr "Permitir que administradores adicionem novos usuários aos seus sites através da página Usuários->Adicionar novo."
 
 #: wp-admin/wpmu-options.php:86
 msgid "Dashboard Blog"
-msgstr "Site Painel"
+msgstr "Painel Global"
 
 #: wp-admin/wpmu-options.php:98
 msgid "Blogname ('dashboard', 'control', 'manager', etc) or blog id.<br />New users are added to this blog as subscribers (or the user role defined below) if they don't have a blog. Leave blank for the main blog. 'Subscriber' users on old blog will be moved to the new blog if changed. New blog will be created if it does not exist."
-msgstr "Nome do blog ('painel', 'controle', 'gerente', etc)ou id do blog. <br />Novos usuários são adicionados a este blog como assinantes (ou a função definida abaixo) se eles não possuem um blog. Deixe em branco para o blog principal. 'Assinantes' no blog antigo serão movidos para o novo blog se alterado. O novo blog será criado se não existir."
+msgstr "Nome do site ('painel', 'controle', 'gerente', etc) ou id do site. <br />Novos usuários são adicionados a este site como assinantes (ou a função definida abaixo) se eles não possuem um site. Deixe em branco para usar o site principal. 'Assinantes' do site antigo serão movidos para o novo site se alterado. O novo site será criado se não existir."
 
 #: wp-admin/wpmu-options.php:102
 msgid "Dashboard User Default Role"
-msgstr "Função Padrão para usuários do Painel"
+msgstr "Função padrão para usuários do Painel Global"
 
 #: wp-admin/wpmu-options.php:109
 msgid "The default role for new users on the Dashboard blog. This should probably be 'Subscriber' or maybe 'Contributor'."
-msgstr "A função padrão para novos usuários no blog Painel. provavelmente deve ser 'Assinante' ou 'Colaborador'."
+msgstr "A função padrão para novos usuários no Painel Global. provavelmente deve ser 'Assinante' ou 'Colaborador'."
 
 #: wp-admin/wpmu-options.php:114
 msgid "Banned Names"
 msgstr "Nomes banidos"
 
 #: wp-admin/wpmu-options.php:118
-#, fuzzy
 msgid "Users are not allowed to register these blogs. Separate names by spaces."
-msgstr "Sem permissão para mudar o autor do artigo como esse usuário."
+msgstr "Os usuários não tem permissão para registrar estes sites. Separe os nomes por espaços."
 
 #: wp-admin/wpmu-options.php:123
 msgid "Limited Email Registrations"
@@ -9214,7 +9209,7 @@ msgstr "Domínios de email banidos"
 
 #: wp-admin/wpmu-options.php:138
 msgid "If you want to ban certain email domains from blog registrations. One domain per line."
-msgstr "Caso você queira banir certos domínios de email dos registros de blog. Um domínio por linha."
+msgstr "Caso você queira banir certos domínios de email dos registros de site. Um domínio por linha."
 
 #: wp-admin/wpmu-options.php:143
 msgid "Welcome Email"
@@ -9222,7 +9217,7 @@ msgstr "Email de Boas-Vindas"
 
 #: wp-admin/wpmu-options.php:147
 msgid "The welcome email sent to new blog owners."
-msgstr "O email de boas vindas enviado para os donos dos novos blogs."
+msgstr "O Email de boas vindas enviado para os donos dos novos sites."
 
 #: wp-admin/wpmu-options.php:152
 msgid "First Post"
@@ -9230,7 +9225,7 @@ msgstr "Primeiro Artigo"
 
 #: wp-admin/wpmu-options.php:156
 msgid "First post on a new blog."
-msgstr "Primeiro post em um novo blog."
+msgstr "Primeiro post em um novo site."
 
 #: wp-admin/wpmu-options.php:161
 msgid "Upload media button"
@@ -9250,7 +9245,7 @@ msgstr "Os botões de upload de mídia a serem exibidos na página \"Escrever Po
 
 #: wp-admin/wpmu-options.php:169
 msgid "Blog upload space"
-msgstr "Espaço de upload do blog"
+msgstr "Espaço de upload do site"
 
 #: wp-admin/wpmu-options.php:174
 #, fuzzy
@@ -9267,34 +9262,31 @@ msgstr "Feed de alerta do admin"
 
 #: wp-admin/wpmu-options.php:185
 msgid "Display the latest post from this RSS or Atom feed on all blog dashboards. Leave blank to disable."
-msgstr "Exibir o último post deste feed RSS ou Atom em todos os painéis de blog. Deixe em branco para desabilitar."
+msgstr "Exibir o último post deste feed RSS ou Atom em todos os painéis de site. Deixe em branco para desabilitar."
 
 #: wp-admin/wpmu-options.php:187
 msgid "A good one to use would be the feed from your main blog: "
-msgstr "Um bom para se usar seria o feed do seu blog principal:"
+msgstr "Um bom para se usar seria o feed do seu site principal:"
 
 #: wp-admin/wpmu-options.php:191
-#, fuzzy
 msgid "Administration Settings"
-msgstr "Configurações de Discussão"
+msgstr "Configurações de Administração"
 
 #: wp-admin/wpmu-options.php:194
-#, fuzzy
 msgid "Site Admins"
-msgstr "Administração"
+msgstr "Administradores do Portal"
 
 #: wp-admin/wpmu-options.php:198
 msgid "These users may login to the main blog and administer the site. Space separated list of usernames."
-msgstr "Estes usuários podem fazer login no blog principal e administrar o site. Separe os usuários por espaço."
+msgstr "Estes usuários podem fazer login no site principal e administrar o portal. Separe os usuários por espaço."
 
 #: wp-admin/wpmu-options.php:203
 msgid "Site Wide Settings <em>(These settings may be overridden by blog owners)</em>"
-msgstr "Amplas Configurações do site <em>(Essas configurações poderão ser suprimidas pelos proprietários do blog)</em>"
+msgstr "Configurações globais do Portal <em>(Essas configurações podem ser alteradas pelos administradores dos sites)</em>"
 
 #: wp-admin/wpmu-options.php:214
-#, fuzzy
 msgid "Default Language"
-msgstr "Frame padrão"
+msgstr "Idioma Padrão"
 
 #: wp-admin/wpmu-options.php:226
 msgid "Menus <em>(Enable or disable WP Backend Menus)</em>"
@@ -9310,9 +9302,8 @@ msgid "Enabled"
 msgstr "Ativado"
 
 #: wp-admin/wpmu-themes.php:4
-#, fuzzy
 msgid "WordPress MU &rsaquo; Admin &rsaquo; Themes"
-msgstr "WordPress &rsaquo; Atualização"
+msgstr "WordPress MU &rsaquo; Administrar &rsaquo; Temas"
 
 #: wp-admin/wpmu-themes.php:14
 msgid "Site themes saved."
@@ -9324,12 +9315,11 @@ msgstr "Temas do Site"
 
 #: wp-admin/wpmu-themes.php:24
 msgid "Disable themes site-wide. You can enable themes on a blog by blog basis."
-msgstr "Desativar todos os temas. Você pode ativar os temas para cada blog individualmente."
+msgstr "Desativar todos os temas. Você pode ativar os temas para cada site individualmente."
 
 #: wp-admin/wpmu-themes.php:66
-#, fuzzy
 msgid "Update Themes &raquo;"
-msgstr "Atualizar opções &raquo;"
+msgstr "Atualizar Temas &raquo;"
 
 #: wp-admin/wpmu-themes.php:69
 msgid "Total"
@@ -9346,14 +9336,13 @@ msgid "Themes Activated: %d"
 msgstr "Temas Ativados: %d"
 
 #: wp-admin/wpmu-upgrade-site.php:5
-#, fuzzy
 msgid "WordPress MU &rsaquo; Admin &rsaquo; Upgrade Site"
-msgstr "WordPress &rsaquo; Atualização"
+msgstr "WordPress MU &rsaquo; Administrar &rsaquo; Atualizar Portal"
 
 #: wp-admin/wpmu-upgrade-site.php:14
 #: wp-admin/wpmu-upgrade-site.php:52
 msgid "Upgrade Site"
-msgstr "Atualizar Site"
+msgstr "Atualizar Portal"
 
 #: wp-admin/wpmu-upgrade-site.php:35
 msgid "If your browser doesn't start loading the next page automatically click this link:"
@@ -9365,22 +9354,20 @@ msgid "Next Blogs"
 msgstr "Próximo artigo"
 
 #: wp-admin/wpmu-upgrade-site.php:46
-#, fuzzy
 msgid "All Done!"
-msgstr "Tudo pronto."
+msgstr "Tudo feito!"
 
 #: wp-admin/wpmu-upgrade-site.php:51
 msgid "You can upgrade all the blogs on your site through this page. It works by calling the upgrade script of each blog automatically. Hit the link below to upgrade."
-msgstr "Você pode atualizar todos os blogs do seu site através desta página. Ele funciona chamando o script de atualização de cada blog automaticamente. Clique no link abaixo para atualizar."
+msgstr "Você pode atualizar todos os sites do seu portal através desta página. Ele funciona chamando o script de atualização de cada site automaticamente. Clique no link abaixo para atualizar."
 
 #  wordpress.pot (PACKAGE VERSION)#-#-#-#-
 #  wordpress.pot (PACKAGE VERSION)#-#-#-#-
 #  wordpress.pot (PACKAGE VERSION)#-#-#-#-
 #  wordpress.pot (PACKAGE VERSION)#-#-#-#-
 #: wp-admin/wpmu-users.php:4
-#, fuzzy
 msgid "WordPress MU &rsaquo; Admin &rsaquo; Users"
-msgstr "Erro &rsaquo; WordPress"
+msgstr "WordPress MU &rsaquo; Administrar &rsaquo; Usuários"
 
 #: wp-admin/wpmu-users.php:21
 #, fuzzy
@@ -9409,9 +9396,8 @@ msgstr "Usuário atualizado."
 
 #: wp-admin/wpmu-users.php:117
 #: wp-admin/wpmu-users.php:256
-#, fuzzy
 msgid "Mark as Spammers"
-msgstr "Marcar como spam"
+msgstr "Marcar como Spammers"
 
 #: wp-admin/wpmu-users.php:125
 #, fuzzy
@@ -9429,14 +9415,12 @@ msgstr "Nenhum artigo encontrado."
 
 #: wp-admin/wpmu-users.php:269
 #: wp-admin/wpmu-users.php:286
-#, fuzzy
 msgid "Add user"
 msgstr "Adicionar usuário"
 
 #: wp-admin/wpmu-users.php:281
-#, fuzzy
 msgid "Username and password will be mailed to the above email address."
-msgstr "Uma senha será enviada para seu email."
+msgstr "Usuário e senha serão enviados por Email para o endereço de Email acima."
 
 #: wp-app.php:312
 #, php-format
@@ -13219,9 +13203,8 @@ msgstr "Você usou toda a sua cota de espaço. Por favor, exclua arquivos antes 
 
 #: wp-includes/wpmu-functions.php:1785
 #: wp-includes/wpmu-functions.php:1791
-#, fuzzy
 msgid "Delete Blog"
-msgstr "Excluir todos"
+msgstr "Apagar este Site"
 
 #: wp-includes/wpmu-functions.php:1796
 #, php-format
@@ -13257,9 +13240,8 @@ msgstr ""
 "SITE_NAME\n"
 
 #: wp-includes/wpmu-functions.php:1813
-#, fuzzy
 msgid "Delete My Blog"
-msgstr "Meu blog"
+msgstr "Apagar Meu Site"
 
 #: wp-includes/wpmu-functions.php:1815
 msgid "Thank you. Please check your email for a link to confirm your action. Your blog will not be deleted until this link is clicked."
@@ -13277,20 +13259,20 @@ msgstr "O link que você clicou está quebrado. Selecione outra opção."
 #: wp-includes/wpmu-functions.php:1827
 #, php-format
 msgid "If you do not want to use your %s blog any more, you can delete it using the form below. When you click <strong>Delete My Blog</strong> you will be sent an email with a link in it. Click on this link to delete your blog."
-msgstr "Se voc~e não quiser usar mais seu blog %s, você pode excluí-lo usando o formulário abaixo. Quando você clicar <strong>Excluir meu blog</strong> será enviado um email com um link para você. Clique neste link para excluir seu blog."
+msgstr "Se você não quiser usar mais seu site %s, você pode excluí-lo usando o formulário abaixo. Quando você clicar <strong>Excluir meu site</strong> será enviado um email com um link para você. Clique neste link para excluir seu site."
 
 #: wp-includes/wpmu-functions.php:1828
 msgid "Remember, once deleted your blog cannot be restored."
-msgstr "Lembre-se, uma vez excluído seu blog não pode ser restaurado."
+msgstr "Lembre-se, uma vez excluído, seu site não pode ser restaurado."
 
 #: wp-includes/wpmu-functions.php:1832
 #, php-format
 msgid "I'm sure I want to permanently disable my blog, and I am aware I can never get it back or use %s again."
-msgstr "Eu tenho certeza que quero desativar permanentemente meu blog e eu estou ciente que eu nunca poderei ter de volta ou usar %s novamente."
+msgstr "Eu tenho certeza que quero desativar permanentemente meu site e eu estou ciente que eu nunca poderei tê-lo de volta ou usar %s novamente."
 
 #: wp-includes/wpmu-functions.php:1833
 msgid "Delete My Blog Permanently &raquo;"
-msgstr "Excluir meu blog permanentemente &raquo;"
+msgstr "Excluir meu site permanentemente &raquo;"
 
 #: wp-includes/wpmu-functions.php:1879
 #, php-format
@@ -13298,12 +13280,10 @@ msgid "This file is too big. Files must be less than %dKb in size.<br />"
 msgstr "O arquivo é grande demais. Os arquivos devem ter tamanho inferior a %dKb.<br />"
 
 #: wp-includes/wpmu-functions.php:1918
-#, fuzzy
 msgid "Blog Suspended."
-msgstr "Nome de usuário do Blogger"
+msgstr "Site Suspendido."
 
 #: wp-includes/wpmu-functions.php:2002
-#, fuzzy
 msgid "Please try again!"
 msgstr "Por favor, tente novamente."
 
@@ -13536,9 +13516,8 @@ msgid "Your address will be "
 msgstr "Seu endereço será"
 
 #: wp-signup.php:76
-#, fuzzy
 msgid "blogname"
-msgstr "Nome do Blog"
+msgstr "Nome do Site"
 
 #: wp-signup.php:78
 msgid "domain."
@@ -13553,9 +13532,8 @@ msgid "Blog Title:"
 msgstr "Título do Site:"
 
 #: wp-signup.php:93
-#, fuzzy
 msgid "Privacy:"
-msgstr "Privacidade"
+msgstr "Privacidade:"
 
 #: wp-signup.php:94
 #, fuzzy
@@ -13567,9 +13545,8 @@ msgid "(Must be at least 4 characters, letters and numbers only.)"
 msgstr "(Deve conter pelo menos 4 caracteres, letras e números somente.)"
 
 #: wp-signup.php:128
-#, fuzzy
 msgid "Email&nbsp;Address:"
-msgstr "Email"
+msgstr "Endereço&nbsp;de&nbsp;Email:"
 
 #: wp-signup.php:132
 msgid "(We&#8217;ll send your password to this address, so <strong>triple-check it</strong>.)"
@@ -13643,9 +13620,8 @@ msgid "If you do not activate your username within two days, you will have to si
 msgstr "Se você não ativar seu nome de usuário dentro de dois dias, você terá que se registrar novamente."
 
 #: wp-signup.php:318
-#, fuzzy
 msgid "Signup &raquo;"
-msgstr "Logout &raquo;"
+msgstr "Registrar-se &raquo;"
 
 #: wp-signup.php:352
 #, php-format
@@ -13692,9 +13668,8 @@ msgid "Greetings Site Administrator! You are currently allowing '%s' registratio
 msgstr "Olá administrador do site! Atualmente você está permitindo o registro em '%s'. Para alterar ou desativar o registro vá para sua <a href='wp-admin/wpmu-options.php'>página de opções</a>."
 
 #: wp-signup.php:384
-#, fuzzy
 msgid "Registration has been disabled."
-msgstr "Sua página foi salva."
+msgstr "Processo de Registro foi desabilitado."
 
 #: wp-signup.php:392
 #, fuzzy, php-format
@@ -13702,14 +13677,12 @@ msgid "You must first <a href=\"%s\">login</a>, and then you can create a new bl
 msgstr "Você precisa fazer o <a href=\"%s\">login</a> para publicar um comentário."
 
 #: wp-signup.php:399
-#, fuzzy
 msgid "User registration has been disabled."
 msgstr "No momento, o registro de usuários está desabilitado."
 
 #: wp-signup.php:405
-#, fuzzy
 msgid "Blog registration has been disabled."
-msgstr "O seu artigo foi salvo."
+msgstr "No momen to, o registro de Sites está desabilitado."
 
 #: wp-signup.php:418
 msgid "I'm sorry. We're not accepting new registrations at this time."
