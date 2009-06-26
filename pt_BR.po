@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WordPress 2.7.1\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2009-04-22 13:11+0000\n"
-"PO-Revision-Date: 2009-06-25 15:46-0300\n"
+"PO-Revision-Date: 2009-06-26 17:56-0300\n"
 "Last-Translator: Gabriel Mazetto <gabriel@npd.ufsc.br>\n"
 "Language-Team: WordPress-BR <contato@wordpress-br.com>\n"
 "MIME-Version: 1.0\n"
@@ -5180,7 +5180,7 @@ msgstr "Seu feed em %s está vazio."
 #: wp-admin/includes/mu.php:722
 #, php-format
 msgid "Hi %s! You're logged in as a site administrator."
-msgstr "Olá, %s! Você está conectado como administrador do site."
+msgstr "Olá, %s! Você está conectado como administrador do portal."
 
 #: wp-admin/includes/mu.php:851
 msgid "Activate this plugin for all blogs across the entire network"
@@ -5243,7 +5243,7 @@ msgstr "Abrir este arquivo no editor de plugins"
 
 #: wp-admin/includes/mu.php:949
 msgid "Plugins that are enabled site wide can only be disabled by a site administrator."
-msgstr "Os plugins que estão ativados em todo site só podem ser desativados pelo administrador."
+msgstr "Os plugins que estão ativados em todo portal só podem ser desativados pelo administrador."
 
 #: wp-admin/includes/mu.php:1111
 msgid "Primary Blog"
@@ -6262,7 +6262,7 @@ msgstr "O WordPress MU %1$s está disponível! Por gentileza <a href=\"%2$s\">at
 #: wp-admin/includes/update.php:135
 #, php-format
 msgid "WordPress MU %1$s is available! Please notify the site administrator."
-msgstr "O WordPress MU %1$s está disponível! Por favor, avise o administrador do site."
+msgstr "O WordPress MU %1$s está disponível! Por favor, avise o administrador do portal."
 
 #: wp-admin/includes/update.php:147
 #, php-format
@@ -6366,7 +6366,7 @@ msgstr "A atualização automática do WordPress falhou - <a href=\"%s\">tente a
 
 #: wp-admin/includes/update.php:500
 msgid "An automated WordPress update has failed to complete! Please notify the site administrator."
-msgstr "A atualização automática do WordPress falhou! Avise o administrador do site."
+msgstr "A atualização automática do WordPress falhou! Avise o administrador do portal."
 
 #: wp-admin/includes/upgrade.php:64
 msgid "User already exists.  Password inherited."
@@ -8411,7 +8411,7 @@ msgstr "Atualizar usuário"
 
 #: wp-admin/user-new.php:17
 msgid "Warning! Only site administrators may see this page. Everyone else will see a <em>page disabled</em> message. Enable it again on <a href=\"wpmu-options.php#addnewusers\">the options page</a>."
-msgstr "Atenção! Apenas administradores do site podem ver esta página. Os demais verão uma mensagem de <em>página desativada</em>. Ative-a novamente na <a href=\"wpmu-options.php#addnewusers\">página de opções</a>."
+msgstr "Atenção! Apenas administradores do portal podem ver esta página. Os demais verão uma mensagem de <em>página desativada</em>. Ative-a novamente na <a href=\"wpmu-options.php#addnewusers\">página de opções</a>."
 
 #: wp-admin/user-new.php:19
 msgid "Page disabled by the administrator"
@@ -13290,7 +13290,7 @@ msgstr "Por favor, tente novamente."
 #: wp-includes/wpmu-functions.php:2034
 #, php-format
 msgid "You have been added to this blog. Please visit the <a href=\"%s\">homepage</a> or <a href=\"%s\">login</a> using your username and password."
-msgstr "Você foi adicionado a este blog. Visite a <a href=\"%s\">homepage</a> ou <a href=\"%s\">faça login</a> usando o nome de usuário e a senha."
+msgstr "Você foi adicionado a este site. Visite a <a href=\"%s\">homepage</a> ou <a href=\"%s\">faça login</a> usando o nome de usuário e a senha."
 
 #: wp-includes/wpmu-functions.php:2070
 #, fuzzy
@@ -13486,9 +13486,8 @@ msgid "Mission complete.  Message <strong>%s</strong> deleted."
 msgstr "Missão completada.  Messagem <strong>%s</strong> excluída."
 
 #: wp-settings.php:322
-#, fuzzy
 msgid "The blog you have requested is not installed properly. Please contact the system administrator."
-msgstr "Erro de configuração. Por favor, contate o administrador do servidor."
+msgstr "O site requisitado não está corretamente instalado. Por favor contato o administrador do sistema."
 
 #: wp-settings.php:439
 msgid "This user has elected to delete their account and the content is no longer available."
@@ -13536,9 +13535,8 @@ msgid "Privacy:"
 msgstr "Privacidade:"
 
 #: wp-signup.php:94
-#, fuzzy
 msgid "I would like my blog to appear in search engines like Google and Technorati, and in public listings around this site."
-msgstr "Permito que o meu blog seja visível em mecanismos de busca como o Google e o Technorati."
+msgstr "Permito que o meu site fique visível para mecanismos de busca como o Google e o Technorati, e nas listas públicas deste portal."
 
 #: wp-signup.php:125
 msgid "(Must be at least 4 characters, letters and numbers only.)"
@@ -13665,16 +13663,16 @@ msgstr "Você digitou seu email corretamente? Nós achamos que é %s, mas se voc
 #: wp-signup.php:378
 #, php-format
 msgid "Greetings Site Administrator! You are currently allowing '%s' registrations. To change or disable registration go to your <a href='wp-admin/wpmu-options.php'>Options page</a>."
-msgstr "Olá administrador do site! Atualmente você está permitindo o registro em '%s'. Para alterar ou desativar o registro vá para sua <a href='wp-admin/wpmu-options.php'>página de opções</a>."
+msgstr "Olá administrador do portal! Atualmente você está permitindo o registro em '%s'. Para alterar ou desativar o registro vá para sua <a href='wp-admin/wpmu-options.php'>página de opções</a>."
 
 #: wp-signup.php:384
 msgid "Registration has been disabled."
 msgstr "Processo de Registro foi desabilitado."
 
 #: wp-signup.php:392
-#, fuzzy, php-format
+#, php-format
 msgid "You must first <a href=\"%s\">login</a>, and then you can create a new blog."
-msgstr "Você precisa fazer o <a href=\"%s\">login</a> para publicar um comentário."
+msgstr "Você precisa fazer o <a href=\"%s\">login</a> para poder criar um novo site."
 
 #: wp-signup.php:399
 msgid "User registration has been disabled."
