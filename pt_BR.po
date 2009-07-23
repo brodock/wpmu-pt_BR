@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WordPress 2.7.1\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2009-04-22 13:11+0000\n"
-"PO-Revision-Date: 2009-06-26 17:56-0300\n"
+"PO-Revision-Date: 2009-07-23 11:04-0300\n"
 "Last-Translator: Gabriel Mazetto <gabriel@npd.ufsc.br>\n"
 "Language-Team: WordPress-BR <contato@wordpress-br.com>\n"
 "MIME-Version: 1.0\n"
@@ -9349,9 +9349,8 @@ msgid "If your browser doesn't start loading the next page automatically click t
 msgstr "Caso seu navegador não comece a carregar a página seguinte automaticamente, clique neste link:"
 
 #: wp-admin/wpmu-upgrade-site.php:35
-#, fuzzy
 msgid "Next Blogs"
-msgstr "Próximo artigo"
+msgstr "Próximos sites"
 
 #: wp-admin/wpmu-upgrade-site.php:46
 msgid "All Done!"
@@ -9370,9 +9369,8 @@ msgid "WordPress MU &rsaquo; Admin &rsaquo; Users"
 msgstr "WordPress MU &rsaquo; Administrar &rsaquo; Usuários"
 
 #: wp-admin/wpmu-users.php:21
-#, fuzzy
 msgid "User deleted !"
-msgstr "%s usuário excluído"
+msgstr "Usuário excluído !"
 
 #: wp-admin/wpmu-users.php:24
 #, fuzzy
@@ -9385,9 +9383,8 @@ msgid "Users marked as not spam !"
 msgstr "%s comentário marcado como spam"
 
 #: wp-admin/wpmu-users.php:30
-#, fuzzy
 msgid "Users deleted !"
-msgstr "%s usuário excluído"
+msgstr "Usuários excluídos !"
 
 #: wp-admin/wpmu-users.php:33
 #, fuzzy
@@ -12987,19 +12984,16 @@ msgid "Sorry, blog names must have letters too!"
 msgstr "Nomes de blogs devem ter letras também!"
 
 #: wp-includes/wpmu-functions.php:1028
-#, fuzzy
 msgid "Please enter a blog title"
-msgstr "Por favor, tente novamente."
+msgstr "Por favor digite um título para o site"
 
 #: wp-includes/wpmu-functions.php:1039
-#, fuzzy
 msgid "Sorry, that blog already exists!"
-msgstr "A pasta já existe."
+msgstr "Desculpe, este site já existe!"
 
 #: wp-includes/wpmu-functions.php:1043
-#, fuzzy
 msgid "Sorry, that blog is reserved!"
-msgstr "Desculpe, esse arquivo não pode ser editado."
+msgstr "Desculpe, este site está reservado!"
 
 #: wp-includes/wpmu-functions.php:1054
 msgid "That blog is currently reserved but may be available in a couple days."
@@ -13028,23 +13022,21 @@ msgstr ""
 "%s"
 
 #: wp-includes/wpmu-functions.php:1132
-#, fuzzy, php-format
+#, php-format
 msgid "Activate %s"
-msgstr "Ativar \"%s\""
+msgstr "Ativar %s"
 
 #: wp-includes/wpmu-functions.php:1162
-#, fuzzy
 msgid "Invalid activation key."
-msgstr "Taxonomia inválida"
+msgstr "Chave de ativação inválida."
 
 #: wp-includes/wpmu-functions.php:1165
 msgid "The blog is already active."
 msgstr "O blog já está ativo."
 
 #: wp-includes/wpmu-functions.php:1181
-#, fuzzy
 msgid "Could not create user"
-msgstr "Não foi possível criar o diretório"
+msgstr "Não foi possível criar usuário"
 
 #: wp-includes/wpmu-functions.php:1188
 #, fuzzy
@@ -13052,14 +13044,12 @@ msgid "That username is already activated."
 msgstr "Um nome de usuário do FTP é necessário"
 
 #: wp-includes/wpmu-functions.php:1263
-#, fuzzy
 msgid "Blog already exists."
-msgstr "A pasta já existe."
+msgstr "Site já existe."
 
 #: wp-includes/wpmu-functions.php:1269
-#, fuzzy
 msgid "Could not create blog."
-msgstr "Não foi possível criar o diretório"
+msgstr "Não foi possível criar o site."
 
 #: wp-includes/wpmu-functions.php:1313
 #, php-format
@@ -13110,14 +13100,12 @@ msgid "Welcome to <a href=\"SITE_URL\">SITE_NAME</a>. This is your first post. E
 msgstr "Bem-vindo ao WordPress. Esse é o seu primeiro artigo. Edite-o ou exclua-o, e aí comece a brincadeira!"
 
 #: wp-includes/wpmu-functions.php:1452
-#, fuzzy
 msgid "hello-world"
-msgstr "Olá, mundo!"
+msgstr "ola-mundo"
 
 #: wp-includes/wpmu-functions.php:1469
-#, fuzzy
 msgid "about"
-msgstr "Sobre"
+msgstr "sobre"
 
 #: wp-includes/wpmu-functions.php:1492
 #, fuzzy
