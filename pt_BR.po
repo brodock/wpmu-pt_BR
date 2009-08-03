@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WordPress 2.7.1\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2009-07-21 13:11+0000\n"
-"PO-Revision-Date: 2009-07-23 12:20-0300\n"
+"PO-Revision-Date: 2009-08-03 18:19-0300\n"
 "Last-Translator: Gabriel Mazetto <gabriel@npd.ufsc.br>\n"
 "Language-Team: WordPress-BR <contato@wordpress-br.com>\n"
 "MIME-Version: 1.0\n"
@@ -920,9 +920,9 @@ msgstr "Visite o seu site e você deverá ver o novo cabeçalho agora."
 #: wp-admin/link-manager.php:197
 #: wp-admin/upload.php:332
 #: wp-admin/upload.php:335
-#, fuzzy, php-format
+#, php-format
 msgid "Edit &#8220;%s&#8221;"
-msgstr "Editar comentários sobre &#8220;%s&#8221;"
+msgstr "Editar &#8220;%s&#8221;"
 
 #: wp-admin/edit-attachment-rows.php:83
 #: wp-admin/edit-attachment-rows.php:185
@@ -977,9 +977,9 @@ msgstr ""
 #: wp-admin/includes/template.php:1453
 #: wp-admin/includes/template.php:1668
 #: wp-admin/upload.php:345
-#, fuzzy, php-format
+#, php-format
 msgid "View &#8220;%s&#8221;"
-msgstr "para &ldquo;%s&rdquo;"
+msgstr "Ver &#8220;%s&#8221;"
 
 #: wp-admin/edit-attachment-rows.php:86
 #: wp-admin/includes/template.php:1453
@@ -1471,7 +1471,7 @@ msgstr ""
 #: wp-includes/script-loader.php:282
 #: wp-includes/script-loader.php:306
 msgid "Schedule"
-msgstr "Agenda"
+msgstr "Agendar"
 
 #: wp-admin/edit-form-advanced.php:244
 #: wp-admin/edit-form-advanced.php:245
@@ -1837,20 +1837,19 @@ msgstr "Destino"
 
 #: wp-admin/edit-link-form.php:163
 msgid "<code>_blank</code> - new window or tab."
-msgstr ""
+msgstr "<code>_blank</code> - nova janela ou aba."
 
 #: wp-admin/edit-link-form.php:166
 msgid "<code>_top</code> - current window or tab, with no frames."
-msgstr ""
+msgstr "<code>_top</code> - janela ou aba atual, sem frames."
 
 #: wp-admin/edit-link-form.php:169
 msgid "<code>_none</code> - same window or tab."
-msgstr ""
+msgstr "<code>_none</code> - mesma janela ou aba."
 
 #: wp-admin/edit-link-form.php:171
-#, fuzzy
 msgid "Choose the target frame for your link."
-msgstr "Escolha uma imagem no seu computador:"
+msgstr "Escolha o frame de destino para seu link."
 
 #. translators: xfn: http://gmpg.org/xfn/
 #: wp-admin/edit-link-form.php:187
@@ -2255,8 +2254,8 @@ msgstr "Páginas publicadas"
 msgctxt "page"
 msgid "Published <span class=\"count\">(%s)</span>"
 msgid_plural "Published <span class=\"count\">(%s)</span>"
-msgstr[0] "Publicado <span class=\"count\">(%s)</span>"
-msgstr[1] "Publicados <span class=\"count\">(%s)</span>"
+msgstr[0] "Publicada <span class=\"count\">(%s)</span>"
+msgstr[1] "Publicadas <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:79
 msgctxt "page"
@@ -2272,8 +2271,8 @@ msgstr "Páginas agendadas"
 msgctxt "page"
 msgid "Scheduled <span class=\"count\">(%s)</span>"
 msgid_plural "Scheduled <span class=\"count\">(%s)</span>"
-msgstr[0] "Agendado <span class=\"count\">(%s)</span>"
-msgstr[1] "Agendados <span class=\"count\">(%s)</span>"
+msgstr[0] "Agendada <span class=\"count\">(%s)</span>"
+msgstr[1] "Agendadas <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:80
 msgctxt "page"
@@ -2325,8 +2324,8 @@ msgstr "Páginas privadas"
 msgctxt "page"
 msgid "Private <span class=\"count\">(%s)</span>"
 msgid_plural "Private <span class=\"count\">(%s)</span>"
-msgstr[0] "Privado <span class=\"count\">(%s)</span>"
-msgstr[1] "Privados <span class=\"count\">(%s)</span>"
+msgstr[0] "Privada <span class=\"count\">(%s)</span>"
+msgstr[1] "Privadas <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:90
 #: wp-admin/includes/template.php:3167
@@ -2378,12 +2377,12 @@ msgid "Edit page"
 msgstr "Editar página"
 
 #: wp-admin/edit-pages.php:155
-#, fuzzy, php-format
+#, php-format
 msgctxt "pages"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
-msgstr[0] "Tudo <span class=\"count\">(%s)</span>"
-msgstr[1] "Tudo <span class=\"count\">(%s)</span>"
+msgstr[0] "Todas <span class=\"count\">(%s)</span>"
+msgstr[1] "Todas <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:174
 #: wp-admin/edit-pages.php:176
@@ -2529,12 +2528,12 @@ msgstr[0] "Artigo excluído."
 msgstr[1] "%s artigos excluídos."
 
 #: wp-admin/edit.php:144
-#, fuzzy, php-format
+#, php-format
 msgctxt "posts"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
-msgstr[0] "Tudo <span class=\"count\">(%s)</span>"
-msgstr[1] "Tudo <span class=\"count\">(%s)</span>"
+msgstr[0] "Todos <span class=\"count\">(%s)</span>"
+msgstr[1] "Todos <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit.php:167
 #: wp-admin/edit.php:169
@@ -4964,7 +4963,7 @@ msgstr ""
 
 #: wp-admin/includes/continents-cities.php:93
 msgid "Campo Grande"
-msgstr ""
+msgstr "Campo Grande"
 
 #: wp-admin/includes/continents-cities.php:94
 #, fuzzy
@@ -4973,7 +4972,7 @@ msgstr "Cancelar"
 
 #: wp-admin/includes/continents-cities.php:95
 msgid "Caracas"
-msgstr ""
+msgstr "Caracas"
 
 #: wp-admin/includes/continents-cities.php:96
 #, fuzzy
@@ -5005,7 +5004,7 @@ msgstr "Costa Rica"
 
 #: wp-admin/includes/continents-cities.php:102
 msgid "Cuiaba"
-msgstr ""
+msgstr "Cuiabá"
 
 #: wp-admin/includes/continents-cities.php:103
 msgid "Curacao"
@@ -5063,7 +5062,7 @@ msgstr "Nome"
 
 #: wp-admin/includes/continents-cities.php:115
 msgid "Fortaleza"
-msgstr ""
+msgstr "Fortaleza"
 
 #: wp-admin/includes/continents-cities.php:116
 msgid "Glace Bay"
@@ -5203,7 +5202,7 @@ msgstr ""
 
 #: wp-admin/includes/continents-cities.php:148
 msgid "Maceio"
-msgstr ""
+msgstr "Maceió"
 
 #: wp-admin/includes/continents-cities.php:149
 #, fuzzy
@@ -10850,49 +10849,48 @@ msgid "Deactivate this plugin"
 msgstr "Desativar este plugin"
 
 #: wp-admin/plugins.php:419
-#, fuzzy
 msgid "Delete this plugin"
-msgstr "Usar este plugin"
+msgstr "Remover este plugin"
 
 #: wp-admin/plugins.php:489
 msgid "Clear List"
 msgstr "Limpar a lista"
 
 #: wp-admin/plugins.php:515
-#, fuzzy, php-format
+#, php-format
 msgctxt "plugins"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
-msgstr[0] "Tudo <span class=\"count\">(%s)</span>"
-msgstr[1] "Tudo <span class=\"count\">(%s)</span>"
+msgstr[0] "Todos <span class=\"count\">(%s)</span>"
+msgstr[1] "Todos <span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:518
-#, fuzzy, php-format
+#, php-format
 msgid "Active <span class=\"count\">(%s)</span>"
 msgid_plural "Active <span class=\"count\">(%s)</span>"
-msgstr[0] "Tudo <span class=\"count\">(%s)</span>"
-msgstr[1] "Privados <span class=\"count\">(%s)</span>"
+msgstr[0] "Ativo <span class=\"count\">(%s)</span>"
+msgstr[1] "Ativos <span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:522
-#, fuzzy, php-format
+#, php-format
 msgid "Recently Active <span class=\"count\">(%s)</span>"
 msgid_plural "Recently Active <span class=\"count\">(%s)</span>"
-msgstr[0] "Rascunho <span class=\"count\">(%s)</span>"
-msgstr[1] "Agendados <span class=\"count\">(%s)</span>"
+msgstr[0] "Ativo recente <span class=\"count\">(%s)</span>"
+msgstr[1] "Ativos recentes <span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:526
-#, fuzzy, php-format
+#, php-format
 msgid "Inactive <span class=\"count\">(%s)</span>"
 msgid_plural "Inactive <span class=\"count\">(%s)</span>"
-msgstr[0] "Tudo <span class=\"count\">(%s)</span>"
-msgstr[1] "Imagens <span class=\"count\">(%s)</span>"
+msgstr[0] "Inativo <span class=\"count\">(%s)</span>"
+msgstr[1] "Inativos <span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:530
-#, fuzzy, php-format
+#, php-format
 msgid "Upgrade Available <span class=\"count\">(%s)</span>"
 msgid_plural "Upgrade Available <span class=\"count\">(%s)</span>"
-msgstr[0] "Rascunho <span class=\"count\">(%s)</span>"
-msgstr[1] "Tudo <span class=\"count\">(%s)</span>"
+msgstr[0] "Atualização disponível <span class=\"count\">(%s)</span>"
+msgstr[1] "Atualizações disponiveis <span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:535
 #, fuzzy, php-format
@@ -14744,7 +14742,6 @@ msgstr "Inserir quebra de página"
 
 #. translators: TinyMCE font styles
 #: wp-includes/js/tinymce/langs/wp-langs.php:182
-#, fuzzy
 msgctxt "TinyMCE font styles"
 msgid "Styles"
 msgstr "Estilos"
@@ -15830,9 +15827,8 @@ msgid "Next Post"
 msgstr "Próximo artigo"
 
 #: wp-includes/link-template.php:1066
-#, fuzzy
 msgid "Last Post"
-msgstr "%s artigo atualizado."
+msgstr "Ultimo artigo"
 
 #: wp-includes/link-template.php:1446
 #, fuzzy
@@ -15840,9 +15836,8 @@ msgid "&laquo; Previous Page"
 msgstr "Adicionar nova página"
 
 #: wp-includes/link-template.php:1447
-#, fuzzy
 msgid "Next Page &raquo;"
-msgstr "Ler o resto dessa página &raquo;"
+msgstr "Próxima página &raquo;"
 
 #: wp-includes/link-template.php:1548
 msgid "Newer Comments &raquo;"
