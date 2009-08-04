@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WordPress 2.7.1\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2009-07-21 13:11+0000\n"
-"PO-Revision-Date: 2009-08-03 18:19-0300\n"
+"PO-Revision-Date: 2009-08-04 17:02-0300\n"
 "Last-Translator: Gabriel Mazetto <gabriel@npd.ufsc.br>\n"
 "Language-Team: WordPress-BR <contato@wordpress-br.com>\n"
 "MIME-Version: 1.0\n"
@@ -3158,7 +3158,7 @@ msgstr "Detecta artigos ou comentários duplicados. Se você não importar tudo 
 
 #: wp-admin/import/greymatter.php:41
 msgid "What it does not:"
-msgstr "O que isto<strong>não</strong> faz:"
+msgstr "O que isto <strong>não</strong> faz:"
 
 #: wp-admin/import/greymatter.php:43
 msgid "Parse gm-counter.cgi, gm-banlist.cgi, gm-cplog.cgi (you can make a CP log hack if you really feel like it, but I question the need of a CP log)."
@@ -3185,14 +3185,12 @@ msgid "Path to GM entries:"
 msgstr "Caminho para entradas GM:"
 
 #: wp-admin/import/greymatter.php:64
-#, fuzzy
 msgid "Last entry&#8217;s number:"
-msgstr "Número da última entrada:"
+msgstr "Número de identificação do ultimo artigo:"
 
 #: wp-admin/import/greymatter.php:66
-#, fuzzy
 msgid "This importer will search for files 00000001.cgi to 000-whatever.cgi,<br />so you need to enter the number of the last GM post here.<br />(if you don&#8217;t know that number, just log into your FTP and look it out<br />in the entries&#8217; folder)"
-msgstr "Este importador irá pesquisar arquivos 00000001.cgi a 000-qualquer_coisa.cgi,<br />portanto, você precisa digitar o número do último artigo do GM aqui.<br />(Se não souber qual é o número, faça o login em seu FTP e consulte a pasta de entradas)"
+msgstr "Este importador irá pesquisar por arquivos 00000001.cgi a 000-qualquer_coisa.cgi,<br />portanto, você precisa digitar o número do último artigo do GM aqui.<br />(se não souber qual é o número, faça o login em seu FTP e consulte a pasta de artigos)"
 
 #: wp-admin/import/greymatter.php:69
 msgid "Start Importing"
@@ -3339,11 +3337,11 @@ msgstr ""
 
 #: wp-admin/import/livejournal.php:194
 msgid "Howdy! This importer allows you to connect directly to LiveJournal and download all your entries and comments"
-msgstr ""
+msgstr "Olá! Este importador permite que você se conecte diretamente ao LiveJournal e faça o download de seus artigos e comentários"
 
 #: wp-admin/import/livejournal.php:195
 msgid "Enter your LiveJournal username and password below so we can connect to your account:"
-msgstr ""
+msgstr "Insira abaixo o seu nome de usuário e senha do LiveJournal para que nós possamos conectá-lo a sua conta:"
 
 #: wp-admin/import/livejournal.php:200
 msgid "LiveJournal Username"
@@ -3355,15 +3353,15 @@ msgstr "Senha do LiveJournal"
 
 #: wp-admin/import/livejournal.php:211
 msgid "If you have any entries on LiveJournal which are marked as private, they will be password-protected when they are imported so that only people who know the password can see them."
-msgstr ""
+msgstr "Se você possui algum artigo no LiveJournal que esteja marcada como privado, eles serão protegidas por senha quando forem importadas para que somente quem saiba a senha possa vê-los."
 
 #: wp-admin/import/livejournal.php:212
 msgid "If you don&#8217;t enter a password, ALL ENTRIES from your LiveJournal will be imported as public posts in WordPress."
-msgstr ""
+msgstr "Se você não inserir uma senha, TODOS OS ARTIGOS do seu LiveJournal serão importadas como artigos públicos no WordPress."
 
 #: wp-admin/import/livejournal.php:213
 msgid "Enter the password you would like to use for all protected entries here:"
-msgstr ""
+msgstr "Insira a senha que você gostaria de usar para todos os artigos protegidas aqui:"
 
 #: wp-admin/import/livejournal.php:217
 msgid "Protected Post Password"
@@ -3371,19 +3369,19 @@ msgstr "Senha do artigo protegido"
 
 #: wp-admin/import/livejournal.php:223
 msgid "<strong>WARNING:</strong> This can take a really long time if you have a lot of entries in your LiveJournal, or a lot of comments. Ideally, you should only start this process if you can leave your computer alone while it finishes the import."
-msgstr ""
+msgstr "<strong>ATENÇÃO:</strong> Isto pode levar bastante tempo se você possuir muitos artigos em seu LiveJournal, ou muitos comentários. O ideal é que você somente comece este processo se você puder deixar seu computador sozinho enquanto ele termina a importação."
 
 #: wp-admin/import/livejournal.php:226
 msgid "Connect to LiveJournal and Import"
-msgstr ""
+msgstr "Conectar ao LiveJournal e importar"
 
 #: wp-admin/import/livejournal.php:229
 msgid "<strong>NOTE:</strong> If the import process is interrupted for <em>any</em> reason, come back to this page and it will continue from where it stopped automatically."
-msgstr ""
+msgstr "<strong>NOTA:</strong> Se o processo de importação for interrompido por <em>qualquer</em> razão, volte para esta página e ele continuará de onde ele parou automaticamente."
 
 #: wp-admin/import/livejournal.php:232
 msgid "<strong>NOTE:</strong> You appear to have JavaScript disabled, so you will need to manually click through each step of this importer. If you enable JavaScript, it will step through automatically."
-msgstr ""
+msgstr "<strong>NOTA:</strong> Parece que você está com o JavaScript desabilitado, portanto terá que clicar manualmente no botão de cada passo dessa importação. Se você habilitar o JavaScript, ele passará pelas etapas automaticamente."
 
 #: wp-admin/import/livejournal.php:277
 msgid "Post metadata has been downloaded, proceeding with posts..."
@@ -3559,18 +3557,16 @@ msgid "LiveJournal"
 msgstr "LiveJournal"
 
 #: wp-admin/import/livejournal.php:1053
-#, fuzzy
 msgid "Import posts from LiveJournal using their API."
-msgstr "Importar artigos de um arquivo de exportação XML do LiveJournal."
+msgstr "Importar artigos do LiveJournal usando a API deles."
 
 #: wp-admin/import/mt.php:28
 msgid "Import Movable Type or TypePad"
 msgstr "Importar de Movable Type ou TypePad"
 
 #: wp-admin/import/mt.php:39
-#, fuzzy
 msgid "Howdy! We&#8217;re about to begin importing all of your Movable Type or Typepad entries into WordPress. To begin, either choose a file to upload and click &#8220;Upload file and import&#8221;, or use FTP to upload your MT export file as <code>mt-export.txt</code> in your <code>/wp-content/</code> directory and then click \"Import mt-export.txt\""
-msgstr "Olá! Estamos prestes a começar a importação de todas as suas entradas do Movable Type ou Typepad para o WordPress. Para começar, faça o upload do arquivo e clique em \"Fazer upload de arquivo e importar\" ou via FTP colocando o arquivo exportado pelo MT <code>mt-export.txt</code> na pasta <code>/wp-content/</code> e clicar em \"Importar mt-export.txt.\""
+msgstr "Olá! Estamos prestes a começar a importação de todos seus artigos do Movable Type ou Typepad para o WordPress. Para começar, escolha o arquivo para fazer o envio e clique em &#8220;Fazer envio de arquivo e importar&#8221;, ou envie via FTP colocando o arquivo de exportação do MT como <code>mt-export.txt</code> na pasta <code>/wp-content/</code> e clique em \"Importar mt-export.txt.\""
 
 #: wp-admin/import/mt.php:47
 msgid "Or use <code>mt-export.txt</code> in your <code>/wp-content/</code> directory"
@@ -3581,9 +3577,8 @@ msgid "Import mt-export.txt"
 msgstr "Importar mt-export.txt"
 
 #: wp-admin/import/mt.php:52
-#, fuzzy
 msgid "The importer is smart enough not to import duplicates, so you can run this multiple times without worry if&#8212;for whatever reason&#8212;it doesn&#8217;t finish. If you get an <strong>out of memory</strong> error try splitting up the import file into pieces."
-msgstr "O importador sabe quando não importar duplicatas, portanto você pode executá-lo várias vezes sem problema, se por algum motivo, ele não concluir a operação. Se você receber um aviso de erro de <strong>falta de memória</strong>, tente dividir o arquivo de importação em partes."
+msgstr "O importador é suficientemente inteligente para não importar itens duplicados, portanto você pode executá-lo várias vezes sem problema, se por algum motivo, ele não concluir a operação. Se você receber um aviso de erro de <strong>falta de memória</strong>, tente dividir o arquivo de importação em partes."
 
 #: wp-admin/import/mt.php:62
 #: wp-admin/import/wordpress.php:256
@@ -6090,119 +6085,119 @@ msgstr ""
 
 #: wp-admin/includes/continents-cities.php:350
 msgid "GMT+0"
-msgstr ""
+msgstr "GMT+0"
 
 #: wp-admin/includes/continents-cities.php:351
 msgid "GMT+1"
-msgstr ""
+msgstr "GMT+1"
 
 #: wp-admin/includes/continents-cities.php:352
 msgid "GMT+10"
-msgstr ""
+msgstr "GMT+10"
 
 #: wp-admin/includes/continents-cities.php:353
 msgid "GMT+11"
-msgstr ""
+msgstr "GMT+11"
 
 #: wp-admin/includes/continents-cities.php:354
 msgid "GMT+12"
-msgstr ""
+msgstr "GMT+12"
 
 #: wp-admin/includes/continents-cities.php:355
 msgid "GMT+2"
-msgstr ""
+msgstr "GMT+2"
 
 #: wp-admin/includes/continents-cities.php:356
 msgid "GMT+3"
-msgstr ""
+msgstr "GMT+3"
 
 #: wp-admin/includes/continents-cities.php:357
 msgid "GMT+4"
-msgstr ""
+msgstr "GMT+4"
 
 #: wp-admin/includes/continents-cities.php:358
 msgid "GMT+5"
-msgstr ""
+msgstr "GMT+5"
 
 #: wp-admin/includes/continents-cities.php:359
 msgid "GMT+6"
-msgstr ""
+msgstr "GMT+6"
 
 #: wp-admin/includes/continents-cities.php:360
 msgid "GMT+7"
-msgstr ""
+msgstr "GMT+7"
 
 #: wp-admin/includes/continents-cities.php:361
 msgid "GMT+8"
-msgstr ""
+msgstr "GMT+8"
 
 #: wp-admin/includes/continents-cities.php:362
 msgid "GMT+9"
-msgstr ""
+msgstr "GMT+9"
 
 #: wp-admin/includes/continents-cities.php:363
 msgid "GMT-0"
-msgstr ""
+msgstr "GMT-0"
 
 #: wp-admin/includes/continents-cities.php:364
 msgid "GMT-1"
-msgstr ""
+msgstr "GMT-1"
 
 #: wp-admin/includes/continents-cities.php:365
 msgid "GMT-10"
-msgstr ""
+msgstr "GMT-10"
 
 #: wp-admin/includes/continents-cities.php:366
 msgid "GMT-11"
-msgstr ""
+msgstr "GMT-11"
 
 #: wp-admin/includes/continents-cities.php:367
 msgid "GMT-12"
-msgstr ""
+msgstr "GMT-12"
 
 #: wp-admin/includes/continents-cities.php:368
 msgid "GMT-13"
-msgstr ""
+msgstr "GMT-13"
 
 #: wp-admin/includes/continents-cities.php:369
 msgid "GMT-14"
-msgstr ""
+msgstr "GMT-14"
 
 #: wp-admin/includes/continents-cities.php:370
 msgid "GMT-2"
-msgstr ""
+msgstr "GMT-2"
 
 #: wp-admin/includes/continents-cities.php:371
 msgid "GMT-3"
-msgstr ""
+msgstr "GMT-3"
 
 #: wp-admin/includes/continents-cities.php:372
 msgid "GMT-4"
-msgstr ""
+msgstr "GMT-4"
 
 #: wp-admin/includes/continents-cities.php:373
 msgid "GMT-5"
-msgstr ""
+msgstr "GMT-5"
 
 #: wp-admin/includes/continents-cities.php:374
 msgid "GMT-6"
-msgstr ""
+msgstr "GMT-6"
 
 #: wp-admin/includes/continents-cities.php:375
 msgid "GMT-7"
-msgstr ""
+msgstr "GMT-7"
 
 #: wp-admin/includes/continents-cities.php:376
 msgid "GMT-8"
-msgstr ""
+msgstr "GMT-8"
 
 #: wp-admin/includes/continents-cities.php:377
 msgid "GMT-9"
-msgstr ""
+msgstr "GMT-9"
 
 #: wp-admin/includes/continents-cities.php:378
 msgid "GMT0"
-msgstr ""
+msgstr "GMT0"
 
 #: wp-admin/includes/continents-cities.php:379
 msgid "Greenwich"
@@ -8077,9 +8072,8 @@ msgstr "Por %s"
 
 #: wp-admin/includes/mu.php:960
 #: wp-admin/plugins.php:451
-#, fuzzy
 msgid "Visit plugin site"
-msgstr "Visitar a página de plugins"
+msgstr "Visitar o site do plugin"
 
 #: wp-admin/includes/mu.php:974
 msgid "Plugins that are enabled site wide can only be disabled by a site administrator."
@@ -8164,7 +8158,7 @@ msgstr "Pesquisar"
 
 #: wp-admin/includes/plugin-install.php:130
 msgid "Search for plugins by keyword, author, or tag."
-msgstr ""
+msgstr "Pesquisar por plugins por palavras-chave, autor ou tag."
 
 #: wp-admin/includes/plugin-install.php:133
 msgid "Popular tags"
@@ -8199,9 +8193,8 @@ msgstr "Etiqueta"
 #: wp-admin/includes/plugin-install.php:169
 #: wp-admin/plugins.php:498
 #: wp-admin/plugins.php:500
-#, fuzzy
 msgid "Search Plugins"
-msgstr "Plugins Desactivados"
+msgstr "Pesquisar plugins"
 
 #: wp-admin/includes/plugin-install.php:212
 msgid "Install a plugin in .zip format"
@@ -8968,7 +8961,7 @@ msgstr "Tamanho máximo: %s"
 
 #: wp-admin/includes/template.php:2802
 msgid "Upload file and import"
-msgstr "Fazer upload de arquivo e importar"
+msgstr "Fazer envio de arquivo e importar"
 
 #: wp-admin/includes/template.php:2928
 msgid "Click to toggle"
@@ -10120,7 +10113,6 @@ msgstr "Reter um comentário na fila se este contiver %s ou mais links. (Uma car
 
 #  conforme discutido em http://www.wordpress-br.com/forum/topic.php?id=39&replies=29#post-314
 #: wp-admin/options-discussion.php:131
-#, fuzzy
 msgid "When a comment contains any of these words in its content, name, URL, e-mail, or IP, it will be held in the <a href=\"edit-comments.php?comment_status=moderated\">moderation queue</a>. One word or IP per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
 msgstr "Quando um comentário contiver qualquer uma destas palavras no respectivo conteúdo, nome, URL, endereço de email ou IP, o mesmo será retido na <a href=\"edit-comments.php?comment_status=moderated\">fila de moderação</a>. Uma palavra ou IP por linha. Haverá correspondência parcial de palavras, de modo que \"press\" irá coincidir com \"WordPress\". "
 
@@ -10131,7 +10123,6 @@ msgstr "Lista Negra de Comentários"
 
 #  conforme discutido em http://www.wordpress-br.com/forum/topic.php?id=39&replies=29#post-314
 #: wp-admin/options-discussion.php:140
-#, fuzzy
 msgid "When a comment contains any of these words in its content, name, URL, e-mail, or IP, it will be marked as spam. One word or IP per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
 msgstr "Quando um comentário contiver qualquer uma destas palavras no respectivo conteúdo, nome, URL, endereço de email ou IP, o mesmo será assinalado como spam. Uma palavra ou IP por linha. Haverá correspondência parcial de palavras, de modo que \"press\" irá coincidir com \"WordPress\". "
 
@@ -10191,7 +10182,7 @@ msgstr "Para usuários sem um avatar próprio personalizado, você pode ou exibi
 
 #: wp-admin/options-discussion.php:190
 msgid "Mystery Man"
-msgstr "Mystery Man"
+msgstr "Homem Misterioso"
 
 #: wp-admin/options-discussion.php:191
 msgid "Blank"
@@ -10281,29 +10272,29 @@ msgstr "UTC %1$s é <code>%2$s</code>"
 
 #: wp-admin/options-general.php:136
 msgid "Choose a city in the same timezone as you."
-msgstr ""
+msgstr "Escolha uma cidade no mesmo fuso horário que você"
 
 #: wp-admin/options-general.php:142
 msgid "This timezone is currently in daylight savings time."
-msgstr ""
+msgstr "Este fuso horário está em horário de verão."
 
 #: wp-admin/options-general.php:143
 msgid "This timezone is currently in standard time."
-msgstr ""
+msgstr "Este fuso horário está em horário normal."
 
 #: wp-admin/options-general.php:159
 #, php-format
 msgid "Daylight savings time begins on: <code>%s</code>."
-msgstr ""
+msgstr "Horário de verão começa em: <code>%s</code>."
 
 #: wp-admin/options-general.php:160
 #, php-format
 msgid "Standard time begins  on: <code>%s</code>."
-msgstr ""
+msgstr "Horário normal começa em: <code>%s</code>."
 
 #: wp-admin/options-general.php:163
 msgid "This timezone does not observe daylight savings time."
-msgstr ""
+msgstr "Este fuso horário não observa o horário de verão."
 
 #: wp-admin/options-general.php:174
 #: wp-admin/options-general.php:176
@@ -10317,7 +10308,6 @@ msgid "Custom:"
 msgstr "Personalizado:"
 
 #: wp-admin/options-general.php:201
-#, fuzzy
 msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>. Click &#8220;Save Changes&#8221; to update sample output."
 msgstr "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentação sobre formatos de datas</a>. Clique em \"Salvar alterações\" para atualizar o exemplo."
 
@@ -10485,9 +10475,8 @@ msgid "Blog Visibility"
 msgstr "Visibilidade do Blog"
 
 #: wp-admin/options-privacy.php:30
-#, fuzzy
 msgid "I would like my blog to be visible to everyone, including search engines (like Google, Sphere, Technorati) and archivers"
-msgstr "Quero que o meu blog seja visível para todos, incluindo mecanismos de busca (por exemplo, Google, Sphere, Technorati) e arquivadores."
+msgstr "Quero que o meu site esteja visível para todos, incluindo mecanismos de busca (por exemplo, Google, Sphere, Technorati) e arquivadores."
 
 #: wp-admin/options-privacy.php:32
 msgid "I would like to block search engines, but allow normal visitors"
@@ -11136,7 +11125,7 @@ msgstr "O tema ativo está quebrado. Revertendo para o tema padrão."
 #: wp-admin/themes.php:75
 #, php-format
 msgid "New theme activated. This theme supports widgets, please visit the <a href=\"%s\">widgets settings page</a> to configure them."
-msgstr ""
+msgstr "Novo tema ativado. Este tema suporta widgets, por favor visite a <a href=\"%s\">página de configurações dos widgets</a> para configurá-los."
 
 #: wp-admin/themes.php:77
 #, php-format
@@ -11688,7 +11677,7 @@ msgstr "Atalhos de teclado"
 
 #: wp-admin/user-edit.php:186
 msgid "Enable keyboard shortcuts for comment moderation."
-msgstr ""
+msgstr "Ativar atalhos de teclado para moderação de comentários."
 
 #: wp-admin/user-edit.php:186
 #, fuzzy
@@ -11729,7 +11718,6 @@ msgid "(required)"
 msgstr "(obrigatório)"
 
 #: wp-admin/user-edit.php:244
-#, fuzzy
 msgid "Display name publicly as"
 msgstr "Exibir o nome publicamente como"
 
@@ -11788,9 +11776,8 @@ msgid "Strength indicator"
 msgstr "Indicador de força"
 
 #: wp-admin/user-edit.php:320
-#, fuzzy
 msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
-msgstr "Dica: Sua senha deve ter pelo menos sete caracteres. Para torná-la mais segura, use letras maiúsculas e minúsculas, números e símbolos como ! \" ? $ % ^ )."
+msgstr "Dica: Sua senha deve ter pelo menos sete caracteres. Para torná-la mais segura, use letras maiúsculas e minúsculas, números e símbolos como ! \" ? $ % ^ &amp; )."
 
 #: wp-admin/user-edit.php:338
 msgid "Additional Capabilities"
@@ -11995,12 +11982,12 @@ msgid "Other users have been deleted."
 msgstr "Outros usuários foram excluídos."
 
 #: wp-admin/users.php:268
-#, fuzzy, php-format
+#, php-format
 msgctxt "users"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
-msgstr[0] "Tudo <span class=\"count\">(%s)</span>"
-msgstr[1] "Tudo <span class=\"count\">(%s)</span>"
+msgstr[0] "Todos <span class=\"count\">(%s)</span>"
+msgstr[1] "Todos <span class=\"count\">(%s)</span>"
 
 #. translators: User role name with count
 #: wp-admin/users.php:282
@@ -12674,9 +12661,8 @@ msgid "Blog upload space"
 msgstr "Espaço de upload do site"
 
 #: wp-admin/wpmu-options.php:174
-#, fuzzy
 msgid "Upload File Types"
-msgstr "Tamanho máximo de upload de arquivo"
+msgstr "Tipos de arquivos permitidos para envio"
 
 #: wp-admin/wpmu-options.php:179
 msgid "Max upload file size"
@@ -16339,10 +16325,9 @@ msgstr "Fraca"
 
 #. translators: password strength
 #: wp-includes/script-loader.php:235
-#, fuzzy
 msgctxt "password strength"
 msgid "Medium"
-msgstr "Médio"
+msgstr "Média"
 
 #: wp-includes/script-loader.php:236
 msgid "Strong"
@@ -17169,7 +17154,7 @@ msgstr "Privacidade:"
 
 #: wp-signup.php:94
 msgid "I would like my blog to appear in search engines like Google and Technorati, and in public listings around this site."
-msgstr "Permito que o meu site fique visível para mecanismos de busca como o Google e o Technorati, e nas listas públicas deste portal."
+msgstr "Quero que o meu site fique visível para mecanismos de busca como o Google e o Technorati, e nas listas públicas deste portal."
 
 #: wp-signup.php:125
 msgid "(Must be at least 4 characters, letters and numbers only.)"
