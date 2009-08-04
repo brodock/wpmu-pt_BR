@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WordPress 2.8.2\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2009-07-21 13:11+0000\n"
-"PO-Revision-Date: 2009-08-04 17:10-0300\n"
+"PO-Revision-Date: 2009-08-04 18:09-0300\n"
 "Last-Translator: Gabriel Mazetto <gabriel@npd.ufsc.br>\n"
 "Language-Team: NPD-UFSC <gabriel@npd.ufsc.br>\n"
 "MIME-Version: 1.0\n"
@@ -6802,11 +6802,10 @@ msgstr[0] "Página"
 msgstr[1] "Páginas"
 
 #: wp-admin/includes/dashboard.php:262
-#, fuzzy
 msgid "Approved|Right Now"
 msgid_plural "Approved"
-msgstr[0] "%s desligou-se"
-msgstr[1] "Agora"
+msgstr[0] "Aprovado"
+msgstr[1] "Aprovados"
 
 #: wp-admin/includes/dashboard.php:274
 msgid "Category"
@@ -6979,9 +6978,8 @@ msgstr "Carregando…"
 #: wp-admin/includes/dashboard.php:693
 #: wp-admin/includes/dashboard.php:715
 #: wp-admin/includes/dashboard.php:750
-#, fuzzy
 msgid "This widget requires JavaScript."
-msgstr "Este frontend necessita de um tty controlador."
+msgstr "Este widget requer JavaScript."
 
 #: wp-admin/includes/dashboard.php:624
 #: wp-admin/includes/dashboard.php:737
@@ -7530,9 +7528,8 @@ msgid "Choose files to upload"
 msgstr "Escolher arquivos para fazer upload"
 
 #: wp-admin/includes/media.php:1361
-#, fuzzy
 msgid "Cancel Upload"
-msgstr "O upload falhou."
+msgstr "Cancelar envio"
 
 #: wp-admin/includes/media.php:1364
 msgid "After a file has been uploaded, you can add titles and descriptions."
@@ -7578,7 +7575,6 @@ msgid "Descending"
 msgstr "Descendente"
 
 #: wp-admin/includes/media.php:1592
-#, fuzzy
 msgid "Clear"
 msgstr "Limpar"
 
@@ -7617,9 +7613,8 @@ msgid "Date/Time"
 msgstr "Data/Hora"
 
 #: wp-admin/includes/media.php:1644
-#, fuzzy
 msgid "Random"
-msgstr "Desfazer"
+msgstr "Aleatório"
 
 #: wp-admin/includes/media.php:1652
 msgid "Order:"
@@ -8666,10 +8661,9 @@ msgstr "Arquivo"
 
 #. translators: column name
 #: wp-admin/includes/template.php:776
-#, fuzzy
 msgctxt "column name"
 msgid "Attached to"
-msgstr "%s (devido a %s) "
+msgstr "Anexo a"
 
 #. translators: column name
 #: wp-admin/includes/template.php:780
@@ -11575,16 +11569,16 @@ msgid "Error saving media attachment."
 msgstr "Erro ao salvar o anexo de mídia."
 
 #: wp-admin/upload.php:190
-#, fuzzy, php-format
+#, php-format
 msgctxt "uploaded files"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
-msgstr[0] "Tudo <span class=\"count\">(%s)</span>"
-msgstr[1] "Tudo <span class=\"count\">(%s)</span>"
+msgstr[0] "Todas <span class=\"count\">(%s)</span>"
+msgstr[1] "Todas <span class=\"count\">(%s)</span>"
 
 #: wp-admin/upload.php:203
 msgid "Unattached"
-msgstr "Desanexado"
+msgstr "Desanexada"
 
 #: wp-admin/upload.php:247
 #: wp-admin/upload.php:403
@@ -11598,7 +11592,6 @@ msgstr "Vasculhar anexos perdidos"
 #. translators: column name in media
 #: wp-admin/upload.php:304
 #: wp-admin/upload.php:314
-#, fuzzy
 msgctxt "media column name"
 msgid "Media"
 msgstr "Mídia"
@@ -11606,7 +11599,6 @@ msgstr "Mídia"
 #. translators: column name in media
 #: wp-admin/upload.php:305
 #: wp-admin/upload.php:315
-#, fuzzy
 msgctxt "media column name"
 msgid "Author"
 msgstr "Autor"
