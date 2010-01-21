@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 2.8.5.2\n"
+"Project-Id-Version: WordPress 2.9.1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-11-04 16:00-0300\n"
-"PO-Revision-Date: 2009-11-04 16:40-0300\n"
-"Last-Translator: Gabriel Mazetto <gabriel@npd.ufsc.br>\n"
+"PO-Revision-Date: 2010-01-21 13:03-0300\n"
+"Last-Translator: Gabriel Mazetto <brodock@gmail.com>\n"
 "Language-Team: NPD-UFSC <gabriel@npd.ufsc.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Poedit-Language: Portuguese\n"
 "X-Poedit-Country: BRAZIL\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Basepath: /var/www/wpmu-svn/\n"
+"X-Poedit-Basepath: /Users/brodock/Projetos/PHP/wpmu-svn\n"
 "X-Poedit-KeywordsList: __;_e;_c;_x:2c,1;__ngettext:1,2;_n:1,2;_nc:1,2;__ngettext_noop:1,2;_n_noop:1,2;esc_attr_e;esc_attr__\n"
 "X-Poedit-SearchPath-0: .\n"
 
@@ -360,7 +360,7 @@ msgstr "Lembrar"
 #: wp-mail.php:26
 #, fuzzy
 msgid "There doesn&#8217;t seem to be any new mail."
-msgstr "Parece que não há nenhuma mensagem nova."
+msgstr "Parece não haver nenhum email novo."
 
 #: wp-mail.php:92
 #, php-format
@@ -882,7 +882,7 @@ msgstr "Não existe link para nós?"
 #: xmlrpc.php:3401
 #, fuzzy
 msgid "The specified target URL cannot be used as a target. It either doesn&#8217;t exist, or it is not a pingback-enabled resource."
-msgstr "O URL de destino especificado não pode ser usado como destino. Ele não existe ou não permite pingbacks."
+msgstr "O URL de destino especificado não pode ser usado. Ou ele não existe ou não é uma fonte com pingback ativado."
 
 #: xmlrpc.php:3289
 msgid "The source URL and the target URL cannot both point to the same resource."
@@ -934,7 +934,7 @@ msgstr "Não é possível excluir a categoria <strong>%s</strong>: é a categori
 #: wp-admin/admin-ajax.php:326
 #, fuzzy, php-format
 msgid "Comment %d does not exist"
-msgstr "O dispositivo \"%s\" não existe."
+msgstr "O comentário %d não existe"
 
 #: wp-admin/admin-ajax.php:445
 #: wp-admin/admin-ajax.php:498
@@ -973,8 +973,9 @@ msgstr "Desculpe, você precisa fazer login para responder um comentário."
 
 #: wp-admin/admin-ajax.php:795
 #: wp-admin/admin-ajax.php:800
+#, fuzzy
 msgid "Please provide a custom field value."
-msgstr ""
+msgstr "Forneça um valor para o campo personalizado."
 
 #: wp-admin/admin-ajax.php:863
 #, php-format
@@ -1078,7 +1079,7 @@ msgstr "d/m/Y"
 #: wp-admin/admin-ajax.php:1300
 #, fuzzy
 msgid "An error has occured. Please reload the page and try again."
-msgstr "Erro ao fazer upload. Tente mais tarde."
+msgstr "Ocorreu um erro. Recarregue a página e tente novamente."
 
 #: wp-admin/admin-footer.php:23
 msgid "Thank you for creating with <a href=\"http://mu.wordpress.org/\">WordPress MU</a>"
@@ -1557,12 +1558,12 @@ msgstr "Pegar Link Permanente"
 #: wp-admin/edit-attachment-rows.php:207
 #, fuzzy
 msgid "No media attachments found."
-msgstr "Não foram encontrados pacotes coincidindo com %s.\n"
+msgstr "Não foram encontrados anexos de mídia."
 
 #: wp-admin/edit-category-form.php:14
 #, fuzzy
 msgid "You do not have sufficient permissions to edit categories for this blog."
-msgstr "Sem permissões suficientes para editar plugins deste blog."
+msgstr "Sem permissões suficientes para editar categorias deste blog."
 
 #: wp-admin/edit-category-form.php:76
 #: wp-admin/edit-link-category-form.php:27
@@ -1684,7 +1685,7 @@ msgstr "Nenhum resultado encontrado."
 #: wp-admin/edit-form-advanced.php:23
 #, fuzzy, php-format
 msgid "Post updated. <a href=\"%s\">View post</a>"
-msgstr "Artigo atualizado. <a href=\"%s\">Ver artigo</a>"
+msgstr "Post atualizado. <a href=\"%s\">Ver post</a>"
 
 #: wp-admin/edit-form-advanced.php:24
 #: wp-admin/edit-page-form.php:26
@@ -2159,7 +2160,7 @@ msgstr "Descrição (opcional)"
 #: wp-admin/edit-link-category-form.php:14
 #, fuzzy
 msgid "You do not have sufficient permissions to edit link categories for this blog."
-msgstr "Sem permissões suficientes para editar temas deste blog."
+msgstr "Sem permissões suficientes para editar categorias de links deste blog."
 
 #: wp-admin/edit-link-category-form.php:26
 msgid "Edit Link Category"
@@ -2399,7 +2400,7 @@ msgstr "O texto acima será mostrado quando alguém passar o mouse sobre o link 
 #: wp-admin/edit-page-form.php:25
 #, fuzzy, php-format
 msgid "Page updated. <a href=\"%s\">View page</a>"
-msgstr "Página publicada. <a href=\"%s\">Ver página</a>"
+msgstr "Página atualizada. <a href=\"%s\">Ver página</a>"
 
 #: wp-admin/edit-page-form.php:28
 #, php-format
@@ -2649,7 +2650,7 @@ msgstr "Submetido"
 #: wp-admin/edit-tag-form.php:14
 #, fuzzy
 msgid "You do not have sufficient permissions to edit tags for this blog."
-msgstr "Sem permissões suficientes para editar plugins deste blog."
+msgstr "Sem permissões suficientes para editar tags deste blog."
 
 #: wp-admin/edit-tag-form.php:17
 msgid "A tag was not selected for editing."
@@ -2788,7 +2789,7 @@ msgstr "Nenhum artigo encontrado"
 #: wp-admin/export.php:13
 #, fuzzy
 msgid "You do not have sufficient permissions to export the content of this blog."
-msgstr "Sem permissões suficientes para excluir plugins neste blog."
+msgstr "Sem permissões suficientes para exportar conteúdo deste blog."
 
 #: wp-admin/export.php:17
 msgid "Export"
@@ -2825,7 +2826,7 @@ msgstr "Download do arquivo de exportação"
 #: wp-admin/import.php:13
 #, fuzzy
 msgid "You do not have sufficient permissions to import content in this blog."
-msgstr "Sem permissões suficientes para editar os links deste blog."
+msgstr "Sem permissões suficientes para importar conteúdo deste blog."
 
 #: wp-admin/import.php:23
 msgid "If you have posts or comments in another system, WordPress can import those into this blog. To get started, choose a system to import from below:"
@@ -2846,7 +2847,7 @@ msgstr "WordPress &rsaquo; Instalação"
 #: wp-admin/install.php:60
 #, fuzzy, php-format
 msgid "<strong>ERROR</strong>: %s"
-msgstr "<strong>ERRO</strong>: Senha incorreta."
+msgstr "<strong>ERRO</strong>: %s"
 
 #: wp-admin/install.php:69
 msgid "Your E-mail"
@@ -2892,17 +2893,17 @@ msgstr "Informação necessária"
 #: wp-admin/install.php:95
 #, fuzzy
 msgid "Please provide the following information.  Don&#8217;t worry, you can always change these settings later."
-msgstr "Por favor insira as seguintes informações. Não se preocupe, você pode alterar estas configurações mais tarde."
+msgstr "Insira as seguintes informações. Não se preocupe, você pode alterar estas configurações mais tarde."
 
 #: wp-admin/install.php:115
 #, fuzzy
 msgid "you must provide an e-mail address."
-msgstr "<strong>ERRO</strong>: você deve indicar um endereço de email."
+msgstr "você deve indicar um endereço de email."
 
 #: wp-admin/install.php:119
 #, fuzzy
 msgid "that isn&#8217;t a valid e-mail address.  E-mail addresses look like: <code>username@example.com</code>"
-msgstr "<strong>ERRO</strong>: não foi digitado um endereço de email válido. Os emails parecem como <code>usuario@exemplo.com</code>"
+msgstr "esse não é um endereço de email válido. Os emails parecem com <code>usuario@exemplo.com</code>"
 
 #: wp-admin/install.php:129
 msgid "Success!"
@@ -2915,7 +2916,7 @@ msgstr "O WordPress está instalado. Estava esperando mais passos? Desculpe desa
 #: wp-admin/link-add.php:13
 #, fuzzy
 msgid "You do not have sufficient permissions to add links to this blog."
-msgstr "Sem permissões suficientes para editar os links deste blog."
+msgstr "Sem permissões suficientes para adicionar links neste blog."
 
 #: wp-admin/link-add.php:15
 msgid "Add New Link"
@@ -3161,7 +3162,7 @@ msgstr "Sem permissões suficientes para acessar esta página."
 #: wp-admin/options-writing.php:13
 #, fuzzy
 msgid "You do not have sufficient permissions to manage options for this blog."
-msgstr "Sem permissões suficientes para excluir plugins neste blog."
+msgstr "Sem permissões suficientes para gerenciar opções deste blog."
 
 #: wp-admin/options-discussion.php:15
 msgid "Discussion Settings"
@@ -3202,8 +3203,9 @@ msgid "Users must be registered and logged in to comment"
 msgstr "Os usuários devem estar registrados e ter feito login para poderem publicar comentários"
 
 #: wp-admin/options-discussion.php:55
+#, fuzzy
 msgid " (Signup has been disabled. Only members of this site can comment)"
-msgstr ""
+msgstr "(O cadastro foi desativado. Apenas os membros deste site podem fazer comentários)"
 
 #: wp-admin/options-discussion.php:61
 #, php-format
@@ -3432,7 +3434,7 @@ msgstr "Infelizmente, você tem que atualizar este valor manualmente para o Hor�
 #: wp-admin/options-general.php:136
 #, fuzzy, php-format
 msgid "Local time is <code>%1$s</code>"
-msgstr "UTC %1$s é <code>%2$s</code>"
+msgstr "A hora local é <code>%1$s</code>"
 
 #: wp-admin/options-general.php:139
 msgid "Choose a city in the same timezone as you."
@@ -3548,16 +3550,17 @@ msgstr "Configuração de Links Permanentes"
 #: wp-admin/options-permalink.php:140
 #, fuzzy
 msgid "You should update your web.config now"
-msgstr "Você deve atualizar o seu arquivo .htaccess agora."
+msgstr "Você deve atualizar o seu web.config agora"
 
 #: wp-admin/options-permalink.php:142
+#, fuzzy
 msgid "Permalink structure updated. Remove write access on web.config file now!"
-msgstr ""
+msgstr "A estrutura de permalinks foi atualizada. Remova a permissão de gravação do arquivo web.config agora!"
 
 #: wp-admin/options-permalink.php:144
 #, fuzzy
 msgid "Permalink structure updated"
-msgstr "Estrutura de links permanentes atualizada."
+msgstr "Estrutura de links permanentes atualizada"
 
 #: wp-admin/options-permalink.php:147
 msgid "You should update your .htaccess now."
@@ -3616,16 +3619,19 @@ msgid "Tag base"
 msgstr "Base das tags"
 
 #: wp-admin/options-permalink.php:240
+#, fuzzy
 msgid "If your <code>web.config</code> file were <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">writable</a>, we could do this automatically, but it isn&#8217;t so this is the url rewrite rule you should have in your <code>web.config</code> file. Click in the field and press <kbd>CTRL + a</kbd> to select all. Then insert this rule inside of the <code>/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;</code> element in <code>web.config</code> file."
-msgstr ""
+msgstr "Se o seu arquivo <code>web.config</code> fosse <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">gravável</a>, poderíamos fazer isto automaticamente. Como não é, aqui estão as regras de gravação que devem estar presentes no arquivo <code>web.config</code>. Clique dentro do campo e pressione <kbd>CTRL + a</kbd> para selecionar tudo. Em seguida insira essa regra dentro do elemento <code>/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;</code> no arquivo <code>web.config</code>."
 
 #: wp-admin/options-permalink.php:245
+#, fuzzy
 msgid "If you temporarily make your <code>web.config</code> file writable for us to generate rewrite rules automatically, do not forget to revert the permissions after rule has been saved."
-msgstr ""
+msgstr "Se você temporariamente deu permissão de gravação para seu arquivo <code>web.config</code> para que as regras de gravação sejam geradas automaticamente, não se esqueça de reverter as permissões depois que as regras forem salvas."
 
 #: wp-admin/options-permalink.php:249
+#, fuzzy
 msgid "If your <code>.htaccess</code> file were <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">writable</a>, we could do this automatically, but it isn&#8217;t so these are the mod_rewrite rules you should have in your <code>.htaccess</code> file. Click in the field and press <kbd>CTRL + a</kbd> to select all."
-msgstr ""
+msgstr "Se o seu arquivo <code>.htaccess</code> fosse <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">gravável</a>, poderíamos fazer isto automaticamente. Como não é, aqui estão as regras de mod_rewrite que devem estar presentes no arquivo <code>.htaccess</code>. Clique no campo e pressione <kbd>CTRL + a</kbd> para selecionar tudo."
 
 #: wp-admin/options-privacy.php:15
 msgid "Privacy Settings"
@@ -3812,17 +3818,18 @@ msgstr "Sem permissões suficientes para editar plugins deste blog."
 #: wp-admin/plugin-editor.php:91
 #, fuzzy
 msgid "No such file exists! Double check the name and try again."
-msgstr "Opa, não existe tal arquivo! Confira o nome e tente novamente."
+msgstr "Não existe tal arquivo! Confira o nome e tente novamente."
 
 #: wp-admin/plugin-editor.php:98
+#, fuzzy
 msgid "Files of this type are not editable."
-msgstr ""
+msgstr "Arquivos deste tipo não são editáveis."
 
 #: wp-admin/plugin-editor.php:113
 #: wp-admin/theme-editor.php:93
 #, fuzzy
 msgid "Function Name..."
-msgstr "Nome do plugin:"
+msgstr "Nome da função..."
 
 #: wp-admin/plugin-editor.php:126
 #: wp-admin/theme-editor.php:106
@@ -3856,7 +3863,7 @@ msgstr "Navegando <strong>%s</strong> (inativo)"
 #: wp-admin/plugin-editor.php:157
 #, fuzzy
 msgid "Select plugin to edit:"
-msgstr "Selecionar um tema para editar:"
+msgstr "Selecionar um plugin para editar:"
 
 #: wp-admin/plugin-editor.php:172
 #: wp-admin/theme-editor.php:134
@@ -3871,7 +3878,7 @@ msgstr "Arquivos de Plugins"
 #: wp-admin/theme-editor.php:203
 #, fuzzy
 msgid "Documentation:"
-msgstr "&Documentação do GNU gettext"
+msgstr "Documentação:"
 
 #: wp-admin/plugin-editor.php:207
 #: wp-admin/theme-editor.php:205
@@ -3941,20 +3948,20 @@ msgstr "Página desativada pelo administrador"
 #: wp-admin/plugins.php:20
 #, fuzzy
 msgid "You do not have sufficient permissions to manage plugins for this blog."
-msgstr "Sem permissões suficientes para excluir plugins neste blog."
+msgstr "Sem permissões suficientes para gerenciar plugins neste blog."
 
 #: wp-admin/plugins.php:51
 #: wp-admin/plugins.php:70
 #: wp-admin/plugins.php:98
 #, fuzzy
 msgid "You do not have sufficient permissions to activate plugins for this blog."
-msgstr "Sem permissões suficientes para excluir plugins neste blog."
+msgstr "Sem permissões suficientes para ativar plugins neste blog."
 
 #: wp-admin/plugins.php:114
 #: wp-admin/plugins.php:124
 #, fuzzy
 msgid "You do not have sufficient permissions to deactivate plugins for this blog."
-msgstr "Sem permissões suficientes para excluir plugins neste blog."
+msgstr "Sem permissões suficientes para desativar plugins neste blog."
 
 #: wp-admin/plugins.php:147
 msgid "You do not have sufficient permissions to delete plugins for this blog."
@@ -3971,7 +3978,7 @@ msgstr "Excluir os plugins selecionados removerá o(s) seguinte(s) plugin(s) e s
 #: wp-admin/plugins.php:191
 #, fuzzy, php-format
 msgid "<strong>%s</strong> by <em>%s</em>"
-msgstr "Importando o anexo <em>%s</em>..."
+msgstr "<strong>%s</strong> por <em>%s</em>"
 
 #: wp-admin/plugins.php:194
 msgid "Are you sure you wish to delete these files?"
@@ -4001,7 +4008,7 @@ msgstr "Se algo não correr bem com um plugin e você não conseguir utilizar o 
 #: wp-admin/plugins.php:241
 #, fuzzy, php-format
 msgid "You can find additional plugins for your site by using the new <a href=\"%1$s\">Plugin Browser/Installer</a> functionality or by browsing the <a href=\"http://wordpress.org/extend/plugins/\">WordPress Plugin Directory</a> directly and installing manually.  To <em>manually</em> install a plugin you generally just need to upload the plugin file into your <code>%2$s</code> directory.  Once a plugin has been installed, you may activate it here."
-msgstr "Você pode encontrar mais plugins para o seu site usando a nova funcionalidade <a href=\"plugin-install.php\">Navegador de Plugin/Instalador</a>, ou navegando diretamente pelo <a href=\"http://wordpress.org/extend/plugins/\">diretório de plugins do WordPress</a> e instalando manualmente."
+msgstr "Você pode encontrar mais plugins para o seu site usando a nova funcionalidade <a href=\"%1$s\">Navegador de Plugin/Instalador</a>, ou navegando diretamente pelo <a href=\"http://wordpress.org/extend/plugins/\">diretório de plugins do WordPress</a> e instalando manualmente. Para instalar <em>manualmente</em> um plugin geralmente é preciso fazer o upload do arquivo do plugin para o diretório <code>%2$s</code>. Uma vez instalado, você pode ativá-lo aqui."
 
 #: wp-admin/plugins.php:246
 msgid "Manage Plugins"
@@ -4136,7 +4143,7 @@ msgstr[1] "Atualizações disponiveis <span class=\"count\">(%s)</span>"
 #, fuzzy, php-format
 msgid "Search Results <span class=\"count\">(%s)</span>"
 msgid_plural "Search Results <span class=\"count\">(%s)</span>"
-msgstr[0] "Rascunho <span class=\"count\">(%s)</span>"
+msgstr[0] "Resultado da pesquisa <span class=\"count\">(%s)</span>"
 msgstr[1] "Agendados <span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:586
@@ -4161,7 +4168,7 @@ msgstr ""
 #: wp-admin/post.php:118
 #, fuzzy
 msgid "You attempted to edit a post that doesn&#8217;t exist. Perhaps it was deleted?"
-msgstr "Você tentou editar um artigo que não existe. Talvez ele tenha sido excluído?"
+msgstr "Você tentou editar um post que não existe. Talvez ele tenha sido excluído?"
 
 #: wp-admin/post.php:143
 msgid "Edit Post"
@@ -4219,7 +4226,7 @@ msgstr "Tags de artigos"
 #: wp-admin/press-this.php:508
 #, fuzzy
 msgid "Choose from the most used tags in Post Tags"
-msgstr "Escolher entre as tags mais populares"
+msgstr "Escolher entre as tags mais usadas em tags de posts"
 
 #: wp-admin/press-this.php:516
 msgid "Close Window"
@@ -4338,7 +4345,7 @@ msgstr "Opa, não existe tal arquivo! Confira o nome e tente novamente."
 #: wp-admin/theme-install.php:13
 #, fuzzy
 msgid "You do not have sufficient permissions to install themes on this blog."
-msgstr "Sem permissões suficientes para instalar plugins nesse blog."
+msgstr "Sem permissões suficientes para instalar temas neste blog."
 
 #: wp-admin/theme-install.php:17
 msgid "Install Themes"
@@ -4351,16 +4358,17 @@ msgstr "Gerenciar temas"
 #: wp-admin/themes.php:57
 #, fuzzy
 msgid "Themes give your WordPress style. Once a theme is installed, you may preview it, activate it or deactivate it here."
-msgstr "Os plugins aumentam ou melhoram a funcionalidade do WordPress. Após ter instalado um plugin, você pode ativá-lo ou desativá-lo aqui."
+msgstr "Os temas dão estilo para o seu WordPress. Após ter instalado um tema, você pode ativá-lo ou desativá-lo aqui."
 
 #: wp-admin/themes.php:59
 #, fuzzy, php-format
 msgid "You can find additional themes for your site by using the new <a href=\"%1$s\">Theme Browser/Installer</a> functionality or by browsing the <a href=\"http://wordpress.org/extend/themes/\">WordPress Theme Directory</a> directly and installing manually.  To install a theme <em>manually</em>, <a href=\"%2$s\">upload its ZIP archive with the new uploader</a> or copy its folder via FTP into your <code>wp-content/themes</code> directory."
-msgstr "Você pode encontrar mais plugins para o seu site usando a nova funcionalidade <a href=\"plugin-install.php\">Navegador de Plugin/Instalador</a>, ou navegando diretamente pelo <a href=\"http://wordpress.org/extend/plugins/\">diretório de plugins do WordPress</a> e instalando manualmente."
+msgstr "Você pode encontrar mais temas para o seu site usando a nova funcionalidade <a href=\"%1$s\">Navegador de Tema/Instalador</a>, ou navegando diretamente pelo <a href=\"http://wordpress.org/extend/themes/\">diretório de temas do WordPress</a> e instalando manualmente. Para instalar um tema <em>manualmente</em>, <a href=\"%2$s\">faça o upload do arquivo zip do tema com a nova ferramenta de uploads</a> ou copie a pasta dele via FTP dentro de seu diretório <code>wp-content/themes</code>."
 
 #: wp-admin/themes.php:60
+#, fuzzy
 msgid "Once a theme is uploaded, you should see it on this page."
-msgstr ""
+msgstr "Quando um tema é enviado, você deve vê-lo nesta página."
 
 #: wp-admin/themes.php:70
 msgid "Administrator: new themes must be activated in the <a href=\"wpmu-themes.php\">Themes Admin</a> page before they appear here."
@@ -4383,11 +4391,12 @@ msgstr "Novo tema ativado. <a href=\"%s\">Visite o site</a>"
 #: wp-admin/themes.php:83
 #, fuzzy
 msgid "Theme deleted."
-msgstr "%s comentário excluído"
+msgstr "Tema excluído."
 
 #: wp-admin/themes.php:144
+#, fuzzy
 msgid "Upgrading this theme will lose any customizations you have made.  'Cancel' to stop, 'OK' to upgrade."
-msgstr ""
+msgstr "Ao atualizar este tema você perderá todas as personalizações feitas. 'Cancelar' para parar, 'OK' para atualizar."
 
 #: wp-admin/themes.php:147
 #, php-format
@@ -4397,12 +4406,12 @@ msgstr "Há uma nova versão de %1$s disponível. <a href=\"%2$s\">Faça o downl
 #: wp-admin/themes.php:149
 #, fuzzy, php-format
 msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a> <em>automatic upgrade unavailable for this theme</em>."
-msgstr "<p>Há uma nova versão de %1$s disponível. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Visualizar detalhes da versão %3$s </a> <em>esse tema não tem atualização automática</em>.</p>"
+msgstr "Há uma nova versão de %1$s disponível. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Ver detalhes da versão %3$s </a>. <em>Esse tema não tem atualização automática</em>."
 
 #: wp-admin/themes.php:151
 #, fuzzy, php-format
 msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a> or <a href=\"%4$s\" %5$s >upgrade automatically</a>."
-msgstr "<p>Há uma nova versão de %1$s disponível. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Visualizar detalhes da versão %3$s </a> ou <a href=\"%4$s\">atualize automaticamente</a>.</p>"
+msgstr "Há uma nova versão de %1$s disponível. <a href=\"%2$s\">Ver detalhes da versão %3$s </a> ou <a href=\"%4$s\" %5$s>atualize automaticamente</a>."
 
 #: wp-admin/themes.php:161
 msgid "Current Theme"
@@ -4416,19 +4425,19 @@ msgstr "Pré-visualização do tema atual"
 #: wp-admin/themes.php:260
 #, fuzzy, php-format
 msgid "%1$s %2$s by %3$s"
-msgstr "%s por %s"
+msgstr "%1$s %2$s por %3$s"
 
 #: wp-admin/themes.php:171
 #: wp-admin/themes.php:264
-#, php-format
+#, fuzzy, php-format
 msgid "The template files are located in <code>%2$s</code>.  The stylesheet files are located in <code>%3$s</code>.  <strong>%4$s</strong> uses templates from <strong>%5$s</strong>.  Changes made to the templates will affect both themes."
-msgstr ""
+msgstr "Os arquivos dos modelos estão localizados em <code>%2$s</code>. Os arquivos de folha de estilos estão localizados em <code>%3$s</code>.  <strong>%4$s</strong> utiliza modelos de <strong>%5$s</strong>. Alterações efetuadas nos modelos irão afetar ambos os temas."
 
 #: wp-admin/themes.php:173
 #: wp-admin/themes.php:266
-#, php-format
+#, fuzzy, php-format
 msgid "All of this theme&#8217;s files are located in <code>%2$s</code>."
-msgstr ""
+msgstr "Todos os arquivos deste tema estão localizados em <code>%2$s</code>."
 
 #: wp-admin/themes.php:183
 msgid "Available Themes"
@@ -4437,17 +4446,17 @@ msgstr "Temas disponíveis"
 #: wp-admin/themes.php:239
 #, fuzzy, php-format
 msgid "Preview of &#8220;%s&#8221;"
-msgstr "para &ldquo;%s&rdquo;"
+msgstr "Visualização de &#8220;%s&#8221;"
 
 #: wp-admin/themes.php:243
 #, fuzzy, php-format
 msgid "Activate &#8220;%s&#8221;"
-msgstr "para &ldquo;%s&rdquo;"
+msgstr "Ativar &#8220;%s&#8221;"
 
 #: wp-admin/themes.php:246
 #, fuzzy, php-format
 msgid "Preview &#8220;%s&#8221;"
-msgstr "para &ldquo;%s&rdquo;"
+msgstr "Visualizar &#8220;%s&#8221;"
 
 #: wp-admin/themes.php:248
 #, fuzzy, php-format
@@ -4455,12 +4464,13 @@ msgid ""
 "You are about to delete this theme '%s'\n"
 "  'Cancel' to stop, 'OK' to delete."
 msgstr ""
-"Você está prestes a excluir este anexo '%s'\n"
-"  'Cancelar' para interromper, 'OK' para excluir."
+"Você está prestes a excluir este tema '%s'\n"
+"  'Cancelar' para parar, 'OK' para excluir."
 
 #: wp-admin/themes.php:279
+#, fuzzy
 msgid "You only have one theme installed at the moment so there is nothing to show you here.  Maybe you should download some more to try out."
-msgstr ""
+msgstr "Você só tem um tema instalado no momento, portanto não há nada para mostrar aqui. Talvez você deva fazer download de mais alguns temas para experimentar."
 
 #: wp-admin/themes.php:298
 msgid "Broken Themes"
@@ -4531,7 +4541,7 @@ msgstr "Habilitar Gears"
 #: wp-admin/tools.php:48
 #, fuzzy
 msgid "Gears is installed and enabled on this computer. You can disable it from the Under the Hood tab in Chrome&#8217;s Options menu."
-msgstr "O Gears está instalado e ativado nesse computador. Você pode desativá-lo através do menu Ferramentas de seu navegador."
+msgstr "O Gears está instalado e ativado nesse computador. Você pode desativá-lo a partir da aba \"Under the Hood\" no menu de opções do Chrome."
 
 #: wp-admin/tools.php:50
 msgid "Gears is installed and enabled on this computer. You can disable it from the Safari menu."
@@ -4629,13 +4639,14 @@ msgid "Bring back this update"
 msgstr "Restaurar essa atualização"
 
 #: wp-admin/update-core.php:55
+#, fuzzy
 msgid "This localized version contains both the translation and various other localization fixes. You can skip upgrading if you want to keep your current translation."
-msgstr ""
+msgstr "Esta versão localizada contém tanto a tradução quanto várias outras correções de localização. Você pode pular a atualização se você quiser manter a tradução atual."
 
 #: wp-admin/update-core.php:57
-#, php-format
+#, fuzzy, php-format
 msgid "You are about to install WordPress %s <strong>in English.</strong> There is a chance this upgrade will break your translation. You may prefer to wait for the localized version to be released."
-msgstr ""
+msgstr "Você está prestes a instalar o WordPress %s <strong>em inglês</strong>. Talvez esta atualização irá quebrar sua instalação. Você pode preferir esperar que a versão localizada seja lançada."
 
 #: wp-admin/update-core.php:67
 #: wp-admin/update-core.php:79
@@ -4706,7 +4717,7 @@ msgstr "Falha ao reativar plugin devido a erro fatal."
 #: wp-admin/update.php:91
 #, fuzzy
 msgid "You do not have sufficient permissions to install plugins for this blog."
-msgstr "Sem permissões suficientes para excluir plugins neste blog."
+msgstr "Sem permissões suficientes para instalar plugins neste blog."
 
 #: wp-admin/update.php:73
 msgid "Plugin Install"
@@ -4720,17 +4731,17 @@ msgstr "Instalando plugin: %s"
 #: wp-admin/update.php:97
 #, fuzzy
 msgid "Upload Plugin"
-msgstr "Adicionar plugin"
+msgstr "Fazer upload do plugin"
 
 #: wp-admin/update.php:102
 #, fuzzy, php-format
 msgid "Installing Plugin from uploaded file: %s"
-msgstr "Instalando plugin do arquivo: %s"
+msgstr "Instalando plugin do arquivo enviado: %s"
 
 #: wp-admin/update.php:115
 #, fuzzy
 msgid "You do not have sufficient permissions to update themes for this blog."
-msgstr "Sem permissões suficientes para editar temas deste blog."
+msgstr "Sem permissões suficientes para atualizar temas neste blog."
 
 #: wp-admin/update.php:121
 msgid "Upgrade Theme"
@@ -4740,22 +4751,22 @@ msgstr "Atualizar tema"
 #: wp-admin/update.php:167
 #, fuzzy
 msgid "You do not have sufficient permissions to install themes for this blog."
-msgstr "Sem permissões suficientes para editar temas deste blog."
+msgstr "Sem permissões suficientes para instalar temas neste blog."
 
 #: wp-admin/update.php:154
 #, fuzzy, php-format
 msgid "Installing theme: %s"
-msgstr "Tema de emoticons"
+msgstr "Instalando tema: %s"
 
 #: wp-admin/update.php:173
 #, fuzzy
 msgid "Upload Theme"
-msgstr "Tema de emoticons"
+msgstr "Fazer upload do tema"
 
 #: wp-admin/update.php:180
 #, fuzzy, php-format
 msgid "Installing Theme from uploaded file: %s"
-msgstr "Instalando plugin do arquivo: %s"
+msgstr "Instalando tema do arquivo enviado: %s"
 
 #: wp-admin/upgrade.php:44
 msgid "WordPress &rsaquo; Upgrade"
@@ -4779,18 +4790,19 @@ msgid "Database Upgrade Required"
 msgstr "Necessário atualizar banco de dados "
 
 #: wp-admin/upgrade.php:64
+#, fuzzy
 msgid "WordPress has been updated! Before we send you on your way, we have to upgrade your database to the newest version."
-msgstr ""
+msgstr "O WordPress foi atualizado! Antes de colocarmos você no seu caminho, você deve atualizar seu banco de dados para a versão mais recente."
 
 #: wp-admin/upgrade.php:65
 #, fuzzy
 msgid "The upgrade process may take a little while, so please be patient."
-msgstr "O processo de atualização poderá demorar um pouco."
+msgstr "O processo de atualização poderá demorar um pouco, portanto seja paciente."
 
 #: wp-admin/upgrade.php:66
 #, fuzzy
 msgid "Upgrade WordPress Database"
-msgstr "Necessário atualizar banco de dados "
+msgstr "Atualizar Banco de Dados do WordPress"
 
 #: wp-admin/upgrade.php:82
 msgid "Upgrade Complete"
@@ -4914,7 +4926,7 @@ msgstr "Autor"
 #, fuzzy
 msgctxt "media column name"
 msgid "Date Added"
-msgstr "Site adicionado !"
+msgstr "Data adicionada"
 
 #: wp-admin/upload.php:347
 msgid "Attach"
@@ -4979,7 +4991,7 @@ msgstr "Ativar atalhos de teclado para moderação de comentários."
 #: wp-admin/user-edit.php:186
 #, fuzzy
 msgid "<a href=\"http://codex.wordpress.org/Keyboard_Shortcuts\">More information</a>"
-msgstr "Ativar atalhos de teclado para moderação de comentários. <a href=\"http://codex.wordpress.org/Keyboard_Shortcuts\">Mais informação</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Keyboard_Shortcuts\">Mais informação</a>"
 
 #: wp-admin/user-edit.php:204
 msgid "Your username cannot be changed."
@@ -5145,8 +5157,9 @@ msgid "Invitation email sent to user. A confirmation link must be clicked for th
 msgstr "Convite enviado para o usuário. Um link de confirmação deverá ser clicado para que ele seja adicionado ao seu blog."
 
 #: wp-admin/user-new.php:107
+#, fuzzy
 msgid "User has been added to your blog."
-msgstr ""
+msgstr "Usuário adicionado ao blog."
 
 #: wp-admin/user-new.php:110
 msgid "That user is already a member of this blog."
@@ -5167,7 +5180,7 @@ msgstr "Digite o nome de usuário e email de uma pessoa que ainda não é membro
 #: wp-admin/user-new.php:147
 #, fuzzy
 msgid "That person will be sent an email asking them to click a link confirming the invite. New users will then be sent an email with a randomly generated password and a login link."
-msgstr "Essa pessoa receberá um email solicitando que clique em um link para confirmar o convite. Novos usuários receberão um email com uma senha aleatória e link para login."
+msgstr "Essa pessoa receberá um email solicitando que clique em um link para confirmar o convite. Novos usuários receberão um email com uma senha gerada aleatoriamente e link para login."
 
 #: wp-admin/user-new.php:162
 msgid "Username (required)"
@@ -5185,11 +5198,12 @@ msgstr "Função"
 #: wp-admin/user-new.php:183
 #, fuzzy
 msgid "Skip Confirmation Email"
-msgstr "Endereço de email do time de tradutores:"
+msgstr "Pular confirmação de email"
 
 #: wp-admin/user-new.php:184
+#, fuzzy
 msgid "Site administrators can add a user without sending the confirmation email."
-msgstr ""
+msgstr "Os administradores do site podem adicionar usuários sem enviar o email de confirmação."
 
 #: wp-admin/user-new.php:189
 msgid "Add User"
@@ -5277,7 +5291,7 @@ msgstr "Outras funções do usuário foram alteradas."
 #: wp-admin/users.php:219
 #, fuzzy
 msgid "You can&#8217;t delete the current user."
-msgstr "Você não pode excluir esse usuário."
+msgstr "Você não pode excluir usuário atual."
 
 #: wp-admin/users.php:220
 msgid "Other users have been deleted."
@@ -5286,7 +5300,7 @@ msgstr "Outros usuários foram excluídos."
 #: wp-admin/users.php:282
 #, fuzzy, php-format
 msgid "%1$s <span class=\"count\">(%2$s)</span>"
-msgstr "Tudo <span class=\"count\">(%s)</span>"
+msgstr "%1$s <span class=\"count\">(%2$s)</span>"
 
 #: wp-admin/users.php:294
 #: wp-admin/users.php:296
@@ -5326,25 +5340,26 @@ msgstr "O tema em uso no momento não permite detectar widgets e, por isso, não
 #: wp-admin/widgets.php:241
 #, fuzzy, php-format
 msgid "Widget %s"
-msgstr "Adicionar widget"
+msgstr "Widget %s"
 
 #: wp-admin/widgets.php:249
 msgid "There are no options for this widget."
 msgstr "Não existem opções para esse widget."
 
 #: wp-admin/widgets.php:252
+#, fuzzy
 msgid "Select both the sidebar for this widget and the position of the widget in that sidebar."
-msgstr ""
+msgstr "Selecionar a barra lateral para este widget e também a posição do widget na barra lateral."
 
 #: wp-admin/widgets.php:254
 #, fuzzy
 msgid "Position"
-msgstr "Posição atual"
+msgstr "Posição"
 
 #: wp-admin/widgets.php:269
 #, fuzzy
 msgid "-- select --"
-msgstr "- Selecionar -"
+msgstr "-- selecionar --"
 
 #: wp-admin/widgets.php:286
 #: wp-admin/wpmu-blogs.php:222
@@ -5354,7 +5369,7 @@ msgstr "Remover"
 #: wp-admin/widgets.php:288
 #, fuzzy
 msgid "Save Widget"
-msgstr "Adicionar widget"
+msgstr "Salvar widget"
 
 #: wp-admin/widgets.php:313
 msgid "Changes saved."
@@ -5363,11 +5378,12 @@ msgstr "Modificações salvas."
 #: wp-admin/widgets.php:317
 #, fuzzy
 msgid "Error while saving."
-msgstr "Erro enquanto salvava as alterações."
+msgstr "Erro ao salvar."
 
 #: wp-admin/widgets.php:318
+#, fuzzy
 msgid "Error in displaying the widget settings form."
-msgstr ""
+msgstr "Erro ao mostrar o formulário de configurações do widget."
 
 #: wp-admin/widgets.php:339
 msgid "Available Widgets"
@@ -5556,7 +5572,7 @@ msgstr "Excluído"
 #: wp-admin/wpmu-blogs.php:293
 #, fuzzy
 msgid "Update Options &raquo;"
-msgstr "Atualizar cabeçalho &raquo;"
+msgstr "Atualizar Opções &raquo;"
 
 #: wp-admin/wpmu-blogs.php:142
 #, php-format
@@ -5609,7 +5625,7 @@ msgstr "Login do usuário:"
 #: wp-admin/wpmu-blogs.php:288
 #, fuzzy
 msgid "Misc Blog Actions"
-msgstr "acções em conflito -%c (--%s) e -%c (--%s)"
+msgstr "Ações diversas do blog"
 
 #: wp-admin/wpmu-blogs.php:365
 #: wp-admin/wpmu-users.php:145
@@ -5654,17 +5670,17 @@ msgstr "Painel"
 #: wp-admin/wpmu-blogs.php:478
 #, fuzzy, php-format
 msgid "You are about to activate the blog %s"
-msgstr "Você está prestes a excluir <strong>%s</strong>."
+msgstr "Você está prestes a ativar o blog %s"
 
 #: wp-admin/wpmu-blogs.php:480
 #, fuzzy, php-format
 msgid "You are about to deactivate the blog %s"
-msgstr "Você está prestes a excluir <strong>%s</strong>."
+msgstr "Você está prestes a desativar o blog %s"
 
 #: wp-admin/wpmu-blogs.php:483
 #, fuzzy, php-format
 msgid "You are about to unarchive the blog %s"
-msgstr "Você está prestes a excluir <strong>%s</strong>."
+msgstr "Você está prestes a desarquivar o blog %s"
 
 #: wp-admin/wpmu-blogs.php:483
 msgid "Unarchive"
@@ -5673,7 +5689,7 @@ msgstr "Desarquivar"
 #: wp-admin/wpmu-blogs.php:485
 #, fuzzy, php-format
 msgid "You are about to archive the blog %s"
-msgstr "Você está prestes a excluir <strong>%s</strong>."
+msgstr "Você está prestes a arquivar o blog %s"
 
 #: wp-admin/wpmu-blogs.php:485
 msgid "Archive"
@@ -5682,18 +5698,18 @@ msgstr "Arquivar"
 #: wp-admin/wpmu-blogs.php:488
 #, fuzzy, php-format
 msgid "You are about to unspam the blog %s"
-msgstr "Você está prestes a excluir <strong>%s</strong>."
+msgstr "Você está prestes a desmarcar como spam o blog %s"
 
 #  Não tem porque colocar spam em caixa alta. Além disso,
 #: wp-admin/wpmu-blogs.php:490
 #, fuzzy, php-format
 msgid "You are about to mark the blog %s as spam"
-msgstr "Você está prestes a marcar o seguinte comentário como spam:"
+msgstr "Você está prestes a assinalar o blog %s como spam"
 
 #: wp-admin/wpmu-blogs.php:492
 #, fuzzy, php-format
 msgid "You are about to delete the blog %s"
-msgstr "Você está prestes a excluir <strong>%s</strong>."
+msgstr "Você está prestes a excluir o blog %s"
 
 #: wp-admin/wpmu-blogs.php:494
 msgid "Visit"
@@ -5709,8 +5725,9 @@ msgid "Y-m-d \\<\\b\\r \\/\\> g:i:s a"
 msgstr "d-m-Y \\<\\b\\r \\/\\> G:i:s"
 
 #: wp-admin/wpmu-blogs.php:527
+#, fuzzy
 msgid "Only showing first 5 users."
-msgstr ""
+msgstr "Mostrando apenas os cinco primeiros usuários"
 
 #: wp-admin/wpmu-blogs.php:527
 msgid "More"
@@ -5732,7 +5749,7 @@ msgstr "Endereço do Site"
 #: wp-admin/wpmu-blogs.php:589
 #, fuzzy
 msgid "Only the characters a-z and 0-9 recommended."
-msgstr "Download completo e em modo de fazer apenas o download"
+msgstr "Apenas os caracteres a-z e 0-9 são recomendados."
 
 #: wp-admin/wpmu-blogs.php:598
 msgid "Admin Email"
@@ -5756,8 +5773,9 @@ msgid "You probably need to go back to the <a href='wpmu-options.php'>options pa
 msgstr "Você provavelmente precisa voltar para a <a href='wpmu-options.php'>página de opções</a>"
 
 #: wp-admin/wpmu-edit.php:74
+#, fuzzy
 msgid "Dashboard blog_id must be a blog that already exists"
-msgstr ""
+msgstr "A blog_id do painel deve ser de um blog existente."
 
 #: wp-admin/wpmu-edit.php:83
 msgid "My Dashboard"
@@ -6157,12 +6175,12 @@ msgstr "Usuário excluído !"
 #: wp-admin/wpmu-users.php:24
 #, fuzzy
 msgid "Users marked as spam !"
-msgstr "%s comentário marcado como spam"
+msgstr "Usuários marcados como spam!"
 
 #: wp-admin/wpmu-users.php:27
 #, fuzzy
 msgid "Users marked as not spam !"
-msgstr "Blog marcado como não sendo spam!"
+msgstr "Usuários marcados como não spam!"
 
 #: wp-admin/wpmu-users.php:30
 msgid "Users deleted !"
@@ -6180,7 +6198,7 @@ msgstr "Marcar como Spammers"
 #: wp-admin/wpmu-users.php:125
 #, fuzzy
 msgid "Search Blogs for"
-msgstr "Pesquisar Blogs &raquo;"
+msgstr "Pesquisar blogs por:"
 
 #: wp-admin/wpmu-users.php:208
 msgid "Y-m-d \\<\\b\\r \\/\\> g:i a"
@@ -6189,7 +6207,7 @@ msgstr "d-m-Y \\<\\b\\r \\/\\> G:i:s"
 #: wp-admin/wpmu-users.php:253
 #, fuzzy
 msgid "No users found."
-msgstr "Nenhum usuário correspondente encontrado!"
+msgstr "Nenhum usuário encontrado."
 
 #: wp-admin/wpmu-users.php:279
 #: wp-admin/wpmu-users.php:296
@@ -6285,7 +6303,7 @@ msgstr "Esta funcionalidade requer JavaScript, mas este parece estar desativado.
 #: wp-admin/import/blogger.php:656
 #, fuzzy
 msgid "All posts were imported with the current user as author. Use this form to move each Blogger user&#8217;s posts to a different WordPress user. You may <a href=\"users.php\">add users</a> and then return to this page and complete the user mapping. This form may be used as many times as you like until you activate the &#8220;Restart&#8221; function below."
-msgstr "Todos os artigos foram importados com o usuário atual como autor. Utilize este formulário para mover cada artigo de usuários do Blogger para um usuário diferente do WordPress. Você pode <a href=\"users.php\">adicionar usuários</a> e depois voltar a esta página para concluir o mapeamento de usuários. Este formulário pode ser utilizado quantas vezes você quiser, até que você ative a função \"Reiniciar\" abaixo."
+msgstr "Todos os posts foram importados com o usuário atual como autor. Utilize este formulário para mover cada post de usuários do Blogger para um usuário diferente do WordPress. Você pode <a href=\"users.php\">adicionar usuários</a> e depois voltar a esta página para concluir o mapeamento de usuários. Este formulário pode ser utilizado quantas vezes você quiser, até que você ative a função &#8220;Reiniciar&#8221; abaixo."
 
 #: wp-admin/import/blogger.php:657
 msgid "Author mapping"
@@ -6331,7 +6349,7 @@ msgstr "Foi um trabalho pesado! Faça uma pausa."
 #: wp-admin/import/blogger.php:799
 #, fuzzy
 msgid "In case you haven&#8217;t done it already, you can import the posts from your other blogs:"
-msgstr "Caso ainda não tenha feito, você pode importar os artigos de outros blogs:"
+msgstr "Caso ainda não tenha feito, você pode importar os posts de outros blogs seus:"
 
 #: wp-admin/import/blogger.php:801
 #, php-format
@@ -6388,7 +6406,7 @@ msgstr "Importando artigo <em>%s</em>..."
 #: wp-admin/import/rss.php:132
 #, fuzzy
 msgid "Couldn&#8217;t get post ID"
-msgstr "Não foi possível obter a ID do artigo."
+msgstr "Não foi possível obter a ID do post"
 
 #: wp-admin/import/blogware.php:158
 #, php-format
@@ -6546,7 +6564,7 @@ msgstr "Bem-vindo ao WordPress! Nós torcemos (e esperamos!) que você ache esta
 #: wp-admin/import/dotclear.php:607
 #, fuzzy, php-format
 msgid "You have already setup WordPress and have been assigned an administrative login and password.  Forget it.  You didn&#8217;t have that login in DotClear, why should you have it here?  Instead we have taken care to import all of your users into our system.  Unfortunately there is one downside.  Because both WordPress and DotClear uses a strong encryption hash with passwords, it is impossible to decrypt it and we are forced to assign temporary passwords to all your users.  <strong>Every user has the same username, but their passwords are reset to password123.</strong>  So <a href=\"%1$s\">Login</a> and change it."
-msgstr "Você já configurou o WordPress e obteve um nome de usuário e uma senha de administrador. Esqueça-os. Você não tinha esse login no Textpattern, porque você teria aqui? Em vez disso, tomamos o cuidado de importar todos seus usuários para nosso sistema. Infelizmente, há um aspecto negativo. Devido ao WordPress e o Textpattern utilizarem uma forte criptografia, é impossível removê-la e será necessário atribuir senhas temporárias a todos os usuários. <strong>Todos os usuários continuam com o mesmo nome, mas as senhas foram redefinidas como password123.</strong> Então, faça o <a href=\"%1$s\">Login</a> e altere isto."
+msgstr "Você já configurou o WordPress e obteve um nome de usuário e uma senha de administrador. Esqueça-os. Você não tinha esse login no DotClear, por que você teria aqui? Em vez disso, tomamos o cuidado de importar todos seus usuários para nosso sistema. Infelizmente, há um aspecto negativo. Devido ao WordPress e o DotClear utilizarem uma forte criptografia, é impossível removê-la e será necessário atribuir senhas temporárias a todos os usuários. <strong>Todos os usuários continuam com o mesmo nome, mas as senhas foram redefinidas como password123.</strong> Então, faça o <a href=\"%1$s\">Login</a> e altere isto."
 
 #: wp-admin/import/dotclear.php:608
 #: wp-admin/import/textpattern.php:586
@@ -6566,7 +6584,7 @@ msgstr "Textile"
 #: wp-admin/import/dotclear.php:611
 #, fuzzy
 msgid "Also, since you&#8217;re coming from DotClear, you probably have been using Textile to format your comments and posts.  If this is the case, we recommend downloading and installing <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile for WordPress</a>.  Trust me&#8230; You&#8217;ll want it."
-msgstr "Também, porque você veio do Textpattern, você provavelmente deve estar usando Textile para formatar seus comentários e artigos. Se este é o caso, nós recomendamos fazer o download e instalação do <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile para WordPress</a>. Acredite... Você vai querer isto."
+msgstr "Também, por ter vindo do DotClear, você provavelmente deve estar usando Textile para formatar seus comentários e posts. Se este é o caso, nós recomendamos fazer o download e instalação do <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile para WordPress</a>. Acredite&#8230; Você vai querer isto."
 
 #: wp-admin/import/dotclear.php:612
 #: wp-admin/import/textpattern.php:590
@@ -6781,17 +6799,19 @@ msgid "Import LiveJournal"
 msgstr "Importar do LiveJournal"
 
 #: wp-admin/import/livejournal.php:185
+#, fuzzy
 msgid "It looks like you attempted to import your LiveJournal posts previously and got interrupted."
-msgstr ""
+msgstr "Parece que você tentou importar os posts do LiveJournal antes e foi interrompido."
 
 #: wp-admin/import/livejournal.php:187
 #, fuzzy
 msgid "Continue previous import"
-msgstr "Importar um perfil do Sistema de Configuração do Compiz"
+msgstr "Continuar a importação anterior"
 
 #: wp-admin/import/livejournal.php:189
+#, fuzzy
 msgid "Cancel &amp; start a new import"
-msgstr ""
+msgstr "Cancelar e iniciar uma nova importação"
 
 #: wp-admin/import/livejournal.php:194
 msgid "Howdy! This importer allows you to connect directly to LiveJournal and download all your entries and comments"
@@ -6842,48 +6862,54 @@ msgid "<strong>NOTE:</strong> You appear to have JavaScript disabled, so you wil
 msgstr "<strong>NOTA:</strong> Parece que você está com o JavaScript desabilitado, portanto terá que clicar manualmente no botão de cada passo dessa importação. Se você habilitar o JavaScript, ele passará pelas etapas automaticamente."
 
 #: wp-admin/import/livejournal.php:277
+#, fuzzy
 msgid "Post metadata has been downloaded, proceeding with posts..."
-msgstr ""
+msgstr "O download dos metadados do post foram concluídos, prosseguindo com os posts..."
 
 #: wp-admin/import/livejournal.php:375
 #, fuzzy, php-format
 msgid "Post <strong>%s</strong> already exists."
-msgstr "O artigo <em>%s</em> já existe."
+msgstr "O post <strong>%s</strong> já exise."
 
 #: wp-admin/import/livejournal.php:377
 #, fuzzy, php-format
 msgid "Imported post <strong>%s</strong>..."
-msgstr "Artigo já importado"
+msgstr "Post <strong>%s</strong> importado..."
 
 #: wp-admin/import/livejournal.php:386
+#, fuzzy
 msgid "Couldn&#8217;t get post ID (creating post failed!)"
-msgstr ""
+msgstr "Não foi possível obter a ID do post (falha ao criar o post!)"
 
 #: wp-admin/import/livejournal.php:388
 #, fuzzy
 msgid "Failed to create post."
-msgstr "Falhou criar FILE*"
+msgstr "Falha ao criar o post."
 
 #: wp-admin/import/livejournal.php:433
+#, fuzzy
 msgid "Could not get a cookie from LiveJournal. Please try again soon."
-msgstr ""
+msgstr "Não foi possível obter um cookie do LiveJournal. Tente novamente logo."
 
 #: wp-admin/import/livejournal.php:454
+#, fuzzy
 msgid "Failed to retrieve comment meta information from LiveJournal. Please try again soon."
-msgstr ""
+msgstr "Não foi possível recuperar meta-informações dos comentários do LiveJournal. Tente novamente logo."
 
 #: wp-admin/import/livejournal.php:462
 #, fuzzy
 msgid "You have no comments to import!"
-msgstr "Você não tem categorias para converter!"
+msgstr "Você não tem comentários para converter!"
 
 #: wp-admin/import/livejournal.php:489
+#, fuzzy
 msgid " Comment metadata downloaded successfully, proceeding with comment bodies..."
-msgstr ""
+msgstr "O download dos metadados dos comentários foi concluído com sucesso, prosseguindo com os comentários..."
 
 #: wp-admin/import/livejournal.php:514
+#, fuzzy
 msgid "Failed to retrieve comment bodies from LiveJournal. Please try again soon."
-msgstr ""
+msgstr "Não foi possível recuperar os comentários do LiveJournal. Tente novamente logo."
 
 #: wp-admin/import/livejournal.php:596
 #: wp-admin/import/livejournal.php:604
@@ -6891,49 +6917,55 @@ msgid "Anonymous"
 msgstr "Anônimo"
 
 #: wp-admin/import/livejournal.php:656
+#, fuzzy
 msgid "LiveJournal is not responding to authentication requests. Please wait a while and then try again."
-msgstr ""
+msgstr "O LiveJournal não está respondendo às solicitações de autenticação. Aguarde um pouco e tente novamente."
 
 #: wp-admin/import/livejournal.php:666
 #, fuzzy
 msgid "XML-RPC Request Failed -- "
-msgstr "O pedido falhou."
+msgstr "O pedido XML-RPC falhou --"
 
 #: wp-admin/import/livejournal.php:726
+#, fuzzy
 msgid "Please enter your LiveJournal username <em>and</em> password so we can download your posts and comments."
-msgstr ""
+msgstr "Insira o nome de usuário do LiveJournal <em>e</m> a senha para que o download dos posts e comentários possam ser feitos."
 
 #: wp-admin/import/livejournal.php:727
 #: wp-admin/import/livejournal.php:739
 #, fuzzy
 msgid "Start again"
-msgstr "Início automático"
+msgstr "Reiniciar"
 
 #: wp-admin/import/livejournal.php:738
+#, fuzzy
 msgid "Logging in to LiveJournal failed. Check your username and password and try again."
-msgstr ""
+msgstr "Não foi possível fazer o login no LiveJournal. Verfique o seu nome de usuário e senha e tente novamente."
 
 #: wp-admin/import/livejournal.php:780
 #, fuzzy
 msgid "Importing Posts"
-msgstr "Importando Artigos..."
+msgstr "Importando posts"
 
 #: wp-admin/import/livejournal.php:781
+#, fuzzy
 msgid "We&#8217;re downloading and importing your LiveJournal posts..."
-msgstr ""
+msgstr "Estamos fazendo o download e importando seus posts do LiveJournal..."
 
 #: wp-admin/import/livejournal.php:785
-#, php-format
+#, fuzzy, php-format
 msgid "Imported post batch %d of <strong>approximately</strong> %d"
-msgstr ""
+msgstr "Lote de posts importado %d de <strong>aproximadamente</strong> %d"
 
 #: wp-admin/import/livejournal.php:803
+#, fuzzy
 msgid "Uh oh &ndash; LiveJournal has disconnected us because we made too many requests to their servers too quickly."
-msgstr ""
+msgstr "Oh oh &ndash; O Live Journal nos desconectou porque nós fizemos muitas solicitações aos seus servidores muito rapidamente."
 
 #: wp-admin/import/livejournal.php:804
+#, fuzzy
 msgid "We&#8217;ve saved where you were up to though, so if you come back to this importer in about 30 minutes, you should be able to continue from where you were."
-msgstr ""
+msgstr "Mas nós salvamos até onde você chegou, assim se você voltar para esta importação dentro de 30 minutos, você poderá continuar de onde você parou."
 
 #: wp-admin/import/livejournal.php:806
 #: wp-admin/import/livejournal.php:936
@@ -6944,69 +6976,73 @@ msgstr "Tentar novamente"
 #: wp-admin/import/livejournal.php:869
 #, fuzzy
 msgid "Import the next batch"
-msgstr "Importar um perfil do Sistema de Configuração do Compiz"
+msgstr "Importar o próximo lote"
 
 #: wp-admin/import/livejournal.php:824
+#, fuzzy
 msgid "Your posts have all been imported, but wait &#8211; there&#8217;s more! Now we need to download &amp; import your comments."
-msgstr ""
+msgstr "Os seus posts foram todos importados, mas espere - tem mais! Agora nós precisamos fazer o download e importar seus comentários."
 
 #: wp-admin/import/livejournal.php:825
 #, fuzzy
 msgid "Download my comments &raquo;"
-msgstr "Excluir meu site permanentemente &raquo;"
+msgstr "Fazer download dos meus comentários &raquo;"
 
 #: wp-admin/import/livejournal.php:840
 #, fuzzy
 msgid "Downloading Comments"
-msgstr "% Comentários &raquo;"
+msgstr "Fazendo download de comentários"
 
 #: wp-admin/import/livejournal.php:841
+#, fuzzy
 msgid "Now we will download your comments so we can import them (this could take a <strong>long</strong> time if you have lots of comments)..."
-msgstr ""
+msgstr "Agora nós faremos o download dos seus comentários para que possamos importá-los (isto pode levar um <strong>bom</strong> tempo se você tiver muitos comentários)..."
 
 #: wp-admin/import/livejournal.php:866
-#, php-format
+#, fuzzy, php-format
 msgid "Imported comment batch %d of <strong>approximately</strong> %d"
-msgstr ""
+msgstr "Lote de comentários importados %d de <strong>aaproximadamente</strong> %d"
 
 #: wp-admin/import/livejournal.php:874
+#, fuzzy
 msgid "Your comments have all been imported now, but we still need to rebuild your conversation threads."
-msgstr ""
+msgstr "Os seus comentários foram todos importados agora, mas nós ainda precisamos reconstruir as conversas aninhadas."
 
 #: wp-admin/import/livejournal.php:875
 #, fuzzy
 msgid "Rebuild my comment threads &raquo;"
-msgstr "Comentários mais recentes &raquo;"
+msgstr "Reestruturar meus comentários aninhados &raquo;"
 
 #: wp-admin/import/livejournal.php:888
 #, fuzzy
 msgid "Threading Comments"
-msgstr "% Comentários &raquo;"
+msgstr "Aninhando comentários"
 
 #: wp-admin/import/livejournal.php:889
+#, fuzzy
 msgid "We are now re-building the threading of your comments (this can also take a while if you have lots of comments)..."
-msgstr ""
+msgstr "Agora nós estamos reconstruindo seus comentários aninhados (isto também pode levar um tempo se você possui muitos comentários)..."
 
 #: wp-admin/import/livejournal.php:926
 #, fuzzy, php-format
 msgid "Successfully re-threaded %s comments."
-msgstr "Permitir %s níveis de comentários agrupados por conversação (aninhados)"
+msgstr "%s comentários foram reaninhados com sucesso."
 
 #: wp-admin/import/livejournal.php:961
 #: wp-admin/import/livejournal.php:989
 #, fuzzy, php-format
 msgid "Continuing in %d"
-msgstr "Pesquisar em..."
+msgstr "Continuando em %d"
 
 #: wp-admin/import/livejournal.php:966
 #, fuzzy
 msgid "Continuing"
-msgstr "Continuar"
+msgstr "Continuando"
 
 #: wp-admin/import/livejournal.php:995
 #, fuzzy
 msgid "Processing next batch."
-msgstr "Erro ao processar o conteúdo %s"
+msgstr "Processando o próximo lote."
 
 #: wp-admin/import/livejournal.php:1053
 msgid "LiveJournal"
@@ -7044,7 +7080,7 @@ msgstr "Atribuir autores"
 #: wp-admin/import/mt.php:181
 #, fuzzy
 msgid "To make it easier for you to edit and save the imported posts and drafts, you may want to change the name of the author of the posts. For example, you may want to import all the entries as admin&#8217;s entries."
-msgstr "Para facilitar sua tarefa de editar e salvar os artigos e rascunhos importados, você pode querer mudar os nomes do autor dos artigos. Por exemplo, você pode querer importar tudo como sendo do <code>admin</code>."
+msgstr "Para tornar mais fácil para você editar e salvar os posts e rascunhos importados, você pode querer alterar o nome do autor dos posts. Por exemplo, você pode importar todas as entradas como pertencentes ao admin."
 
 #: wp-admin/import/mt.php:182
 msgid "Below, you can see the names of the authors of the MovableType posts in <em>italics</em>. For each of these names, you can either pick an author in your WordPress installation from the menu, or enter a name for the author in the textbox."
@@ -7570,7 +7606,7 @@ msgstr "Ô, ô. Alguma coisa não funcionou. Por favor <a href=\"%s\">tente outr
 #: wp-admin/import/wp-cat2tag.php:252
 #, fuzzy, php-format
 msgid "Category %s doesn&#8217;t exist!"
-msgstr "erro ao assegurar que `%.250s' não existe"
+msgstr "A categoria %s não existe!"
 
 #: wp-admin/import/wp-cat2tag.php:255
 #, php-format
@@ -7610,7 +7646,7 @@ msgstr "Todos os artigos foram adicionados à categoria com o mesmo nome."
 #: wp-admin/import/wp-cat2tag.php:409
 #, fuzzy, php-format
 msgid "Tag #%s doesn&#8217;t exist!"
-msgstr "erro ao assegurar que `%.250s' não existe"
+msgstr "A tag #%s não existe!"
 
 #: wp-admin/import/wp-cat2tag.php:427
 #, php-format
@@ -7681,8 +7717,9 @@ msgid "The ssh2 PHP extension is not available"
 msgstr "A extensão ssh2 do PHP não está disponível"
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:71
+#, fuzzy
 msgid "The ssh2 PHP extension is available, however, we require the PHP5 function <code>stream_get_contents()</code>"
-msgstr ""
+msgstr "A extensão ssh2 do PHP está disponível, porém necessita a função <code>stream_get_contents()</code> do PHP 5."
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:82
 msgid "SSH2 hostname is required"
@@ -7704,7 +7741,7 @@ msgstr "Falha ao conectar ao servidor SSH2 %1$s:%2$s"
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:132
 #, fuzzy, php-format
 msgid "Public and Private keys incorrect for %s"
-msgstr "Chaves Públicas e Privadas incorretas para %s"
+msgstr "Chaves Pública e Privada incorretas para %s"
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:148
 #, php-format
@@ -7714,7 +7751,7 @@ msgstr "Impossível executar o comando: %s"
 #: wp-admin/includes/class-wp-upgrader.php:44
 #, fuzzy
 msgid "Invalid Data provided."
-msgstr "URL inválido"
+msgstr "Dado informado inválido."
 
 #: wp-admin/includes/class-wp-upgrader.php:45
 #: wp-admin/includes/file.php:483
@@ -7728,7 +7765,7 @@ msgstr "Erro no sistema de arquivos"
 #: wp-admin/includes/class-wp-upgrader.php:47
 #, fuzzy
 msgid "Unable to locate WordPress Root directory."
-msgstr "Impossível localizar a pasta de plugins do WordPress."
+msgstr "Impossível localizar o diretório raiz do WordPress."
 
 #: wp-admin/includes/class-wp-upgrader.php:48
 msgid "Unable to locate WordPress Content directory (wp-content)."
@@ -7745,7 +7782,7 @@ msgstr "Impossível localizar o diretóriode temas do WordPress."
 #: wp-admin/includes/class-wp-upgrader.php:51
 #, fuzzy, php-format
 msgid "Unable to locate needed folder (%s)."
-msgstr "Impossível localizar o diretório do WordPress."
+msgstr "Impossível localizar a pasta necessária (%s)."
 
 #: wp-admin/includes/class-wp-upgrader.php:53
 msgid "Download failed."
@@ -7758,12 +7795,12 @@ msgstr "Instalando a versão mais recente"
 #: wp-admin/includes/class-wp-upgrader.php:55
 #, fuzzy
 msgid "Destination folder already exists."
-msgstr "Já existe um modo de 'override' para \"%s\""
+msgstr "A pasta de destino já existe."
 
 #: wp-admin/includes/class-wp-upgrader.php:56
 #, fuzzy
 msgid "Could not create directory."
-msgstr "Não foi possível criar o diretório"
+msgstr "Não foi possível criar o diretório."
 
 #: wp-admin/includes/class-wp-upgrader.php:57
 #, fuzzy
@@ -7773,12 +7810,12 @@ msgstr "Arquivo incompatível"
 #: wp-admin/includes/class-wp-upgrader.php:59
 #, fuzzy
 msgid "Enabling Maintenance mode."
-msgstr "modo inválido de actualização"
+msgstr "Ativando Modo de Manutenção."
 
 #: wp-admin/includes/class-wp-upgrader.php:60
 #, fuzzy
 msgid "Disabling Maintenance mode."
-msgstr "modo inválido de actualização"
+msgstr "Desativando Modo de Manutenção."
 
 #: wp-admin/includes/class-wp-upgrader.php:349
 msgid "The plugin is at the latest version."
@@ -7795,39 +7832,39 @@ msgstr "Pacote de atualização não disponível."
 #: wp-admin/includes/class-wp-upgrader.php:664
 #, fuzzy, php-format
 msgid "Downloading update from <span class=\"code\">%s</span>."
-msgstr "Vídeo <span class=\"count\">(%s)</span>"
+msgstr "Fazendo o download da atualização a partir de<span class=\"code\">%s</span>."
 
 #: wp-admin/includes/class-wp-upgrader.php:352
 #: wp-admin/includes/class-wp-upgrader.php:508
 #: wp-admin/includes/class-wp-upgrader.php:665
 #, fuzzy
 msgid "Unpacking the update."
-msgstr "Descompactando a atualização"
+msgstr "Descompactando a atualização."
 
 #: wp-admin/includes/class-wp-upgrader.php:353
 #, fuzzy
 msgid "Deactivating the plugin."
-msgstr "Desativando o plugin"
+msgstr "Desativando o plugin."
 
 #: wp-admin/includes/class-wp-upgrader.php:354
 #, fuzzy
 msgid "Removing the old version of the plugin."
-msgstr "Removendo a versão antiga do plugin"
+msgstr "Removendo a versão antiga do plugin."
 
 #: wp-admin/includes/class-wp-upgrader.php:355
 #, fuzzy
 msgid "Could not remove the old plugin."
-msgstr "Não foi possível remover o plugin antigo"
+msgstr "Não foi possível remover o plugin antigo."
 
 #: wp-admin/includes/class-wp-upgrader.php:356
 #, fuzzy
 msgid "Plugin upgrade Failed."
-msgstr "A atualização do plugins falhou"
+msgstr "A atualização do plugin falhou."
 
 #: wp-admin/includes/class-wp-upgrader.php:357
 #, fuzzy
 msgid "Plugin upgraded successfully."
-msgstr "Plugin atualizado com sucesso"
+msgstr "Plugin atualizado com sucesso."
 
 #: wp-admin/includes/class-wp-upgrader.php:361
 #: wp-admin/includes/class-wp-upgrader.php:516
@@ -7838,23 +7875,23 @@ msgstr "Pacote de instalação não disponível."
 #: wp-admin/includes/class-wp-upgrader.php:517
 #, fuzzy, php-format
 msgid "Downloading install package from <span class=\"code\">%s</span>."
-msgstr "Revisão pendente <span class=\"count\">(%s)</span>"
+msgstr "Fazendo o download do pacote de instalação a partir de <span class=\"code\">%s</span>."
 
 #: wp-admin/includes/class-wp-upgrader.php:363
 #: wp-admin/includes/class-wp-upgrader.php:518
 #, fuzzy
 msgid "Unpacking the package."
-msgstr "Descompactando o pacote do plugin"
+msgstr "Descompactando o pacote."
 
 #: wp-admin/includes/class-wp-upgrader.php:364
 #, fuzzy
 msgid "Installing the plugin."
-msgstr "Instalando plugin: %s"
+msgstr "Instalando o plugin."
 
 #: wp-admin/includes/class-wp-upgrader.php:365
 #, fuzzy
 msgid "Plugin Install Failed."
-msgstr "A inicialização do plugin falhou: \n"
+msgstr "A instalação do plugin falhou."
 
 #: wp-admin/includes/class-wp-upgrader.php:366
 #, fuzzy
@@ -7868,37 +7905,37 @@ msgstr "O tema está na sua versão mais recente."
 #: wp-admin/includes/class-wp-upgrader.php:509
 #, fuzzy
 msgid "Removing the old version of the theme."
-msgstr "Removendo a versão antiga do tema"
+msgstr "Removendo a versão antiga do tema."
 
 #: wp-admin/includes/class-wp-upgrader.php:510
 #, fuzzy
 msgid "Could not remove the old theme."
-msgstr "Não foi possível remover o plugin antigo"
+msgstr "Não foi possível remover o tema antigo."
 
 #: wp-admin/includes/class-wp-upgrader.php:511
 #, fuzzy
 msgid "Theme upgrade Failed."
-msgstr "A atualização do plugins falhou"
+msgstr "A atualização do tema falhou."
 
 #: wp-admin/includes/class-wp-upgrader.php:512
 #, fuzzy
 msgid "Theme upgraded successfully."
-msgstr "Tema atualizado com sucesso"
+msgstr "Tema atualizado com sucesso."
 
 #: wp-admin/includes/class-wp-upgrader.php:519
 #, fuzzy
 msgid "Installing the theme."
-msgstr "Tema de emoticons"
+msgstr "Instalando o tema."
 
 #: wp-admin/includes/class-wp-upgrader.php:520
 #, fuzzy
 msgid "Theme Install Failed."
-msgstr "*** Falhou ligar %s a %s"
+msgstr "A instalação do tema falhou."
 
 #: wp-admin/includes/class-wp-upgrader.php:521
 #, fuzzy
 msgid "Theme Installed successfully."
-msgstr "Plugin instalado com sucesso."
+msgstr "Tema instalado com sucesso."
 
 #: wp-admin/includes/class-wp-upgrader.php:662
 msgid "WordPress is at the latest version."
@@ -7907,7 +7944,7 @@ msgstr "O WordPress está na sua versão mais recente."
 #: wp-admin/includes/class-wp-upgrader.php:666
 #, fuzzy
 msgid "Could not copy files."
-msgstr "Não foi possível copiar os arquivos"
+msgstr "Não foi possível copiar os arquivos."
 
 #: wp-admin/includes/class-wp-upgrader.php:825
 msgid "Attempting reactivation of the plugin"
@@ -7942,33 +7979,33 @@ msgstr "Plugin <strong>%s %s</strong> instalado com sucesso."
 #: wp-admin/includes/class-wp-upgrader.php:884
 #, fuzzy
 msgid "Return to Plugin Installer"
-msgstr "Não, me envie de volta para a lista de plugins"
+msgstr "Voltar para o instalador de plugins"
 
 #: wp-admin/includes/class-wp-upgrader.php:928
 #, fuzzy, php-format
 msgid "Successfully installed the theme <strong>%1$s %2$s</strong>."
-msgstr "Plugin <strong>%s %s</strong> instalado com sucesso."
+msgstr "O tema <strong>%1$s %2$s</strong> foi instalado com sucesso."
 
 #: wp-admin/includes/class-wp-upgrader.php:952
 #, fuzzy
 msgid "Return to Theme Installer"
-msgstr "Selecionar um tema para editar:"
+msgstr "Retornar ao instalador de temas"
 
 #: wp-admin/includes/class-wp-upgrader.php:954
 #, fuzzy
 msgid "Themes page"
-msgstr "%s página atualizada."
+msgstr "Página de temas"
 
 #: wp-admin/includes/class-wp-upgrader.php:954
 #: wp-admin/includes/class-wp-upgrader.php:1011
 #, fuzzy
 msgid "Return to Themes page"
-msgstr "Voltar para página de plugins"
+msgstr "Voltar para página de temas"
 
 #: wp-admin/includes/class-wp-upgrader.php:1040
 #, fuzzy
 msgid "Please select a file"
-msgstr "Por favor, selecione o código do idioma:"
+msgstr "Selecione um arquivo"
 
 #: wp-admin/includes/class-wp-upgrader.php:1054
 #: wp-admin/includes/file.php:412
@@ -7981,40 +8018,36 @@ msgid "You are not allowed to edit comments on this post, so you cannot edit thi
 msgstr "Sem permissão para editar comentários sobre esse artigo, portanto, você não pode editar esse comentário."
 
 #: wp-admin/includes/continents-cities.php:7
-#, fuzzy
 msgid "Africa"
-msgstr "África do Sul"
+msgstr "África"
 
 #: wp-admin/includes/continents-cities.php:8
 msgid "Abidjan"
-msgstr ""
+msgstr "Abidjan"
 
 #: wp-admin/includes/continents-cities.php:9
 msgid "Accra"
-msgstr ""
+msgstr "Acra"
 
 #: wp-admin/includes/continents-cities.php:10
 msgid "Addis Ababa"
-msgstr ""
+msgstr "Adis Abeba"
 
 #: wp-admin/includes/continents-cities.php:11
-#, fuzzy
 msgid "Algiers"
-msgstr "linhas"
+msgstr "Algéria"
 
 #: wp-admin/includes/continents-cities.php:12
 msgid "Asmara"
-msgstr ""
+msgstr "Asmara"
 
 #: wp-admin/includes/continents-cities.php:13
-#, fuzzy
 msgid "Asmera"
-msgstr "Usuário"
+msgstr "Asmera"
 
 #: wp-admin/includes/continents-cities.php:14
-#, fuzzy
 msgid "Bamako"
-msgstr "Voltar"
+msgstr "Bamako"
 
 #: wp-admin/includes/continents-cities.php:15
 msgid "Bangui"
@@ -8025,14 +8058,12 @@ msgid "Banjul"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:17
-#, fuzzy
 msgid "Bissau"
 msgstr "Guiné-Bissáu"
 
 #: wp-admin/includes/continents-cities.php:18
-#, fuzzy
 msgid "Blantyre"
-msgstr "Balanço"
+msgstr "Blantyre"
 
 #: wp-admin/includes/continents-cities.php:19
 msgid "Brazzaville"
@@ -8043,66 +8074,56 @@ msgid "Bujumbura"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:21
-#, fuzzy
 msgid "Cairo"
-msgstr "Legenda"
+msgstr "Cairo"
 
 #: wp-admin/includes/continents-cities.php:22
 msgid "Casablanca"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:23
-#, fuzzy
 msgid "Ceuta"
-msgstr "Cortar"
+msgstr "Ceuta"
 
 #: wp-admin/includes/continents-cities.php:24
-#, fuzzy
 msgid "Conakry"
-msgstr "segunda-feira"
+msgstr "Conakry"
 
 #: wp-admin/includes/continents-cities.php:25
 msgid "Dakar"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:26
-#, fuzzy
 msgid "Dar es Salaam"
-msgstr "Marcar como spam"
+msgstr "Dar es Salaam"
 
 #: wp-admin/includes/continents-cities.php:27
-#, fuzzy
 msgid "Djibouti"
 msgstr "Djibouti"
 
 #: wp-admin/includes/continents-cities.php:28
-#, fuzzy
 msgid "Douala"
-msgstr "Populares"
+msgstr "Douala"
 
 #: wp-admin/includes/continents-cities.php:29
-#, fuzzy
 msgid "El Aaiun"
-msgstr "El Salvador"
+msgstr "El Aaiun"
 
 #: wp-admin/includes/continents-cities.php:30
-#, fuzzy
 msgid "Freetown"
-msgstr "Exclusão"
+msgstr "Freetown"
 
 #: wp-admin/includes/continents-cities.php:31
-#, fuzzy
 msgid "Gaborone"
-msgstr "abortar"
+msgstr "Gaborone"
 
 #: wp-admin/includes/continents-cities.php:32
-#, fuzzy
 msgid "Harare"
-msgstr "Href"
+msgstr "Harare"
 
 #: wp-admin/includes/continents-cities.php:33
 msgid "Johannesburg"
-msgstr ""
+msgstr "Joanesburgo"
 
 #: wp-admin/includes/continents-cities.php:34
 msgid "Kampala"
@@ -8110,7 +8131,7 @@ msgstr ""
 
 #: wp-admin/includes/continents-cities.php:35
 msgid "Khartoum"
-msgstr ""
+msgstr "Cartum"
 
 #: wp-admin/includes/continents-cities.php:36
 msgid "Kigali"
@@ -8121,23 +8142,20 @@ msgid "Kinshasa"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:38
-#, fuzzy
 msgid "Lagos"
-msgstr "Tags"
+msgstr "Lagos"
 
 #: wp-admin/includes/continents-cities.php:39
 msgid "Libreville"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:40
-#, fuzzy
 msgid "Lome"
-msgstr "Início"
+msgstr "Lome"
 
 #: wp-admin/includes/continents-cities.php:41
-#, fuzzy
 msgid "Luanda"
-msgstr "domingo"
+msgstr "Luanda"
 
 #: wp-admin/includes/continents-cities.php:42
 msgid "Lubumbashi"
@@ -8152,14 +8170,12 @@ msgid "Malabo"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:45
-#, fuzzy
 msgid "Maputo"
-msgstr "Legenda"
+msgstr "Maputo"
 
 #: wp-admin/includes/continents-cities.php:46
-#, fuzzy
 msgid "Maseru"
-msgstr "Usuário"
+msgstr "Maseru"
 
 #: wp-admin/includes/continents-cities.php:47
 msgid "Mbabane"
@@ -8167,7 +8183,7 @@ msgstr ""
 
 #: wp-admin/includes/continents-cities.php:48
 msgid "Mogadishu"
-msgstr ""
+msgstr "Mogadíscio"
 
 #: wp-admin/includes/continents-cities.php:49
 msgid "Monrovia"
@@ -8178,14 +8194,12 @@ msgid "Nairobi"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:51
-#, fuzzy
 msgid "Ndjamena"
-msgstr "Nome"
+msgstr "Ndjamena"
 
 #: wp-admin/includes/continents-cities.php:52
-#, fuzzy
 msgid "Niamey"
-msgstr "Nome"
+msgstr "Niamey"
 
 #: wp-admin/includes/continents-cities.php:53
 msgid "Nouakchott"
@@ -8200,64 +8214,56 @@ msgid "Porto-Novo"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:56
-#, fuzzy
 msgid "Sao Tome"
-msgstr "São Tomé e Príncipe"
+msgstr "São Tomé"
 
 #: wp-admin/includes/continents-cities.php:57
 msgid "Timbuktu"
-msgstr ""
+msgstr "Tombuctu"
 
 #: wp-admin/includes/continents-cities.php:58
 msgid "Tripoli"
-msgstr ""
+msgstr "Trípoli"
 
 #: wp-admin/includes/continents-cities.php:59
 msgid "Tunis"
-msgstr ""
+msgstr "Túnis"
 
 #: wp-admin/includes/continents-cities.php:60
-#, fuzzy
 msgid "Windhoek"
-msgstr "Largura"
+msgstr "Windhoek"
 
 #: wp-admin/includes/continents-cities.php:61
-#, fuzzy
 msgid "America"
-msgstr "Estados Unidos da América"
+msgstr "América"
 
 #: wp-admin/includes/continents-cities.php:62
 msgid "Adak"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:63
-#, fuzzy
 msgid "Anchorage"
-msgstr "Nome da âncora"
+msgstr "Anchorage"
 
 #: wp-admin/includes/continents-cities.php:64
-#, fuzzy
 msgid "Anguilla"
 msgstr "Anguilla"
 
 #: wp-admin/includes/continents-cities.php:65
-#, fuzzy
 msgid "Antigua"
-msgstr "Antígua e Barbuda"
+msgstr "Antígua"
 
 #: wp-admin/includes/continents-cities.php:66
-#, fuzzy
 msgid "Araguaina"
-msgstr "Classificação média"
+msgstr "Araguaina"
 
 #: wp-admin/includes/continents-cities.php:67
-#, fuzzy
 msgid "Argentina"
 msgstr "Argentina"
 
 #: wp-admin/includes/continents-cities.php:68
 msgid "Buenos Aires"
-msgstr ""
+msgstr "Buenos Aires"
 
 #: wp-admin/includes/continents-cities.php:69
 msgid "Catamarca"
@@ -8268,134 +8274,116 @@ msgid "ComodRivadavia"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:71
-#, fuzzy
 msgid "Cordoba"
-msgstr "Cordoba oro da Niquerágua"
+msgstr "Córdoba"
 
 #: wp-admin/includes/continents-cities.php:72
-#, fuzzy
 msgid "Jujuy"
-msgstr "julho"
+msgstr "Jujuy"
 
 #: wp-admin/includes/continents-cities.php:73
 msgid "La Rioja"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:74
-#, fuzzy
 msgid "Mendoza"
-msgstr "Mídia"
+msgstr "Mendoza"
 
 #: wp-admin/includes/continents-cities.php:75
 msgid "Rio Gallegos"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:76
-#, fuzzy
 msgid "San Juan"
-msgstr "San Marino"
+msgstr "San Juan"
 
 #: wp-admin/includes/continents-cities.php:77
-#, fuzzy
 msgid "San Luis"
-msgstr "San Marino"
+msgstr "São Luiz"
 
 #: wp-admin/includes/continents-cities.php:78
 msgid "Tucuman"
-msgstr ""
+msgstr "Tucumán"
 
 #: wp-admin/includes/continents-cities.php:79
 msgid "Ushuaia"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:80
-#, fuzzy
 msgid "Aruba"
 msgstr "Aruba"
 
 #: wp-admin/includes/continents-cities.php:81
-#, fuzzy
 msgid "Asuncion"
-msgstr "Ação"
+msgstr "Assunção"
 
 #: wp-admin/includes/continents-cities.php:82
-#, fuzzy
 msgid "Atikokan"
-msgstr "Ação"
+msgstr "Atikokan"
 
 #: wp-admin/includes/continents-cities.php:83
-#, fuzzy
 msgid "Atka"
-msgstr "Anexo"
+msgstr "Atka"
 
 #: wp-admin/includes/continents-cities.php:84
 msgid "Bahia"
-msgstr ""
+msgstr "Bahia"
 
 #: wp-admin/includes/continents-cities.php:85
-#, fuzzy
 msgid "Barbados"
 msgstr "Barbados"
 
 #: wp-admin/includes/continents-cities.php:86
-#, fuzzy
 msgid "Belem"
-msgstr "Azul"
+msgstr "Belém"
 
 #: wp-admin/includes/continents-cities.php:87
-#, fuzzy
 msgid "Belize"
 msgstr "Belize"
 
 #: wp-admin/includes/continents-cities.php:88
 msgid "Blanc-Sablon"
-msgstr ""
+msgstr "Blanc-Sablon"
 
 #: wp-admin/includes/continents-cities.php:89
 msgid "Boa Vista"
-msgstr ""
+msgstr "Boa Vista"
 
 #: wp-admin/includes/continents-cities.php:90
-#, fuzzy
 msgid "Bogota"
-msgstr "Sair"
+msgstr "Bogotá"
 
 #: wp-admin/includes/continents-cities.php:91
-#, fuzzy
 msgid "Boise"
-msgstr "Procurar"
+msgstr "Boise"
 
 #: wp-admin/includes/continents-cities.php:92
 msgid "Cambridge Bay"
-msgstr ""
+msgstr "Cambridge Bay"
 
 #: wp-admin/includes/continents-cities.php:93
 msgid "Campo Grande"
 msgstr "Campo Grande"
 
 #: wp-admin/includes/continents-cities.php:94
-#, fuzzy
 msgid "Cancun"
-msgstr "Cancelar"
+msgstr "Cancun"
 
 #: wp-admin/includes/continents-cities.php:95
 msgid "Caracas"
 msgstr "Caracas"
 
 #: wp-admin/includes/continents-cities.php:96
-#, fuzzy
 msgid "Cayenne"
-msgstr "Cancelar"
+msgstr "Cayenne"
 
 #: wp-admin/includes/continents-cities.php:97
-#, fuzzy
 msgid "Cayman"
-msgstr "Ilhas Caimão"
+msgstr "Caimã"
 
 #: wp-admin/includes/continents-cities.php:98
-#, fuzzy
 msgid "Chicago"
-msgstr "Alterar"
+msgstr "Chicago"
 
 #: wp-admin/includes/continents-cities.php:99
 msgid "Chihuahua"
@@ -8406,7 +8394,6 @@ msgid "Coral Harbour"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:101
-#, fuzzy
 msgid "Costa Rica"
 msgstr "Costa Rica"
 
@@ -8416,46 +8403,41 @@ msgstr "Cuiabá"
 
 #: wp-admin/includes/continents-cities.php:103
 msgid "Curacao"
-msgstr ""
+msgstr "Curaçao"
 
 #: wp-admin/includes/continents-cities.php:104
 msgid "Danmarkshavn"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:105
-#, fuzzy
 msgid "Dawson"
-msgstr "Concluído"
+msgstr "Dawson"
 
 #: wp-admin/includes/continents-cities.php:106
 msgid "Dawson Creek"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:107
-#, fuzzy
 msgid "Denver"
-msgstr "Nunca"
+msgstr "Denver"
 
 #: wp-admin/includes/continents-cities.php:108
 msgid "Detroit"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:109
-#, fuzzy
 msgid "Dominica"
 msgstr "Dominica"
 
 #: wp-admin/includes/continents-cities.php:110
-#, fuzzy
 msgid "Edmonton"
-msgstr "Emoções"
+msgstr "Edmonton"
 
 #: wp-admin/includes/continents-cities.php:111
 msgid "Eirunepe"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:112
-#, fuzzy
 msgid "El Salvador"
 msgstr "El Salvador"
 
@@ -8464,9 +8446,8 @@ msgid "Ensenada"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:114
-#, fuzzy
 msgid "Fort Wayne"
-msgstr "Nome"
+msgstr "Forte Wayne"
 
 #: wp-admin/includes/continents-cities.php:115
 msgid "Fortaleza"
@@ -8474,7 +8455,7 @@ msgstr "Fortaleza"
 
 #: wp-admin/includes/continents-cities.php:116
 msgid "Glace Bay"
-msgstr ""
+msgstr "Glace Bay"
 
 #: wp-admin/includes/continents-cities.php:117
 msgid "Godthab"
@@ -8482,7 +8463,7 @@ msgstr ""
 
 #: wp-admin/includes/continents-cities.php:118
 msgid "Goose Bay"
-msgstr ""
+msgstr "Goose Bay"
 
 #: wp-admin/includes/continents-cities.php:119
 #, fuzzy
@@ -8522,22 +8503,20 @@ msgid "Hermosillo"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:128
-#, fuzzy
 msgid "Indiana"
-msgstr "Aumentar recuo"
+msgstr "Indiana"
 
 #: wp-admin/includes/continents-cities.php:129
 msgid "Indianapolis"
-msgstr ""
+msgstr "Indianápolis"
 
 #: wp-admin/includes/continents-cities.php:130
 msgid "Knox"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:131
-#, fuzzy
 msgid "Marengo"
-msgstr "parente"
+msgstr "Marengo"
 
 #: wp-admin/includes/continents-cities.php:132
 msgid "Petersburg"
@@ -8545,16 +8524,15 @@ msgstr ""
 
 #: wp-admin/includes/continents-cities.php:133
 msgid "Tell City"
-msgstr ""
+msgstr "Tell City"
 
 #: wp-admin/includes/continents-cities.php:134
 msgid "Vevay"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:135
-#, fuzzy
 msgid "Vincennes"
-msgstr "Licença"
+msgstr "Vincennes"
 
 #: wp-admin/includes/continents-cities.php:136
 msgid "Winamac"
@@ -8565,18 +8543,16 @@ msgid "Inuvik"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:138
-#, fuzzy
 msgid "Iqaluit"
-msgstr "Itálico"
+msgstr "Iqaluit"
 
 #: wp-admin/includes/continents-cities.php:139
 msgid "Jamaica"
 msgstr "Jamaica"
 
 #: wp-admin/includes/continents-cities.php:140
-#, fuzzy
 msgid "Juneau"
-msgstr "junho"
+msgstr "Juneau"
 
 #: wp-admin/includes/continents-cities.php:141
 msgid "Kentucky"
@@ -8587,14 +8563,12 @@ msgid "Louisville"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:143
-#, fuzzy
 msgid "Monticello"
-msgstr "Diversas"
+msgstr "Monticello"
 
 #: wp-admin/includes/continents-cities.php:144
-#, fuzzy
 msgid "Knox IN"
-msgstr "Pesquisar em..."
+msgstr "Knox IN"
 
 #: wp-admin/includes/continents-cities.php:145
 msgid "La Paz"
@@ -8613,19 +8587,16 @@ msgid "Maceio"
 msgstr "Maceió"
 
 #: wp-admin/includes/continents-cities.php:149
-#, fuzzy
 msgid "Managua"
-msgstr "Gerenciar áudio"
+msgstr "Manágua"
 
 #: wp-admin/includes/continents-cities.php:150
-#, fuzzy
 msgid "Manaus"
-msgstr "Gerenciar plugins"
+msgstr "Manaus"
 
 #: wp-admin/includes/continents-cities.php:151
-#, fuzzy
 msgid "Marigot"
-msgstr "Destino"
+msgstr "Marigot"
 
 #: wp-admin/includes/continents-cities.php:152
 msgid "Martinique"
@@ -8636,44 +8607,38 @@ msgid "Mazatlan"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:154
-#, fuzzy
 msgid "Menominee"
-msgstr "nenhum"
+msgstr "Menominee"
 
 #: wp-admin/includes/continents-cities.php:155
-#, fuzzy
 msgid "Merida"
-msgstr "Mídia"
+msgstr "Merida"
 
 #: wp-admin/includes/continents-cities.php:156
 msgid "Mexico City"
-msgstr ""
+msgstr "Cidade do México"
 
 #: wp-admin/includes/continents-cities.php:157
 msgid "Miquelon"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:158
-#, fuzzy
 msgid "Moncton"
-msgstr "Ação"
+msgstr "Moncton"
 
 #: wp-admin/includes/continents-cities.php:159
 msgid "Monterrey"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:160
-#, fuzzy
 msgid "Montevideo"
-msgstr "Gerenciar vídeo"
+msgstr "Montevidéo"
 
 #: wp-admin/includes/continents-cities.php:161
-#, fuzzy
 msgid "Montreal"
-msgstr "Controles"
+msgstr "Montreal"
 
 #: wp-admin/includes/continents-cities.php:162
-#, fuzzy
 msgid "Montserrat"
 msgstr "Montserrat"
 
@@ -8690,27 +8655,24 @@ msgid "Nipigon"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:166
-#, fuzzy
 msgid "Nome"
-msgstr "Nenhuma"
+msgstr "Nome"
 
 #: wp-admin/includes/continents-cities.php:167
 msgid "Noronha"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:168
-#, fuzzy
 msgid "North Dakota"
-msgstr "ndebele, north"
+msgstr "Dakota do Norte"
 
 #: wp-admin/includes/continents-cities.php:169
 msgid "Center"
 msgstr "Centro"
 
 #: wp-admin/includes/continents-cities.php:170
-#, fuzzy
 msgid "New Salem"
-msgstr "novo script %s"
+msgstr "Nova Salém"
 
 #: wp-admin/includes/continents-cities.php:171
 msgid "Panama"
@@ -8731,12 +8693,12 @@ msgstr ""
 #: wp-admin/includes/continents-cities.php:175
 #, fuzzy
 msgid "Port-au-Prince"
-msgstr "Activar resposta au_tomática"
+msgstr "Porto de transferências de ficheiros"
 
 #: wp-admin/includes/continents-cities.php:176
 #, fuzzy
 msgid "Port of Spain"
-msgstr "Reino de Espanha"
+msgstr "Porto de ligação"
 
 #: wp-admin/includes/continents-cities.php:177
 msgid "Porto Acre"
@@ -8763,14 +8725,12 @@ msgid "Recife"
 msgstr "Recife"
 
 #: wp-admin/includes/continents-cities.php:183
-#, fuzzy
 msgid "Regina"
-msgstr "Leitura"
+msgstr "Regina"
 
 #: wp-admin/includes/continents-cities.php:184
-#, fuzzy
 msgid "Resolute"
-msgstr "Função"
+msgstr "Resolute"
 
 #: wp-admin/includes/continents-cities.php:185
 msgid "Rio Branco"
@@ -8803,51 +8763,49 @@ msgstr ""
 #: wp-admin/includes/continents-cities.php:192
 #, fuzzy
 msgid "St Barthelemy"
-msgstr "Mostrar por e_stado"
+msgstr "St Barthelemy"
 
 #: wp-admin/includes/continents-cities.php:193
 #, fuzzy
 msgid "St Johns"
-msgstr "Mostrar por e_stado"
+msgstr "St Johns"
 
 #: wp-admin/includes/continents-cities.php:194
 #, fuzzy
 msgid "St Kitts"
-msgstr "São Cristovão-Nevis-Anguilla"
+msgstr "St Kitts"
 
 #: wp-admin/includes/continents-cities.php:195
 #, fuzzy
 msgid "St Lucia"
-msgstr "Santa Lúcia"
+msgstr "St Lucia"
 
 #: wp-admin/includes/continents-cities.php:196
 #, fuzzy
 msgid "St Thomas"
-msgstr "Mostrar por e_stado"
+msgstr "St Thomas"
 
 #: wp-admin/includes/continents-cities.php:197
 #, fuzzy
 msgid "St Vincent"
-msgstr "São Vicente e Grenadinas"
+msgstr "St Vincent"
 
 #: wp-admin/includes/continents-cities.php:198
 #, fuzzy
 msgid "Swift Current"
-msgstr "Imagem atual"
+msgstr "Swift Current"
 
 #: wp-admin/includes/continents-cities.php:199
 msgid "Tegucigalpa"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:200
-#, fuzzy
 msgid "Thule"
-msgstr "ter"
+msgstr "Thule"
 
 #: wp-admin/includes/continents-cities.php:201
-#, fuzzy
 msgid "Thunder Bay"
-msgstr "quinta-feira"
+msgstr "Thunder Bay"
 
 #: wp-admin/includes/continents-cities.php:202
 msgid "Tijuana"
@@ -8858,18 +8816,16 @@ msgid "Toronto"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:204
-#, fuzzy
 msgid "Tortola"
-msgstr "Ferramentas"
+msgstr "Tortola"
 
 #: wp-admin/includes/continents-cities.php:205
 msgid "Vancouver"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:206
-#, fuzzy
 msgid "Virgin"
-msgstr "Ilhas Virgens, Estados Unidos"
+msgstr "Virgin"
 
 #: wp-admin/includes/continents-cities.php:207
 msgid "Whitehorse"
@@ -8892,9 +8848,8 @@ msgid "Antarctica"
 msgstr "Antártica"
 
 #: wp-admin/includes/continents-cities.php:212
-#, fuzzy
 msgid "Casey"
-msgstr "Base"
+msgstr "Casey"
 
 #: wp-admin/includes/continents-cities.php:213
 msgid "Davis"
@@ -8905,42 +8860,36 @@ msgid "DumontDUrville"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:215
-#, fuzzy
 msgid "Mawson"
-msgstr "seg"
+msgstr "Mawson"
 
 #: wp-admin/includes/continents-cities.php:216
 msgid "McMurdo"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:217
-#, fuzzy
 msgid "Palmer"
-msgstr "Galeria"
+msgstr "Palmer"
 
 #: wp-admin/includes/continents-cities.php:218
-#, fuzzy
 msgid "Rothera"
-msgstr "Rodapé"
+msgstr "Rothera"
 
 #: wp-admin/includes/continents-cities.php:219
 msgid "South Pole"
 msgstr "Pólo Sul"
 
 #: wp-admin/includes/continents-cities.php:220
-#, fuzzy
 msgid "Syowa"
-msgstr "Mostrar"
+msgstr "Syowa"
 
 #: wp-admin/includes/continents-cities.php:221
-#, fuzzy
 msgid "Vostok"
-msgstr "Artigo"
+msgstr "Vostok"
 
 #: wp-admin/includes/continents-cities.php:222
-#, fuzzy
 msgid "Arctic"
-msgstr "Ação"
+msgstr "Ártico"
 
 #: wp-admin/includes/continents-cities.php:223
 msgid "Longyearbyen"
@@ -8951,19 +8900,16 @@ msgid "Asia"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:225
-#, fuzzy
 msgid "Aden"
-msgstr "Administrar"
+msgstr "Aden"
 
 #: wp-admin/includes/continents-cities.php:226
-#, fuzzy
 msgid "Almaty"
-msgstr "último"
+msgstr "Almaty"
 
 #: wp-admin/includes/continents-cities.php:227
-#, fuzzy
 msgid "Amman"
-msgstr "Administrar"
+msgstr "Amman"
 
 #: wp-admin/includes/continents-cities.php:228
 msgid "Anadyr"
@@ -8974,9 +8920,8 @@ msgid "Aqtau"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:230
-#, fuzzy
 msgid "Aqtobe"
-msgstr "outubro"
+msgstr "Aqtobe"
 
 #: wp-admin/includes/continents-cities.php:231
 msgid "Ashgabat"
@@ -8988,26 +8933,23 @@ msgstr ""
 
 #: wp-admin/includes/continents-cities.php:233
 msgid "Baghdad"
-msgstr ""
+msgstr "Bagdá"
 
 #: wp-admin/includes/continents-cities.php:234
-#, fuzzy
 msgid "Bahrain"
 msgstr "Barein"
 
 #: wp-admin/includes/continents-cities.php:235
-#, fuzzy
 msgid "Baku"
-msgstr "Voltar"
+msgstr "Baku"
 
 #: wp-admin/includes/continents-cities.php:236
-#, fuzzy
 msgid "Bangkok"
-msgstr "Vazio"
+msgstr "Bangkok"
 
 #: wp-admin/includes/continents-cities.php:237
 msgid "Beirut"
-msgstr ""
+msgstr "Beirute"
 
 #: wp-admin/includes/continents-cities.php:238
 msgid "Bishkek"
@@ -9019,26 +8961,23 @@ msgstr "Brunei"
 
 #: wp-admin/includes/continents-cities.php:240
 msgid "Calcutta"
-msgstr ""
+msgstr "Calcutá"
 
 #: wp-admin/includes/continents-cities.php:241
 msgid "Choibalsan"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:242
-#, fuzzy
 msgid "Chongqing"
-msgstr "Mudando para %s"
+msgstr "Chongqing"
 
 #: wp-admin/includes/continents-cities.php:243
-#, fuzzy
 msgid "Chungking"
-msgstr "Mudando para %s"
+msgstr "Chungking"
 
 #: wp-admin/includes/continents-cities.php:244
-#, fuzzy
 msgid "Colombo"
-msgstr "Coluna"
+msgstr "Colombo"
 
 #: wp-admin/includes/continents-cities.php:245
 msgid "Dacca"
@@ -9046,7 +8985,7 @@ msgstr ""
 
 #: wp-admin/includes/continents-cities.php:246
 msgid "Damascus"
-msgstr ""
+msgstr "Damasco"
 
 #: wp-admin/includes/continents-cities.php:247
 msgid "Dhaka"
@@ -9061,9 +9000,8 @@ msgid "Dubai"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:250
-#, fuzzy
 msgid "Dushanbe"
-msgstr "Desabilitado"
+msgstr "Dushanbe"
 
 #: wp-admin/includes/continents-cities.php:251
 msgid "Gaza"
@@ -9074,11 +9012,8 @@ msgid "Harbin"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:253
-#, fuzzy
 msgid "Ho Chi Minh"
-msgstr ""
-"\n"
-"Copyright (C) 1996 Kim-Minh Kaplan."
+msgstr "Ho Chi Minh"
 
 #: wp-admin/includes/continents-cities.php:254
 msgid "Hong Kong"
@@ -9093,9 +9028,8 @@ msgid "Irkutsk"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:257
-#, fuzzy
 msgid "Istanbul"
-msgstr "Instalar"
+msgstr "Istanbul"
 
 #: wp-admin/includes/continents-cities.php:258
 msgid "Jakarta"
@@ -9107,26 +9041,23 @@ msgstr ""
 
 #: wp-admin/includes/continents-cities.php:260
 msgid "Jerusalem"
-msgstr ""
+msgstr "Jerusalém"
 
 #: wp-admin/includes/continents-cities.php:261
-#, fuzzy
 msgid "Kabul"
-msgstr "sobre"
+msgstr "Kabul"
 
 #: wp-admin/includes/continents-cities.php:262
 msgid "Kamchatka"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:263
-#, fuzzy
 msgid "Karachi"
-msgstr "março"
+msgstr "Karachi"
 
 #: wp-admin/includes/continents-cities.php:264
-#, fuzzy
 msgid "Kashgar"
-msgstr "Painel"
+msgstr "Kashgar"
 
 #: wp-admin/includes/continents-cities.php:265
 msgid "Katmandu"
@@ -9153,32 +9084,28 @@ msgid "Kuwait"
 msgstr "Kuwait"
 
 #: wp-admin/includes/continents-cities.php:271
-#, fuzzy
 msgid "Macao"
-msgstr "Macau"
+msgstr "Macao"
 
 #: wp-admin/includes/continents-cities.php:272
-#, fuzzy
 msgid "Macau"
-msgstr "março"
+msgstr "Macau"
 
 #: wp-admin/includes/continents-cities.php:273
 msgid "Magadan"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:274
-#, fuzzy
 msgid "Makassar"
-msgstr "Marcar como spam"
+msgstr "Makassar"
 
 #: wp-admin/includes/continents-cities.php:275
 msgid "Manila"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:276
-#, fuzzy
 msgid "Muscat"
-msgstr "Música"
+msgstr "Muscat"
 
 #: wp-admin/includes/continents-cities.php:277
 msgid "Nicosia"
@@ -9217,18 +9144,16 @@ msgid "Qyzylorda"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:286
-#, fuzzy
 msgid "Rangoon"
-msgstr "Classificação"
+msgstr "Rangoon"
 
 #: wp-admin/includes/continents-cities.php:287
 msgid "Riyadh"
-msgstr ""
+msgstr "Riade"
 
 #: wp-admin/includes/continents-cities.php:288
-#, fuzzy
 msgid "Saigon"
-msgstr "SAlign"
+msgstr "Saigon"
 
 #: wp-admin/includes/continents-cities.php:289
 msgid "Sakhalin"
@@ -9239,22 +9164,20 @@ msgid "Samarkand"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:291
-#, fuzzy
 msgid "Seoul"
-msgstr "Agenda"
+msgstr "Seoul"
 
 #: wp-admin/includes/continents-cities.php:292
 msgid "Shanghai"
-msgstr ""
+msgstr "Xangai"
 
 #: wp-admin/includes/continents-cities.php:293
 msgid "Singapore"
 msgstr "Singapura"
 
 #: wp-admin/includes/continents-cities.php:294
-#, fuzzy
 msgid "Taipei"
-msgstr "Descrição"
+msgstr "Taipei"
 
 #: wp-admin/includes/continents-cities.php:295
 msgid "Tashkent"
@@ -9265,28 +9188,24 @@ msgid "Tbilisi"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:297
-#, fuzzy
 msgid "Tehran"
-msgstr "Termo"
+msgstr "Tehran"
 
 #: wp-admin/includes/continents-cities.php:298
 msgid "Tel Aviv"
-msgstr ""
+msgstr "Tel Avive"
 
 #: wp-admin/includes/continents-cities.php:299
-#, fuzzy
 msgid "Thimbu"
-msgstr "qui"
+msgstr "Thimbu"
 
 #: wp-admin/includes/continents-cities.php:300
-#, fuzzy
 msgid "Thimphu"
-msgstr "qui"
+msgstr "Thimphu"
 
 #: wp-admin/includes/continents-cities.php:301
-#, fuzzy
 msgid "Tokyo"
-msgstr "Ferramentas"
+msgstr "Tóquio"
 
 #: wp-admin/includes/continents-cities.php:302
 msgid "Ujung Pandang"
@@ -9329,19 +9248,16 @@ msgid "Atlantic"
 msgstr "Atlântico"
 
 #: wp-admin/includes/continents-cities.php:312
-#, fuzzy
 msgid "Azores"
-msgstr "Endereço"
+msgstr "Açores"
 
 #: wp-admin/includes/continents-cities.php:313
-#, fuzzy
 msgid "Bermuda"
 msgstr "Bermuda"
 
 #: wp-admin/includes/continents-cities.php:314
-#, fuzzy
 msgid "Canary"
-msgstr "janeiro"
+msgstr "Canárias"
 
 #: wp-admin/includes/continents-cities.php:315
 msgid "Cape Verde"
@@ -9349,40 +9265,35 @@ msgstr "Cabo Verde"
 
 #: wp-admin/includes/continents-cities.php:316
 msgid "Faeroe"
-msgstr ""
+msgstr "Faroé"
 
 #: wp-admin/includes/continents-cities.php:317
-#, fuzzy
 msgid "Faroe"
-msgstr "Ilhas Feroé"
+msgstr "Faroe"
 
 #: wp-admin/includes/continents-cities.php:318
-#, fuzzy
 msgid "Jan Mayen"
-msgstr "Svalbard e Jan Mayen"
+msgstr "Jan Mayen"
 
 #: wp-admin/includes/continents-cities.php:319
-#, fuzzy
 msgid "Madeira"
-msgstr "Mídia"
+msgstr "Madeira"
 
 #: wp-admin/includes/continents-cities.php:320
 msgid "Reykjavik"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:321
-#, fuzzy
 msgid "South Georgia"
-msgstr "África do Sul"
+msgstr "Georgia do Sul"
 
 #: wp-admin/includes/continents-cities.php:322
 msgid "St Helena"
 msgstr "Santa Helena"
 
 #: wp-admin/includes/continents-cities.php:323
-#, fuzzy
 msgid "Stanley"
-msgstr "Escala"
+msgstr "Stanley"
 
 #: wp-admin/includes/continents-cities.php:324
 msgid "Australia"
@@ -9403,7 +9314,7 @@ msgstr ""
 #: wp-admin/includes/continents-cities.php:328
 #, fuzzy
 msgid "Broken Hill"
-msgstr "Pacotes estragados"
+msgstr "Broken Hill"
 
 #: wp-admin/includes/continents-cities.php:329
 msgid "Canberra"
@@ -9414,9 +9325,8 @@ msgid "Currie"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:331
-#, fuzzy
 msgid "Darwin"
-msgstr "Domínio"
+msgstr "Darwin"
 
 #: wp-admin/includes/continents-cities.php:332
 msgid "Eucla"
@@ -9451,9 +9361,8 @@ msgid "NSW"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:340
-#, fuzzy
 msgid "Perth"
-msgstr "Caminho"
+msgstr "Perth"
 
 #: wp-admin/includes/continents-cities.php:341
 msgid "Queensland"
@@ -9485,11 +9394,11 @@ msgstr ""
 
 #: wp-admin/includes/continents-cities.php:348
 msgid "Etc"
-msgstr ""
+msgstr "Etc."
 
 #: wp-admin/includes/continents-cities.php:349
 msgid "GMT"
-msgstr ""
+msgstr "GMT"
 
 #: wp-admin/includes/continents-cities.php:350
 msgid "GMT+0"
@@ -9613,17 +9522,15 @@ msgstr ""
 
 #: wp-admin/includes/continents-cities.php:380
 msgid "UCT"
-msgstr ""
+msgstr "UCT"
 
 #: wp-admin/includes/continents-cities.php:381
-#, fuzzy
 msgid "Universal"
-msgstr "Geral"
+msgstr "Universal"
 
 #: wp-admin/includes/continents-cities.php:382
-#, fuzzy
 msgid "UTC"
-msgstr "UTC %s"
+msgstr "UTC"
 
 #: wp-admin/includes/continents-cities.php:383
 #, fuzzy
@@ -9643,24 +9550,20 @@ msgid "Andorra"
 msgstr "Andorra"
 
 #: wp-admin/includes/continents-cities.php:387
-#, fuzzy
 msgid "Athens"
-msgstr "Ações"
+msgstr "Atenas"
 
 #: wp-admin/includes/continents-cities.php:388
-#, fuzzy
 msgid "Belfast"
-msgstr "último"
+msgstr "Belfast"
 
 #: wp-admin/includes/continents-cities.php:389
-#, fuzzy
 msgid "Belgrade"
-msgstr "Atualizar"
+msgstr "Belgrado"
 
 #: wp-admin/includes/continents-cities.php:390
-#, fuzzy
 msgid "Berlin"
-msgstr "Linha de base"
+msgstr "Berlin"
 
 #: wp-admin/includes/continents-cities.php:391
 msgid "Bratislava"
@@ -9668,36 +9571,33 @@ msgstr ""
 
 #: wp-admin/includes/continents-cities.php:392
 msgid "Brussels"
-msgstr ""
+msgstr "Bruxelas"
 
 #: wp-admin/includes/continents-cities.php:393
 msgid "Bucharest"
-msgstr ""
+msgstr "Bucareste"
 
 #: wp-admin/includes/continents-cities.php:394
 msgid "Budapest"
-msgstr ""
+msgstr "Budapeste"
 
 #: wp-admin/includes/continents-cities.php:395
 msgid "Chisinau"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:396
-#, fuzzy
 msgid "Copenhagen"
-msgstr "Alterar"
+msgstr "Copenhagen"
 
 #: wp-admin/includes/continents-cities.php:397
-#, fuzzy
 msgid "Dublin"
-msgstr "Público"
+msgstr "Dublin"
 
 #: wp-admin/includes/continents-cities.php:398
 msgid "Gibraltar"
 msgstr "Gibraltar"
 
 #: wp-admin/includes/continents-cities.php:399
-#, fuzzy
 msgid "Guernsey"
 msgstr "Guernsey"
 
@@ -9711,7 +9611,6 @@ msgid "Isle of Man"
 msgstr "Ilha de Man"
 
 #: wp-admin/includes/continents-cities.php:402
-#, fuzzy
 msgid "Jersey"
 msgstr "Jersey"
 
@@ -9724,18 +9623,16 @@ msgid "Kiev"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:405
-#, fuzzy
 msgid "Lisbon"
-msgstr "Lista"
+msgstr "Lisboa"
 
 #: wp-admin/includes/continents-cities.php:406
 msgid "Ljubljana"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:407
-#, fuzzy
 msgid "London"
-msgstr "nenhum"
+msgstr "Londres"
 
 #: wp-admin/includes/continents-cities.php:408
 msgid "Luxembourg"
@@ -9754,9 +9651,8 @@ msgid "Mariehamn"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:412
-#, fuzzy
 msgid "Minsk"
-msgstr "Pings"
+msgstr "Minsk"
 
 #: wp-admin/includes/continents-cities.php:413
 msgid "Monaco"
@@ -9783,21 +9679,18 @@ msgid "Prague"
 msgstr "Praga"
 
 #: wp-admin/includes/continents-cities.php:419
-#, fuzzy
 msgid "Riga"
-msgstr "Direita"
+msgstr "Riga"
 
 #: wp-admin/includes/continents-cities.php:420
 msgid "Rome"
 msgstr "Roma"
 
 #: wp-admin/includes/continents-cities.php:421
-#, fuzzy
 msgid "Samara"
-msgstr "Resumo"
+msgstr "Samara"
 
 #: wp-admin/includes/continents-cities.php:422
-#, fuzzy
 msgid "San Marino"
 msgstr "San Marino"
 
@@ -9822,14 +9715,12 @@ msgid "Stockholm"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:428
-#, fuzzy
 msgid "Tallinn"
-msgstr "Descrição"
+msgstr "Tallinn"
 
 #: wp-admin/includes/continents-cities.php:429
-#, fuzzy
 msgid "Tirane"
-msgstr "Descrição"
+msgstr "Tirane"
 
 #: wp-admin/includes/continents-cities.php:430
 msgid "Tiraspol"
@@ -9840,24 +9731,20 @@ msgid "Uzhgorod"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:432
-#, fuzzy
 msgid "Vaduz"
-msgstr "Valor"
+msgstr "Vaduz"
 
 #: wp-admin/includes/continents-cities.php:433
-#, fuzzy
 msgid "Vatican"
-msgstr "Classificação"
+msgstr "Vaticano"
 
 #: wp-admin/includes/continents-cities.php:434
-#, fuzzy
 msgid "Vienna"
-msgstr "Ver"
+msgstr "Viena"
 
 #: wp-admin/includes/continents-cities.php:435
-#, fuzzy
 msgid "Vilnius"
-msgstr "Concluir"
+msgstr "Vilnius"
 
 #: wp-admin/includes/continents-cities.php:436
 msgid "Volgograd"
@@ -9868,85 +9755,73 @@ msgid "Warsaw"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:438
-#, fuzzy
 msgid "Zagreb"
-msgstr "Página"
+msgstr "Zagreb"
 
 #: wp-admin/includes/continents-cities.php:439
 msgid "Zaporozhye"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:440
-#, fuzzy
 msgid "Zurich"
-msgstr "Numérica"
+msgstr "Zurique"
 
 #: wp-admin/includes/continents-cities.php:441
-#, fuzzy
 msgid "Indian"
-msgstr "Rupia Indiana"
+msgstr "India"
 
 #: wp-admin/includes/continents-cities.php:442
 msgid "Antananarivo"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:443
-#, fuzzy
 msgid "Chagos"
-msgstr "Alterar"
+msgstr "Chagos"
 
 #: wp-admin/includes/continents-cities.php:444
-#, fuzzy
 msgid "Christmas"
 msgstr "Ilha Natal"
 
 #: wp-admin/includes/continents-cities.php:445
-#, fuzzy
 msgid "Cocos"
-msgstr "Ilhas Cocos"
+msgstr "Cocos"
 
 #: wp-admin/includes/continents-cities.php:446
-#, fuzzy
 msgid "Comoro"
-msgstr "Francos dos Comoros"
+msgstr "Comoro"
 
 #: wp-admin/includes/continents-cities.php:447
 msgid "Kerguelen"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:448
-#, fuzzy
 msgid "Mahe"
-msgstr "março"
+msgstr "Mahe"
 
 #: wp-admin/includes/continents-cities.php:449
-#, fuzzy
 msgid "Maldives"
 msgstr "Maldivas"
 
 #: wp-admin/includes/continents-cities.php:450
-#, fuzzy
 msgid "Mauritius"
-msgstr "Maurícias"
+msgstr "Maurícius"
 
 #: wp-admin/includes/continents-cities.php:451
-#, fuzzy
 msgid "Mayotte"
 msgstr "Mayotte"
 
 #: wp-admin/includes/continents-cities.php:452
 #, fuzzy
 msgid "Reunion"
-msgstr "Ilha Reunião"
+msgstr "Reunion"
 
 #: wp-admin/includes/continents-cities.php:453
 msgid "Pacific"
-msgstr ""
+msgstr "Pacífico"
 
 #: wp-admin/includes/continents-cities.php:454
-#, fuzzy
 msgid "Apia"
-msgstr "abril"
+msgstr "Apia"
 
 #: wp-admin/includes/continents-cities.php:455
 msgid "Auckland"
@@ -9957,14 +9832,12 @@ msgid "Chatham"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:457
-#, fuzzy
 msgid "Easter"
-msgstr "Colar"
+msgstr "Ilha de Páscoa"
 
 #: wp-admin/includes/continents-cities.php:458
-#, fuzzy
 msgid "Efate"
-msgstr "namorado(a)"
+msgstr "Efate"
 
 #: wp-admin/includes/continents-cities.php:459
 msgid "Enderbury"
@@ -9975,7 +9848,6 @@ msgid "Fakaofo"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:461
-#, fuzzy
 msgid "Fiji"
 msgstr "Fiji"
 
@@ -9985,7 +9857,7 @@ msgstr ""
 
 #: wp-admin/includes/continents-cities.php:463
 msgid "Galapagos"
-msgstr ""
+msgstr "Galápagos"
 
 #: wp-admin/includes/continents-cities.php:464
 msgid "Gambier"
@@ -9996,7 +9868,6 @@ msgid "Guadalcanal"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:466
-#, fuzzy
 msgid "Guam"
 msgstr "Guam"
 
@@ -10005,7 +9876,6 @@ msgid "Honolulu"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:468
-#, fuzzy
 msgid "Johnston"
 msgstr "Ilha Johnston"
 
@@ -10022,82 +9892,68 @@ msgid "Kwajalein"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:472
-#, fuzzy
 msgid "Majuro"
-msgstr "Maduro (conteúdo adulto)"
+msgstr "Majuro"
 
 #: wp-admin/includes/continents-cities.php:473
 msgid "Marquesas"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:474
-#, fuzzy
 msgid "Midway"
-msgstr "Ilhas de Midway"
+msgstr "Midway"
 
 #: wp-admin/includes/continents-cities.php:475
-#, fuzzy
 msgid "Nauru"
 msgstr "Nauru"
 
 #: wp-admin/includes/continents-cities.php:476
-#, fuzzy
 msgid "Niue"
 msgstr "Niue"
 
 #: wp-admin/includes/continents-cities.php:477
-#, fuzzy
 msgid "Norfolk"
 msgstr "Ilha Norfolk"
 
 #: wp-admin/includes/continents-cities.php:478
-#, fuzzy
 msgid "Noumea"
-msgstr "Volume"
+msgstr "Noumea"
 
 #: wp-admin/includes/continents-cities.php:479
-#, fuzzy
 msgid "Pago Pago"
-msgstr "Senha da página"
+msgstr "Pago Pago"
 
 #: wp-admin/includes/continents-cities.php:480
-#, fuzzy
 msgid "Palau"
 msgstr "Palau"
 
 #: wp-admin/includes/continents-cities.php:481
-#, fuzzy
 msgid "Pitcairn"
 msgstr "Pitcairn"
 
 #: wp-admin/includes/continents-cities.php:482
-#, fuzzy
 msgid "Ponape"
-msgstr "Nenhuma"
+msgstr "Ponape"
 
 #: wp-admin/includes/continents-cities.php:483
-#, fuzzy
 msgid "Port Moresby"
-msgstr "Andamento"
+msgstr "Porto Moresby"
 
 #: wp-admin/includes/continents-cities.php:484
-#, fuzzy
 msgid "Rarotonga"
-msgstr "Classificação"
+msgstr "Rarotonga"
 
 #: wp-admin/includes/continents-cities.php:485
-#, fuzzy
 msgid "Saipan"
-msgstr "Spam"
+msgstr "Saipan"
 
 #: wp-admin/includes/continents-cities.php:486
-#, fuzzy
 msgid "Samoa"
 msgstr "Samoa"
 
 #: wp-admin/includes/continents-cities.php:487
 msgid "Tahiti"
-msgstr ""
+msgstr "Taiti"
 
 #: wp-admin/includes/continents-cities.php:488
 msgid "Tarawa"
@@ -10112,12 +9968,10 @@ msgid "Truk"
 msgstr ""
 
 #: wp-admin/includes/continents-cities.php:491
-#, fuzzy
 msgid "Wake"
-msgstr "Ilha Wake"
+msgstr "Wake"
 
 #: wp-admin/includes/continents-cities.php:492
-#, fuzzy
 msgid "Wallis"
 msgstr "Wallis e Futuna"
 
@@ -10271,7 +10125,7 @@ msgstr "Conteúdo"
 #: wp-admin/includes/dashboard.php:416
 #, fuzzy
 msgid "Reset"
-msgstr "Limpar Filtro"
+msgstr "Redefinir"
 
 #: wp-admin/includes/dashboard.php:462
 msgid "There are no drafts at the moment"
@@ -10302,7 +10156,6 @@ msgid "Mark this comment as spam"
 msgstr "Marcar esse comentário como spam"
 
 #: wp-admin/includes/dashboard.php:544
-#, fuzzy
 msgctxt "verb"
 msgid "Spam"
 msgstr "Spam"
@@ -10349,7 +10202,7 @@ msgstr "Este widget requer JavaScript."
 #: wp-admin/includes/dashboard.php:737
 #, fuzzy, php-format
 msgid "<strong>RSS Error</strong>: %s"
-msgstr "Erro no RSS %1$d"
+msgstr "<strong>Erro de RSS:</strong> %s"
 
 #: wp-admin/includes/dashboard.php:631
 msgid "This dashboard widget queries <a href=\"http://blogsearch.google.com/\">Google Blog Search</a> so that when another blog links to your site it will show up here. It has found no incoming links&hellip; yet. It&#8217;s okay &#8212; there is no rush."
@@ -10363,17 +10216,17 @@ msgstr "Alguém"
 #: wp-admin/includes/dashboard.php:667
 #, fuzzy, php-format
 msgid "%1$s linked here <a href=\"%2$s\">saying</a>, \"%3$s\""
-msgstr "%1$s fez um link para cá <a href=\"%2$s\">dizendo</a>, \"%3$s\"|feed_display"
+msgstr "%1$s fez um link para cá <a href=\"%2$s\">dizendo</a>, \"%3$s\""
 
 #: wp-admin/includes/dashboard.php:670
 #, fuzzy, php-format
 msgid "%1$s linked here saying, \"%3$s\""
-msgstr "%1$s fez um link para cá, dizendo \"%3$s\"|feed_display"
+msgstr "%1$s fez um link para cá, dizendo \"%3$s\""
 
 #: wp-admin/includes/dashboard.php:675
 #, fuzzy, php-format
 msgid "on %4$s"
-msgstr "Ligado"
+msgstr "Sobre %4$s"
 
 #: wp-admin/includes/dashboard.php:768
 msgid "Most Popular"
@@ -10483,7 +10336,7 @@ msgstr "Modelo de comentários popup"
 #: wp-admin/includes/file.php:198
 #, fuzzy
 msgid "Sorry, can&#8217;t edit files with &#8220;..&#8221; in the name. If you are trying to edit a file in your WordPress home directory, you can just type the name of the file in."
-msgstr "Desculpe, não dá para editar arquivos com \"..\" no nome. Se você está tentando editar um arquivo no diretório base do WordPress, é só preencher o nome do arquivo."
+msgstr "Não é possível editar arquivos com &#8220;..&#8221; no nome. Se você está tentando editar um arquivo no diretório da home do WordPress, basta preencher o nome do arquivo."
 
 #: wp-admin/includes/file.php:201
 msgid "Sorry, can&#8217;t call files with their real path."
@@ -10525,8 +10378,9 @@ msgstr "Falha ao gravar o arquivo no disco."
 
 #: wp-admin/includes/file.php:245
 #: wp-admin/includes/file.php:353
+#, fuzzy
 msgid "File upload stopped by extension."
-msgstr ""
+msgstr "Upload de arquivos parado por extensão."
 
 #: wp-admin/includes/file.php:261
 #: wp-admin/includes/file.php:369
@@ -10642,7 +10496,7 @@ msgstr "Continuar"
 #: wp-admin/includes/image.php:140
 #, fuzzy, php-format
 msgid "File &#8220;%s&#8221; doesn&#8217;t exist?"
-msgstr "O arquivo '%s' não existe?"
+msgstr "O arquivo &#8220;%s&#8221;  não existe?"
 
 #: wp-admin/includes/image.php:143
 msgid "The GD image library is not installed."
@@ -10651,7 +10505,7 @@ msgstr "A biblioteca de imagens GD não está instalada."
 #: wp-admin/includes/image.php:150
 #, fuzzy, php-format
 msgid "File &#8220;%s&#8221; is not an image."
-msgstr "O arquivo '%s' não é uma imagem."
+msgstr "O arquivo &#8220;%s&#8221; não é uma imagem."
 
 #: wp-admin/includes/media.php:18
 msgid "From Computer"
@@ -10786,7 +10640,7 @@ msgstr "Digite o URL do link ou clique acima para as predefinições."
 #: wp-admin/includes/media.php:1005
 #, fuzzy
 msgid "Location of the uploaded file."
-msgstr "Nenhum arquivo foi enviado."
+msgstr "Local do arquivo enviado."
 
 #: wp-admin/includes/media.php:1094
 #: wp-admin/includes/media.php:1586
@@ -10842,12 +10696,12 @@ msgstr "Adicionar arquivo de mídia do URL"
 #: wp-admin/includes/media.php:1585
 #, fuzzy
 msgid "All Tabs:"
-msgstr "Todos os ficheiros"
+msgstr "Todos as abas:"
 
 #: wp-admin/includes/media.php:1589
 #, fuzzy
 msgid "Sort Order:"
-msgstr "Ordem do menu"
+msgstr "Organizar:"
 
 #: wp-admin/includes/media.php:1590
 #: wp-admin/includes/media.php:1657
@@ -10958,7 +10812,7 @@ msgstr "Texto alternativo"
 #: wp-admin/includes/media.php:1866
 #, fuzzy
 msgid "Alt text for the image, e.g. &#8220;The Mona Lisa&#8221;"
-msgstr "Texto alternativo para a imagem, por exemplo \"A Mona Lisa\""
+msgstr "Texto alternativo para a imagem, por exemplo &#8220;A Mona Lisa&#8221;"
 
 #: wp-admin/includes/media.php:1868
 msgid "Image Caption"
@@ -10987,7 +10841,7 @@ msgstr "URL do arquivo de áudio"
 #: wp-admin/includes/media.php:1962
 #, fuzzy
 msgid "Link text, e.g. &#8220;Still Alive by Jonathan Coulton&#8221;"
-msgstr "Texto do link, por exemplo \"Águas de Março, de Tom Jobim\""
+msgstr "Texto do link, por exemplo &#8220;Still Alive, de Jonathan Coulton&#8221;"
 
 #: wp-admin/includes/media.php:1985
 msgid "Video URL"
@@ -10996,12 +10850,12 @@ msgstr "URL do vídeo"
 #: wp-admin/includes/media.php:1997
 #, fuzzy
 msgid "Link text, e.g. &#8220;Lucy on YouTube&#8220;"
-msgstr "Texto do link, por exemplo \"Lucy no YouTube\""
+msgstr "Texto do link, por exemplo &#8220;Lucy no YouTube&#8221;"
 
 #: wp-admin/includes/media.php:2032
 #, fuzzy
 msgid "Link text, e.g. &#8220;Ransom Demands (PDF)&#8221;"
-msgstr "Texto do link, por exemplo \"Pensamentos (PDF)\""
+msgstr "Texto do link, por exemplo &#8220;Pensamentos (PDF)&#8221;"
 
 #: wp-admin/includes/media.php:2068
 #, php-format
@@ -11015,7 +10869,7 @@ msgstr "Você está usando o Browser uploader."
 #: wp-admin/includes/media.php:2083
 #, fuzzy, php-format
 msgid "Try the <a href=\"%s\">Flash uploader</a> instead."
-msgstr "Você está usando o Browser uploader. Ao invés dele, tente usar o <a href=\"%s\">Flash uploader</a>."
+msgstr "Em vez disso, tente o <a href=\"%s\">uploader do Flash</a>."
 
 #: wp-admin/includes/mu.php:14
 #, php-format
@@ -11182,7 +11036,7 @@ msgstr "Desculpe, você precisa deletar alguns arquivos antes de poder fazer mai
 #: wp-admin/includes/mu.php:505
 #, fuzzy
 msgid "You don&#8217;t have permission to view this blog. Please contact the system administrator."
-msgstr "O site requisitado não está corretamente instalado. Por favor contato o administrador do sistema."
+msgstr "Sem permissão para ver este blog. Contate o administrador do sistema."
 
 #: wp-admin/includes/mu.php:544
 msgid "Site Admin"
@@ -11195,7 +11049,7 @@ msgstr "Administrar"
 #: wp-admin/includes/mu.php:566
 #, fuzzy, php-format
 msgid "The plugins page is not visible to normal users. It must be activated first. %s"
-msgstr "A página de plugins não é visível para usuários normais. Ela deve ser <a href=\"wpmu-options.php#menu\">ativada</a> antes."
+msgstr "A página de plugins não está visível para usuários normais. Primeiro, é necessário ativá-la. %s"
 
 #: wp-admin/includes/mu.php:625
 msgid "American English"
@@ -11312,7 +11166,7 @@ msgstr "Um erro de HTTP inesperado ocorreu durante o pedido API.</p><p><a href=\
 #: wp-admin/includes/plugin-install.php:47
 #, fuzzy
 msgid "An unknown error occurred"
-msgstr "Ocorreu um erro não identificado."
+msgstr "Ocorreu um erro não identificado"
 
 #: wp-admin/includes/plugin-install.php:127
 msgid "Plugins extend and expand the functionality of WordPress. You may automatically install plugins from the <a href=\"http://wordpress.org/extend/plugins/\">WordPress Plugin Directory</a> or upload a plugin in .zip format via this page."
@@ -11349,7 +11203,7 @@ msgstr "Termo"
 #, fuzzy
 msgctxt "Plugin Installer"
 msgid "Tag"
-msgstr "Etiqueta"
+msgstr "Tag"
 
 #: wp-admin/includes/plugin-install.php:212
 msgid "Install a plugin in .zip format"
@@ -11362,7 +11216,7 @@ msgstr "Se você tem um plugin no formato .zip, você deve instalá-lo fazendo u
 #: wp-admin/includes/plugin-install.php:216
 #, fuzzy
 msgid "Plugin zip file"
-msgstr "Instalando plugin do arquivo: %s"
+msgstr "Arquivo zip do plugin"
 
 #: wp-admin/includes/plugin-install.php:322
 msgid "No plugins match your request."
@@ -11489,7 +11343,7 @@ msgstr "<strong>Cuidado:</strong> Esse plugin <strong>não foi testado</strong> 
 #: wp-admin/includes/plugin-install.php:539
 #, fuzzy
 msgid "<strong>Warning:</strong> This plugin has <strong>not been marked as compatible</strong> with your version of WordPress."
-msgstr "<strong>Atenção:</strong> Esse plugin não foi marcado como <strong>compatível</strong> com a sua versão do WordPress."
+msgstr "<strong>Atenção:</strong> Esse plugin <strong>não foi marcado como compatível</strong> com a sua versão do WordPress."
 
 #: wp-admin/includes/plugin.php:121
 msgid "Visit plugin homepage"
@@ -11515,7 +11369,7 @@ msgstr "O arquivo do plugin não existe."
 #: wp-admin/includes/plugin.php:529
 #, fuzzy
 msgid "The plugin does not have a valid header."
-msgstr "O arquivo do plugin não existe."
+msgstr "O plugin não possui um header válido."
 
 #: wp-admin/includes/post.php:48
 msgid "You are not allowed to edit pages as this user."
@@ -11908,7 +11762,7 @@ msgstr "Sem categoria"
 #: wp-admin/includes/template.php:1654
 #, fuzzy
 msgid "Parent Page: "
-msgstr "Página Mãe"
+msgstr "Página mãe:"
 
 #: wp-admin/includes/template.php:1658
 msgid "Edit this page"
@@ -11985,9 +11839,9 @@ msgid "Add Custom Field"
 msgstr "Adicionar campo personalizado"
 
 #: wp-admin/includes/template.php:2560
-#, php-format
+#, fuzzy, php-format
 msgid "%1$s%2$s, %3$s @ %4$s : %5$s"
-msgstr ""
+msgstr "%1$s%2$s, %3$s às %4$s : %5$s"
 
 #: wp-admin/includes/template.php:2642
 msgid "WordPress recommends a better browser"
@@ -12018,8 +11872,9 @@ msgid "Link to page"
 msgstr "Link para página"
 
 #: wp-admin/includes/template.php:2789
+#, fuzzy
 msgid "Before you can upload your import file, you will need to fix the following error:"
-msgstr ""
+msgstr "Antes que você possa fazer o upload do seu arquivo de importação, você terá que corrigir o seguinte erro:"
 
 #: wp-admin/includes/template.php:2796
 msgid "Choose a file from your computer:"
@@ -12092,7 +11947,7 @@ msgstr "<a href=\"http://codex.wordpress.org/Writing_Posts\" target=\"_blank\">E
 #: wp-admin/includes/template.php:3449
 #, fuzzy
 msgid "The modules on this screen can be arranged in several columns. You can select the number of columns from the Screen Options tab."
-msgstr "Os mesmos módulos podem ser expandidos e recolhidos clicando uma vez em suas barras de título, e também ser escondidos na aba Opções de Tela."
+msgstr "Os módulos nesta tela podem ser organizados em várias colunas. Você pode selecionar o número de colunas na aba Opções de tela."
 
 #: wp-admin/includes/template.php:3462
 msgid "<a href=\"http://codex.wordpress.org/Settings_General_SubPanel\" target=\"_blank\">General Settings</a>"
@@ -12101,12 +11956,12 @@ msgstr "<a href=\"http://codex.wordpress.org/Settings_General_SubPanel\" target=
 #: wp-admin/includes/template.php:3476
 #, fuzzy
 msgid "Enable accessibility mode"
-msgstr "modo inválido de actualização"
+msgstr "Ativar modo de acessibilidade"
 
 #: wp-admin/includes/template.php:3476
 #, fuzzy
 msgid "Disable accessibility mode"
-msgstr "modo inválido de actualização"
+msgstr "Desativar modo de acessibilidade"
 
 #: wp-admin/includes/template.php:3488
 msgid "Show on screen"
@@ -12115,7 +11970,7 @@ msgstr "Mostrar na tela"
 #: wp-admin/includes/template.php:3517
 #, fuzzy, php-format
 msgid "Get help with &#8220;%s&#8221;"
-msgstr "Receber ajuda sobre essa página"
+msgstr "Obter ajuda para &#8220;%s&#8221;"
 
 #: wp-admin/includes/template.php:3519
 msgid "Get help with this page"
@@ -12145,7 +12000,7 @@ msgstr "Opções de tela"
 #: wp-admin/includes/template.php:3570
 #, fuzzy
 msgid "Most of the modules on this screen can be moved. If you hover your mouse over the title bar of a module you&rsquo;ll notice the 4 arrow cursor appears to let you know it is movable. Click on it, hold down the mouse button and start dragging the module to a new location. As you drag the module, notice the dotted gray box that also moves. This box indicates where the module will be placed when you release the mouse button."
-msgstr "A maioria dos módulos nessa tela pode ser movida. Se você passar o mouse sobre a barra de título de um módulo, você notará o cursor de quatro setas aparecer mostrando que ele é movível. Clique nele, segure o botão do mouse e arraste o módulo para o novo lugar. Enquanto você arrasta o módulo, note a caixa cinza tracejada que também se move. Essa caixa indica onde o módulo será colocado quando você soltar o botão do mouse."
+msgstr "A maioria dos módulos nesta tela pode ser movida. Se você passar o mouse sobre a barra de título de um módulo, você notará o cursor de quatro setas aparecer mostrando que ele é movível. Clique na barra de título, mantenha o botão do mouse pressionado e arraste o módulo para barra lateral. Enquanto você arrasta o módulo, observe a caixa cinza tracejada que também se move. Essa caixa indica onde o módulo será colocado quando você soltar o botão do mouse."
 
 #: wp-admin/includes/template.php:3571
 msgid "The same modules can be expanded and collapsed by clicking once on their title bar and also completely hidden from the Screen Options tab."
@@ -12154,7 +12009,7 @@ msgstr "Os mesmos módulos podem ser expandidos e recolhidos clicando uma vez em
 #: wp-admin/includes/template.php:3577
 #, fuzzy
 msgid "Search help"
-msgstr "Outra ajuda"
+msgstr "Ajuda da pesquisa"
 
 #: wp-admin/includes/template.php:3578
 msgid "You may search based on 3 criteria:"
@@ -12163,78 +12018,82 @@ msgstr "Você pode pesquisar com base em três critérios:"
 #: wp-admin/includes/template.php:3579
 #, fuzzy
 msgid "<strong>Term:</strong> Searches theme names and descriptions for the specified term."
-msgstr "<strong>Termo:</strong> Pesquisa nomes e descrições de plugins para o termo especificado"
+msgstr "<strong>Termo:</strong> Pesquisa nomes e descrições de temas para o termo especificado."
 
 #: wp-admin/includes/template.php:3580
 #, fuzzy
 msgid "<strong>Tag:</strong> Searches for themes tagged as such."
-msgstr "<strong>Tag:</strong> Procura plugins identificados com tags"
+msgstr "<strong>Tag:</strong> Procura temas identificados com tags."
 
 #: wp-admin/includes/template.php:3581
 #, fuzzy
 msgid "<strong>Author:</strong> Searches for themes created by the Author, or which the Author contributed to."
-msgstr "<strong>Autor:</strong> Procura plugins criados pelo autor ou para os quais o autor contribuiu."
+msgstr "<strong>Autor:</strong> Procura temas criados pelo autor ou para os quais o autor contribuiu."
 
 #: wp-admin/includes/template.php:3587
 #, fuzzy
 msgid "Widgets are added and arranged by simple drag &#8217;n&#8217; drop. If you hover your mouse over the titlebar of a widget, you&#8217;ll see a 4-arrow cursor which indicates that the widget is movable.  Click on the titlebar, hold down the mouse button and drag the widget to a sidebar. As you drag, you&#8217;ll see a dotted box that also moves. This box shows where the widget will go once you drop it."
-msgstr "A maioria dos módulos nessa tela pode ser movida. Se você passar o mouse sobre a barra de título de um módulo, você notará o cursor de quatro setas aparecer mostrando que ele é movível. Clique nele, segure o botão do mouse e arraste o módulo para o novo lugar. Enquanto você arrasta o módulo, note a caixa cinza tracejada que também se move. Essa caixa indica onde o módulo será colocado quando você soltar o botão do mouse."
+msgstr "Os widgets são adicionados e organizados simplesmente arrastando e soltando. Se você passar o mouse sobre a barra de título de um widget, você notará o cursor de quatro setas aparecer mostrando que ele é movível. Clique na barra de título, mantenha o botão do mouse pressionado e arraste o widget para barra lateral. Enquanto você arrasta o widget, observe a caixa tracejada que também se move. Essa caixa indica onde o widget será colocado quando você soltar o botão do mouse."
 
 #: wp-admin/includes/template.php:3588
+#, fuzzy
 msgid "To remove a widget from a sidebar, drag it back to Available Widgets or click on the arrow on its titlebar to reveal its settings, and then click Remove."
-msgstr ""
+msgstr "Para remover um widget de uma barra lateral, arraste-o de volta para Widgets Disponíveis ou clique na seta em sua barra de títulos para revelar suas configurações, e então clique em Remover."
 
 #: wp-admin/includes/template.php:3589
+#, fuzzy
 msgid "To remove a widget from a sidebar <em>and keep its configuration</em>, drag it to Inactive Widgets."
-msgstr ""
+msgstr "Para remover um widget de uma barra lateral <em> e manter sua configuração</em>, arraste-o para Widgets Inativos."
 
 #: wp-admin/includes/template.php:3590
+#, fuzzy
 msgid "The Inactive Widgets area stores widgets that are configured but not curently used. If you change themes and the new theme has fewer sidebars than the old, all extra widgets will be stored to Inactive Widgets automatically."
-msgstr ""
+msgstr "A área de Widgets Inativos armazena widgets que foram configurados, mas que não estão em uso. Se você trocou temas e o novo tema possui menos barras laterais do que o antigo, todos widgets extras serão armazenados em Widgets Inativos automaticamente."
 
 #: wp-admin/includes/template.php:3612
 #, fuzzy
 msgid "Screen Layout"
-msgstr "Layout da conversa"
+msgstr "Layout da tela"
 
 #: wp-admin/includes/template.php:3612
 #, fuzzy
 msgid "Number of Columns:"
-msgstr "<b>Colunas Ambiente de trabalho</b>"
+msgstr "Número de colunas:"
 
 #: wp-admin/includes/template.php:3624
 #, fuzzy
 msgid "Posts per page:"
-msgstr "Adicionar nova página"
+msgstr "Posts por página:"
 
 #: wp-admin/includes/template.php:3627
 #, fuzzy
 msgid "Pages per page:"
-msgstr "Adicionar nova página"
+msgstr "Páginas por página:"
 
 #: wp-admin/includes/template.php:3630
 #, fuzzy
 msgid "Comments per page:"
-msgstr "Adicionar nova página"
+msgstr "Comentários por página:"
 
 #: wp-admin/includes/template.php:3633
+#, fuzzy
 msgid "Media items per page:"
-msgstr ""
+msgstr "Itens de mídia por página:"
 
 #: wp-admin/includes/template.php:3636
 #, fuzzy
 msgid "Categories per page:"
-msgstr "Adicionar nova página"
+msgstr "Categorias por página:"
 
 #: wp-admin/includes/template.php:3639
 #, fuzzy
 msgid "Tags per page:"
-msgstr "Adicionar nova página"
+msgstr "Tags por página:"
 
 #: wp-admin/includes/template.php:3642
 #, fuzzy
 msgid "Plugins per page:"
-msgstr "Visitar a página de plugins"
+msgstr "Plugins por página:"
 
 #: wp-admin/includes/theme-install.php:57
 msgid "An Unexpected HTTP Error occured during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
@@ -12364,7 +12223,7 @@ msgstr "Cores personalizadas"
 #: wp-admin/includes/theme-install.php:188
 #, fuzzy
 msgid "Theme Options"
-msgstr "<b>Opções globais</b>"
+msgstr "Opções do tema"
 
 #: wp-admin/includes/theme-install.php:189
 msgid "Threaded Comments"
@@ -12397,22 +12256,22 @@ msgstr "Sazonal"
 #: wp-admin/includes/theme-install.php:221
 #, fuzzy
 msgid "Find Themes"
-msgstr "Temas disponíveis"
+msgstr "Encontrar temas"
 
 #: wp-admin/includes/theme-install.php:278
 #, fuzzy
 msgid "Install a theme in .zip format"
-msgstr "Instalar um plugin no formato .zip"
+msgstr "Instalar um tema no formato .zip"
 
 #: wp-admin/includes/theme-install.php:279
 #, fuzzy
 msgid "If you have a theme in a .zip format, you may install it by uploading it here."
-msgstr "Se você tem um plugin no formato .zip, você deve instalá-lo fazendo upload do arquivo aqui."
+msgstr "Se você tem um tema no formato .zip, você deve instalá-lo fazendo upload do arquivo aqui."
 
 #: wp-admin/includes/theme-install.php:304
 #, fuzzy, php-format
 msgid "Install &#8220;%s&#8221;"
-msgstr "para &ldquo;%s&rdquo;"
+msgstr "Instalar &#8220;%s&#8221;"
 
 #: wp-admin/includes/theme-install.php:320
 msgid "Details"
@@ -12429,22 +12288,22 @@ msgstr "Instalar Tema"
 #: wp-admin/includes/theme-install.php:466
 #, fuzzy
 msgid "<strong>Error:</strong> This theme is currently not available. Please try again later."
-msgstr "<strong>ERRO</strong: Esse nome de usuário é inválido. Por favor, digite um nome de usuário válido."
+msgstr "<strong>ERRO</strong>: Esse tema não está disponível no momento. Tente novamente mais tarde."
 
 #: wp-admin/includes/theme-install.php:472
 #, fuzzy
 msgid "<strong>Warning:</strong> This theme has <strong>not been tested</strong> with your current version of WordPress."
-msgstr "<strong>Cuidado:</strong> Esse plugin <strong>não foi testado</strong> com sua versão atual do WordPress."
+msgstr "<strong>Cuidado:</strong> Esse tema <strong>não foi testado</strong> com sua versão atual do WordPress."
 
 #: wp-admin/includes/theme-install.php:474
 #, fuzzy
 msgid "<strong>Warning:</strong> This theme has not been marked as <strong>compatible</strong> with your version of WordPress."
-msgstr "<strong>Atenção:</strong> Esse plugin não foi marcado como <strong>compatível</strong> com a sua versão do WordPress."
+msgstr "<strong>Atenção:</strong> Esse tema não foi marcado como <strong>compatível</strong> com a sua versão do WordPress."
 
 #: wp-admin/includes/theme-install.php:507
 #, fuzzy, php-format
 msgid "by %s"
-msgstr "%s por %s"
+msgstr "por %s"
 
 #: wp-admin/includes/theme-install.php:508
 #, php-format
@@ -12463,12 +12322,12 @@ msgstr "Esta versão já está instalada."
 #: wp-admin/includes/theme.php:85
 #, fuzzy
 msgid "Unable to locate WordPress theme directory."
-msgstr "Impossível localizar o diretóriode temas do WordPress."
+msgstr "Impossível localizar o diretório de temas do WordPress."
 
 #: wp-admin/includes/theme.php:95
 #, fuzzy, php-format
 msgid "Could not fully remove the theme %s"
-msgstr "Não foi possível remover completamente o(s) plugin(s) %s"
+msgstr "Não foi possível remover completamente o tema %s"
 
 #: wp-admin/includes/update-core.php:215
 msgid "Verifying the unpacked files"
@@ -12523,17 +12382,17 @@ msgstr "Últimas"
 #: wp-admin/includes/update.php:170
 #, fuzzy, php-format
 msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s Details</a>."
-msgstr "<p>Há uma nova versão de %1$s disponível. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Veja os detalhes da versão %3$s</a>.</p>"
+msgstr "Há uma nova versão de %1$s disponível. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">Veja detalhes da versão %4$s</a>."
 
 #: wp-admin/includes/update.php:172
 #, fuzzy, php-format
 msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s Details</a> <em>automatic upgrade unavailable for this plugin</em>."
-msgstr "Há uma nova versão de %1$s disponível. <a href=\"%2$s\">Faça o download da versão %3$s aqui</a> <em>esse plugin não tem atualização automática</em>."
+msgstr "Há uma nova versão de %1$s disponível. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">Veja detalhes da versão %4$s</a>. <em>Esse plugin não tem atualização automática</em>."
 
 #: wp-admin/includes/update.php:174
 #, fuzzy, php-format
 msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s Details</a> or <a href=\"%5$s\">upgrade automatically</a>."
-msgstr "<p>Há uma nova versão de %1$s disponível. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Visualizar detalhes da versão %3$s </a> ou <a href=\"%4$s\">atualize automaticamente</a>.</p>"
+msgstr "Há uma nova versão de %1$s disponível. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">Veja detalhes da versão %4$s</a> ou <a href=\"%5$s\">atualize automaticamente</a>."
 
 #: wp-admin/includes/update.php:226
 #, php-format
@@ -12667,7 +12526,7 @@ msgstr "<strong>ERRO</strong: Por favor, digite um endereço de email."
 #: wp-admin/includes/user.php:176
 #, fuzzy
 msgid "<strong>ERROR</strong>: The e-mail address isn&#8217;t correct."
-msgstr "<strong>ERRO</strong>: O endereço de email não está correto."
+msgstr "<strong>ERRO</strong: O endereço de email não está correto."
 
 #: wp-admin/includes/user.php:691
 msgid "No matching users were found!"
@@ -12984,7 +12843,7 @@ msgstr "Erro XML: %s na linha %d"
 #: wp-includes/author-template.php:135
 #, fuzzy, php-format
 msgid "Visit %s&#8217;s website"
-msgstr "Trapaceando, é?"
+msgstr "Visitar o site de %s"
 
 #: wp-includes/author-template.php:184
 #: wp-includes/author-template.php:305
@@ -13194,7 +13053,7 @@ msgstr "Você está publicando comentários rápido demais. Mais devagar."
 #: wp-includes/comment.php:1056
 #, fuzzy
 msgid "Could not update comment status"
-msgstr "A atualização não pode ser descompactada"
+msgstr "Não foi possível atualizar o status do comentário"
 
 #: wp-includes/cron.php:297
 msgid "Once Hourly"
@@ -13322,7 +13181,7 @@ msgstr "Texto"
 #: wp-includes/default-widgets.php:409
 #, fuzzy
 msgid "Automatically add paragraphs."
-msgstr "Adicionar um novo perfil"
+msgstr "Adicionar parágrafos automaticamente."
 
 #: wp-includes/default-widgets.php:422
 msgid "A list or dropdown of categories"
@@ -13499,8 +13358,9 @@ msgstr[0] "%s dia"
 msgstr[1] "%s dias"
 
 #: wp-includes/formatting.php:2550
+#, fuzzy
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: wp-includes/formatting.php:2552
 msgid ", and "
@@ -13538,7 +13398,7 @@ msgstr "Não foi possível gravar o arquivo %s"
 #: wp-includes/functions.php:2338
 #, fuzzy, php-format
 msgid "Your attempt to edit this attachment: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível editar este anexo: &quot;%s&quot;."
+msgstr "Não foi possível editar este anexo: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2340
 msgid "Your attempt to add this category has failed."
@@ -13547,32 +13407,32 @@ msgstr "Não foi possível adicionar esta categoria."
 #: wp-includes/functions.php:2341
 #, fuzzy, php-format
 msgid "Your attempt to delete this category: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível excluir esta categoria: &quot;%s&quot;."
+msgstr "Não foi possível excluir esta categoria: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2342
 #, fuzzy, php-format
 msgid "Your attempt to edit this category: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível editar esta categoria: &quot;%s&quot;."
+msgstr "Não foi possível editar esta categoria: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2344
 #, fuzzy, php-format
 msgid "Your attempt to delete this comment: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível excluir este comentário: &quot;%s&quot;."
+msgstr "Não foi possível excluir este comentário: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2345
 #, fuzzy, php-format
 msgid "Your attempt to unapprove this comment: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível rejeitar este comentário: &quot;%s&quot;."
+msgstr "Não foi possível rejeitar este comentário: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2346
 #, fuzzy, php-format
 msgid "Your attempt to approve this comment: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível aprovar este comentário: &quot;%s&quot;."
+msgstr "Não foi possível aprovar este comentário: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2347
 #, fuzzy, php-format
 msgid "Your attempt to edit this comment: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível editar este comentário: &quot;%s&quot;."
+msgstr "Não foi possível editar este comentário: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2348
 msgid "Your attempt to bulk modify comments has failed."
@@ -13589,12 +13449,12 @@ msgstr "Não foi possível adicionar este link."
 #: wp-includes/functions.php:2352
 #, fuzzy, php-format
 msgid "Your attempt to delete this link: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível excluir este link: &quot;%s&quot;."
+msgstr "Não foi possível excluir este link: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2353
 #, fuzzy, php-format
 msgid "Your attempt to edit this link: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível editar este link: &quot;%s&quot;."
+msgstr "Não foi possível editar este link: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2354
 msgid "Your attempt to bulk modify links has failed."
@@ -13607,32 +13467,32 @@ msgstr "Não foi possível adicionar esta página."
 #: wp-includes/functions.php:2357
 #, fuzzy, php-format
 msgid "Your attempt to delete this page: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível excluir esta página: &quot;%s&quot;."
+msgstr "Não foi possível excluir esta página: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2358
 #, fuzzy, php-format
 msgid "Your attempt to edit this page: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível editar esta página: &quot;%s&quot;."
+msgstr "Não foi possível editar esta página: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2360
 #, fuzzy, php-format
 msgid "Your attempt to edit this plugin file: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível editar o arquivo de plugin: &quot;%s&quot;."
+msgstr "Não foi possível editar o arquivo do plugin: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2361
 #, fuzzy, php-format
 msgid "Your attempt to activate this plugin: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível ativar este plugin: &quot;%s&quot;."
+msgstr "Não foi possível ativar este plugin: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2362
 #, fuzzy, php-format
 msgid "Your attempt to deactivate this plugin: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível desativar este plugin: &quot;%s&quot;."
+msgstr "Não foi possível desativar este plugin: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2363
 #, fuzzy, php-format
 msgid "Your attempt to upgrade this plugin: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível atualizar este plugin: &quot;%s&quot;."
+msgstr "Não foi possível atualizar este plugin: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2365
 msgid "Your attempt to add this post has failed."
@@ -13641,12 +13501,12 @@ msgstr "Não foi possível adicionar este artigo."
 #: wp-includes/functions.php:2366
 #, fuzzy, php-format
 msgid "Your attempt to delete this post: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível excluir este artigo: &quot;%s&quot;."
+msgstr "Não foi possível excluir este post: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2367
 #, fuzzy, php-format
 msgid "Your attempt to edit this post: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível editar este artigo: &quot;%s&quot;."
+msgstr "Não foi possível editar este post: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2369
 msgid "Your attempt to add this user has failed."
@@ -13663,12 +13523,12 @@ msgstr "Não foi possível modificar vários usuários ao mesmo tempo."
 #: wp-includes/functions.php:2372
 #, fuzzy, php-format
 msgid "Your attempt to edit this user: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível editar este usuário: &quot;%s&quot;."
+msgstr "Não foi possível editar este usuário:&#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2373
 #, fuzzy, php-format
 msgid "Your attempt to modify the profile for: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível modificar o perfil de: &quot;%s&quot;."
+msgstr "Não foi possível modificar o perfil de: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2375
 msgid "Your attempt to edit your settings has failed."
@@ -13682,17 +13542,17 @@ msgstr "Não foi possível modificar sua estrutura de link permanente para: %s."
 #: wp-includes/functions.php:2377
 #, fuzzy, php-format
 msgid "Your attempt to edit this file: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível editar o arquivo de plugin: &quot;%s&quot;."
+msgstr "Não foi possível editar este arquivo: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2378
 #, fuzzy, php-format
 msgid "Your attempt to edit this theme file: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível editar este arquivo do tema: &quot;%s&quot;."
+msgstr "Não foi possível editar este tema: &#8220;%s&#8221;"
 
 #: wp-includes/functions.php:2379
 #, fuzzy, php-format
 msgid "Your attempt to switch to this theme: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível mudar para este tema: &quot;%s&quot;."
+msgstr "Não foi possível trocar por este tema: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2381
 #, php-format
@@ -13720,7 +13580,7 @@ msgstr "Você quer mesmo <a href='%s'>desconectar</a>?"
 #: wp-includes/functions.php:2476
 #, fuzzy
 msgid "&laquo; Back"
-msgstr "Voltar"
+msgstr "&laquo; Voltar"
 
 #  wordpress.pot (PACKAGE VERSION)#-#-#-#-
 #  wordpress.pot (PACKAGE VERSION)#-#-#-#-
@@ -13745,11 +13605,12 @@ msgstr "%1$s está <strong>obsoleto</strong> desde a versão %2$s sem nenhuma al
 #: wp-includes/functions.php:3347
 #, fuzzy
 msgid "Select a city"
-msgstr "A selecção falhou"
+msgstr "Selecione uma cidade"
 
 #: wp-includes/functions.php:3362
+#, fuzzy
 msgid "Manual offsets"
-msgstr ""
+msgstr "Ajustes manuais"
 
 #: wp-includes/general-template.php:149
 msgid "Log out"
@@ -13758,7 +13619,7 @@ msgstr "Sair"
 #: wp-includes/general-template.php:500
 #, fuzzy, php-format
 msgid "Search Results %1$s %2$s"
-msgstr "Resultados da pesquisa"
+msgstr "Resultados da pesquisa %1$s %2$s"
 
 #: wp-includes/general-template.php:504
 msgid "Page not found"
@@ -13773,7 +13634,7 @@ msgstr "%1$s %2$d"
 #, fuzzy, php-format
 msgctxt "calendar caption"
 msgid "%1$s %2$s"
-msgstr "%1$s %2$d"
+msgstr "%1$s %2$s"
 
 #: wp-includes/general-template.php:1052
 #: wp-includes/general-template.php:1062
@@ -13791,45 +13652,46 @@ msgstr "&raquo;"
 #: wp-includes/general-template.php:1460
 #, fuzzy, php-format
 msgid "%1$s %2$s Feed"
-msgstr "%s Feed Atom"
+msgstr "%1$s %2$s Feed"
 
 #: wp-includes/general-template.php:1462
 #, fuzzy, php-format
 msgid "%1$s %2$s Comments Feed"
-msgstr "Feed de comentários"
+msgstr "%1$s %2$s Feed de comentários"
 
 #: wp-includes/general-template.php:1483
 #, fuzzy, php-format
 msgid "%1$s %2$s %3$s Comments Feed"
-msgstr "Feed de comentários"
+msgstr "%1$s %2$s %3$s Feed de comentários"
 
 #: wp-includes/general-template.php:1485
 #, fuzzy, php-format
 msgid "%1$s %2$s %3$s Category Feed"
-msgstr "%s Feed Atom"
+msgstr "Feed da Categoria %1$s %2$s %3$s"
 
 #: wp-includes/general-template.php:1487
 #, fuzzy, php-format
 msgid "%1$s %2$s %3$s Tag Feed"
-msgstr "%s Feed Atom"
+msgstr "Feed da tag %1$s %2$s %3$s"
 
 #: wp-includes/general-template.php:1489
 #, fuzzy, php-format
 msgid "%1$s %2$s Posts by %3$s Feed"
-msgstr "Importar artigos de um feed RSS."
+msgstr "%1$s %2$s Feed dos Posts de %3$s"
 
 #: wp-includes/general-template.php:1491
 #, fuzzy, php-format
 msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
-msgstr "Pesquisar resultados para &#8220;%s&#8221;"
+msgstr "%1$s %2$s Feed do resultado da busca por &#8220;%3$s&#8221;"
 
 #: wp-includes/general-template.php:1807
 msgid "&laquo; Previous"
 msgstr "&laquo; Anterior"
 
 #: wp-includes/http.php:242
+#, fuzzy
 msgid "User has blocked requests through HTTP."
-msgstr ""
+msgstr "O usuário bloqueou solicitações através de HTTP."
 
 #: wp-includes/http.php:723
 #: wp-includes/http.php:1341
@@ -13877,7 +13739,7 @@ msgstr "Ultimo artigo"
 #: wp-includes/link-template.php:1445
 #, fuzzy
 msgid "&laquo; Previous Page"
-msgstr "Adicionar nova página"
+msgstr "&laquo; Página anterior"
 
 #: wp-includes/link-template.php:1446
 msgid "Next Page &raquo;"
@@ -14116,15 +13978,17 @@ msgstr "PM"
 #: wp-includes/locale.php:182
 #, fuzzy
 msgid "number_format_decimals"
-msgstr "Erro no formato"
+msgstr "0"
 
 #: wp-includes/locale.php:186
+#, fuzzy
 msgid "number_format_decimal_point"
-msgstr ""
+msgstr ","
 
 #: wp-includes/locale.php:190
+#, fuzzy
 msgid "number_format_thousands_sep"
-msgstr ""
+msgstr "."
 
 #: wp-includes/media.php:372
 #: wp-includes/media.php:376
@@ -14135,7 +13999,7 @@ msgstr "Caminho de redimensionamento inválido"
 #: wp-includes/pluggable.php:465
 #, fuzzy
 msgid "<strong>ERROR</strong>: Invalid username or incorrect password."
-msgstr "<strong>ERRO</strong>: Nome de usuário ou email inválidos."
+msgstr "<strong>ERRO</strong>: Nome de usuário inválido ou senha incorreta."
 
 #: wp-includes/pluggable.php:983
 #, php-format
@@ -14347,9 +14211,10 @@ msgid "This post is password protected. To view it please enter your password be
 msgstr "Este artigo está protegido por senha. Para vê-lo, digite sua senha abaixo:"
 
 #: wp-includes/post-template.php:1210
+#, fuzzy
 msgctxt "revision date format"
 msgid "j F, Y @ G:i"
-msgstr ""
+msgstr "j \\d\\e F \\d\\e Y G:i"
 
 #: wp-includes/post-template.php:1212
 #, php-format
@@ -14359,7 +14224,7 @@ msgstr "%1$s [Salvo automaticamente]"
 #: wp-includes/post-template.php:1214
 #, fuzzy, php-format
 msgid "%1$s [Current Revision]"
-msgstr "%s [Revisão Atual]"
+msgstr "%1$s [Revisão Atual]"
 
 #: wp-includes/post-template.php:1280
 #, php-format
@@ -14413,7 +14278,7 @@ msgid ""
 "You are about to delete the selected items.\n"
 "  'Cancel' to stop, 'OK' to delete."
 msgstr ""
-"Você está prestes a excluir os anexos selecionados.\n"
+"Você está prestes a excluir os itens selecionados.'\n"
 "  'Cancelar' para interromper, 'OK' para excluir."
 
 #: wp-includes/script-loader.php:75
@@ -14648,7 +14513,7 @@ msgstr "Não foi possível inserir o termo no banco de dados"
 #: wp-includes/taxonomy.php:1663
 #, fuzzy, php-format
 msgid "The slug &#8220;%s&#8221; is already in use by another term"
-msgstr "O slug \"%s\" já está sendo utilizado por outro termo"
+msgstr "O slug &#8220;%s&#8221; já está sendo utilizado por outro termo"
 
 #: wp-includes/taxonomy.php:2322
 msgid "Invalid object ID"
@@ -14675,14 +14540,14 @@ msgid "<strong>ERROR</strong>: The password field is empty."
 msgstr "<strong>ERRO</strong>: O campo da senha está vazio."
 
 #: wp-includes/user.php:89
-#, php-format
+#, fuzzy, php-format
 msgid "<strong>ERROR</strong>: Invalid username. <a href=\"%s\" title=\"Password Lost and Found\">Lost your password</a>?"
-msgstr ""
+msgstr "<strong>ERRO</strong>: Nome de usuário inválido. <a href=\"%s\" title=\"Password Lost and Found\">Perdeu sua senha</a>?"
 
 #: wp-includes/user.php:98
-#, php-format
+#, fuzzy, php-format
 msgid "<strong>ERROR</strong>: Incorrect password. <a href=\"%s\" title=\"Password Lost and Found\">Lost your password</a>?"
-msgstr ""
+msgstr "<strong>ERRO</strong>: Senha incorreta. <a href=\"%s\" title=\"Achados e perdidos de senha\">Perdeu sua senha</a>?"
 
 #: wp-includes/user.php:124
 msgid "Please log in again."
@@ -14702,7 +14567,7 @@ msgstr "<strong>ERRO</strong>: o WordPress %s requer MySQL 4.0.0 ou superior"
 #: wp-includes/wpmu-functions.php:679
 #, fuzzy
 msgid "That user does not exist."
-msgstr "O arquivo do plugin não existe."
+msgstr "O usuário não existe."
 
 #: wp-includes/wpmu-functions.php:748
 msgid "error: Blog URL already taken."
@@ -14715,7 +14580,7 @@ msgstr "erro: problema ao criar entrada no blog"
 #: wp-includes/wpmu-functions.php:906
 #, fuzzy
 msgid "Please enter a username"
-msgstr "<strong>ERRO</strong>: por favor, digite um nome de usuário."
+msgstr "Digite um nome de usuário."
 
 #: wp-includes/wpmu-functions.php:912
 #: wp-includes/wpmu-functions.php:1014
@@ -14725,7 +14590,7 @@ msgstr "Somente letras minúsculas e números são permitidos"
 #: wp-includes/wpmu-functions.php:921
 #, fuzzy
 msgid "That username is not allowed"
-msgstr "Este nome não é permitido"
+msgstr "Este nome de usuário não é permitido"
 
 #: wp-includes/wpmu-functions.php:925
 msgid "You cannot use that email address to signup. We are having problems with them blocking some of our email. Please use another email provider."
@@ -14738,7 +14603,7 @@ msgstr "O nome de usuário deve conter pelo menos 4 caracteres."
 #: wp-includes/wpmu-functions.php:932
 #, fuzzy
 msgid "Sorry, usernames may not contain the character '_'!"
-msgstr "<strong>ERRO</strong>: as senhas não podem ter o caractere \"\\\"."
+msgstr "Os nomes de usuário não podem ter o caractere '_'!"
 
 #: wp-includes/wpmu-functions.php:938
 msgid "Sorry, usernames must have letters too!"
@@ -14747,27 +14612,27 @@ msgstr "Nomes de usuários devem conter letras também!"
 #: wp-includes/wpmu-functions.php:941
 #, fuzzy
 msgid "Please enter a correct email address"
-msgstr "Erro: digite um endereço de email válido."
+msgstr "Digite um endereço de email válido"
 
 #: wp-includes/wpmu-functions.php:944
 #, fuzzy
 msgid "Please check your email address."
-msgstr "Confira se o endereço de email está correto antes de prosseguir."
+msgstr "Verifique seu email."
 
 #: wp-includes/wpmu-functions.php:950
 #, fuzzy
 msgid "Sorry, that email address is not allowed!"
-msgstr "Desculpe, parece que essa chave não é válida."
+msgstr "Este endereço de email não é permitido!"
 
 #: wp-includes/wpmu-functions.php:956
 #, fuzzy
 msgid "Sorry, that username already exists!"
-msgstr "A pasta já existe."
+msgstr "Este nome de usuário já existe!"
 
 #: wp-includes/wpmu-functions.php:960
 #, fuzzy
 msgid "Sorry, that email address is already used!"
-msgstr "É obrigatório um endereço de email válido"
+msgstr "Este endereço de email já está sendo usado!"
 
 #: wp-includes/wpmu-functions.php:972
 msgid "That username is currently reserved but may be available in a couple of days."
@@ -14776,7 +14641,7 @@ msgstr "Este nome de usuário está reservado atualmente mas pode ficar disponí
 #: wp-includes/wpmu-functions.php:975
 #, fuzzy
 msgid "username and email used"
-msgstr "Faltando nome de usuário e email."
+msgstr "nome de usuário e emai usados"
 
 #: wp-includes/wpmu-functions.php:985
 msgid "That email address has already been used. Please check your inbox for an activation email. It will become available in a couple of days if you do nothing."
@@ -14785,7 +14650,7 @@ msgstr "Este endereço de email já foi usado. Verifique um email de ativação 
 #: wp-includes/wpmu-functions.php:1009
 #, fuzzy
 msgid "Please enter a blog name"
-msgstr "Introduza um nome para o novo perfil:"
+msgstr "Insira um nome para o blog"
 
 #: wp-includes/wpmu-functions.php:1017
 msgid "That name is not allowed"
@@ -14798,7 +14663,7 @@ msgstr "O nome do blog deve conter pelo menos 4 caracteres"
 #: wp-includes/wpmu-functions.php:1024
 #, fuzzy
 msgid "Sorry, blog names may not contain the character '_'!"
-msgstr "<strong>ERRO</strong>: as senhas não podem ter o caractere \"\\\"."
+msgstr "O nome do blog não pode ter o caractere '_'!"
 
 #: wp-includes/wpmu-functions.php:1030
 msgid "Sorry, blog names must have letters too!"
@@ -14845,7 +14710,7 @@ msgstr ""
 #: wp-includes/wpmu-functions.php:1141
 #, fuzzy, php-format
 msgid "[%s] Activate %s"
-msgstr "Ativar"
+msgstr "[%s] Ativar %s"
 
 #: wp-includes/wpmu-functions.php:1158
 #, fuzzy, php-format
@@ -14860,11 +14725,9 @@ msgstr ""
 "Para ativar seu blog, clique no seguinte link:\n"
 "\n"
 "%s\n"
+"\n"
 "Depois de ativá-lo, você receberá *outro email* com seu login.\n"
 "\n"
-"Depois de ativá-lo, você pode visitar seu blog aqui:\n"
-"\n"
-"%s"
 
 #: wp-includes/wpmu-functions.php:1171
 msgid "Invalid activation key."
@@ -14881,7 +14744,7 @@ msgstr "Não foi possível criar usuário"
 #: wp-includes/wpmu-functions.php:1197
 #, fuzzy
 msgid "That username is already activated."
-msgstr "Esse usuário já é um membro desse blog."
+msgstr "Este nome de usuário já está ativado."
 
 #: wp-includes/wpmu-functions.php:1273
 msgid "Blog already exists."
@@ -14909,7 +14772,7 @@ msgstr ""
 #: wp-includes/wpmu-functions.php:1335
 #, fuzzy, php-format
 msgid "New Blog Registration: %s"
-msgstr "[%s] Registro de novo usuário"
+msgstr "Registro de novo blog: %s"
 
 #: wp-includes/wpmu-functions.php:1350
 #, php-format
@@ -14927,12 +14790,12 @@ msgstr ""
 #: wp-includes/wpmu-functions.php:1356
 #, fuzzy, php-format
 msgid "New User Registration: %s"
-msgstr "[%s] Registro de novo usuário"
+msgstr "Registro de novo usuário: %s"
 
 #: wp-includes/wpmu-functions.php:1390
 #, fuzzy
 msgid "<h1>Already Installed</h1><p>You appear to have already installed WordPress. To reinstall please clear your old database tables first.</p>"
-msgstr "Aparentemente, você já instalou o WordPress. Para o reinstalar, limpe primeiro as tabelas do banco de dados antigo."
+msgstr "<h1>Já instalado</h1><p>Aparentemente, você já instalou o WordPress. Para o reinstalar, limpe primeiro as tabelas do banco de dados antigo.</p>"
 
 #: wp-includes/wpmu-functions.php:1455
 msgid "Welcome to <a href=\"SITE_URL\">SITE_NAME</a>. This is your first post. Edit or delete it, then start blogging!"
@@ -14965,29 +14828,31 @@ msgid ""
 "--The WordPress Team\n"
 "SITE_NAME"
 msgstr ""
-"O seu novo blog WordPress foi instalado com sucesso em:\n"
+"Caro usuário,\n"
 "\n"
-"%1$s\n"
+"O seu novo blog SITE_NAME foi instalado com sucesso em:\n"
+"BLOG_URL\n"
 "\n"
 "Você pode fazer login como administrador com os seguintes dados:\n"
+"Nome de usuário: USERNAME\n"
+"Senha: PASSWORD\n"
+"Faça login aqui: BLOG_URLwp-login.php\n"
 "\n"
-"Nome de usuário: %2$s\n"
-"Senha: %3$s\n"
-"\n"
-"Esperamos que você goste do seu novo blog. Obrigado!\n"
+"Esperamos que você goste do seu novo blog. \n"
+"Obrigado!\n"
 "\n"
 "--Equipe do WordPress\n"
-"http://wordpress.org/\n"
+"SITE_NAME"
 
 #: wp-includes/wpmu-functions.php:1567
 #, fuzzy, php-format
 msgid "New %1$s Blog: %2$s"
-msgstr "Criar um novo site"
+msgstr "Novo blog em %1$s: %2$s"
 
 #: wp-includes/wpmu-functions.php:1596
 #, fuzzy, php-format
 msgid "New %1$s User: %2$s"
-msgstr "Adicionar novo usuário"
+msgstr "Novo usuário em %1$s: %2$s"
 
 #: wp-includes/wpmu-functions.php:1693
 msgid "Sorry, you have used your space allocation. Please delete some files to upload more files."
@@ -15087,7 +14952,7 @@ msgstr "Você foi adicionado a este site. Visite a <a href=\"%s\">homepage</a> o
 #: wp-includes/wpmu-functions.php:2036
 #, fuzzy
 msgid "<strong>ERROR</strong>: your account has been marked as a spammer."
-msgstr "<strong>ERRO</strong>: por favor, digite um nome de usuário."
+msgstr "<strong>ERRO</strong>: sua conta foi marcada como spammer."
 
 #: wp-includes/wpmu-functions.php:2231
 #, fuzzy
