@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WordPress 2.9.2\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-01-19 13:12+0000\n"
-"PO-Revision-Date: 2010-04-27 12:57-0300\n"
+"PO-Revision-Date: 2010-04-27 13:23-0300\n"
 "Last-Translator: Gabriel Mazetto <brodock@gmail.com>\n"
 "Language-Team: NPD-UFSC <gabriel@npd.ufsc.br>\n"
 "MIME-Version: 1.0\n"
@@ -6775,8 +6775,9 @@ msgstr "Continuar"
 
 #: wp-admin/includes/image-edit.php:19
 #: wp-admin/includes/image-edit.php:544
+#, fuzzy
 msgid "Image data does not exist. Please re-upload the image."
-msgstr ""
+msgstr "Não há dados da imagem. Reenvie a imagem."
 
 #: wp-admin/includes/image-edit.php:40
 msgid "Crop"
@@ -6831,15 +6832,17 @@ msgstr "Escala"
 #: wp-admin/includes/image-edit.php:97
 #, fuzzy
 msgid "Restore Original Image"
-msgstr "Restaurar cabeçalho original"
+msgstr "Restaurar imagem original"
 
 #: wp-admin/includes/image-edit.php:99
+#, fuzzy
 msgid "Discard any changes and restore the original image."
-msgstr ""
+msgstr "Descartar quaisquer alterações e restaurar a imagem original."
 
 #: wp-admin/includes/image-edit.php:102
+#, fuzzy
 msgid " Previously edited copies of the image will not be deleted."
-msgstr ""
+msgstr " Cópias da imagem editadas anteriormente não serão excluídas."
 
 #: wp-admin/includes/image-edit.php:106
 msgid "Restore image"
@@ -6855,84 +6858,86 @@ msgid "(help)"
 msgstr "(ajuda)"
 
 #: wp-admin/includes/image-edit.php:120
+#, fuzzy
 msgid "The image can be cropped by clicking on it and dragging to select the desired part. While dragging the dimensions of the selection are displayed below."
-msgstr ""
+msgstr "A imagem pode ser recortada clicando-se nela e arrastando para selecionar a parte desejada. Ao arrastar, as dimensões da seleção são exibidas abaixo."
 
 #: wp-admin/includes/image-edit.php:121
 #, fuzzy
 msgid "Keyboard shortcuts"
-msgstr "Atalhos de Teclado"
+msgstr "Atalhos de teclado"
 
 #: wp-admin/includes/image-edit.php:123
+#, fuzzy
 msgid "Arrow: move by 10px"
-msgstr ""
+msgstr "Seta: mover a cada 10px"
 
 #: wp-admin/includes/image-edit.php:124
+#, fuzzy
 msgid "Shift + arrow: move by 1px"
-msgstr ""
+msgstr "Shift + seta: mover a cada 1px"
 
 #: wp-admin/includes/image-edit.php:125
+#, fuzzy
 msgid "Ctrl + arrow: resize by 10px"
-msgstr ""
+msgstr "Ctrl + seta: redimensionar a cada 10px"
 
 #: wp-admin/includes/image-edit.php:126
+#, fuzzy
 msgid "Ctrl + Shift + arrow: resize by 1px"
-msgstr ""
+msgstr "Ctrl + Shift + seta: redimensionar a cada 1px"
 
 #: wp-admin/includes/image-edit.php:127
+#, fuzzy
 msgid "Shift + drag: lock aspect ratio"
-msgstr ""
+msgstr "Shift + arrastar: bloquear a proporção"
 
 #: wp-admin/includes/image-edit.php:130
 msgid "Crop Aspect Ratio"
-msgstr ""
+msgstr "Proporção do recorte"
 
 #: wp-admin/includes/image-edit.php:131
+#, fuzzy
 msgid "You can specify the crop selection aspect ratio then hold down the Shift key while dragging to lock it. The values can be 1:1 (square), 4:3, 16:9, etc. If there is a selection, specifying aspect ratio will set it immediately."
-msgstr ""
+msgstr "Você pode especificar a proporção da seleção a ser recortada e então segurar a tecla Shift ao arrastar para bloqueá-la. Os valores podem ser 1:1 (quadrado), 4:3, 16:9, etc. Se houver uma seleção, ao especificar uma proporção ela será aplicada imediatamente."
 
 #: wp-admin/includes/image-edit.php:133
-#, fuzzy
 msgid "Crop Selection"
-msgstr "Selecção do Navegador"
+msgstr "Seleção do recorte"
 
 #: wp-admin/includes/image-edit.php:134
+#, fuzzy
 msgid "Once started, the selection can be adjusted by entering new values (in pixels). Note that these values are scaled to approximately match the original image dimensions. The minimum selection size equals the thumbnail size as set in the Media settings."
-msgstr ""
+msgstr "Uma vez iniciada, a seleção pode ser ajustada inserindo-se novos valores (em pixels). Observe que estes valores são redimensionados para corresponderem aproximadamente às dimensões originais da imagem. O tamanho mínimo da seleção equivale ao tamanho da miniatura conforme as Configurações de Mídia."
 
 #: wp-admin/includes/image-edit.php:139
-#, fuzzy
 msgid "Aspect ratio:"
-msgstr "Manter aparência"
+msgstr "Proporção:"
 
 #: wp-admin/includes/image-edit.php:148
-#, fuzzy
 msgid "Selection:"
-msgstr "Selecção do Navegador"
+msgstr "Seleção:"
 
 #: wp-admin/includes/image-edit.php:163
-#, fuzzy
 msgid "Thumbnail Settings"
-msgstr "Definições de Presença"
+msgstr "Configurações de miniatura"
 
 #: wp-admin/includes/image-edit.php:165
+#, fuzzy
 msgid "The thumbnail image can be cropped differently. For example it can be square or contain only a portion of the original image to showcase it better. Here you can select whether to apply changes to all image sizes or make the thumbnail different."
-msgstr ""
+msgstr "A miniatura pode ser recortada diferentemente. Por exemplo, ela pode ser quadrada e conter apenas uma parte da imagem original para exibi-la melhor. Aqui você pode optar entre aplicar todas as alterações a todas as imagens ou tornar a miniatura diferente."
 
 #: wp-admin/includes/image-edit.php:169
-#, fuzzy
 msgid "Current thumbnail"
-msgstr "Tamanho da Miniatura"
+msgstr "Miniatura atual"
 
 #: wp-admin/includes/image-edit.php:173
-#, fuzzy
 msgid "Apply changes to:"
-msgstr "Aplicar regras de sumiço para amigos"
+msgstr "Aplicar alterações a:"
 
 #: wp-admin/includes/image-edit.php:177
-#, fuzzy
 msgid "All image sizes"
-msgstr "/Conversa/Inserir Imagem..."
+msgstr "Todos tamanhos de imagens"
 
 #: wp-admin/includes/image-edit.php:181
 #: wp-admin/includes/media.php:822
@@ -6942,73 +6947,66 @@ msgstr "Miniatura"
 
 #: wp-admin/includes/image-edit.php:185
 msgid "All sizes except thumbnail"
-msgstr ""
+msgstr "Todos os tamanhos exceto a miniatura"
 
 #: wp-admin/includes/image-edit.php:195
+#, fuzzy
 msgid "There are unsaved changes that will be lost.  'OK' to continue, 'Cancel' to return to the Image Editor."
-msgstr ""
+msgstr "Há alterações não salvas que serão perdidas. 'OK' para continuar, 'Cancelar' para retornar ao Editor de Imagens."
 
 #: wp-admin/includes/image-edit.php:427
-#, fuzzy
 msgid "Cannot load image metadata."
-msgstr "Impossível guardar imagem"
+msgstr "Não foi possível carregar metadados da imagem."
 
 #: wp-admin/includes/image-edit.php:482
 msgid "Cannot save image metadata."
-msgstr ""
+msgstr "Não foi possível salvar os metadados da imagem."
 
 #: wp-admin/includes/image-edit.php:487
-#, fuzzy
 msgid "Image metadata is inconsistent."
-msgstr "A biblioteca de imagens GD não está instalada."
+msgstr "Os metadados da imagem são inconsistentes."
 
 #: wp-admin/includes/image-edit.php:489
-#, fuzzy
 msgid "Image restored successfully."
-msgstr "Listadecontactos carregada com sucesso!"
+msgstr "Imagem restaurada com sucesso."
 
 #: wp-admin/includes/image-edit.php:502
-#, fuzzy
 msgid "Unable to create new image."
-msgstr "Não foi possível criar novo processo de resolução\n"
+msgstr "Não foi possível criar nova imagem."
 
 #: wp-admin/includes/image-edit.php:528
-#, fuzzy
 msgid "Error while saving the scaled image. Please reload the page and try again."
-msgstr "Ocorreu um erro. Recarregue a página e tente novamente."
+msgstr "Erro ao redimensionar a imagem. Recarregue a página e tente novamente."
 
 #: wp-admin/includes/image-edit.php:536
 msgid "Nothing to save, the image has not changed."
-msgstr ""
+msgstr "Não há nada para salvar, a imagem não foi alterada."
 
 #: wp-admin/includes/image-edit.php:579
-#, fuzzy
 msgid "Unable to save the image."
-msgstr "Não foi possível salvar nova conta"
+msgstr "Não foi possível salvar a imagem."
 
 #: wp-admin/includes/image-edit.php:664
-#, fuzzy
 msgid "Image saved"
-msgstr "Estados Guardados"
+msgstr "Imagem salva"
 
 #: wp-admin/includes/image.php:155
-#, fuzzy, php-format
+#, php-format
 msgid "File &#8220;%s&#8221; doesn&#8217;t exist?"
-msgstr "O arquivo &#8220;%s&#8221;  não existe?"
+msgstr "O arquivo &#8220;%s&#8221; não existe?"
 
 #: wp-admin/includes/image.php:158
 msgid "The GD image library is not installed."
 msgstr "A biblioteca de imagens GD não está instalada."
 
 #: wp-admin/includes/image.php:165
-#, fuzzy, php-format
+#, php-format
 msgid "File &#8220;%s&#8221; is not an image."
 msgstr "O arquivo &#8220;%s&#8221; não é uma imagem."
 
 #: wp-admin/includes/import.php:63
-#, fuzzy
 msgid "File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini."
-msgstr "O arquivo está vazio. Por favor, faça upload de algo mais substancial. Esse erro também pode ter acontecido se os uploads estiverem desabilitados no seu php.ini."
+msgstr "O arquivo está vazio. Faça o upload de algo mais substancial. Esse erro também pode ter acontecido se os envios estiverem desativados no seu php.ini ou se a definição de post_max_size for menor que a do upload_max_filesize no php.ini."
 
 #: wp-admin/includes/media.php:18
 msgid "From Computer"
@@ -7126,13 +7124,11 @@ msgid "Post URL"
 msgstr "URL do artigo"
 
 #: wp-admin/includes/media.php:915
-#, fuzzy
 msgid "Alternate text"
 msgstr "Texto alternativo"
 
 #: wp-admin/includes/media.php:916
 #: wp-admin/includes/media.php:1995
-#, fuzzy
 msgid "Alt text for the image, e.g. &#8220;The Mona Lisa&#8221;"
 msgstr "Texto alternativo para a imagem, por exemplo &#8220;A Mona Lisa&#8221;"
 
@@ -7170,9 +7166,8 @@ msgid "Order"
 msgstr "Ordem"
 
 #: wp-admin/includes/media.php:1052
-#, fuzzy
 msgid "Location of the uploaded file."
-msgstr "Local do arquivo enviado."
+msgstr "Localização do arquivo enviado."
 
 #: wp-admin/includes/media.php:1143
 #: wp-admin/includes/media.php:1674
@@ -7186,27 +7181,22 @@ msgid "Hide"
 msgstr "Esconder"
 
 #: wp-admin/includes/media.php:1201
-#, fuzzy
 msgid "Edit image"
 msgstr "Editar imagem"
 
 #: wp-admin/includes/media.php:1213
-#, fuzzy
 msgid "File name:"
-msgstr "(sem nome)"
+msgstr "Nome do arquivo:"
 
 #: wp-admin/includes/media.php:1215
-#, fuzzy
 msgid "File type:"
-msgstr "Tipo inválido de arquivo"
+msgstr "Tipo do arquivo:"
 
 #: wp-admin/includes/media.php:1216
-#, fuzzy
 msgid "Upload date:"
-msgstr "Data de início"
+msgstr "Data de envio:"
 
 #: wp-admin/includes/media.php:1219
-#, fuzzy
 msgid "Dimensions:"
 msgstr "Dimensões:"
 
@@ -7225,9 +7215,8 @@ msgstr "Você está prestes a excluir <strong>%s</strong>."
 
 #: wp-admin/includes/media.php:1256
 #: wp-includes/script-loader.php:388
-#, fuzzy
 msgid "Use as thumbnail"
-msgstr "/Conversa/_Guardar como..."
+msgstr "Usar como miniatura"
 
 #: wp-admin/includes/media.php:1395
 msgid "Select Files"
@@ -7265,12 +7254,10 @@ msgid "Add media file from URL"
 msgstr "Adicionar arquivo de mídia do URL"
 
 #: wp-admin/includes/media.php:1673
-#, fuzzy
 msgid "All Tabs:"
 msgstr "Todos as abas:"
 
 #: wp-admin/includes/media.php:1677
-#, fuzzy
 msgid "Sort Order:"
 msgstr "Organizar:"
 
@@ -7285,7 +7272,6 @@ msgid "Descending"
 msgstr "Descendente"
 
 #: wp-admin/includes/media.php:1680
-#, fuzzy
 msgctxt "verb"
 msgid "Clear"
 msgstr "Apagar"
@@ -7404,9 +7390,8 @@ msgid "Image Caption"
 msgstr "Descrição da imagem"
 
 #: wp-admin/includes/media.php:1972
-#, fuzzy
 msgid "Insert an image from another web site"
-msgstr "Escolha uma imagem no seu computador:"
+msgstr "Inserir uma imagem de outro site"
 
 #: wp-admin/includes/media.php:1976
 #: wp-includes/js/tinymce/langs/wp-langs.php:274
@@ -7434,7 +7419,6 @@ msgid "Audio File URL"
 msgstr "URL do arquivo de áudio"
 
 #: wp-admin/includes/media.php:2058
-#, fuzzy
 msgid "Link text, e.g. &#8220;Still Alive by Jonathan Coulton&#8221;"
 msgstr "Texto do link, por exemplo &#8220;Still Alive, de Jonathan Coulton&#8221;"
 
@@ -7443,12 +7427,10 @@ msgid "Video URL"
 msgstr "URL do vídeo"
 
 #: wp-admin/includes/media.php:2093
-#, fuzzy
 msgid "Link text, e.g. &#8220;Lucy on YouTube&#8220;"
 msgstr "Texto do link, por exemplo &#8220;Lucy no YouTube&#8221;"
 
 #: wp-admin/includes/media.php:2128
-#, fuzzy
 msgid "Link text, e.g. &#8220;Ransom Demands (PDF)&#8221;"
 msgstr "Texto do link, por exemplo &#8220;Pensamentos (PDF)&#8221;"
 
@@ -7462,7 +7444,7 @@ msgid "You are using the Browser uploader."
 msgstr "Você está usando o Browser uploader."
 
 #: wp-admin/includes/media.php:2179
-#, fuzzy, php-format
+#, php-format
 msgid "Try the <a href=\"%s\">Flash uploader</a> instead."
 msgstr "Em vez disso, tente o <a href=\"%s\">uploader do Flash</a>."
 
@@ -7649,20 +7631,19 @@ msgid "Custom fields can be used to add extra metadata to a post that you can <a
 msgstr "Os campos personalizados podem ser usados para adicionar metadados adicionais a um artigo, que você pode <a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">usar no seu tema</a>."
 
 #: wp-admin/includes/meta-boxes.php:378
-#, fuzzy
 msgid "Allow Comments."
-msgstr "Permitir comentários"
+msgstr "Permitir comentários."
 
 #: wp-admin/includes/meta-boxes.php:379
 #, fuzzy, php-format
 msgid "Allow <a href=\"%s\" target=\"_blank\">trackbacks and pingbacks</a> on this page."
-msgstr "Permitir <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks e pingbacks</a> para este artigo"
+msgstr "Permitir <a href=\"%s\" target=\"_blank\">trackbacks e  pingbacks</a> nesta página."
 
 #: wp-admin/includes/meta-boxes.php:379
 #, fuzzy
 msgctxt "Url to codex article on Managing Comments"
 msgid "http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments"
-msgstr "Permitir <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks e pingbacks</a> para este artigo"
+msgstr "http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments"
 
 #: wp-admin/includes/meta-boxes.php:413
 msgid "Show comments"
@@ -7680,7 +7661,7 @@ msgstr "Slug"
 #: wp-admin/includes/template.php:239
 #: wp-admin/includes/template.php:1119
 msgid "Parent"
-msgstr "Pai"
+msgstr "Mãe"
 
 #: wp-admin/includes/meta-boxes.php:480
 msgid "Page Parent"
@@ -7694,7 +7675,7 @@ msgstr "Página Principal (sem mãe)"
 #: wp-admin/includes/meta-boxes.php:482
 #, fuzzy
 msgid "You can arrange your pages in hierarchies. For example, you could have an &#8220;About&#8221; page that has &#8220;Life Story&#8221; and &#8220;My Dog&#8221; pages under it. There are no limits to how deeply nested you can make pages."
-msgstr "Você pode organizar as páginas de modo hierárquico. Por exemplo, você pode escrever uma página &#8220;Quem Sou Eu&#8221; e atrelar a ela outras páginas, como &#8220;Minha Vida&#8221; e &#8220;Meu Cachorro&#8221;. Não há limites para o número de níveis de páginas que você pode criar."
+msgstr "Você pode organizar as páginas de modo hierárquico. Por exemplo, você pode ter uma página &#8220;Sobre&#8221; que possui as páginas &#8220;Minha Vida&#8221; e &#8220;Meu Cachorro&#8221; sob ela. Não há limites para o número de níveis de páginas que você pode criar."
 
 #: wp-admin/includes/meta-boxes.php:485
 #: wp-admin/includes/template.php:1139
@@ -7717,7 +7698,7 @@ msgstr "Ordem da página"
 #: wp-admin/includes/meta-boxes.php:495
 #, fuzzy
 msgid "Pages are usually ordered alphabetically, but you can put a number above to change the order pages appear in."
-msgstr "Em geral, as páginas são ordenadas alfabeticamente, mas você pode indicar um número acima para alterar a ordem. (Sim, é meio estranho, mas ficará melhor em versões futuras)."
+msgstr "Em geral, as páginas são ordenadas alfabeticamente, mas você pode indicar um número acima para alterar a ordem."
 
 #: wp-admin/includes/meta-boxes.php:523
 msgid "Visit Link"
@@ -8326,7 +8307,7 @@ msgstr ""
 #: wp-admin/includes/mu.php:1318
 #, php-format
 msgid "Warning! People can create blogs on your site. Please consider using <a href='%1s'>Cookies for Comments</a> or <a href='%2s'>WP-Hashcash</a> to fight the spammers."
-msgstr ""
+msgstr "Atenção! As pessoas podem criar sites no seu portal. Por favor considere utilizar o <a href='%1s'>Cookies for Comments</a> ou <a href='%2s'>WP-Hashcash</a> para combater os spammers."
 
 #: wp-admin/includes/plugin-install.php:43
 #, fuzzy
@@ -8403,7 +8384,6 @@ msgid "If you have a plugin in a .zip format, You may install it by uploading it
 msgstr "Se você tem um plugin no formato .zip, você deve instalá-lo fazendo upload do arquivo aqui."
 
 #: wp-admin/includes/plugin-install.php:216
-#, fuzzy
 msgid "Plugin zip file"
 msgstr "Arquivo zip do plugin"
 
@@ -8551,7 +8531,6 @@ msgid "<strong>Warning:</strong> This plugin has <strong>not been tested</strong
 msgstr "<strong>Cuidado:</strong> Esse plugin <strong>não foi testado</strong> com sua versão atual do WordPress."
 
 #: wp-admin/includes/plugin-install.php:539
-#, fuzzy
 msgid "<strong>Warning:</strong> This plugin has <strong>not been marked as compatible</strong> with your version of WordPress."
 msgstr "<strong>Atenção:</strong> Esse plugin <strong>não foi marcado como compatível</strong> com a sua versão do WordPress."
 
@@ -8577,9 +8556,8 @@ msgid "Plugin file does not exist."
 msgstr "O arquivo do plugin não existe."
 
 #: wp-admin/includes/plugin.php:522
-#, fuzzy
 msgid "The plugin does not have a valid header."
-msgstr "O plugin não possui um header válido."
+msgstr "O plugin não possui um cabeçalho válido."
 
 #: wp-admin/includes/post.php:48
 msgid "You are not allowed to edit pages as this user."
@@ -8690,22 +8668,20 @@ msgstr[0] "Privado <span class=\"count\">(%s)</span>"
 msgstr[1] "Privados <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:824
-#, fuzzy
 msgctxt "post"
 msgid "Trash"
-msgstr "Tags"
+msgstr "Lixeira"
 
 #: wp-admin/includes/post.php:824
-#, fuzzy
 msgid "Trash posts"
-msgstr "Editar artigos"
+msgstr "Mover artigos para lixeira"
 
 #: wp-admin/includes/post.php:824
-#, fuzzy, php-format
+#, php-format
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
-msgstr[0] "Ativo <span class=\"count\">(%s)</span>"
-msgstr[1] "Rascunhos</a> <span class=\"count\">(%s)</span>"
+msgstr[0] "Lixo <span class=\"count\">(%s)</span>"
+msgstr[1] "Lixo <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:867
 #: wp-admin/wpmu-options.php:201
@@ -8767,7 +8743,7 @@ msgstr "Clique para editar essa parte do link permanente"
 
 #: wp-admin/includes/post.php:1021
 msgid "Temporary permalink. Click to edit this part."
-msgstr ""
+msgstr "Link permanente temporário. Clique para editar esta parte."
 
 #: wp-admin/includes/post.php:1025
 #: wp-admin/includes/post.php:1053
@@ -8779,14 +8755,12 @@ msgid "Change Permalinks"
 msgstr "Mudar permalinks"
 
 #: wp-admin/includes/post.php:1074
-#, fuzzy
 msgid "Set thumbnail"
-msgstr "Tamanho da Miniatura"
+msgstr "Definir miniatura"
 
 #: wp-admin/includes/post.php:1085
-#, fuzzy
 msgid "Remove thumbnail"
-msgstr "Tamanho da Miniatura"
+msgstr "Remover miniatura"
 
 #: wp-admin/includes/post.php:1153
 #, php-format
@@ -8799,9 +8773,9 @@ msgid "Warning: %s is currently editing this page"
 msgstr "Atenção: %s está neste momento editando esta página"
 
 #: wp-admin/includes/post.php:1159
-#, fuzzy, php-format
+#, php-format
 msgid "Warning: %s is currently editing this."
-msgstr "Atenção: %s está neste momento editando esta página"
+msgstr "Atenção: %s está editando esta página neste momento."
 
 #: wp-admin/includes/post.php:1215
 msgid "Preview not available. Please save as a draft first."
@@ -9034,19 +9008,16 @@ msgid "Edit this post inline"
 msgstr "Editar aqui esse artigo"
 
 #: wp-admin/includes/template.php:1448
-#, fuzzy
 msgid "Restore this post from the Trash"
-msgstr "Fixar esse artigo na página inicial"
+msgstr "Restaurar este artigo da lixeira"
 
 #: wp-admin/includes/template.php:1450
-#, fuzzy
 msgid "Move this post to the Trash"
-msgstr "Fixar esse artigo na página inicial"
+msgstr "Mover este artigo para a lixeira"
 
 #: wp-admin/includes/template.php:1452
-#, fuzzy
 msgid "Delete this post permanently"
-msgstr "Editar aqui esse artigo"
+msgstr "Excluir esse artigo permanentemente"
 
 #: wp-admin/includes/template.php:1487
 #: wp-admin/includes/upgrade.php:99
@@ -9056,7 +9027,6 @@ msgid "Uncategorized"
 msgstr "Sem categoria"
 
 #: wp-admin/includes/template.php:1659
-#, fuzzy
 msgid "Parent Page: "
 msgstr "Página mãe:"
 
@@ -9065,19 +9035,16 @@ msgid "Edit this page"
 msgstr "Editar essa página"
 
 #: wp-admin/includes/template.php:1668
-#, fuzzy
 msgid "Remove this page from the Trash"
-msgstr "Manter página privada"
+msgstr "Remover este artigo da lixeira"
 
 #: wp-admin/includes/template.php:1670
-#, fuzzy
 msgid "Move this page to the Trash"
-msgstr "Fixar esse artigo na página inicial"
+msgstr "Mover esta página para Lixeira"
 
 #: wp-admin/includes/template.php:1672
-#, fuzzy
 msgid "Delete this page permanently"
-msgstr "Manter página privada"
+msgstr "Excluir essa página permanentemente"
 
 #: wp-admin/includes/template.php:1962
 #, php-format
@@ -9116,12 +9083,12 @@ msgstr "Enviar resposta"
 #: wp-admin/includes/template.php:2378
 #, php-format
 msgid "Comment by %s moved to the trash."
-msgstr ""
+msgstr "Comentário de %s movido para a lixeira."
 
 #: wp-admin/includes/template.php:2381
-#, fuzzy, php-format
+#, php-format
 msgid "Comment by %s marked as spam."
-msgstr "Usuários marcados como não spam!"
+msgstr "Comentário de %s marcado como spam."
 
 #: wp-admin/includes/template.php:2434
 #: wp-admin/includes/template.php:2449
@@ -9422,9 +9389,8 @@ msgid "Number of Columns:"
 msgstr "Número de colunas:"
 
 #: wp-admin/includes/template.php:3690
-#, fuzzy
 msgid "Posts per page:"
-msgstr "Posts por página:"
+msgstr "Artigos por página:"
 
 #: wp-admin/includes/template.php:3693
 #, fuzzy
@@ -9698,19 +9664,19 @@ msgid "Could not fully remove the theme %s"
 msgstr "Não foi possível remover completamente o tema %s"
 
 #: wp-admin/includes/update-core.php:234
-#, php-format
+#, fuzzy, php-format
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
-msgstr ""
+msgstr "A atualização não pode ser instalada porque o WordPress %1$s necessita a versão %2$s ou mais recente do PHP e a versão %3$s ou mais recente do MySQL. Você está usando a versão %4$s do PHP e a %5$s do MySQL."
 
 #: wp-admin/includes/update-core.php:236
-#, php-format
+#, fuzzy, php-format
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
-msgstr ""
+msgstr "A atualização não pode ser instalada porque o WordPress %1$s necessita a versão %2$s ou mais recente do PHP. Você está usando a versão %3$s."
 
 #: wp-admin/includes/update-core.php:238
-#, php-format
+#, fuzzy, php-format
 msgid "The update cannot be installed because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
-msgstr ""
+msgstr "A atualização não pode ser instalada porque o WordPress %1$s necessita a versão %2$s ou mais recente do MySQL. Você está usando a versão %3$s."
 
 #: wp-admin/includes/update-core.php:241
 msgid "Verifying the unpacked files"
@@ -9982,7 +9948,7 @@ msgstr "Confira se o endereço de email está correto antes de prosseguir."
 
 #: wp-admin/install.php:74
 msgid "Allow my blog to appear in search engines like Google and Technorati."
-msgstr "Permito que o meu blog seja visível em mecanismos de busca como o Google e o Technorati."
+msgstr "Permito que o meu site seja visível em mecanismos de busca como o Google e o Technorati."
 
 #: wp-admin/install.php:77
 msgid "Install WordPress"
@@ -9997,24 +9963,24 @@ msgid "You appear to have already installed WordPress. To reinstall please clear
 msgstr "Aparentemente, você já instalou o WordPress. Para o reinstalar, limpe primeiro as tabelas do banco de dados antigo."
 
 #: wp-admin/install.php:91
-#, php-format
+#, fuzzy, php-format
 msgid "You cannot install because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
-msgstr ""
+msgstr "Você não pode instalar porque o WordPress %1$s necessita a versão %2$s ou mais recente do PHP e a versão %3$s ou mais recente do MySQL. Você está usando a versão %4$s do PHP e a %5$s do MySQL."
 
 #: wp-admin/install.php:93
-#, php-format
+#, fuzzy, php-format
 msgid "You cannot install because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
-msgstr ""
+msgstr "Você não pode instalar porque o WordPress %1$s necessita a versão %2$s ou mais recente do PHP. Você está usando a versão %3$s."
 
 #: wp-admin/install.php:95
-#, php-format
+#, fuzzy, php-format
 msgid "You cannot install because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
-msgstr ""
+msgstr "Você não pode instalar porque o WordPress %1$s necessita a versão %2$s ou mais recente do MySQL. Você está usando a versão %3$s."
 
 #: wp-admin/install.php:99
 #, fuzzy
 msgid "Insufficient Requirements"
-msgstr "Direitos insuficientes"
+msgstr "Requisitos insuficientes"
 
 #: wp-admin/install.php:107
 msgid "Welcome"
@@ -10147,41 +10113,47 @@ msgstr "Link não encontrado."
 #: wp-admin/maint/repair.php:13
 #, fuzzy
 msgid "WordPress &rsaquo; Database Repair"
-msgstr "WordPress MU &rsaquo; Administrar"
+msgstr "WordPress &rsaquo; Reparo do banco de dados"
 
 #: wp-admin/maint/repair.php:22
+#, fuzzy
 msgid "<p>To allow use of this page to automatically repair database problems, please add the following line to your wp-config.php file.  Once this line is added to your config, reload this page.</p><code>define('WP_ALLOW_REPAIR', true);</code>"
-msgstr ""
+msgstr "<p>Para permitir que o uso desta página repare automaticamente problemas do banco de dados, adicione a seguinte linha ao seu arquivo wp-config.php. Quando esta linha for adicionada ao seu config, recarregue esta página.</p><code>define('WP_ALLOW_REPAIR', true);</code>"
 
 #: wp-admin/maint/repair.php:69
-#, php-format
+#, fuzzy, php-format
 msgid "<p>Some database problems could not be repaired. Please copy-and-paste the following list of errors to the <a href=\"%s\">WordPress support forums</a> to get additional assistance.</p>"
-msgstr ""
+msgstr "<p>Não foi possível reparar alguns problemas do banco de dados. Copie e cole a seguinte lista de erros no <a href=\"%s\">Fórum de Suporte do WordPress</a> para obter assistência.</p>"
 
 #: wp-admin/maint/repair.php:75
+#, fuzzy
 msgid "<p>Repairs complete.  Please remove the following line from wp-config.php to prevent this page from being used by unauthorized users.</p><code>define('WP_ALLOW_REPAIR', true);</code>"
-msgstr ""
+msgstr "<p>Os reparos foram concluídos. Remova a seguinte linha do wp-config.php para evitar que esta página seja usada por usuários não autorizados.</p><code>define('WP_ALLOW_REPAIR', true);</code>"
 
 #: wp-admin/maint/repair.php:79
+#, fuzzy
 msgid "One or more database tables is unavailable.  To allow WordPress to attempt to repair these tables, press the \"Repair Database\" button. Repairing can take awhile, so please be patient."
-msgstr ""
+msgstr "Uma ou mais tabelas do banco de dados não estão disponíveis. Para permitir que o WordPress tente reparar estas tabelas, clique no botão \"Reparar Banco de Dados\". O reparo pode demorar, seja paciente."
 
 #: wp-admin/maint/repair.php:81
+#, fuzzy
 msgid "WordPress can automatically look for some common database problems and repair them.  Repairing can take awhile, so please be patient."
-msgstr ""
+msgstr "O WordPress pode automaticamente procurar por alguns erros comuns de banco de dados e repará-los. O reparo pode demorar, portanto seja paciente."
 
 #: wp-admin/maint/repair.php:83
 #, fuzzy
 msgid "Repair Database"
-msgstr "Atualizando banco de dados"
+msgstr "Reparar o banco de dados"
 
 #: wp-admin/maint/repair.php:84
+#, fuzzy
 msgid "WordPress can also attempt to optimize the database.  This improves performance in some situations.  Repairing and optimizing the database can take a long time and the database will be locked while optimizing."
-msgstr ""
+msgstr "O WordPress também pode tentar otimizar seu banco de dados. Isto melhora a performance em algumas situações. O reparo e a otimização do banco de dados podem demorar bastante e o banco de dados será bloqueado enquanto isso."
 
 #: wp-admin/maint/repair.php:85
+#, fuzzy
 msgid "Repair and Optimize Database"
-msgstr ""
+msgstr "Reparar e otimizar o banco de dados"
 
 #: wp-admin/media-upload.php:32
 msgid "You are not allowed to be here"
@@ -10199,11 +10171,11 @@ msgstr "Sem permissão para editar este anexo."
 #: wp-admin/media.php:61
 #, fuzzy
 msgid "You attempted to edit an attachment that doesn&#8217;t exist. Perhaps it was deleted?"
-msgstr "Você tentou editar uma página que não existe. Talvez tenha sido excluída?"
+msgstr "Você tentou editar um anexo que não existe. Talvez tenha sido excluído?"
 
 #: wp-admin/media.php:62
 msgid "You can&#8217;t edit this attachment because it is in the Trash. Please move it out of the Trash and try again."
-msgstr ""
+msgstr "Você não pode editar este anexo porque ele está na lixeira. Remova da lixeira e tente novamente."
 
 #: wp-admin/media.php:78
 #: wp-admin/upload.php:207
@@ -10271,7 +10243,6 @@ msgstr "Autores e Usuários"
 
 #: wp-admin/menu.php:94
 #: wp-admin/users.php:243
-#, fuzzy
 msgctxt "user"
 msgid "Add New"
 msgstr "Adicionar novo"
@@ -10325,9 +10296,8 @@ msgstr "Diversas"
 #: wp-admin/options-privacy.php:13
 #: wp-admin/options-reading.php:13
 #: wp-admin/options-writing.php:13
-#, fuzzy
 msgid "You do not have sufficient permissions to manage options for this blog."
-msgstr "Sem permissões suficientes para gerenciar opções deste blog."
+msgstr "Sem permissões suficientes para gerenciar opções deste site."
 
 #: wp-admin/options-discussion.php:15
 msgid "Discussion Settings"
@@ -10393,7 +10363,7 @@ msgstr "primeiro"
 #: wp-admin/options-discussion.php:90
 #, fuzzy, php-format
 msgid "Break comments into pages with %1$s top level comments per page and the %2$s page displayed by default"
-msgstr "Dividir comentários em páginas com %1$s comentários por página e a página %2$s exibida por padrão"
+msgstr "Dividir comentários em páginas com %1$s comentários de nível mais alto por página e a página %2$s exibida por padrão"
 
 #: wp-admin/options-discussion.php:98
 msgid "older"
@@ -10711,26 +10681,28 @@ msgstr "Tamanho grande"
 #: wp-admin/options-media.php:68
 #, fuzzy
 msgid "Embeds"
-msgstr "Código Incorporado"
+msgstr "Códigos incorporados"
 
 #: wp-admin/options-media.php:73
 #, fuzzy
 msgid "Auto-embeds"
-msgstr "(%s) %s <RESPOSTA-AUTOMATICA>: %s\n"
+msgstr "Auto-embeds"
 
 #: wp-admin/options-media.php:74
 #: wp-admin/options-media.php:75
+#, fuzzy
 msgid "Attempt to automatically embed all plain text URLs"
-msgstr ""
+msgstr "Tentar incorporar automaticamente todos URLs sem formatação"
 
 #: wp-admin/options-media.php:80
 #, fuzzy
 msgid "Maximum embed size"
-msgstr "Cálculos de tamanho rápidos"
+msgstr "Tamanho máximo da mídia incorporada"
 
 #: wp-admin/options-media.php:86
+#, fuzzy
 msgid "If the width value is left blank, embeds will default to the max width of your theme."
-msgstr ""
+msgstr "Se o valor da largura for deixado em branco, por padrão os embeds terão a largura máxima de seu tema."
 
 #: wp-admin/options-misc.php:15
 msgid "Miscellaneous Settings"
@@ -10824,12 +10796,12 @@ msgstr "Se você temporariamente deu permissão de gravação para seu arquivo <
 #: wp-admin/options-permalink.php:248
 #, fuzzy
 msgid "If the root directory of your site were <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">writable</a>, we could do this automatically, but it isn&#8217;t so this is the url rewrite rule you should have in your <code>web.config</code> file. Create a new file, called <code>web.config</code> in the root directory of your site. Click in the field and press <kbd>CTRL + a</kbd> to select all. Then insert this code into the <code>web.config</code> file."
-msgstr "Se o seu arquivo <code>web.config</code> fosse <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">gravável</a>, poderíamos fazer isto automaticamente. Como não é, aqui estão as regras de gravação que devem estar presentes no arquivo <code>web.config</code>. Clique dentro do campo e pressione <kbd>CTRL + a</kbd> para selecionar tudo. Em seguida insira essa regra dentro do elemento <code>/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;</code> no arquivo <code>web.config</code>."
+msgstr "Se o diretório raiz de seu site fosse <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">gravável</a>, poderíamos fazer isto automaticamente. Como não é, aqui estão as regras de gravação que devem estar presentes no arquivo <code>web.config</code>. Crie um novo arquivo chamado <code>web.config</code>no diretório raiz de seu site. Clique dentro do campo e pressione <kbd>CTRL + a</kbd> para selecionar tudo. Em seguida insira esse código no arquivo <code>web.config</code>."
 
 #: wp-admin/options-permalink.php:253
 #, fuzzy
 msgid "If you temporarily make your site&#8217;s root directory writable for us to generate the <code>web.config</code> file automatically, do not forget to revert the permissions after the file has been created."
-msgstr "Se você temporariamente deu permissão de gravação para seu arquivo <code>web.config</code> para que as regras de gravação sejam geradas automaticamente, não se esqueça de reverter as permissões depois que as regras forem salvas."
+msgstr "Se você temporariamente deu permissão de gravação para o diretório raiz de seu site para que o arquivo <code>web.config</code> seja gerado automaticamente, não se esqueça de reverter as permissões depois que o arquivo for criado."
 
 #: wp-admin/options-permalink.php:258
 #, fuzzy
@@ -10846,9 +10818,8 @@ msgid "Blog Visibility"
 msgstr "Visibilidade do Blog"
 
 #: wp-admin/options-privacy.php:33
-#, fuzzy
 msgid "I would like my blog to be visible to everyone, including search engines (like Google, Bing, Technorati) and archivers"
-msgstr "Quero que o meu site esteja visível para todos, incluindo mecanismos de busca (por exemplo, Google, Sphere, Technorati) e arquivadores."
+msgstr "Quero que o meu site seja visível para todos, incluindo mecanismos de busca (como Google, Bing, Technorati) e arquivadores."
 
 #: wp-admin/options-privacy.php:35
 msgid "I would like to block search engines, but allow normal visitors"
@@ -10918,8 +10889,9 @@ msgid "Encoding for pages and feeds"
 msgstr "Codificação para páginas e feeds"
 
 #: wp-admin/options-reading.php:78
+#, fuzzy
 msgid "The <a href=\"http://codex.wordpress.org/Glossary#Character_set\">character encoding</a> of your blog (UTF-8 is recommended, if you are adventurous there are some <a href=\"http://en.wikipedia.org/wiki/Character_set\">other encodings</a>)"
-msgstr ""
+msgstr "A <a href=\"http://codex.wordpress.org/Glossary#Character_set\">codificação de caracteres</a> de seu blog (UTF-8 é a recomendada, se você for corajoso há algumas <a href=\"http://en.wikipedia.org/wiki/Character_set\">outras codificações</a>)"
 
 #: wp-admin/options-writing.php:15
 msgid "Writing Settings"
@@ -10981,34 +10953,30 @@ msgid "Enable the WordPress, Movable Type, MetaWeblog and Blogger XML-RPC publis
 msgstr "Habilitar os protocolos de publicação XML-RPC do WordPress, Movable Type, MetaWeblog e Blogger."
 
 #: wp-admin/options-writing.php:85
-#, fuzzy
 msgid "Post via e-mail"
-msgstr "Novas notificações de email"
+msgstr "Publicar artigo via email"
 
 #: wp-admin/options-writing.php:86
 #, php-format
 msgid "To post to WordPress by e-mail you must set up a secret e-mail account with POP3 access. Any mail received at this address will be posted, so it&#8217;s a good idea to keep this address very secret. Here are three random strings you could use: <kbd>%s</kbd>, <kbd>%s</kbd>, <kbd>%s</kbd>."
-msgstr ""
+msgstr "Para publicar no WordPress via email, você deve configurar uma conta POP3 secreta. Todas as mensagens recebidas neste endereço serão publicadas, é aconselhável manter este endereço bem guardado. Sugerimos três seqüências aleatórias que você poderia usar como nome de sua conta: <kbd>%s</kbd>, <kbd>%s</kbd>, <kbd>%s</kbd>."
 
 #: wp-admin/options-writing.php:90
-#, fuzzy
 msgid "Mail Server"
-msgstr "Ligar ao servidor"
+msgstr "Servidor de email"
 
 #: wp-admin/options-writing.php:92
-#, fuzzy
 msgid "Port"
 msgstr "Porta"
 
 #: wp-admin/options-writing.php:97
-#, fuzzy
 msgid "Login Name"
-msgstr "(sem nome)"
+msgstr "Nome do usuário"
 
 #: wp-admin/options-writing.php:107
 #, fuzzy
 msgid "Default Mail Category"
-msgstr "Categoria padrão de link"
+msgstr "Categoria de Email Padrão"
 
 #: wp-admin/options.php:64
 msgid "Error! Options page not found."
@@ -11043,12 +11011,11 @@ msgstr "Você tentou editar uma página que não existe. Talvez tenha sido exclu
 
 #: wp-admin/page.php:104
 msgid "You can&#8217;t edit this page because it is in the Trash. Please move it out of the Trash and try again."
-msgstr ""
+msgstr "Sem permissão para editar esta página pois ela está na lixeira. Remova da lixeira e tente novamente."
 
 #: wp-admin/page.php:176
-#, fuzzy
 msgid "You are not allowed to move this page out of the trash."
-msgstr "Sem permissão para editar esta página."
+msgstr "Sem permissão para remover esta página da lixeira."
 
 #: wp-admin/plugin-editor.php:13
 msgid "You do not have sufficient permissions to edit plugins for this blog."
@@ -11059,12 +11026,10 @@ msgid "Edit Plugins"
 msgstr "Editar plugins"
 
 #: wp-admin/plugin-editor.php:91
-#, fuzzy
 msgid "No such file exists! Double check the name and try again."
 msgstr "Não existe tal arquivo! Confira o nome e tente novamente."
 
 #: wp-admin/plugin-editor.php:98
-#, fuzzy
 msgid "Files of this type are not editable."
 msgstr "Arquivos deste tipo não são editáveis."
 
@@ -11104,7 +11069,6 @@ msgid "Browsing <strong>%s</strong> (inactive)"
 msgstr "Navegando <strong>%s</strong> (inativo)"
 
 #: wp-admin/plugin-editor.php:157
-#, fuzzy
 msgid "Select plugin to edit:"
 msgstr "Selecionar um plugin para editar:"
 
@@ -11114,13 +11078,11 @@ msgstr "Arquivos de Plugins"
 
 #: wp-admin/plugin-editor.php:208
 #: wp-admin/theme-editor.php:207
-#, fuzzy
 msgid "Documentation:"
 msgstr "Documentação:"
 
 #: wp-admin/plugin-editor.php:208
 #: wp-admin/theme-editor.php:209
-#, fuzzy
 msgid "Lookup"
 msgstr "Procurar"
 
@@ -11147,33 +11109,28 @@ msgid "You do not have sufficient permissions to install plugins on this blog."
 msgstr "Sem permissões suficientes para instalar plugins nesse blog."
 
 #: wp-admin/plugin-install.php:28
-#, fuzzy
 msgctxt "Plugin Installer"
 msgid "Featured"
 msgstr "Destaques"
 
 #: wp-admin/plugin-install.php:29
-#, fuzzy
 msgctxt "Plugin Installer"
 msgid "Popular"
-msgstr "Populares"
+msgstr "Popular"
 
 #: wp-admin/plugin-install.php:30
-#, fuzzy
 msgctxt "Plugin Installer"
 msgid "Newest"
 msgstr "Mais recentes"
 
 #: wp-admin/plugin-install.php:31
-#, fuzzy
 msgctxt "Plugin Installer"
 msgid "Recently Updated"
 msgstr "Atualizados recentemente"
 
 #: wp-admin/plugins.php:20
-#, fuzzy
 msgid "You do not have sufficient permissions to manage plugins for this blog."
-msgstr "Sem permissões suficientes para gerenciar plugins neste blog."
+msgstr "Sem permissões suficientes para gerenciar plugins neste site."
 
 #: wp-admin/plugins.php:51
 #: wp-admin/plugins.php:70
@@ -11322,11 +11279,11 @@ msgstr[0] "Atualização disponível <span class=\"count\">(%s)</span>"
 msgstr[1] "Atualizações disponiveis <span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:558
-#, fuzzy, php-format
+#, php-format
 msgid "Search Results <span class=\"count\">(%s)</span>"
 msgid_plural "Search Results <span class=\"count\">(%s)</span>"
 msgstr[0] "Resultado da pesquisa <span class=\"count\">(%s)</span>"
-msgstr[1] "Agendados <span class=\"count\">(%s)</span>"
+msgstr[1] "Resultados da pesquisa <span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:591
 msgid "You do not appear to have any plugins available at this time."
@@ -11348,13 +11305,12 @@ msgstr ""
 "Quando você for promovido, basta voltar a esta página e você já vai poder blogar. :)"
 
 #: wp-admin/post.php:131
-#, fuzzy
 msgid "You attempted to edit a post that doesn&#8217;t exist. Perhaps it was deleted?"
-msgstr "Você tentou editar um post que não existe. Talvez ele tenha sido excluído?"
+msgstr "Você tentou editar um artigo que não existe. Talvez ele tenha sido excluído?"
 
 #: wp-admin/post.php:137
 msgid "You can&#8217;t edit this post because it is in the Trash. Please restore it and try again."
-msgstr ""
+msgstr "Sem permissão para editar este artigo pois ele está na lixeira. Restaure-o e tente novamente."
 
 #: wp-admin/post.php:160
 msgid "Edit Post"
@@ -11362,9 +11318,8 @@ msgstr "Editar artigos"
 
 #: wp-admin/post.php:216
 #: wp-admin/upload.php:103
-#, fuzzy
 msgid "You are not allowed to move this post out of the trash."
-msgstr "Sem permissão para editar este artigo. "
+msgstr "Sem permissão para remover este artigo da lixeira."
 
 #: wp-admin/press-this.php:122
 msgid "Embed Code"
@@ -11411,9 +11366,8 @@ msgid "Post Tags"
 msgstr "Tags de artigos"
 
 #: wp-admin/press-this.php:538
-#, fuzzy
 msgid "Choose from the most used tags in Post Tags"
-msgstr "Escolher entre as tags mais usadas em tags de posts"
+msgstr "Escolher entre as tags mais usadas em tags de artigos"
 
 #: wp-admin/press-this.php:545
 msgid "Close Window"
@@ -11531,7 +11485,6 @@ msgstr "Modelos"
 
 #. translators: Theme stylesheets in theme editor
 #: wp-admin/theme-editor.php:176
-#, fuzzy
 msgctxt "Theme stylesheets in theme editor"
 msgid "Styles"
 msgstr "Estilos"
@@ -11541,18 +11494,15 @@ msgid "Oops, no such file exists! Double check the name and try again, merci."
 msgstr "Opa, não existe tal arquivo! Confira o nome e tente novamente."
 
 #: wp-admin/theme-install.php:13
-#, fuzzy
 msgid "You do not have sufficient permissions to install themes on this blog."
-msgstr "Sem permissões suficientes para instalar temas neste blog."
+msgstr "Sem permissões suficientes para instalar temas neste site."
 
 #: wp-admin/theme-install.php:33
-#, fuzzy
 msgctxt "Theme Installer"
 msgid "Featured"
 msgstr "Destaques"
 
 #: wp-admin/theme-install.php:35
-#, fuzzy
 msgctxt "Theme Installer"
 msgid "Newest"
 msgstr "Mais recentes"
@@ -11868,8 +11818,9 @@ msgid "Upgrade WordPress"
 msgstr "Atualizar WordPress"
 
 #: wp-admin/update-core.php:108
+#, fuzzy
 msgid "Please select one or more plugins to upgrade."
-msgstr ""
+msgstr "Selecione um ou mais plugins para atualizar."
 
 #: wp-admin/update-core.php:114
 msgid "You have the latest version of WordPress MU. You do not need to upgrade"
@@ -11884,15 +11835,16 @@ msgid "There is a new version of WordPress MU available for upgrade"
 msgstr "Há uma versão nova do WordPress MU disponível para atualização"
 
 #: wp-admin/update-core.php:162
+#, fuzzy
 msgid "The following plugins have new versions available.  Check the ones you want to upgrade and then click \"Upgrade Plugins\"."
-msgstr ""
+msgstr "Os seguintes plugins possuem novas versões disponíveis. Marque os que você quer atualizar e então clique em \"Atualizar Plugins\"."
 
 #: wp-admin/update-core.php:165
 #: wp-admin/update-core.php:217
 #: wp-admin/update-core.php:349
 #, fuzzy
 msgid "Upgrade Plugins"
-msgstr "Descarregar Plugins"
+msgstr "Atualizar plugins"
 
 #: wp-admin/update-core.php:170
 #: wp-admin/update-core.php:177
@@ -11901,26 +11853,26 @@ msgid "Select All"
 msgstr "Selecionar Tudo"
 
 #: wp-admin/update-core.php:186
-#, php-format
+#, fuzzy, php-format
 msgid "Compatibility with WordPress %1$s: 100%% (according to its author)"
-msgstr ""
+msgstr "Compatibilidade com o WordPress %1$s: 100%% (de acordo com o autor)"
 
 #: wp-admin/update-core.php:189
 #: wp-admin/update-core.php:197
-#, php-format
+#, fuzzy, php-format
 msgid "Compatibility with WordPress %1$s: %2$d%% (%3$d \"works\" votes out of %4$d total)"
-msgstr ""
+msgstr "Compatibilidade com o WordPress %1$s: %2$d%% (%3$d votos \"funciona\" do total de %4$d)"
 
 #: wp-admin/update-core.php:191
 #: wp-admin/update-core.php:199
 #, fuzzy, php-format
 msgid "Compatibility with WordPress %1$s: Unknown"
-msgstr "ERROR: Opção desconhecida \"%s\" com valor \"%s\"!\n"
+msgstr "Compatibilidade com o WordPress %1$s: Desconhecida"
 
 #: wp-admin/update-core.php:211
 #, fuzzy, php-format
 msgid "You are running version %1$s. Upgrade to %2$s."
-msgstr "Você tem %1$s e %2$s."
+msgstr "Você está usando a versão %1$s. Atualize para %2$s."
 
 #: wp-admin/update-core.php:306
 msgid "Installation Failed"
@@ -12015,19 +11967,19 @@ msgid "Your WordPress database is already up-to-date!"
 msgstr "Seu banco de dados do WordPress já está atualizado!"
 
 #: wp-admin/upgrade.php:63
-#, php-format
+#, fuzzy, php-format
 msgid "You cannot upgrade because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
-msgstr ""
+msgstr "Você não pode atualizar porque o WordPress %1$s necessita a versão %2$s ou mais recente do PHP e a versão %3$s ou mais recente do MySQL. Você está usando a versão %4$s do PHP e a %5$s do MySQL."
 
 #: wp-admin/upgrade.php:65
-#, php-format
+#, fuzzy, php-format
 msgid "You cannot upgrade because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
-msgstr ""
+msgstr "Você não pode atualizar porque o WordPress %1$s necessita a versão %2$s ou mais recente do PHP. Você está usando a versão %3$s."
 
 #: wp-admin/upgrade.php:67
-#, php-format
+#, fuzzy, php-format
 msgid "You cannot upgrade because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
-msgstr ""
+msgstr "Você não pode atualizar porque o WordPress %1$s necessita a versão %2$s ou mais recente do MySQL. Você está usando a versão %3$s."
 
 #: wp-admin/upgrade.php:76
 msgid "Database Upgrade Required"
@@ -12044,9 +11996,8 @@ msgid "The upgrade process may take a little while, so please be patient."
 msgstr "O processo de atualização poderá demorar um pouco, portanto seja paciente."
 
 #: wp-admin/upgrade.php:79
-#, fuzzy
 msgid "Upgrade WordPress Database"
-msgstr "Atualizar Banco de Dados do WordPress"
+msgstr "Atualizar banco de dados do WordPress"
 
 #: wp-admin/upgrade.php:95
 msgid "Upgrade Complete"
@@ -12078,23 +12029,20 @@ msgstr[0] "Reanexado %d anexo"
 msgstr[1] "Reanexados %d anexos"
 
 #: wp-admin/upload.php:208
-#, fuzzy
 msgid "Media permanently deleted."
-msgstr "Campo personalizado excluído."
+msgstr "Mídia excluída permanentemente."
 
 #: wp-admin/upload.php:209
 msgid "Error saving media attachment."
 msgstr "Erro ao salvar o anexo de mídia."
 
 #: wp-admin/upload.php:210
-#, fuzzy
 msgid "Media moved to the trash."
-msgstr "É necessário encher o tabuleiro de suporte."
+msgstr "Mídia movida para a lixeira."
 
 #: wp-admin/upload.php:211
-#, fuzzy
 msgid "Media restored from the trash."
-msgstr "Página restaurada para revisão às %s"
+msgstr "Mídia restaurada da lixeira."
 
 #: wp-admin/upload.php:233
 #, php-format
@@ -12109,12 +12057,12 @@ msgid "Unattached"
 msgstr "Desanexada"
 
 #: wp-admin/upload.php:247
-#, fuzzy, php-format
+#, php-format
 msgctxt "uploaded files"
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
-msgstr[0] "Ativo <span class=\"count\">(%s)</span>"
-msgstr[1] "Rascunhos</a> <span class=\"count\">(%s)</span>"
+msgstr[0] "Lixo <span class=\"count\">(%s)</span>"
+msgstr[1] "Lixo <span class=\"count\">(%s)</span>"
 
 #: wp-admin/upload.php:296
 #: wp-admin/upload.php:464
@@ -12142,7 +12090,6 @@ msgstr "Autor"
 #. translators: column name in media
 #: wp-admin/upload.php:357
 #: wp-admin/upload.php:367
-#, fuzzy
 msgctxt "media column name"
 msgid "Date Added"
 msgstr "Data adicionada"
@@ -12204,7 +12151,6 @@ msgid "Enable keyboard shortcuts for comment moderation."
 msgstr "Ativar atalhos de teclado para moderação de comentários."
 
 #: wp-admin/user-edit.php:186
-#, fuzzy
 msgid "<a href=\"http://codex.wordpress.org/Keyboard_Shortcuts\">More information</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Keyboard_Shortcuts\">Mais informação</a>"
 
@@ -12304,7 +12250,7 @@ msgid "Update User"
 msgstr "Atualizar usuário"
 
 #: wp-admin/user-new.php:19
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Hi,\n"
 "You've been invited to join '%s' at\n"
@@ -12318,10 +12264,10 @@ msgstr ""
 "Olá, \n"
 "Você foi convidado a juntar-se a '%s' em \n"
 "%s como um %s. \n"
-"Se você não quiser juntar-se a esse blog, ignore \n"
+"Se você não quiser juntar-se a esse site, ignore \n"
 "esse email. Esse convite irá expirar em alguns dias. \n"
 "\n"
-"Clique no link seguinte para ativar sua conte de usuário:\n"
+"Clique no link seguinte para ativar sua conta de usuário:\n"
 "%%s"
 
 #: wp-admin/user-new.php:39
@@ -12329,7 +12275,7 @@ msgid "You can&#8217;t create users."
 msgstr "Você não pode criar usuários."
 
 #: wp-admin/user-new.php:58
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Hi,\n"
 "\n"
@@ -12341,7 +12287,7 @@ msgstr ""
 "Olá, \n"
 "\n"
 "Você foi convidado a se juntar a '%s' em \n"
-"%s\n"
+"%s como um %s.\n"
 "Clique no link seguinte para confirmar o convite:\n"
 "%s\n"
 
@@ -12364,9 +12310,8 @@ msgid "Invitation email sent to user. A confirmation link must be clicked for th
 msgstr "Convite enviado para o usuário. Um link de confirmação deverá ser clicado para que ele seja adicionado ao seu blog."
 
 #: wp-admin/user-new.php:107
-#, fuzzy
 msgid "User has been added to your blog."
-msgstr "Usuário adicionado ao blog."
+msgstr "Usuário adicionado ao site."
 
 #: wp-admin/user-new.php:110
 msgid "That user is already a member of this blog."
@@ -12398,7 +12343,6 @@ msgid "E-mail (required)"
 msgstr "Email (obrigatório)"
 
 #: wp-admin/user-new.php:183
-#, fuzzy
 msgid "Skip Confirmation Email"
 msgstr "Pular confirmação de email"
 
@@ -12478,7 +12422,6 @@ msgid "Changed roles."
 msgstr "Funções alteradas."
 
 #: wp-admin/users.php:215
-#, fuzzy
 msgid "The current user&#8217;s role must have user editing capabilities."
 msgstr "A função do usuário atual deve possuir privilégios de edição de usuários."
 
@@ -12487,9 +12430,8 @@ msgid "Other user roles have been changed."
 msgstr "Outras funções do usuário foram alteradas."
 
 #: wp-admin/users.php:219
-#, fuzzy
 msgid "You can&#8217;t delete the current user."
-msgstr "Você não pode excluir usuário atual."
+msgstr "Você não pode excluir o usuário atual."
 
 #: wp-admin/users.php:220
 msgid "Other users have been deleted."
@@ -12556,7 +12498,6 @@ msgid "Select both the sidebar for this widget and the position of the widget in
 msgstr "Selecionar a barra lateral para este widget e também a posição do widget na barra lateral."
 
 #: wp-admin/widgets.php:265
-#, fuzzy
 msgid "Position"
 msgstr "Posição"
 
@@ -12566,7 +12507,6 @@ msgid "-- select --"
 msgstr "-- selecionar --"
 
 #: wp-admin/widgets.php:301
-#, fuzzy
 msgid "Save Widget"
 msgstr "Salvar widget"
 
