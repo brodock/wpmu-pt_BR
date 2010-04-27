@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WordPress 2.9.2\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-01-19 13:12+0000\n"
-"PO-Revision-Date: 2010-04-27 10:27-0300\n"
+"PO-Revision-Date: 2010-04-27 12:57-0300\n"
 "Last-Translator: Gabriel Mazetto <brodock@gmail.com>\n"
 "Language-Team: NPD-UFSC <gabriel@npd.ufsc.br>\n"
 "MIME-Version: 1.0\n"
@@ -680,7 +680,6 @@ msgid "You are not allowed to edit comments on this post."
 msgstr "Sem permissão para editar comentários sobre esse artigo."
 
 #: wp-admin/comment.php:60
-#, fuzzy
 msgid "This comment is in the Trash. Please move it out of the Trash if you want to edit it."
 msgstr "Este comentário está na Lixeira. Remova da Lixeira se quiser editá-lo."
 
@@ -703,7 +702,6 @@ msgid "Spam Comment"
 msgstr "Este comentário é spam"
 
 #: wp-admin/comment.php:96
-#, fuzzy
 msgid "You are about to move the following comment to the Trash:"
 msgstr "Você está prestes a mover o seguinte comentário para a Lixeira:"
 
@@ -716,7 +714,6 @@ msgid "You are about to delete the following comment:"
 msgstr "Você está prestes a excluir este comentário:"
 
 #: wp-admin/comment.php:101
-#, fuzzy
 msgid "Permanently Delete Comment"
 msgstr "Excluir comentário permanentemente"
 
@@ -1001,7 +998,6 @@ msgstr "Lixeira"
 #: wp-admin/upload.php:292
 #: wp-admin/upload.php:399
 #: wp-admin/upload.php:460
-#, fuzzy
 msgid "Delete Permanently"
 msgstr "Excluir permanentemente"
 
@@ -1060,7 +1056,6 @@ msgid "%s ago"
 msgstr "%s atrás"
 
 #: wp-admin/edit-attachment-rows.php:179
-#, fuzzy
 msgid "(Unattached)"
 msgstr "(Desanexado)"
 
@@ -1118,9 +1113,8 @@ msgid "No media attachments found."
 msgstr "Não foram encontrados anexos de mídia."
 
 #: wp-admin/edit-category-form.php:14
-#, fuzzy
 msgid "You do not have sufficient permissions to edit categories for this blog."
-msgstr "Sem permissões suficientes para editar categorias deste blog."
+msgstr "Sem permissões suficientes para editar categorias deste site."
 
 #: wp-admin/edit-category-form.php:76
 #: wp-admin/edit-link-category-form.php:27
@@ -1729,7 +1723,6 @@ msgstr "Revisões de Páginas"
 
 #: wp-admin/edit-pages.php:39
 #: wp-admin/page.php:160
-#, fuzzy
 msgid "You are not allowed to move this page to the trash."
 msgstr "Sem permissão para mover esta página para a lixeira."
 
@@ -1738,12 +1731,10 @@ msgstr "Sem permissão para mover esta página para a lixeira."
 #: wp-admin/page.php:163
 #: wp-admin/post.php:203
 #: wp-admin/upload.php:96
-#, fuzzy
 msgid "Error in moving to trash..."
 msgstr "Erro ao mover para a lixeira..."
 
 #: wp-admin/edit-pages.php:52
-#, fuzzy
 msgid "You are not allowed to restore this page from the trash."
 msgstr "Sem permissão para restaurar esta página da lixeira."
 
@@ -1752,7 +1743,6 @@ msgstr "Sem permissão para restaurar esta página da lixeira."
 #: wp-admin/page.php:179
 #: wp-admin/post.php:219
 #: wp-admin/upload.php:106
-#, fuzzy
 msgid "Error in restoring from trash..."
 msgstr "Erro ao restaurar da lixeira..."
 
@@ -1875,12 +1865,12 @@ msgid "Trash pages"
 msgstr "Mover páginas para lixeira"
 
 #: wp-admin/edit-pages.php:114
-#, fuzzy, php-format
+#, php-format
 msgctxt "page"
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
 msgstr[0] "Lixo <span class=\"count\">(%s)</span>"
-msgstr[1] "Rascunhos</a> <span class=\"count\">(%s)</span>"
+msgstr[1] "Lixo <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:125
 #: wp-admin/includes/template.php:3233
@@ -1923,22 +1913,22 @@ msgstr[1] "%s páginas não atualizadas, alguém as está editando."
 #, fuzzy, php-format
 msgid "Page permanently deleted."
 msgid_plural "%s pages permanently deleted."
-msgstr[0] "Campo personalizado excluído."
+msgstr[0] "Página excluída permanentemente."
 msgstr[1] "%s páginas excluídas."
 
 #: wp-admin/edit-pages.php:168
-#, fuzzy, php-format
+#, php-format
 msgid "Page moved to the trash."
 msgid_plural "%s pages moved to the trash."
-msgstr[0] "Erro ao excluir a página."
-msgstr[1] ""
+msgstr[0] "Página movida para a lixeira."
+msgstr[1] "%s páginas movidas para a lixeira."
 
 #: wp-admin/edit-pages.php:174
-#, fuzzy, php-format
+#, php-format
 msgid "Page restored from the trash."
 msgid_plural "%s pages restored from the trash."
-msgstr[0] "Página restaurada para revisão às %s"
-msgstr[1] "Página restaurada para revisão às %s"
+msgstr[0] "Página restaurada da lixeira."
+msgstr[1] "%s páginas restauradas da lixeira."
 
 #: wp-admin/edit-pages.php:183
 msgid "Your page has been saved."
@@ -1981,9 +1971,8 @@ msgid "Submitted"
 msgstr "Submetido"
 
 #: wp-admin/edit-tag-form.php:14
-#, fuzzy
 msgid "You do not have sufficient permissions to edit tags for this blog."
-msgstr "Sem permissões suficientes para editar tags deste blog."
+msgstr "Sem permissões suficientes para editar tags deste site."
 
 #: wp-admin/edit-tag-form.php:17
 msgid "A tag was not selected for editing."
@@ -2066,14 +2055,12 @@ msgstr "Adicionar tag"
 #: wp-admin/edit.php:47
 #: wp-admin/post.php:200
 #: wp-admin/upload.php:93
-#, fuzzy
 msgid "You are not allowed to move this post to the trash."
-msgstr "Sem permissão para publicar como esse usuário"
+msgstr "Sem permissão para mover este artigo para a lixeira. "
 
 #: wp-admin/edit.php:60
-#, fuzzy
 msgid "You are not allowed to restore this post from the trash."
-msgstr "Sem permissão para excluir este artigo."
+msgstr "Sem permissão para restaurar este artigo da lixeira."
 
 #: wp-admin/edit.php:75
 #: wp-admin/post.php:232
@@ -2124,33 +2111,33 @@ msgstr[0] "%s artigo não atualizado, alguém o está editando."
 msgstr[1] "%s artigos não atualizados, alguém os está editando."
 
 #: wp-admin/edit.php:164
-#, fuzzy, php-format
+#, php-format
 msgid "Post permanently deleted."
 msgid_plural "%s posts permanently deleted."
-msgstr[0] "Campo personalizado excluído."
+msgstr[0] "Artigo excluído permanentemente."
 msgstr[1] "%s artigos excluídos."
 
 #: wp-admin/edit.php:169
-#, fuzzy, php-format
+#, php-format
 msgid "Post moved to the trash."
 msgid_plural "%s posts moved to the trash."
-msgstr[0] "Falha ao criar o post."
-msgstr[1] ""
+msgstr[0] "Artigo movido para a lixeira."
+msgstr[1] "%s artigos movidos para a lixeira."
 
 #: wp-admin/edit.php:176
-#, fuzzy, php-format
+#, php-format
 msgid "Post restored from the trash."
 msgid_plural "%s posts restored from the trash."
-msgstr[0] "Artigo restaurado para revisão às %s"
+msgstr[0] "Artigo restaurado da lixeira."
 msgstr[1] "Artigo restaurado para revisão às %s"
 
 #: wp-admin/edit.php:198
-#, fuzzy, php-format
+#, php-format
 msgctxt "posts"
 msgid "My Posts <span class=\"count\">(%s)</span>"
 msgid_plural "My Posts <span class=\"count\">(%s)</span>"
-msgstr[0] "Revisão pendente <span class=\"count\">(%s)</span>"
-msgstr[1] "Privados <span class=\"count\">(%s)</span>"
+msgstr[0] "Meus artigos <span class=\"count\">(%s)</span>"
+msgstr[1] "Meus artigos <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit.php:204
 #, php-format
@@ -2184,18 +2171,16 @@ msgid "Excerpt View"
 msgstr "Visualização do resumo"
 
 #: wp-admin/edit.php:368
-#, fuzzy
 msgid "No posts found in the trash"
-msgstr "Nenhum artigo com tags encontrado!"
+msgstr "Nenhum artigo encontrado na lixeira"
 
 #: wp-admin/edit.php:370
 msgid "No posts found"
 msgstr "Nenhum artigo encontrado"
 
 #: wp-admin/export.php:13
-#, fuzzy
 msgid "You do not have sufficient permissions to export the content of this blog."
-msgstr "Sem permissões suficientes para exportar conteúdo deste blog."
+msgstr "Sem permissões suficientes para exportar conteúdo deste site."
 
 #: wp-admin/export.php:17
 #: wp-admin/menu.php:104
@@ -2233,9 +2218,8 @@ msgid "Download Export File"
 msgstr "Download do arquivo de exportação"
 
 #: wp-admin/import.php:13
-#, fuzzy
 msgid "You do not have sufficient permissions to import content in this blog."
-msgstr "Sem permissões suficientes para importar conteúdo deste blog."
+msgstr "Sem permissões suficientes para importar conteúdo deste site."
 
 #: wp-admin/import.php:23
 msgid "If you have posts or comments in another system, WordPress can import those into this blog. To get started, choose a system to import from below:"
@@ -2349,9 +2333,8 @@ msgid "This feature requires Javascript but it seems to be disabled. Please enab
 msgstr "Esta funcionalidade requer JavaScript, mas este parece estar desativado. Ative o JavaScript e atualize esta página. Não se preocupe, você pode voltar a desativar quando terminar."
 
 #: wp-admin/import/blogger.php:662
-#, fuzzy
 msgid "All posts were imported with the current user as author. Use this form to move each Blogger user&#8217;s posts to a different WordPress user. You may <a href=\"users.php\">add users</a> and then return to this page and complete the user mapping. This form may be used as many times as you like until you activate the &#8220;Restart&#8221; function below."
-msgstr "Todos os posts foram importados com o usuário atual como autor. Utilize este formulário para mover cada post de usuários do Blogger para um usuário diferente do WordPress. Você pode <a href=\"users.php\">adicionar usuários</a> e depois voltar a esta página para concluir o mapeamento de usuários. Este formulário pode ser utilizado quantas vezes você quiser, até que você ative a função &#8220;Reiniciar&#8221; abaixo."
+msgstr "Todos os artigos foram importados com o usuário atual como autor. Utilize este formulário para mover cada artigo de usuários do Blogger para um usuário diferente do WordPress. Você pode <a href=\"users.php\">adicionar usuários</a> e depois voltar a esta página para concluir o mapeamento de usuários. Este formulário pode ser utilizado quantas vezes você quiser, até que você ative a função &#8220;Reiniciar&#8221; abaixo."
 
 #: wp-admin/import/blogger.php:663
 msgid "Author mapping"
@@ -2395,9 +2378,8 @@ msgid "That was hard work! Take a break."
 msgstr "Foi um trabalho pesado! Faça uma pausa."
 
 #: wp-admin/import/blogger.php:805
-#, fuzzy
 msgid "In case you haven&#8217;t done it already, you can import the posts from your other blogs:"
-msgstr "Caso ainda não tenha feito, você pode importar os posts de outros blogs seus:"
+msgstr "Caso ainda não tenha feito, você pode importar os artigos de outros blogs seus:"
 
 #: wp-admin/import/blogger.php:807
 #, php-format
@@ -2452,9 +2434,8 @@ msgstr "Importando artigo <em>%s</em>..."
 
 #: wp-admin/import/blogware.php:116
 #: wp-admin/import/rss.php:136
-#, fuzzy
 msgid "Couldn&#8217;t get post ID"
-msgstr "Não foi possível obter a ID do post"
+msgstr "Não foi possível obter a ID do artigo"
 
 #: wp-admin/import/blogware.php:162
 #, php-format
@@ -2640,9 +2621,8 @@ msgid "Textile"
 msgstr "Textile"
 
 #: wp-admin/import/dotclear.php:600
-#, fuzzy
 msgid "Also, since you&#8217;re coming from DotClear, you probably have been using Textile to format your comments and posts.  If this is the case, we recommend downloading and installing <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile for WordPress</a>.  Trust me&#8230; You&#8217;ll want it."
-msgstr "Também, por ter vindo do DotClear, você provavelmente deve estar usando Textile para formatar seus comentários e posts. Se este é o caso, nós recomendamos fazer o download e instalação do <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile para WordPress</a>. Acredite&#8230; Você vai querer isto."
+msgstr "Também, por ter vindo do DotClear, você provavelmente deve estar usando Textile para formatar seus comentários e artigos. Se este é o caso, nós recomendamos fazer o download e instalação do <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile para WordPress</a>. Acredite&#8230; Você vai querer isto."
 
 #: wp-admin/import/dotclear.php:601
 #: wp-admin/import/textpattern.php:581
@@ -2764,9 +2744,8 @@ msgid "Last entry&#8217;s number:"
 msgstr "Número de identificação do ultimo artigo:"
 
 #: wp-admin/import/greymatter.php:66
-#, fuzzy
 msgid "This importer will search for files 00000001.cgi to 000-whatever.cgi,<br />so you need to enter the number of the last GM post here.<br />(if you don&#8217;t know that number, just log in to your FTP and look it out<br />in the entries&#8217; folder)"
-msgstr "Este importador irá pesquisar arquivos 00000001.cgi a 000-qualquer_coisa.cgi,<br />portanto, você precisa digitar o número do último post do GM aqui.<br />(Se não souber qual é o número, faça o login em seu FTP e consulte<br />na pasta de entradas)"
+msgstr "Este importador irá pesquisar arquivos 00000001.cgi a 000-qualquer_coisa.cgi,<br />portanto, você precisa digitar o número do último artigo do GM aqui.<br />(Se não souber qual é o número, faça o login em seu FTP e consulte<br />na pasta de entradas)"
 
 #: wp-admin/import/greymatter.php:69
 msgid "Start Importing"
@@ -2859,9 +2838,8 @@ msgid "Import LiveJournal"
 msgstr "Importar do LiveJournal"
 
 #: wp-admin/import/livejournal.php:185
-#, fuzzy
 msgid "It looks like you attempted to import your LiveJournal posts previously and got interrupted."
-msgstr "Parece que você tentou importar os posts do LiveJournal antes e foi interrompido."
+msgstr "Parece que você tentou importar os artigos do LiveJournal antes e foi interrompido."
 
 #: wp-admin/import/livejournal.php:187
 #, fuzzy
@@ -2922,29 +2900,26 @@ msgid "<strong>NOTE:</strong> You appear to have JavaScript disabled, so you wil
 msgstr "<strong>NOTA:</strong> Parece que você está com o JavaScript desabilitado, portanto terá que clicar manualmente no botão de cada passo dessa importação. Se você habilitar o JavaScript, ele passará pelas etapas automaticamente."
 
 #: wp-admin/import/livejournal.php:277
-#, fuzzy
 msgid "Post metadata has been downloaded, proceeding with posts..."
-msgstr "O download dos metadados do post foram concluídos, prosseguindo com os posts..."
+msgstr "O download dos metadados dos artigos foram concluídos, prosseguindo com o download dos artigos..."
 
 #: wp-admin/import/livejournal.php:379
-#, fuzzy, php-format
+#, php-format
 msgid "Post <strong>%s</strong> already exists."
-msgstr "O post <strong>%s</strong> já exise."
+msgstr "O artigo <strong>%s</strong> já exise."
 
 #: wp-admin/import/livejournal.php:381
-#, fuzzy, php-format
+#, php-format
 msgid "Imported post <strong>%s</strong>..."
-msgstr "Post <strong>%s</strong> importado..."
+msgstr "Artigo <strong>%s</strong> importado..."
 
 #: wp-admin/import/livejournal.php:390
-#, fuzzy
 msgid "Couldn&#8217;t get post ID (creating post failed!)"
-msgstr "Não foi possível obter a ID do post (falha ao criar o post!)"
+msgstr "Não foi possível obter a ID do artigo (falha ao criar o artigo!)"
 
 #: wp-admin/import/livejournal.php:392
-#, fuzzy
 msgid "Failed to create post."
-msgstr "Falha ao criar o post."
+msgstr "Falha ao criar o artigo."
 
 #: wp-admin/import/livejournal.php:437
 #, fuzzy
@@ -2989,9 +2964,8 @@ msgid "XML-RPC Request Failed -- "
 msgstr "O pedido XML-RPC falhou --"
 
 #: wp-admin/import/livejournal.php:731
-#, fuzzy
 msgid "Please enter your LiveJournal username <em>and</em> password so we can download your posts and comments."
-msgstr "Insira o nome de usuário do LiveJournal <em>e</m> a senha para que o download dos posts e comentários possam ser feitos."
+msgstr "Insira o nome de usuário do LiveJournal <em>e</m> a senha para que o download dos artigos e comentários possam ser feitos."
 
 #: wp-admin/import/livejournal.php:732
 #: wp-admin/import/livejournal.php:744
@@ -3005,19 +2979,17 @@ msgid "Logging in to LiveJournal failed. Check your username and password and tr
 msgstr "Não foi possível fazer o login no LiveJournal. Verfique o seu nome de usuário e senha e tente novamente."
 
 #: wp-admin/import/livejournal.php:785
-#, fuzzy
 msgid "Importing Posts"
-msgstr "Importando posts"
+msgstr "Importando artigos"
 
 #: wp-admin/import/livejournal.php:786
-#, fuzzy
 msgid "We&#8217;re downloading and importing your LiveJournal posts..."
-msgstr "Estamos fazendo o download e importando seus posts do LiveJournal..."
+msgstr "Estamos fazendo o download e importando seus artigos do LiveJournal..."
 
 #: wp-admin/import/livejournal.php:790
-#, fuzzy, php-format
+#, php-format
 msgid "Imported post batch %d of <strong>approximately</strong> %d"
-msgstr "Lote de posts importado %d de <strong>aproximadamente</strong> %d"
+msgstr "Lote de artigos importado %d de <strong>aproximadamente</strong> %d"
 
 #: wp-admin/import/livejournal.php:808
 #, fuzzy
@@ -3041,9 +3013,8 @@ msgid "Import the next batch"
 msgstr "Importar o próximo lote"
 
 #: wp-admin/import/livejournal.php:829
-#, fuzzy
 msgid "Your posts have all been imported, but wait &#8211; there&#8217;s more! Now we need to download &amp; import your comments."
-msgstr "Os seus posts foram todos importados, mas espere - tem mais! Agora nós precisamos fazer o download e importar seus comentários."
+msgstr "Os seus artigos foram todos importados, mas espere - tem mais! Agora nós precisamos fazer o download e importar seus comentários."
 
 #: wp-admin/import/livejournal.php:830
 #, fuzzy
@@ -3149,9 +3120,8 @@ msgid "Assign Authors"
 msgstr "Atribuir autores"
 
 #: wp-admin/import/mt.php:181
-#, fuzzy
 msgid "To make it easier for you to edit and save the imported posts and drafts, you may want to change the name of the author of the posts. For example, you may want to import all the entries as admin&#8217;s entries."
-msgstr "Para tornar mais fácil para você editar e salvar os posts e rascunhos importados, você pode querer alterar o nome do autor dos posts. Por exemplo, você pode importar todas as entradas como pertencentes ao admin."
+msgstr "Para tornar mais fácil para você editar e salvar os artigos e rascunhos importados, você pode querer alterar o nome do autor dos artigos. Por exemplo, você pode importar todas as entradas como pertencentes ao admin."
 
 #: wp-admin/import/mt.php:182
 msgid "Below, you can see the names of the authors of the MovableType posts in <em>italics</em>. For each of these names, you can either pick an author in your WordPress installation from the menu, or enter a name for the author in the textbox."
@@ -3203,9 +3173,8 @@ msgid "Movable Type and TypePad"
 msgstr "Mover Type e TypePad"
 
 #: wp-admin/import/mt.php:489
-#, fuzzy
 msgid "Import posts and comments from a Movable Type or TypePad blog."
-msgstr "Importar posts e comentários de um blog Movable Type ou Typepad."
+msgstr "Importar artigos e comentários de um blog Movable Type ou Typepad."
 
 #: wp-admin/import/opml.php:14
 msgid "Import Blogroll"
@@ -6343,9 +6312,8 @@ msgid "Save Draft"
 msgstr "Salvar como rascunho"
 
 #: wp-admin/includes/dashboard.php:417
-#, fuzzy
 msgid "Reset"
-msgstr "Redefinir"
+msgstr "Redefinir ao padrão"
 
 #: wp-admin/includes/dashboard.php:421
 #: wp-admin/includes/meta-boxes.php:212
@@ -6408,16 +6376,14 @@ msgstr "Spam"
 
 #: wp-admin/includes/dashboard.php:560
 #: wp-admin/includes/template.php:2189
-#, fuzzy
 msgid "Move this comment to the trash"
-msgstr "Aprovar esse comentário"
+msgstr "Mover este comentário para a lixeira"
 
 #: wp-admin/includes/dashboard.php:560
 #: wp-admin/includes/template.php:2189
-#, fuzzy
 msgctxt "verb"
 msgid "Trash"
-msgstr "Tags"
+msgstr "Lixeira"
 
 #: wp-admin/includes/dashboard.php:585
 #, php-format
@@ -6467,9 +6433,9 @@ msgstr "Este widget requer JavaScript."
 #: wp-admin/includes/dashboard.php:631
 #: wp-admin/includes/dashboard.php:747
 #: wp-includes/default-widgets.php:774
-#, fuzzy, php-format
+#, php-format
 msgid "<strong>RSS Error</strong>: %s"
-msgstr "<strong>Erro de RSS:</strong> %s"
+msgstr "<strong>Erro de RSS</strong>: %s"
 
 #: wp-admin/includes/dashboard.php:638
 msgid "This dashboard widget queries <a href=\"http://blogsearch.google.com/\">Google Blog Search</a> so that when another blog links to your site it will show up here. It has found no incoming links&hellip; yet. It&#8217;s okay &#8212; there is no rush."
@@ -6673,9 +6639,8 @@ msgstr "Falha ao gravar o arquivo no disco."
 
 #: wp-admin/includes/file.php:256
 #: wp-admin/includes/file.php:364
-#, fuzzy
 msgid "File upload stopped by extension."
-msgstr "Upload de arquivos parado por extensão."
+msgstr "Envio de arquivos parado por extensão."
 
 #: wp-admin/includes/file.php:272
 #: wp-admin/includes/file.php:380
@@ -6748,9 +6713,8 @@ msgid "FTPS (SSL)"
 msgstr "FTPS (SSL)"
 
 #: wp-admin/includes/file.php:780
-#, fuzzy
 msgid "SSH2"
-msgstr "SSH"
+msgstr "SSH2"
 
 #: wp-admin/includes/file.php:801
 msgid "Connection Information"
@@ -6815,30 +6779,29 @@ msgid "Image data does not exist. Please re-upload the image."
 msgstr ""
 
 #: wp-admin/includes/image-edit.php:40
-#, fuzzy
 msgid "Crop"
-msgstr "Recortar cabeçalho"
+msgstr "Recortar"
 
 #: wp-admin/includes/image-edit.php:44
 msgid "Rotate counter-clockwise"
-msgstr ""
+msgstr "Girar no sentido anti-horário"
 
 #: wp-admin/includes/image-edit.php:45
 msgid "Rotate clockwise"
-msgstr ""
+msgstr "Girar no sentido horário"
 
 #: wp-admin/includes/image-edit.php:47
+#, fuzzy
 msgid "Image rotation is not supported by your web host (function imagerotate() is missing)"
-msgstr ""
+msgstr "O seu web host não suporta girar imagem (falta a função imagerotate())"
 
 #: wp-admin/includes/image-edit.php:53
 msgid "Flip vertically"
-msgstr ""
+msgstr "Virar na vertical"
 
 #: wp-admin/includes/image-edit.php:54
-#, fuzzy
 msgid "Flip horizontally"
-msgstr "Linha horizontal"
+msgstr "Virar na horizontal"
 
 #: wp-admin/includes/image-edit.php:57
 #: wp-includes/js/tinymce/langs/wp-langs.php:214
@@ -6847,18 +6810,18 @@ msgid "Redo"
 msgstr "Refazer"
 
 #: wp-admin/includes/image-edit.php:82
-#, fuzzy
 msgid "Scale Image"
-msgstr "Definir a escala (tamanho) da imagem"
+msgstr "Redimensionar a imagem"
 
 #: wp-admin/includes/image-edit.php:84
+#, fuzzy
 msgid "You can proportionally scale the original image. For best results the scaling should be done before performing any other operations on it like crop, rotate, etc. Note that if you make the image larger it may become fuzzy."
-msgstr ""
+msgstr "Você pode redimensionar proporcionalmente a imagem original. Para melhores resultados isto deve ser feito antes de realizar qualquer outra operação na imagem, como recortá-la, girá-la, etc. Observe que se você aumentar a imagem, ela pode se tornar embaçada."
 
 #: wp-admin/includes/image-edit.php:85
 #, fuzzy, php-format
 msgid "Original dimensions %s"
-msgstr "Dimensões do suporte: "
+msgstr "Dimensões originais %s"
 
 #: wp-admin/includes/image-edit.php:89
 #: wp-includes/js/tinymce/langs/wp-langs.php:320
@@ -6879,20 +6842,17 @@ msgid " Previously edited copies of the image will not be deleted."
 msgstr ""
 
 #: wp-admin/includes/image-edit.php:106
-#, fuzzy
 msgid "Restore image"
-msgstr "Inserir Imagem"
+msgstr "Restaurar imagem"
 
 #: wp-admin/includes/image-edit.php:117
-#, fuzzy
 msgid "Image Crop"
-msgstr "Recortar cabeçalho"
+msgstr "Recorte da imagem"
 
 #: wp-admin/includes/image-edit.php:118
 #: wp-admin/includes/image-edit.php:164
-#, fuzzy
 msgid "(help)"
-msgstr "/_Ajuda"
+msgstr "(ajuda)"
 
 #: wp-admin/includes/image-edit.php:120
 msgid "The image can be cropped by clicking on it and dragging to select the desired part. While dragging the dimensions of the selection are displayed below."
@@ -12615,12 +12575,10 @@ msgid "Changes saved."
 msgstr "Modificações salvas."
 
 #: wp-admin/widgets.php:321
-#, fuzzy
 msgid "Error while saving."
 msgstr "Erro ao salvar."
 
 #: wp-admin/widgets.php:322
-#, fuzzy
 msgid "Error in displaying the widget settings form."
 msgstr "Erro ao mostrar o formulário de configurações do widget."
 
@@ -12647,7 +12605,6 @@ msgstr "WordPress MU &rsaquo; Administrar"
 #: wp-admin/wpmu-themes.php:9
 #: wp-admin/wpmu-upgrade-site.php:10
 #: wp-admin/wpmu-users.php:12
-#, fuzzy
 msgid "You do not have permission to access this page."
 msgstr "Sem permissões suficientes para acessar esta página."
 
@@ -12804,9 +12761,8 @@ msgstr "Excluído"
 #: wp-admin/wpmu-blogs.php:256
 #: wp-admin/wpmu-blogs.php:286
 #: wp-admin/wpmu-blogs.php:295
-#, fuzzy
 msgid "Update Options &raquo;"
-msgstr "Atualizar Opções &raquo;"
+msgstr "Atualizar opções &raquo;"
 
 #: wp-admin/wpmu-blogs.php:144
 #, php-format
@@ -13054,7 +13010,7 @@ msgstr "Confirmar"
 #: wp-admin/wpmu-edit.php:484
 #, php-format
 msgid "Warning! User cannot be modified. The user %s is a site admnistrator."
-msgstr ""
+msgstr "Atenção! Usuário não pode ser modificado. O usuário %s é um administrador do portal."
 
 #: wp-admin/wpmu-edit.php:512
 #, fuzzy
@@ -13283,7 +13239,7 @@ msgstr "Ativado"
 
 #: wp-admin/wpmu-options.php:211
 msgid "By default there is a limit on the total size of files uploaded but it can be disabled here."
-msgstr ""
+msgstr "Por padrão existe um limite no tamanho total de arquivos enviados, mas isto pode ser desabilitado aqui."
 
 #: wp-admin/wpmu-options.php:214
 msgid "Blog upload space"
@@ -14416,8 +14372,9 @@ msgid "ERROR: %s is not a valid feed template"
 msgstr "ERRO: %s não é um modelo de feed válido"
 
 #: wp-includes/functions.php:1781
+#, fuzzy
 msgid "One or more database tables are unavailable.  The database may need to be <a href=\"maint/repair.php?referrer=is_blog_installed\">repaired</a>."
-msgstr ""
+msgstr "Uma ou mais tabelas do banco de dados não estão disponíveis. O banco de dados pode precisar <a href=\"maint/repair.php?referrer=is_blog_installed\">reparo</a>."
 
 #: wp-includes/functions.php:2090
 #: wp-includes/functions.php:2206
@@ -14538,14 +14495,14 @@ msgid "Your attempt to add this post has failed."
 msgstr "Não foi possível adicionar este artigo."
 
 #: wp-includes/functions.php:2405
-#, fuzzy, php-format
+#, php-format
 msgid "Your attempt to delete this post: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível excluir este post: &#8220;%s&#8221;."
+msgstr "Não foi possível excluir este artigo: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2406
-#, fuzzy, php-format
+#, php-format
 msgid "Your attempt to edit this post: &#8220;%s&#8221; has failed."
-msgstr "Não foi possível editar este post: &#8220;%s&#8221;."
+msgstr "Não foi possível editar este artigo: &#8220;%s&#8221;."
 
 #: wp-includes/functions.php:2408
 msgid "Your attempt to add this user has failed."
@@ -14725,7 +14682,7 @@ msgstr "%1$s %2$s Feed de comentários"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: post title
 #: wp-includes/general-template.php:1483
-#, fuzzy, php-format
+#, php-format
 msgid "%1$s %2$s %3$s Comments Feed"
 msgstr "%1$s %2$s %3$s Feed de comentários"
 
@@ -14743,9 +14700,9 @@ msgstr "Feed da tag %1$s %2$s %3$s"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: author name
 #: wp-includes/general-template.php:1489
-#, fuzzy, php-format
+#, php-format
 msgid "%1$s %2$s Posts by %3$s Feed"
-msgstr "%1$s %2$s Feed dos Posts de %3$s"
+msgstr "%1$s %2$s Feed dos artigos de %3$s"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: search phrase
 #: wp-includes/general-template.php:1491
@@ -14763,7 +14720,6 @@ msgid "Next &raquo;"
 msgstr "Próximo &raquo;"
 
 #: wp-includes/http.php:250
-#, fuzzy
 msgid "User has blocked requests through HTTP."
 msgstr "O usuário bloqueou solicitações através de HTTP."
 
@@ -16425,7 +16381,6 @@ msgid "Last Post"
 msgstr "Ultimo artigo"
 
 #: wp-includes/link-template.php:1504
-#, fuzzy
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Página anterior"
 
@@ -16504,9 +16459,8 @@ msgid "number_format_thousands_sep"
 msgstr "."
 
 #: wp-includes/media.php:362
-#, fuzzy
 msgid "Could not read image size"
-msgstr "<font color=\"red\"><b>Impossível ler ficheiro: %s</b></font>"
+msgstr "Não foi possível ler o tamanho da imagem"
 
 #: wp-includes/media.php:395
 #: wp-includes/media.php:398
@@ -16515,7 +16469,6 @@ msgid "Resize path invalid"
 msgstr "Caminho de redimensionamento inválido"
 
 #: wp-includes/pluggable.php:465
-#, fuzzy
 msgid "<strong>ERROR</strong>: Invalid username or incorrect password."
 msgstr "<strong>ERRO</strong>: Nome de usuário inválido ou senha incorreta."
 
@@ -16616,9 +16569,9 @@ msgstr "[%1$s] Pingback: \"%2$s\""
 
 #: wp-includes/pluggable.php:1021
 #: wp-includes/pluggable.php:1109
-#, fuzzy, php-format
+#, php-format
 msgid "Trash it: %s"
-msgstr "Aprovar: %s"
+msgstr "Mover para lixeira: %s"
 
 #: wp-includes/pluggable.php:1023
 #: wp-includes/pluggable.php:1111
@@ -16772,7 +16725,7 @@ msgstr "%1$s [Salvo automaticamente]"
 
 #. translators: 1: date
 #: wp-includes/post-template.php:1204
-#, fuzzy, php-format
+#, php-format
 msgid "%1$s [Current Revision]"
 msgstr "%1$s [Revisão Atual]"
 
@@ -16832,12 +16785,11 @@ msgid "An error has occurred, which probably means the feed is down. Try again l
 msgstr "Ocorreu um erro. A causa provável é o feed estar offline. Tente mais tarde. "
 
 #: wp-includes/script-loader.php:67
-#, fuzzy
 msgid ""
 "You are about to permanently delete the selected items.\n"
 "  'Cancel' to stop, 'OK' to delete."
 msgstr ""
-"Você está prestes a excluir os itens selecionados.'\n"
+"Você está prestes a excluir permanentemente os itens selecionados.\n"
 "  'Cancelar' para interromper, 'OK' para excluir."
 
 #: wp-includes/script-loader.php:76
@@ -16887,37 +16839,33 @@ msgid "An unidentified error has occurred."
 msgstr "Ocorreu um erro não identificado."
 
 #: wp-includes/script-loader.php:171
-#, fuzzy
 msgid "Next &gt;"
-msgstr "Próximo &raquo;"
+msgstr "Próximo &gt;"
 
 #: wp-includes/script-loader.php:172
-#, fuzzy
 msgid "&lt; Prev"
-msgstr "&laquo; Anterior"
+msgstr "&lt; Anterior"
 
 #: wp-includes/script-loader.php:173
-#, fuzzy
 msgid "Image"
-msgstr "Ima_gem"
+msgstr "Imagem"
 
 #: wp-includes/script-loader.php:174
 msgid "of"
-msgstr ""
+msgstr "de"
 
 #: wp-includes/script-loader.php:199
-#, fuzzy
 msgid "not configured"
-msgstr "Inaceitável"
+msgstr "não configurado"
 
 #: wp-includes/script-loader.php:202
 msgid "You have attempted to queue too many files."
 msgstr "Você tentou colocar um número muito grande de arquivos na fila."
 
 #: wp-includes/script-loader.php:203
-#, fuzzy, php-format
+#, php-format
 msgid "This file is too big. The maximum upload size for your server is %s."
-msgstr "O arquivo é grande demais. O máximo permitido por upload_max_filesize em php.ini é %s."
+msgstr "O arquivo é grande demais. O tamanho máximo de upload permitido no seu servidor é %s."
 
 #: wp-includes/script-loader.php:204
 msgid "This file is empty. Please try another."
@@ -16968,9 +16916,8 @@ msgid "Crunching&hellip;"
 msgstr "Processando&hellip;"
 
 #: wp-includes/script-loader.php:217
-#, fuzzy
 msgid "moved to the trash."
-msgstr "<I>%s</I> definiu os modos de <I>%s</I> para: %s"
+msgstr "movido para a lixeira."
 
 #: wp-includes/script-loader.php:233
 msgid "Separate multiple categories with commas."
@@ -17053,16 +17000,12 @@ msgid "Plugin Information:"
 msgstr "Informação do plugin:"
 
 #: wp-includes/script-loader.php:389
-#, fuzzy
 msgid "Saving..."
-msgstr ""
-"Erro ao guardar imagem\n"
-"\n"
-"%s"
+msgstr "Salvando..."
 
 #: wp-includes/script-loader.php:390
 msgid "Could not set that as the thumbnail image. Try a different attachment."
-msgstr ""
+msgstr "Não foi possível definir este anexo como a imagem miniatura. Tente um anexo diferente."
 
 #: wp-includes/script-loader.php:501
 msgid "Preview this Page"
@@ -17104,7 +17047,7 @@ msgid "Could not insert term into the database"
 msgstr "Não foi possível inserir o termo no banco de dados"
 
 #: wp-includes/taxonomy.php:1683
-#, fuzzy, php-format
+#, php-format
 msgid "The slug &#8220;%s&#8221; is already in use by another term"
 msgstr "O slug &#8220;%s&#8221; já está sendo utilizado por outro termo"
 
@@ -17133,14 +17076,14 @@ msgid "<strong>ERROR</strong>: The password field is empty."
 msgstr "<strong>ERRO</strong>: O campo da senha está vazio."
 
 #: wp-includes/user.php:89
-#, fuzzy, php-format
+#, php-format
 msgid "<strong>ERROR</strong>: Invalid username. <a href=\"%s\" title=\"Password Lost and Found\">Lost your password</a>?"
-msgstr "<strong>ERRO</strong>: Nome de usuário inválido. <a href=\"%s\" title=\"Password Lost and Found\">Perdeu sua senha</a>?"
+msgstr "<strong>ERRO</strong>: Nome de usuário inválido. <a href=\"%s\" title=\"Recuperar sua senha\">Perdeu sua senha</a>?"
 
 #: wp-includes/user.php:98
-#, fuzzy, php-format
+#, php-format
 msgid "<strong>ERROR</strong>: Incorrect password. <a href=\"%s\" title=\"Password Lost and Found\">Lost your password</a>?"
-msgstr "<strong>ERRO</strong>: Senha incorreta. <a href=\"%s\" title=\"Achados e perdidos de senha\">Perdeu sua senha</a>?"
+msgstr "<strong>ERRO</strong>: Senha incorreta. <a href=\"%s\" title=\"Recuperar sua senha\">Perdeu sua senha</a>?"
 
 #: wp-includes/user.php:124
 msgid "Please log in again."
@@ -17153,12 +17096,11 @@ msgid "Sidebar %d"
 msgstr "Barra lateral %d"
 
 #: wp-includes/wp-db.php:1163
-#, fuzzy, php-format
+#, php-format
 msgid "<strong>ERROR</strong>: WordPress %s requires MySQL 4.1.2 or higher"
-msgstr "<strong>ERRO</strong>: o WordPress %s requer MySQL 4.0.0 ou superior"
+msgstr "<strong>ERRO</strong>: o WordPress %s requer MySQL 4.1.2 ou superior"
 
 #: wp-includes/wpmu-functions.php:709
-#, fuzzy
 msgid "That user does not exist."
 msgstr "O usuário não existe."
 
@@ -17171,9 +17113,8 @@ msgid "error: problem creating blog entry"
 msgstr "erro: problema ao criar entrada no blog"
 
 #: wp-includes/wpmu-functions.php:936
-#, fuzzy
 msgid "Please enter a username"
-msgstr "Digite um nome de usuário."
+msgstr "Digite um nome de usuário"
 
 #: wp-includes/wpmu-functions.php:942
 #: wp-includes/wpmu-functions.php:1044
@@ -17181,7 +17122,6 @@ msgid "Only lowercase letters and numbers allowed"
 msgstr "Somente letras minúsculas e números são permitidos"
 
 #: wp-includes/wpmu-functions.php:951
-#, fuzzy
 msgid "That username is not allowed"
 msgstr "Este nome de usuário não é permitido"
 
@@ -17194,7 +17134,6 @@ msgid "Username must be at least 4 characters"
 msgstr "O nome de usuário deve conter pelo menos 4 caracteres."
 
 #: wp-includes/wpmu-functions.php:962
-#, fuzzy
 msgid "Sorry, usernames may not contain the character '_'!"
 msgstr "Os nomes de usuário não podem ter o caractere '_'!"
 
@@ -17203,27 +17142,22 @@ msgid "Sorry, usernames must have letters too!"
 msgstr "Nomes de usuários devem conter letras também!"
 
 #: wp-includes/wpmu-functions.php:971
-#, fuzzy
 msgid "Please enter a correct email address"
 msgstr "Digite um endereço de email válido"
 
 #: wp-includes/wpmu-functions.php:974
-#, fuzzy
 msgid "Please check your email address."
-msgstr "Verifique seu email."
+msgstr "Verifique seu endereço de email."
 
 #: wp-includes/wpmu-functions.php:980
-#, fuzzy
 msgid "Sorry, that email address is not allowed!"
 msgstr "Este endereço de email não é permitido!"
 
 #: wp-includes/wpmu-functions.php:986
-#, fuzzy
 msgid "Sorry, that username already exists!"
 msgstr "Este nome de usuário já existe!"
 
 #: wp-includes/wpmu-functions.php:990
-#, fuzzy
 msgid "Sorry, that email address is already used!"
 msgstr "Este endereço de email já está sendo usado!"
 
@@ -17232,18 +17166,16 @@ msgid "That username is currently reserved but may be available in a couple of d
 msgstr "Este nome de usuário está reservado atualmente mas pode ficar disponível em alguns dias."
 
 #: wp-includes/wpmu-functions.php:1005
-#, fuzzy
 msgid "username and email used"
-msgstr "nome de usuário e emai usados"
+msgstr "nome de usuário e email usados"
 
 #: wp-includes/wpmu-functions.php:1015
 msgid "That email address has already been used. Please check your inbox for an activation email. It will become available in a couple of days if you do nothing."
 msgstr "Este endereço de email já foi usado. Verifique um email de ativação na sua caixa de entrada. Ele se tornará disponível em alguns dias se você não fizer nada."
 
 #: wp-includes/wpmu-functions.php:1039
-#, fuzzy
 msgid "Please enter a blog name"
-msgstr "Insira um nome para o blog"
+msgstr "Insira um nome para o site"
 
 #: wp-includes/wpmu-functions.php:1047
 msgid "That name is not allowed"
@@ -17254,14 +17186,12 @@ msgid "Blog name must be at least 4 characters"
 msgstr "O nome do blog deve conter pelo menos 4 caracteres"
 
 #: wp-includes/wpmu-functions.php:1054
-#, fuzzy
 msgid "Sorry, blog names may not contain the character '_'!"
-msgstr "O nome do blog não pode ter o caractere '_'!"
+msgstr "O nome do site não pode ter o caractere '_'!"
 
 #: wp-includes/wpmu-functions.php:1058
-#, fuzzy
 msgid "Sorry, you may not use that blog name"
-msgstr "Desculpe, você não pode editar essa página."
+msgstr "Desculpe, você não pode usar este nome de site."
 
 #: wp-includes/wpmu-functions.php:1065
 msgid "Sorry, blog names must have letters too!"
@@ -17311,7 +17241,7 @@ msgid "[%1s] Activate %2s"
 msgstr "ID #%1s: %2s"
 
 #: wp-includes/wpmu-functions.php:1192
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "To activate your user, please click the following link:\n"
 "\n"
@@ -17320,11 +17250,11 @@ msgid ""
 "After you activate, you will receive *another email* with your login.\n"
 "\n"
 msgstr ""
-"Para ativar seu blog, clique no seguinte link:\n"
+"Para ativar seu usuário, clique no seguinte link:\n"
 "\n"
 "%s\n"
 "\n"
-"Depois de ativá-lo, você receberá *outro email* com seu login.\n"
+"Depois de ativá-lo, você receberá *outro email* com sua senha.\n"
 "\n"
 
 #: wp-includes/wpmu-functions.php:1205
@@ -17340,9 +17270,8 @@ msgid "Could not create user"
 msgstr "Não foi possível criar usuário"
 
 #: wp-includes/wpmu-functions.php:1231
-#, fuzzy
 msgid "That username is already activated."
-msgstr "Este nome de usuário já está ativado."
+msgstr "Este nome de usuário já foi ativado."
 
 #: wp-includes/wpmu-functions.php:1307
 msgid "Blog already exists."
@@ -17368,9 +17297,9 @@ msgstr ""
 "Desativar estas notificações: %4s"
 
 #: wp-includes/wpmu-functions.php:1368
-#, fuzzy, php-format
+#, php-format
 msgid "New Blog Registration: %s"
-msgstr "Registro de novo blog: %s"
+msgstr "Registro de novo site: %s"
 
 #: wp-includes/wpmu-functions.php:1383
 #, php-format
@@ -17386,7 +17315,7 @@ msgstr ""
 "Desativar estas notificações: %3s"
 
 #: wp-includes/wpmu-functions.php:1389
-#, fuzzy, php-format
+#, php-format
 msgid "New User Registration: %s"
 msgstr "Registro de novo usuário: %s"
 
@@ -17724,7 +17653,7 @@ msgstr "Perdeu a senha?"
 #: wp-login.php:492
 #, fuzzy
 msgid "You have logged in successfully."
-msgstr "Login feito como <a href=\"%1$s\">%2$s</a>."
+msgstr "Login feito com sucesso."
 
 #: wp-login.php:514
 msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
@@ -17751,16 +17680,18 @@ msgid "Registration complete. Please check your e-mail."
 msgstr "Registro concluído. Por favor, confira seu email."
 
 #: wp-login.php:528
+#, fuzzy
 msgid "Your session has expired. Please log-in again."
-msgstr ""
+msgstr "A sua sessão expirou. Faça o login novamente."
 
 #: wp-login.php:547
 msgid "Remember Me"
 msgstr "Lembrar"
 
 #: wp-mail.php:26
+#, fuzzy
 msgid "Slow down cowboy, no need to check for new mails so often!"
-msgstr ""
+msgstr "Vamos com calma, não é necessário conferir se há novas mensagens tantas vezes!"
 
 #: wp-mail.php:41
 #, fuzzy
@@ -18301,66 +18232,83 @@ msgstr "O URL de destino especificado não existe."
 
 #~ msgid "You did not enter a tag name."
 #~ msgstr "Você não inseriu uma tag."
+
 #~ msgid "Tag <a href=\"#%s\">%s</a> added"
 #~ msgstr "Tag <a href=\"#%s\">%s</a> adicionada"
+
 #~ msgid "Time"
 #~ msgstr "Hora"
+
 #~ msgid ""
 #~ "You are about to delete this attachment '%s'\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Você está prestes a excluir este anexo '%s'\n"
 #~ "  'Cancelar' para interromper, 'OK' para excluir."
+
 #~ msgid "Delete All Spam"
 #~ msgstr "Excluir todos spams"
+
 #~ msgid ""
 #~ "You are about to delete this draft '%s'\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Você está prestes a excluir este rascunho '%s'\n"
 #~ "  'Cancelar' para interromper, 'OK' para excluir."
+
 #~ msgid ""
 #~ "You are about to delete this post '%s'\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Você está prestes a excluir este artigo '%s'\n"
 #~ "  'Cancelar' para interromper, 'OK' para excluir."
+
 #~ msgid "Keep this post private"
 #~ msgstr "Manter este artigo privado"
+
 #~ msgid "Post Password"
 #~ msgstr "Senha do artigo"
+
 #~ msgid "Password Protect This Post"
 #~ msgstr "Proteger com senha"
+
 #~ msgid ""
 #~ "Setting a password will require people who visit your blog to enter the "
 #~ "above password to view this post and its comments."
 #~ msgstr ""
 #~ "Definir uma senha obrigará os visitantes do seu blog a digitá-la para "
 #~ "poderem ver o artigo e os respectivos comentários."
+
 #~ msgid "Allow comments on this post"
 #~ msgstr "Permitir comentários sobre esse artigo"
+
 #~ msgid ""
 #~ "You are about to delete this comment. \n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Você está prestes a excluir este comentário. \n"
 #~ "  'Cancelar' para interromper, 'OK' para excluir."
+
 #~ msgid ""
 #~ "You are about to delete this page '%s'\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Você está prestes a excluir esta página '%s'\n"
 #~ "  'Cancelar' para interromper, 'OK' para excluir."
+
 #~ msgid "Page Password"
 #~ msgstr "Senha da página"
+
 #~ msgid "Password Protect This Page"
 #~ msgstr "Esta página é protegida por senha"
+
 #~ msgid ""
 #~ "Setting a password will require people who visit your blog to enter the "
 #~ "above password to view this page and its comments."
 #~ msgstr ""
 #~ "Definir uma senha, obrigará os visitantes do seu blog a digitá-la para "
 #~ "poderem ver esta página e seus comentários."
+
 #~ msgid ""
 #~ "These settings apply to this page only. &#8220;Pings&#8221; are <a href="
 #~ "\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" "
@@ -18370,6 +18318,7 @@ msgstr "O URL de destino especificado não existe."
 #~ "são <a href=\"http://codex.wordpress.org/"
 #~ "Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks "
 #~ "e pingbacks</a>."
+
 #~ msgid ""
 #~ "The character encoding you write your blog in (UTF-8 is <a href=\"http://"
 #~ "developer.apple.com/documentation/macos8/TextIntlSvcs/"
@@ -18378,96 +18327,128 @@ msgstr "O URL de destino especificado não existe."
 #~ "A codificação de caracteres em que você escreve o seu site (UTF-8 <a href="
 #~ "\"http://developer.apple.com/documentation/macos8/TextIntlSvcs/"
 #~ "TextEncodingConversionManager/TEC1.5/TEC.b0.html\">recomendado</a>)"
+
 #~ msgid "You do not have sufficient permissions to edit themes for this blog."
 #~ msgstr "Sem permissões suficientes para editar temas deste blog."
+
 #~ msgid "Image (%s)"
+
 #~ msgid_plural "Images (%s)"
 #~ msgstr[0] "Imagem (%s)"
 #~ msgstr[1] "Imagens (%s)"
+
 #~ msgid "Audio (%s)"
+
 #~ msgid_plural "Audio (%s)"
 #~ msgstr[0] "Áudio (%s)"
 #~ msgstr[1] "Áudios (%s)"
+
 #~ msgid "Video (%s)"
+
 #~ msgid_plural "Video (%s)"
 #~ msgstr[0] "Vídeo (%s)"
 #~ msgstr[1] "Vídeos (%s)"
+
 #~ msgid "Sorry, can&#8217;t call files with their real path."
 #~ msgstr ""
 #~ "Desculpe, não foi possível chamar os arquivos com os caminhos reais."
+
 #~ msgid "Also used as alternate text for the image"
 #~ msgstr "Também usado como texto alternativo para a imagem"
+
 #~ msgid "MB</a>"
 #~ msgstr "MB</a>"
 
 #, fuzzy
 #~ msgid "You cannot make this user the post author."
 #~ msgstr "Sem permissão para mudar o autor do artigo como esse usuário."
+
 #~ msgid ""
 #~ "You are about to delete this draft '%s'\n"
 #~ " 'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Você está prestes a excluir este rascunho '%s'\n"
 #~ "  'Cancelar' para interromper, 'OK' para excluir."
+
 #~ msgid ""
 #~ "You are about to delete this post '%s'\n"
 #~ " 'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Você está prestes a excluir este artigo '%s'\n"
 #~ "  'Cancelar' para interromper, 'OK' para excluir."
+
 #~ msgid ""
 #~ "You are about to delete this page '%s'\n"
 #~ " 'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Você está prestes a excluir esta página '%s'\n"
 #~ "  'Cancelar' para interromper, 'OK' para excluir."
+
 #~ msgid "Header Image and Color"
 #~ msgstr "Imagem e cor do cabeçalho"
+
 #~ msgid "Import Bunny&#8217;s Technorati Tags"
 #~ msgstr "Importar tags do Bunny&#8217;s Technorati"
+
 #~ msgid ""
 #~ "Howdy! This imports tags from Bunny&#8217;s Technorati Tags into "
 #~ "WordPress tags."
 #~ msgstr ""
 #~ "Olá! Este processo importa tags do Bunny&#8217;s Technorati para tags de "
 #~ "WordPress."
+
 #~ msgid "This is suitable for Bunny&#8217;s Technorati Tags version 0.6."
 #~ msgstr ""
 #~ "Isto é apropriado para a versão 0.6 de tags do Bunny&rsquo;s Technorati."
+
 #~ msgid ""
 #~ "All existing Bunny&#8217;s Technorati Tags will be removed after import."
 #~ msgstr ""
 #~ "Todas as tags do Bunny&rsquo;s Technorati serão removidas após a "
 #~ "importação."
+
 #~ msgid "Import Tags"
 #~ msgstr "Importar tags"
+
 #~ msgid "Reading Bunny&#8217;s Technorati Tags&#8230;"
 #~ msgstr "Lendo tags do Bunny&rsquo;s Technorati"
+
 #~ msgid "Done! <strong>%s</strong> post with tags were read."
+
 #~ msgid_plural "Done! <strong>%s</strong> posts with tags were read."
 #~ msgstr[0] "Concluído! <strong>%s</strong> artigo com tags foi lido."
 #~ msgstr[1] "Concluído! <strong>%s</strong> artigos com tags foram lidos."
+
 #~ msgid "Next"
 #~ msgstr "Avançar"
+
 #~ msgid "Import Bunny&#8217;s Technorati Tags into WordPress tags."
 #~ msgstr "Importar tags do Bunny&#8217;s Technorati para tags do WordPress."
+
 #~ msgid "Import Jerome&#8217;s Keywords"
 #~ msgstr "Importar de Jerome&rsquo;s Keywords"
+
 #~ msgid ""
 #~ "Howdy! This imports tags from Jerome&#8217;s Keywords into WordPress tags."
 #~ msgstr ""
 #~ "Olá! Este processo importa tags do Jerome&#8217;s Keywords para tags de "
 #~ "WordPress."
+
 #~ msgid "This is suitable for Jerome&#8217;s Keywords version 1.x and 2.0a."
 #~ msgstr "Importa das versões 1.x e 2.0a de Jerome&rsquo;s Keywords."
+
 #~ msgid "All existing Jerome&#8217;s Keywords will be removed after import."
 #~ msgstr "Todas as Jerome&#8217;s Keywords serão excluídas após a importação."
+
 #~ msgid "Import Version 1.x"
 #~ msgstr "Importar da Versão 1.x"
+
 #~ msgid "Import Version 2.0a"
 #~ msgstr "Importar da Versão 2.0a"
+
 #~ msgid "Reading Jerome&#8217;s Keywords Tags&#8230;"
 #~ msgstr "Lendo tags de Jerome&#8217;s Keywords"
+
 #~ msgid "Import Jerome&#8217;s Keywords into WordPress tags."
 #~ msgstr "Importar tags de Jerome&#8217;s Keywords para tags do WordPress"
 
@@ -18480,44 +18461,57 @@ msgstr "O URL de destino especificado não existe."
 #~ "Olá, isto é um comentário.<br />Para excluir um comentário, faça o login "
 #~ "e veja os comentários dos artigos. Lá você vai ter a opção de editá-los "
 #~ "ou excluí-los."
+
 #~ msgid ""
 #~ "You are about to delete the selected categories.\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Você está prestes a excluir as categorias selecionadas.\n"
 #~ "  'Cancelar' para interromper, 'OK' para excluir."
+
 #~ msgid "Comment|noun"
 #~ msgstr "Comentário"
+
 #~ msgid "Custom Image Header"
 #~ msgstr "Imagem de cabeçalho personalizada"
+
 #~ msgid "Edit \"%s\""
 #~ msgstr "Editar \"%s\""
+
 #~ msgid "View \"%s\""
 #~ msgstr "Ver \"%s\""
+
 #~ msgid ""
 #~ "You are about to delete the selected comments.\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Você está prestes a excluir os comentários selecionados.\n"
 #~ "  'Cancelar' para interromper, 'OK' para excluir."
+
 #~ msgid "Post updated. Continue editing below or <a href=\"%s\">go back</a>."
 #~ msgstr ""
 #~ "Artigo atualizado. Continue editando abaixo ou <a href=\"%s\">volte para "
 #~ "o site</a>."
+
 #~ msgid "M j, Y @ G:i|Publish box date format"
 #~ msgstr "j \\d\\e F \\d\\e Y \\à\\s G:i"
+
 #~ msgid "Approved|adjective"
 #~ msgstr "Aprovado"
+
 #~ msgid "Pending|adjective"
 #~ msgstr "Pendente"
+
 #~ msgid "Spam|adjective"
 #~ msgstr "Spam"
+
 #~ msgid ""
 #~ "You are about to delete the selected link categories.\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Você está prestes a excluir as categorias de links selecionadas.\n"
 #~ "'Cancelar' para interromper, 'OK' para excluir."
+
 #~ msgid ""
 #~ "Choose the frame your link targets. Essentially this means if you choose "
 #~ "<code>_blank</code> your link will open in a new window."
@@ -18525,56 +18519,77 @@ msgstr "O URL de destino especificado não existe."
 #~ "Escolha o frame em que abrirá este link. Basicamente quer dizer que se "
 #~ "você escolher a opção <code>_blank</code>, o link será aberto numa nova "
 #~ "janela."
+
 #~ msgid "Page updated. Continue editing below or <a href=\"%s\">go back</a>."
 #~ msgstr ""
 #~ "Página atualizada. Continue a edição abaixo ou <a href=\"%s\">volte "
 #~ "atrás</a>."
+
 #~ msgid "Page updated."
 #~ msgstr "Página atualizada"
+
 #~ msgid "Published|page"
 #~ msgstr "Publicada"
+
 #~ msgid "Published <span class=\"count\">(%s)</span>|page"
+
 #~ msgid_plural "Published <span class=\"count\">(%s)</span>"
 #~ msgstr[0] "Publicada <span class=\"count\">(%s)</span>"
 #~ msgstr[1] "Publicadas <span class=\"count\">(%s)</span>"
+
 #~ msgid "Scheduled|page"
 #~ msgstr "Agendada"
+
 #~ msgid "Scheduled <span class=\"count\">(%s)</span>|page"
+
 #~ msgid_plural "Scheduled <span class=\"count\">(%s)</span>"
 #~ msgstr[0] "Agendada <span class=\"count\">(%s)</span>"
 #~ msgstr[1] "Agendadas <span class=\"count\">(%s)</span>"
+
 #~ msgid "Pending Review|page"
 #~ msgstr "Revisão pendente"
+
 #~ msgid "Pending Review <span class=\"count\">(%s)</span>|page"
+
 #~ msgid_plural "Pending Review <span class=\"count\">(%s)</span>"
 #~ msgstr[0] "Revisão pendente <span class=\"count\">(%s)</span>"
 #~ msgstr[1] "Revisões pendentes <span class=\"count\">(%s)</span>"
+
 #~ msgid "Draft|page"
 #~ msgstr "Rascunho"
+
 #~ msgid "Drafts|manage posts header"
 #~ msgstr "Rascunhos|gerenciar o cabeçalho dos artigos"
+
 #~ msgid "Draft <span class=\"count\">(%s)</span>|page"
+
 #~ msgid_plural "Drafts <span class=\"count\">(%s)</span>"
 #~ msgstr[0] "Rascunho <span class=\"count\">(%s)</span>"
 #~ msgstr[1] "Rascunhos</a> <span class=\"count\">(%s)</span>"
+
 #~ msgid "Private|page"
 #~ msgstr "Privada"
+
 #~ msgid "Private <span class=\"count\">(%s)</span>|page"
+
 #~ msgid_plural "Private <span class=\"count\">(%s)</span>"
 #~ msgstr[0] "Privada <span class=\"count\">(%s)</span>"
 #~ msgstr[1] "Privadas <span class=\"count\">(%s)</span>"
+
 #~ msgid ""
 #~ "You are about to delete the selected pages.\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Você está prestes a excluir as páginas selecionadas.\n"
 #~ "  'Cancelar' para interromper, 'OK' para excluir."
+
 #~ msgid ""
 #~ "You are about to delete the selected posts.\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Você está prestes a excluir os artigos selecionados.\n"
 #~ "  'Cancelar' para interromper, 'OK' para excluir."
+
 #~ msgid ""
 #~ "Also, since you're coming from DotClear, you probably have been using "
 #~ "Textile to format your comments and posts.  If this is the case, we "
@@ -18587,141 +18602,190 @@ msgstr "O URL de destino especificado não existe."
 #~ "recomendamos que você faça o download e a instalação do <a href=\"http://"
 #~ "www.huddledmasses.org/category/development/wordpress/textile/\">Textile "
 #~ "para WordPress</a>. Acredite... Você vai querer isto."
+
 #~ msgid "That's it! What are you waiting for? Go <a href=\"%1$s\">login</a>!"
 #~ msgstr ""
 #~ "Isso é tudo! O que você está esperando? Faça seu <a href=\"%1$s\">login</"
 #~ "a>!"
+
 #~ msgid ""
 #~ "Howdy! Upload your LiveJournal XML export file and we&#8217;ll import the "
 #~ "posts into this blog."
 #~ msgstr ""
 #~ "Olá! Faça o upload do seu arquivo de exportação XML do LiveJournal e os "
 #~ "artigos serão importados para este blog."
+
 #~ msgid ""
 #~ "Choose a LiveJournal XML file to upload, then click Upload file and "
 #~ "import."
 #~ msgstr ""
 #~ "Escolha um arquivo XML do LiveJournal para fazer upload, depois clique em "
 #~ "Fazer upload de arquivo e importar."
+
 #~ msgid "Connection to the server has timeout after %s seconds."
 #~ msgstr "Conexão com o servidor foi interrompida após %s segundos."
+
 #~ msgid "Spam|verb"
 #~ msgstr "Spam"
+
 #~ msgid " on %4$s|feed_display"
 #~ msgstr "em %4$s|feed_display"
+
 #~ msgid ""
 #~ "The file exceeds the <code>upload_max_filesize</code> directive in "
 #~ "<code>php.ini</code>."
 #~ msgstr ""
 #~ "O arquivo excede o definido pela diretiva <code>upload_max_filesize</"
 #~ "code> em <code>php.ini</code>."
+
 #~ msgid ""
 #~ "The file exceeds the <em>MAX_FILE_SIZE</em> directive that was specified "
 #~ "in the HTML form."
 #~ msgstr ""
 #~ "O arquivo excede o definido pela diretiva <em>MAX_FILE_SIZE</em> "
 #~ "especificada no formulário HTML."
+
 #~ msgid "The file was only partially uploaded."
 #~ msgstr "O arquivo foi apenas parcialmente enviado."
+
 #~ msgid "No file was sent."
 #~ msgstr "Nenhum arquivo foi enviado."
+
 #~ msgid "(Password not shown)"
 #~ msgstr "(senha oculta)"
+
 #~ msgid "Deactivate Site Wide"
 #~ msgstr "Desativar este plugin (global)"
+
 #~ msgid "Edit your blog options on the <a href=\"%s\">My Blogs</a> page."
 #~ msgstr ""
 #~ "Edite as opções de seu blog na página <a href=\"%s\">Meus Blogs</a>."
+
 #~ msgid "[need help?]"
 #~ msgstr "[precisa de ajuda?]"
+
 #~ msgid "No plugin Specified"
 #~ msgstr "Nenhum plugin especificado"
+
 #~ msgid "Successfully installed the plugin."
 #~ msgstr "Plugin instalado com sucesso."
+
 #~ msgid "Downloading plugin package from %s"
 #~ msgstr "Fazendo download da atualização de %s"
+
 #~ msgid "Editor|User role"
 #~ msgstr "Editor|Função do usuário"
+
 #~ msgid "Author|User role"
 #~ msgstr "Autor|Função do usuário"
+
 #~ msgid "Subscriber|User role"
 #~ msgstr "Assinante|Função do usuário"
+
 #~ msgid ""
 #~ "You are about to delete this category '%s'\n"
 #~ " 'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Você está prestes a excluir esta categoria '%s'\n"
 #~ "  'Cancelar' para interromper, 'OK' para excluir."
+
 #~ msgid ""
 #~ "You are about to delete this tag '%s'\n"
 #~ " 'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Você está prestes a excluir esta tag '%s'\n"
 #~ "  'Cancelar' para interromper, 'OK' para excluir."
+
 #~ msgid "File|media column header"
 #~ msgstr "Arquivo|media column header"
+
 #~ msgid "Attached to|media column header"
 #~ msgstr "Anexado a|media column header"
+
 #~ msgid "Date|media column header"
 #~ msgstr "Data|media column header"
+
 #~ msgid "rel"
 #~ msgstr "rel"
+
 #~ msgid ""
 #~ "&ndash;OR&ndash;|Between password field and private checkbox on post "
 #~ "quick edit interface"
 #~ msgstr ""
 #~ "&ndash;OU&ndash;|Between password field and private checkbox on post "
 #~ "quick edit interface"
+
 #~ msgid "Preview \"%s\""
 #~ msgstr "Pré-visualização de \"%s\""
+
 #~ msgid ""
 #~ "%1$s%2$s, %3$s @ %4$s : %5$s|1: month input, 2: day input, 3: year input, "
 #~ "4: hour input, 5: minute input"
 #~ msgstr ""
 #~ "%1$s%2$s, %3$s <br />às %4$s : %5$s|1: month input, 2: day input, 3: year "
 #~ "input, 4: hour input, 5: minute input"
+
 #~ msgid "Get help with \"%s\""
 #~ msgstr "Receber ajuda com \"%s\""
+
 #~ msgid "Downloading update from %s"
 #~ msgstr "Fazendo download da atualização de %s"
+
 #~ msgid "Unpacking the core update"
 #~ msgstr "Descompactando a atualização dos arquivos base"
+
 #~ msgid "Uncategorized|Default category slug"
 #~ msgstr "Sem categoria"
+
 #~ msgid "Blogroll|Default link category slug"
 #~ msgstr "Lista de links"
+
 #~ msgid "hello-world|Default post slug"
 #~ msgstr "boas-vindas"
+
 #~ msgid "about|Default page slug"
 #~ msgstr "sobre"
+
 #~ msgid "No matching widgets"
 #~ msgstr "Nenhum widget correspondente"
+
 #~ msgid "%1$s: %2$s|1: widget name, 2: widget title"
 #~ msgstr "%1$s: %2$s|1: widget name, 2: widget title"
+
 #~ msgid ""
 #~ "You are about to delete the selected links.\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Você está prestes a excluir os links selecionados.\n"
 #~ "'Cancelar' para interromper, 'OK' para excluir."
+
 #~ msgid "Add New|post"
 #~ msgstr "Adicionar novo"
+
 #~ msgid "Add New|file"
 #~ msgstr "Adicionar nova"
+
 #~ msgid "Add New|links"
 #~ msgstr "Adicionar novo"
+
 #~ msgid "Add New|page"
 #~ msgstr "Adicionar nova"
+
 #~ msgid "Add New|plugin"
 #~ msgstr "Adicionar novo"
+
 #~ msgid "Delete Plugin"
 #~ msgstr "Excluir Plugin"
+
 #~ msgid "%s by %s"
 #~ msgstr "%s por %s"
+
 #~ msgid "Currently Active Plugins"
 #~ msgstr "Plugins atualmente ativos"
+
 #~ msgid "Recently Active Plugins"
 #~ msgstr "Plugins recentemente ativos"
+
 #~ msgid ""
 #~ "The following plugins were recently active. When a plugin has been "
 #~ "inactive for more than 7 days it will be moved to the Inactive plugin "
@@ -18729,8 +18793,10 @@ msgstr "O URL de destino especificado não existe."
 #~ msgstr ""
 #~ "Os plugins a seguir estavam ativos recentemente. Quando um plugin estiver "
 #~ "inativo por mais de 7 dias, ele será movido para a lista Plugins Inativos."
+
 #~ msgid "Get More Plugins"
 #~ msgstr "Obter mais plugins"
+
 #~ msgid ""
 #~ "To <em>manually</em> install a plugin you generally just need to upload "
 #~ "the plugin file into your <code>%s</code> directory."
@@ -18738,16 +18804,20 @@ msgstr "O URL de destino especificado não existe."
 #~ "Normalmente, para instalar um plugin, basta enviar o arquivo do plugin "
 #~ "para o diretório <code>%s</code>. Após o envio do plugin, você pode ativá-"
 #~ "lo aqui."
+
 #~ msgid "Once a plugin has been installed, you may activate it here."
 #~ msgstr "Depois de instalar o plugin, ative-o aqui."
+
 #~ msgid "Styles|Theme stylesheets in theme editor"
 #~ msgstr "Estilos|Folhas de estilo do tema no editor de temas"
+
 #~ msgid ""
 #~ "<p>There is a new version of %1$s available. <a href=\"%2$s\" class="
 #~ "\"thickbox\" title=\"%1$s\">View version %3$s Details</a>.</p>"
 #~ msgstr ""
 #~ "<p>Há uma nova versão de %1$s disponível. <a href=\"%2$s\" class="
 #~ "\"thickbox\" title=\"%1$s\">Veja os detalhes da versão %3$s</a>.</p>"
+
 #~ msgid ""
 #~ "<p>There is a new version of %1$s available. <a href=\"%2$s\" class="
 #~ "\"thickbox\" title=\"%1$s\">View version %3$s Details</a> or <a href=\"%4"
@@ -18756,15 +18826,20 @@ msgstr "O URL de destino especificado não existe."
 #~ "<p>Há uma nova versão de %1$s disponível. <a href=\"%2$s\" class="
 #~ "\"thickbox\" title=\"%1$s\">Visualizar detalhes da versão %3$s </a> ou <a "
 #~ "href=\"%4$s\">atualize automaticamente</a>.</p>"
+
 #~ msgid "%1$s %2$s by %3$s|1: theme title, 2: theme version, 3: theme author"
 #~ msgstr ""
 #~ "%1$s %2$s por %3$s|1: título do tema, 2: versão do tema, 3: autor do tema"
+
 #~ msgid "Preview of \"%s\""
 #~ msgstr "Pré-visualização de \"%s\""
+
 #~ msgid "Activate \"%s\""
 #~ msgstr "Ativar \"%s\""
+
 #~ msgid "Get More Themes"
 #~ msgstr "Obter mais temas"
+
 #~ msgid ""
 #~ "You can find additional themes for your site in the <a href=\"http://"
 #~ "wordpress.org/extend/themes/\">WordPress theme directory</a>. To install "
@@ -18777,132 +18852,185 @@ msgstr "O URL de destino especificado não existe."
 #~ "Normalmente, para instalar um tema, basta fazer o upload da pasta do tema "
 #~ "para o seu diretório <code>wp-content/themes</code>. Assim que o tema "
 #~ "tenha sido enviado, você deve vê-lo nesta página."
+
 #~ msgid ""
 #~ "Gears is installed and enabled on this computer. You can disable it from "
 #~ "your browser&#8217;s Options, Under the Hood menu."
 #~ msgstr ""
 #~ "O Gears está instalado e ativado nesse computador. Você pode desativá-lo "
 #~ "através das Opções de seu navegador, no menu Hood."
+
 #~ msgid "Setting theme as Current"
 #~ msgstr "Configurando tema como atual"
+
 #~ msgid ""
 #~ "Your WordPress database is out-of-date, and must be upgraded before you "
 #~ "can continue."
 #~ msgstr ""
 #~ "Seu banco de dados do WordPress está desatualizado. É necessário atualizá-"
 #~ "lo antes de poder continuar."
+
 #~ msgid "Media|media column header"
 #~ msgstr "Mídia|media column header"
+
 #~ msgid "Date Added|media column header"
 #~ msgstr "Data de inserção|media column header"
+
 #~ msgid ""
 #~ "You are about to delete the selected attachments.\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Você está prestes a excluir os anexos selecionados.\n"
 #~ "  'Cancelar' para interromper, 'OK' para excluir."
+
 #~ msgid "Required."
 #~ msgstr "Obrigatório."
+
 #~ msgid "%1$s <span class=\"count\">(%2$s)</span>|user role with count"
 #~ msgstr "%1$s <span class=\"count\">(%2$s)</span>|user role with count"
+
 #~ msgid "Add Widget"
 #~ msgstr "Adicionar widget"
+
 #~ msgid "You are using %1$s widget in the \"%2$s\" sidebar."
+
 #~ msgid_plural "You are using %1$s widgets in the \"%2$s\" sidebar."
 #~ msgstr[0] "Você está usando %1$s widget na barra lateral \"%2$s\"."
 #~ msgstr[1] "Você está usando %1$s widgets na barra lateral \"%2$s\"."
+
 #~ msgid "You are using %1$s widget in the sidebar."
+
 #~ msgid_plural "You are using %1$s widgets in the sidebar."
 #~ msgstr[0] "Você está usando %1$s widget na barra lateral."
 #~ msgstr[1] "Você está usando %1$s widgets na barra lateral."
+
 #~ msgid "Show any widgets"
 #~ msgstr "Mostrar qualquer widget"
+
 #~ msgid "Show all widgets"
 #~ msgstr "Mostrar todos os widgets"
+
 #~ msgid "Show unused widgets"
 #~ msgstr "Mostrar widgets não usados"
+
 #~ msgid "Show used widgets"
 #~ msgstr "Mostrar widgets usados"
+
 #~ msgid "Current Widgets"
 #~ msgstr "Widgets atuais"
+
 #~ msgid "Add more from the Available Widgets section."
 #~ msgstr "Adicione mais na seção Widgets Disponíveis."
+
 #~ msgid ", |between list items"
 #~ msgstr ", |entre os itens da lista"
+
 #~ msgid ", and |between last two list items"
 #~ msgstr ", e |entre os dois últimos itens da lista"
+
 #~ msgid " and |between only two list items"
 #~ msgstr " e |entre apenas dois itens da lista"
+
 #~ msgid "%1$s %2$s|Used as a calendar caption"
 #~ msgstr "%1$s %2$s|Usado como título da agenda"
+
 #~ msgid "0| Extra width for the media popup in pixels"
 #~ msgstr "0| Largura extra para a popup de mída, em pixels"
+
 #~ msgid "0| Extra height for the media popup in pixels"
 #~ msgstr "0| Altura extra para a popup de mídia, em pixels"
+
 #~ msgid "0| Extra width for the link popup in pixels"
 #~ msgstr "0| Largura extra para a popup do link, em pixels"
+
 #~ msgid "0| Extra height for the link popup in pixels"
 #~ msgstr "0|Altura extra para a popup do link, em pixels"
+
 #~ msgid "0| Extra width for the image popup in pixels"
 #~ msgstr "0| Largura extra para a popup da imagem, em pixels"
+
 #~ msgid "0| Extra height for the image popup in pixels"
 #~ msgstr "0| Altura extra para a popup da imagem, em pixels"
+
 #~ msgid "0| Extra width for the colorpicker popup in pixels"
 #~ msgstr "0| Largura extra para a popup de seleção de cores, em pixels"
+
 #~ msgid "0| Extra height for the colorpicker popup in pixels"
 #~ msgstr "0| Altura extra para a popup de seleção de cores, em pixels"
+
 #~ msgid ""
 #~ "number_format_decimals|$decimals argument for http://php.net/"
 #~ "number_format, default is 0"
 #~ msgstr "0|$decimals para http://php.net/number_format, o padrão é 0"
+
 #~ msgid ""
 #~ "number_format_decimal_point|$dec_point argument for http://php.net/"
 #~ "number_format, default is ."
 #~ msgstr ",|$dec_point para http://php.net/number_format, o padrão é:"
+
 #~ msgid ""
 #~ "number_format_thousands_sep|$thousands_sep argument for http://php.net/"
 #~ "number_format, default is ,"
 #~ msgstr ".|$thousands_sep para http://php.net/number_format, o padrão é:"
+
 #~ msgid "<strong>ERROR</strong>: Invalid username."
 #~ msgstr "<strong>ERRO</strong>: Nome de usuário inválido."
+
 #~ msgid "<strong>ERROR</strong>: Incorrect password."
 #~ msgstr "<strong>ERRO</strong>: Senha incorreta."
+
 #~ msgid "j F, Y @ G:i|revision date format"
 #~ msgstr "j \\d\\e F \\d\\e Y \\à\\s G:i"
+
 #~ msgid "%1$s by %2$s|post revision 1:datetime, 2:name"
 #~ msgstr "%1$s por %2$s"
+
 #~ msgid "Medium|password strength"
 #~ msgstr "Média"
+
 #~ msgid ""
 #~ "Remember to click the \"Save Changes\" button at the bottom of the "
 #~ "Current Widgets column after you're all done!"
 #~ msgstr ""
 #~ "Lembre-se de clicar no botão \"Salvar alterações\" no final da coluna "
 #~ "Widgets Atuais depois de terminar!"
+
 #~ msgid "You're about to leave without having saved your changes!"
 #~ msgstr "Você está prestes a sair sem ter salvo suas alterações!"
+
 #~ msgid "Error: could not find an RSS or ATOM feed at that URL."
 #~ msgstr "Erro: não foi possível encontrar feeds RSS ou ATOM no URL indicado."
+
 #~ msgid "Error in RSS %1$d"
 #~ msgstr "Erro no RSS %1$d"
+
 #~ msgid "Invalid post id."
 #~ msgstr "ID de artigo inválida."
+
 #~ msgid "siteurl and home will be modified too"
 #~ msgstr "endereço do site e página inicial serão modificados também"
+
 #~ msgid "Does not appear to be chunked encoded or body is malformed."
 #~ msgstr "Não parece conter código em bloco ou o corpo está incorreto."
+
 #~ msgid "Admin Bar"
 #~ msgstr "Barra de administração"
+
 #~ msgid "Everything here applies to your account only."
 #~ msgstr "Tudo aqui se aplica somente à sua conta."
+
 #~ msgid "Show the admin bar"
 #~ msgstr "Mostrar a barra administrativa"
+
 #~ msgid "In the admin area"
 #~ msgstr "Na área administrativa"
+
 #~ msgid "Number of plugins needing upgrading"
 #~ msgstr "Número de plugins que necessitam atualização"
+
 #~ msgid "Tag slug"
 #~ msgstr "Slug da tag"
+
 #~ msgid ""
 #~ "The &#8220;slug&#8221; is the URL-friendly version of the name. It is "
 #~ "usually all lowercase and contains only letters, numbers, and hyphens."
@@ -18961,18 +19089,25 @@ msgstr "O URL de destino especificado não existe."
 #, fuzzy
 #~ msgid "Number of comments in the moderation queue"
 #~ msgstr "Um comentário ficar aguardando moderação"
+
 #~ msgid "<a href=\"http://wordpress.org/support/forum/4\">Feedback</a>"
 #~ msgstr "<a href=\"http://wordpress.org/support/forum/4\">Feedback</a>"
+
 #~ msgid "Category Slug"
 #~ msgstr "Slug da categoria"
+
 #~ msgid "Category slug"
 #~ msgstr "Slug da categoria"
+
 #~ msgid "<code>mt-export.txt</code> does not exist"
 #~ msgstr "<code>mt-export.txt</code> não existe"
+
 #~ msgid "WordPress address (URL)"
 #~ msgstr "Endereço do WordPress (URL)"
+
 #~ msgid "Blog address (URL)"
 #~ msgstr "Endereço do blog (URL)"
+
 #~ msgid ""
 #~ "Enter the address here if you want your blog homepage <a href=\"http://"
 #~ "codex.wordpress.org/Giving_WordPress_Its_Own_Directory\">to be different "
@@ -18982,6 +19117,6 @@ msgstr "O URL de destino especificado não existe."
 #~ "<a href=\"http://codex.wordpress.org/Giving_WordPress_Its_Own_Directory"
 #~ "\">esteja em outro diretório que não o diretório</a> de instalação do "
 #~ "WordPress."
+
 #~ msgid "Membership"
 #~ msgstr "Membros"
-
