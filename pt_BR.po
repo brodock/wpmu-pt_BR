@@ -1,24 +1,24 @@
-# WordPress POT file.
-# Copyright (C) 2008 WordPress
+# Translation of WordPress 2.9.1.1.
+# Copyright (C) 2010 WordPress
 # This file is distributed under the same license as the WordPress package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 2.9.1.1\n"
+"Project-Id-Version: WordPress 2.9.2\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-01-19 13:12+0000\n"
-"PO-Revision-Date: 2010-01-21 13:07-0300\n"
+"PO-Revision-Date: 2010-04-27 10:27-0300\n"
 "Last-Translator: Gabriel Mazetto <brodock@gmail.com>\n"
 "Language-Team: NPD-UFSC <gabriel@npd.ufsc.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Basepath: ../../\n"
 "X-Poedit-Language: Portuguese\n"
 "X-Poedit-Country: BRAZIL\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Basepath: /Users/brodock/Projetos/PHP/wpmu-svn\n"
 "X-Poedit-KeywordsList: __;_e;_c;_x:2c,1;__ngettext:1,2;_n:1,2;_nc:1,2;__ngettext_noop:1,2;_n_noop:1,2;esc_attr_e;esc_attr__\n"
 "X-Poedit-SearchPath-0: .\n"
 
@@ -651,9 +651,8 @@ msgstr "Descrição"
 #: wp-admin/edit-link-categories.php:207
 #: wp-admin/edit-link-category-form.php:78
 #: wp-admin/edit-tags.php:297
-#, fuzzy
 msgid "The description is not prominent by default; however, some themes may show it."
-msgstr "A descrição não está em destaque por padrão, no entanto alguns temas podem apresentá-la."
+msgstr "A descrição não é destacada por padrão, no entanto alguns temas podem mostrá-la."
 
 #: wp-admin/comment.php:46
 #: wp-admin/edit-form-comment.php:16
@@ -681,8 +680,9 @@ msgid "You are not allowed to edit comments on this post."
 msgstr "Sem permissão para editar comentários sobre esse artigo."
 
 #: wp-admin/comment.php:60
+#, fuzzy
 msgid "This comment is in the Trash. Please move it out of the Trash if you want to edit it."
-msgstr ""
+msgstr "Este comentário está na Lixeira. Remova da Lixeira se quiser editá-lo."
 
 #: wp-admin/comment.php:84
 msgid "You are not allowed to delete comments on this post."
@@ -705,12 +705,11 @@ msgstr "Este comentário é spam"
 #: wp-admin/comment.php:96
 #, fuzzy
 msgid "You are about to move the following comment to the Trash:"
-msgstr "Você está prestes a marcar o seguinte comentário como spam:"
+msgstr "Você está prestes a mover o seguinte comentário para a Lixeira:"
 
 #: wp-admin/comment.php:97
-#, fuzzy
 msgid "Trash Comment"
-msgstr "Comentário de Contacto"
+msgstr "Mover comentário para lixeira"
 
 #: wp-admin/comment.php:100
 msgid "You are about to delete the following comment:"
@@ -719,7 +718,7 @@ msgstr "Você está prestes a excluir este comentário:"
 #: wp-admin/comment.php:101
 #, fuzzy
 msgid "Permanently Delete Comment"
-msgstr "Excluir meu site permanentemente &raquo;"
+msgstr "Excluir comentário permanentemente"
 
 #: wp-admin/comment.php:104
 msgid "You are about to approve the following comment:"
@@ -982,9 +981,8 @@ msgstr "Restaurar"
 #: wp-admin/includes/template.php:1450
 #: wp-admin/includes/template.php:1670
 #: wp-admin/upload.php:396
-#, fuzzy
 msgid "Trash"
-msgstr "Tags"
+msgstr "Lixeira"
 
 #: wp-admin/edit-attachment-rows.php:101
 #: wp-admin/edit-comments.php:316
@@ -1005,7 +1003,7 @@ msgstr "Tags"
 #: wp-admin/upload.php:460
 #, fuzzy
 msgid "Delete Permanently"
-msgstr "Mudou-se permanentemente"
+msgstr "Excluir permanentemente"
 
 #: wp-admin/edit-attachment-rows.php:105
 #: wp-admin/includes/template.php:1458
@@ -1064,7 +1062,7 @@ msgstr "%s atrás"
 #: wp-admin/edit-attachment-rows.php:179
 #, fuzzy
 msgid "(Unattached)"
-msgstr "Desanexada"
+msgstr "(Desanexado)"
 
 #: wp-admin/edit-attachment-rows.php:180
 #: wp-admin/upload.php:403
@@ -1147,10 +1145,10 @@ msgstr[0] "%s comentário aprovado"
 msgstr[1] "%s comentários aprovados"
 
 #: wp-admin/edit-comments.php:155
-#, fuzzy, php-format
+#, php-format
 msgid "%s comment marked as spam."
 msgid_plural "%s comments marked as spam."
-msgstr[0] "%s comentário marcado como spam"
+msgstr[0] "%s comentário marcado como spam."
 msgstr[1] "%s comentários marcados como spam"
 
 #: wp-admin/edit-comments.php:157
@@ -1168,32 +1166,32 @@ msgid "Undo"
 msgstr "Desfazer"
 
 #: wp-admin/edit-comments.php:160
-#, fuzzy, php-format
+#, php-format
 msgid "%s comment restored from the spam"
 msgid_plural "%s comments restored from the spam"
-msgstr[0] "%s comentário marcado como spam"
-msgstr[1] "%s comentários marcados como spam"
+msgstr[0] "%s comentário restaurado do spam"
+msgstr[1] "%s comentários restaurados do spam"
 
 #: wp-admin/edit-comments.php:164
-#, fuzzy, php-format
+#, php-format
 msgid "%s comment moved to the trash."
 msgid_plural "%s comments moved to the trash."
-msgstr[0] "Responder esse comentário"
-msgstr[1] "%s comentários marcados como spam"
+msgstr[0] "%s comentário movido para a lixeira."
+msgstr[1] "%s comentários movidos para a lixeira."
 
 #: wp-admin/edit-comments.php:169
-#, fuzzy, php-format
+#, php-format
 msgid "%s comment restored from the trash"
 msgid_plural "%s comments restored from the trash"
-msgstr[0] "Página restaurada para revisão às %s"
-msgstr[1] ""
+msgstr[0] "%s comentário restaurado da lixeira"
+msgstr[1] "%s comentários restaurados da lixeira"
 
 #: wp-admin/edit-comments.php:173
-#, fuzzy, php-format
+#, php-format
 msgid "%s comment permanently deleted"
 msgid_plural "%s comments permanently deleted"
-msgstr[0] "Campo personalizado excluído."
-msgstr[1] "%s comentários excluídos"
+msgstr[0] "%s comentário excluído permanentemente"
+msgstr[1] "%s comentários excluídos permanentemente"
 
 #: wp-admin/edit-comments.php:190
 msgid "All"
@@ -1202,11 +1200,11 @@ msgstr[0] "Todos"
 msgstr[1] "Todos"
 
 #: wp-admin/edit-comments.php:191
-#, fuzzy, php-format
+#, php-format
 msgid "Pending <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
 msgid_plural "Pending <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
-msgstr[0] "Pendente (<span class=\"pending-count\">%s</span>)"
-msgstr[1] "Pendentes (<span class=\"pending-count\">%s</span>)"
+msgstr[0] "Pendente <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
+msgstr[1] "Pendentes <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
 
 #: wp-admin/edit-comments.php:192
 msgid "Approved"
@@ -1215,18 +1213,18 @@ msgstr[0] "Aprovado"
 msgstr[1] "Aprovados"
 
 #: wp-admin/edit-comments.php:193
-#, fuzzy, php-format
+#, php-format
 msgid "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
 msgid_plural "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
-msgstr[0] "Spam (<span class=\"spam-count\">%s</span>)"
-msgstr[1] "Spams (<span class=\"spam-count\">%s</span>)"
+msgstr[0] "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgstr[1] "Spams <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
 
 #: wp-admin/edit-comments.php:194
-#, fuzzy, php-format
+#, php-format
 msgid "Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
 msgid_plural "Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
-msgstr[0] "Ativo <span class=\"count\">(%s)</span>"
-msgstr[1] "Spams (<span class=\"spam-count\">%s</span>)"
+msgstr[0] "Lixo <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgstr[1] "Lixo <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
 
 #: wp-admin/edit-comments.php:233
 #: wp-admin/edit-comments.php:235
@@ -1288,9 +1286,8 @@ msgstr "Não é Spam"
 #: wp-admin/includes/meta-boxes.php:193
 #: wp-admin/upload.php:294
 #: wp-admin/upload.php:462
-#, fuzzy
 msgid "Move to Trash"
-msgstr "Não é possível mover o trabalho"
+msgstr "Mover para a lixeira"
 
 #: wp-admin/edit-comments.php:325
 msgid "Show all comment types"
@@ -1321,9 +1318,8 @@ msgstr "Filtrar"
 
 #: wp-admin/edit-comments.php:348
 #: wp-admin/edit-comments.php:422
-#, fuzzy
 msgid "Empty Spam"
-msgstr "Não é Spam"
+msgstr "Esvaziar o spam"
 
 #: wp-admin/edit-comments.php:350
 #: wp-admin/edit-comments.php:424
@@ -1333,9 +1329,8 @@ msgstr "Não é Spam"
 #: wp-admin/edit.php:357
 #: wp-admin/upload.php:339
 #: wp-admin/upload.php:470
-#, fuzzy
 msgid "Empty Trash"
-msgstr "Grupos vazios"
+msgstr "Esvaziar a lixeira"
 
 #: wp-admin/edit-comments.php:448
 msgid "No comments awaiting moderation&hellip; yet."
@@ -1346,9 +1341,9 @@ msgid "No results found."
 msgstr "Nenhum resultado encontrado."
 
 #: wp-admin/edit-form-advanced.php:28
-#, fuzzy, php-format
+#, php-format
 msgid "Post updated. <a href=\"%s\">View post</a>"
-msgstr "Post atualizado. <a href=\"%s\">Ver post</a>"
+msgstr "Artigo atualizado. <a href=\"%s\">Ver artigo</a>"
 
 #: wp-admin/edit-form-advanced.php:31
 #: wp-admin/edit-page-form.php:32
@@ -1380,29 +1375,28 @@ msgid "Post saved."
 msgstr "Artigo salvo."
 
 #: wp-admin/edit-form-advanced.php:50
-#, fuzzy, php-format
+#, php-format
 msgid "Post submitted. <a target=\"_blank\" href=\"%s\">Preview post</a>"
-msgstr "Artigo enviado. <a href=\"%s\">Ver artigo</a>"
+msgstr "Artigo enviado. <a target=\"_blank\" href=\"%s\">Visualizar artigo</a>"
 
 #. translators: Publish box date formt, see http://php.net/date - Same as in meta-boxes.php
 #: wp-admin/edit-form-advanced.php:54
-#, fuzzy, php-format
+#, php-format
 msgid "Post scheduled for: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s\">Preview post</a>"
-msgstr "Artigo enviado. <a href=\"%s\">Ver artigo</a>"
+msgstr "Artigo agendado para: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s\">Visualizar artigo</a>"
 
 #. translators: Publish box date formt, see http://php.net/date
 #: wp-admin/edit-form-advanced.php:54
 #: wp-admin/edit-form-comment.php:58
 #: wp-admin/edit-page-form.php:49
 #: wp-admin/includes/meta-boxes.php:150
-#, fuzzy
 msgid "M j, Y @ G:i"
 msgstr "j \\d\\e F \\d\\e Y G:i"
 
 #: wp-admin/edit-form-advanced.php:57
-#, fuzzy, php-format
+#, php-format
 msgid "Post draft updated. <a target=\"_blank\" href=\"%s\">Preview post</a>"
-msgstr "Post atualizado. <a href=\"%s\">Ver post</a>"
+msgstr "Rascunho do artigo atualizado. <a target=\"_blank\" href=\"%s\">Visualizar artigo</a>"
 
 #: wp-admin/edit-form-advanced.php:77
 #, php-format
@@ -1422,9 +1416,8 @@ msgid "Publish"
 msgstr "Publicar"
 
 #: wp-admin/edit-form-advanced.php:102
-#, fuzzy
 msgid "Post Thumbnail"
-msgstr "Tamanho da Miniatura"
+msgstr "Miniatura do Artigo"
 
 #: wp-admin/edit-form-advanced.php:103
 #: wp-admin/includes/meta-boxes.php:313
@@ -1574,7 +1567,6 @@ msgid "Description (optional)"
 msgstr "Descrição (opcional)"
 
 #: wp-admin/edit-link-category-form.php:14
-#, fuzzy
 msgid "You do not have sufficient permissions to edit link categories for this blog."
 msgstr "Sem permissões suficientes para editar categorias de links deste blog."
 
@@ -1679,7 +1671,7 @@ msgid "This will be shown when someone hovers over the link in the blogroll, or 
 msgstr "O texto acima será mostrado quando alguém passar o mouse sobre o link na lista de links, ou opcionalmente, abaixo dele."
 
 #: wp-admin/edit-page-form.php:29
-#, fuzzy, php-format
+#, php-format
 msgid "Page updated. <a href=\"%s\">View page</a>"
 msgstr "Página atualizada. <a href=\"%s\">Ver página</a>"
 
@@ -1694,20 +1686,20 @@ msgid "Page restored to revision from %s"
 msgstr "Página restaurada para revisão às %s"
 
 #: wp-admin/edit-page-form.php:45
-#, fuzzy, php-format
+#, php-format
 msgid "Page submitted. <a target=\"_blank\" href=\"%s\">Preview page</a>"
-msgstr "Página enviada. <a href=\"%s\">Ver página</a>"
+msgstr "Página enviada. <a target=\"_blank\" href=\"%s\">Visualizar página</a>"
 
 #. translators: Publish box date formt, see http://php.net/date - Same as in meta-boxes.php
 #: wp-admin/edit-page-form.php:49
-#, fuzzy, php-format
+#, php-format
 msgid "Page scheduled for: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s\">Preview page</a>"
-msgstr "Página enviada. <a href=\"%s\">Ver página</a>"
+msgstr "Página agendada para: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s\">Visualizar página</a>"
 
 #: wp-admin/edit-page-form.php:52
-#, fuzzy, php-format
+#, php-format
 msgid "Page draft updated. <a target=\"_blank\" href=\"%s\">Preview page</a>"
-msgstr "Página atualizada. <a href=\"%s\">Ver página</a>"
+msgstr "Rascunho da página atualizado. <a target=\"_blank\" href=\"%s\">Visualizar página</a>"
 
 #: wp-admin/edit-page-form.php:70
 #, php-format
@@ -1723,9 +1715,8 @@ msgid "Page Slug"
 msgstr "Slug da Página"
 
 #: wp-admin/edit-page-form.php:84
-#, fuzzy
 msgid "Page Image"
-msgstr "Imagem com link para página"
+msgstr "Imagem da página"
 
 #: wp-admin/edit-page-form.php:90
 msgid "Page Author"
@@ -1740,7 +1731,7 @@ msgstr "Revisões de Páginas"
 #: wp-admin/page.php:160
 #, fuzzy
 msgid "You are not allowed to move this page to the trash."
-msgstr "Sem permissão para mudar o autor da página como esse usuário."
+msgstr "Sem permissão para mover esta página para a lixeira."
 
 #: wp-admin/edit-pages.php:42
 #: wp-admin/edit.php:50
@@ -1749,12 +1740,12 @@ msgstr "Sem permissão para mudar o autor da página como esse usuário."
 #: wp-admin/upload.php:96
 #, fuzzy
 msgid "Error in moving to trash..."
-msgstr "Erro ao excluir..."
+msgstr "Erro ao mover para a lixeira..."
 
 #: wp-admin/edit-pages.php:52
 #, fuzzy
 msgid "You are not allowed to restore this page from the trash."
-msgstr "Sem permissão para excluir esta página."
+msgstr "Sem permissão para restaurar esta página da lixeira."
 
 #: wp-admin/edit-pages.php:55
 #: wp-admin/edit.php:63
@@ -1763,7 +1754,7 @@ msgstr "Sem permissão para excluir esta página."
 #: wp-admin/upload.php:106
 #, fuzzy
 msgid "Error in restoring from trash..."
-msgstr "Erro ao excluir..."
+msgstr "Erro ao restaurar da lixeira..."
 
 #: wp-admin/edit-pages.php:67
 #: wp-admin/page.php:192
@@ -1875,22 +1866,20 @@ msgstr[0] "Privada <span class=\"count\">(%s)</span>"
 msgstr[1] "Privadas <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:114
-#, fuzzy
 msgctxt "page"
 msgid "Trash"
-msgstr "Tags"
+msgstr "Lixeira"
 
 #: wp-admin/edit-pages.php:114
-#, fuzzy
 msgid "Trash pages"
-msgstr "Editar páginas"
+msgstr "Mover páginas para lixeira"
 
 #: wp-admin/edit-pages.php:114
 #, fuzzy, php-format
 msgctxt "page"
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
-msgstr[0] "Ativo <span class=\"count\">(%s)</span>"
+msgstr[0] "Lixo <span class=\"count\">(%s)</span>"
 msgstr[1] "Rascunhos</a> <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:125
@@ -2633,7 +2622,7 @@ msgstr "Usuários"
 #: wp-admin/import/dotclear.php:596
 #, fuzzy, php-format
 msgid "You have already setup WordPress and have been assigned an administrative login and password.  Forget it.  You didn&#8217;t have that login in DotClear, why should you have it here?  Instead we have taken care to import all of your users into our system.  Unfortunately there is one downside.  Because both WordPress and DotClear uses a strong encryption hash with passwords, it is impossible to decrypt it and we are forced to assign temporary passwords to all your users.  <strong>Every user has the same username, but their passwords are reset to password123.</strong>  So <a href=\"%1$s\">Log in</a> and change it."
-msgstr "Você já configurou o WordPress e obteve um nome de usuário e uma senha de administrador. Esqueça-os. Você não tinha esse login no DotClear, por que você teria aqui? Em vez disso, tomamos o cuidado de importar todos seus usuários para nosso sistema. Infelizmente, há um aspecto negativo. Devido ao WordPress e o DotClear utilizarem uma forte criptografia, é impossível removê-la e será necessário atribuir senhas temporárias a todos os usuários. <strong>Todos os usuários continuam com o mesmo nome, mas as senhas foram redefinidas como password123.</strong> Então, faça o <a href=\"%1$s\">Login</a> e altere isto."
+msgstr "Você já configurou o WordPress e obteve um nome de usuário e uma senha de administrador. Esqueça-os. Você não tinha esse login no DotClear, por que você teria aqui? Em vez disso, tomamos o cuidado de importar todos seus usuários para nosso sistema. Infelizmente, há um aspecto negativo. Devido ao WordPress e o DotClear utilizarem uma forte criptografia hash com senhas, é impossível removê-la e será necessário atribuir senhas temporárias a todos os usuários. <strong>Todos os usuários continuam com o mesmo nome, mas as senhas foram redefinidas como password123.</strong> Então, faça o <a href=\"%1$s\">Login</a> e altere isto."
 
 #: wp-admin/import/dotclear.php:597
 #: wp-admin/import/textpattern.php:577
@@ -2777,7 +2766,7 @@ msgstr "Número de identificação do ultimo artigo:"
 #: wp-admin/import/greymatter.php:66
 #, fuzzy
 msgid "This importer will search for files 00000001.cgi to 000-whatever.cgi,<br />so you need to enter the number of the last GM post here.<br />(if you don&#8217;t know that number, just log in to your FTP and look it out<br />in the entries&#8217; folder)"
-msgstr "Este importador irá pesquisar por arquivos 00000001.cgi a 000-qualquer_coisa.cgi,<br />portanto, você precisa digitar o número do último artigo do GM aqui.<br />(se não souber qual é o número, faça o login em seu FTP e consulte a pasta de artigos)"
+msgstr "Este importador irá pesquisar arquivos 00000001.cgi a 000-qualquer_coisa.cgi,<br />portanto, você precisa digitar o número do último post do GM aqui.<br />(Se não souber qual é o número, faça o login em seu FTP e consulte<br />na pasta de entradas)"
 
 #: wp-admin/import/greymatter.php:69
 msgid "Start Importing"
@@ -3132,7 +3121,7 @@ msgstr "Importar de Movable Type ou TypePad"
 #: wp-admin/import/mt.php:39
 #, fuzzy
 msgid "Howdy! We&#8217;re about to begin importing all of your Movable Type or TypePad entries into WordPress. To begin, either choose a file to upload and click &#8220;Upload file and import&#8221;, or use FTP to upload your MT export file as <code>mt-export.txt</code> in your <code>/wp-content/</code> directory and then click \"Import mt-export.txt\""
-msgstr "Olá! Estamos prestes a começar a importação de todos seus artigos do Movable Type ou Typepad para o WordPress. Para começar, escolha o arquivo para fazer o envio e clique em &#8220;Fazer envio de arquivo e importar&#8221;, ou envie via FTP colocando o arquivo de exportação do MT como <code>mt-export.txt</code> na pasta <code>/wp-content/</code> e clique em \"Importar mt-export.txt.\""
+msgstr "Olá! Estamos prestes a começar a importação de todas as suas entradas do Movable Type ou Typepad para o WordPress. Para começar, escolha um arquivo para enviar e clique em &#8220;Fazer upload de arquivo e importar&#8221; ou use o FTP para enviar o arquivo exportado pelo MT <code>mt-export.txt</code> para a pasta <code>/wp-content/</code> e clique em \"Importar mt-export.txt\""
 
 #: wp-admin/import/mt.php:47
 msgid "Or use <code>mt-export.txt</code> in your <code>/wp-content/</code> directory"
@@ -3216,7 +3205,7 @@ msgstr "Mover Type e TypePad"
 #: wp-admin/import/mt.php:489
 #, fuzzy
 msgid "Import posts and comments from a Movable Type or TypePad blog."
-msgstr "Importar artigos e comentários de um blog Movable Type ou Typepad."
+msgstr "Importar posts e comentários de um blog Movable Type ou Typepad."
 
 #: wp-admin/import/opml.php:14
 msgid "Import Blogroll"
@@ -3416,7 +3405,7 @@ msgstr "Bem-vindo ao WordPress. Nós torcemos (e esperamos!) que você ache esta
 #: wp-admin/import/textpattern.php:576
 #, fuzzy, php-format
 msgid "You have already setup WordPress and have been assigned an administrative login and password.  Forget it.  You didn&#8217;t have that login in Textpattern, why should you have it here?  Instead we have taken care to import all of your users into our system.  Unfortunately there is one downside.  Because both WordPress and Textpattern uses a strong encryption hash with passwords, it is impossible to decrypt it and we are forced to assign temporary passwords to all your users.  <strong>Every user has the same username, but their passwords are reset to password123.</strong>  So <a href=\"%1$s\">log in</a> and change it."
-msgstr "Você já configurou o WordPress e obteve um nome de usuário e uma senha de administrador. Esqueça-os. Você não tinha esse login no Textpattern, porque você teria aqui? Em vez disso, tomamos o cuidado de importar todos seus usuários para nosso sistema. Infelizmente, há um aspecto negativo. Devido ao WordPress e o Textpattern utilizarem uma forte criptografia, é impossível removê-la e será necessário atribuir senhas temporárias a todos os usuários. <strong>Todos os usuários continuam com o mesmo nome, mas as senhas foram redefinidas como password123.</strong> Então, faça o <a href=\"%1$s\">Login</a> e altere isto."
+msgstr "Você já configurou o WordPress e obteve um nome de usuário e uma senha de administrador. Esqueça-os. Você não tinha esse login no Textpattern, porque você teria aqui? Em vez disso, tomamos o cuidado de importar todos seus usuários para nosso sistema. Infelizmente, há um aspecto negativo. Devido ao WordPress e o Textpattern utilizarem uma forte criptografia hash com senhas, é impossível removê-la e será necessário atribuir senhas temporárias a todos os usuários. <strong>Todos os usuários continuam com o mesmo nome, mas as senhas foram redefinidas como password123.</strong> Então, faça o <a href=\"%1$s\">Login</a> e altere isto."
 
 #: wp-admin/import/textpattern.php:580
 msgid "Also, since you&#8217;re coming from Textpattern, you probably have been using Textile to format your comments and posts.  If this is the case, we recommend downloading and installing <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile for WordPress</a>.  Trust me... You&#8217;ll want it."
@@ -3995,7 +3984,7 @@ msgstr "Plugin instalado com sucesso."
 #: wp-admin/includes/class-wp-upgrader.php:471
 #, fuzzy, php-format
 msgid "Updating plugin %1$d of %2$d..."
-msgstr "<b>Detalhes do Plugin</b>"
+msgstr "Atualizando o plugin %1$d de %2$d..."
 
 #: wp-admin/includes/class-wp-upgrader.php:593
 msgid "The theme is at the latest version."
@@ -6306,12 +6295,12 @@ msgstr[1] "Tema <span class=\"b\">%1$s</span> com <span class=\"b\">%2$s Widgets
 #: wp-admin/includes/dashboard.php:343
 #, fuzzy, php-format
 msgid "Theme <span class=\"b\"><a href=\"themes.php\">%1$s</a></span>"
-msgstr "Tema <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> com <span class=\"b\"><a href=\"widgets.php\">%2$s Widget</a></span>"
+msgstr "Tema <span class=\"b\"><a href=\"themes.php\">%1$s</a></span>"
 
 #: wp-admin/includes/dashboard.php:345
 #, fuzzy, php-format
 msgid "Theme <span class=\"b\">%1$s</span>"
-msgstr "Tema <span class=\"b\">%1$s</span> com <span class=\"b\">%2$s Widget</span>"
+msgstr "Tema <span class=\"b\">%1$s</span>"
 
 #: wp-admin/includes/dashboard.php:364
 #, php-format
