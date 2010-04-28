@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WordPress 2.9.2\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-01-19 13:12+0000\n"
-"PO-Revision-Date: 2010-04-27 13:23-0300\n"
+"PO-Revision-Date: 2010-04-27 14:45-0300\n"
 "Last-Translator: Gabriel Mazetto <brodock@gmail.com>\n"
 "Language-Team: NPD-UFSC <gabriel@npd.ufsc.br>\n"
 "MIME-Version: 1.0\n"
@@ -10718,9 +10718,8 @@ msgid "You should update your web.config now"
 msgstr "Você deve atualizar o seu web.config agora"
 
 #: wp-admin/options-permalink.php:142
-#, fuzzy
 msgid "Permalink structure updated. Remove write access on web.config file now!"
-msgstr "A estrutura de permalinks foi atualizada. Remova a permissão de gravação do arquivo web.config agora!"
+msgstr "A estrutura de links permanentes foi atualizada. Remova a permissão de gravação do arquivo web.config agora!"
 
 #: wp-admin/options-permalink.php:144
 #, fuzzy
@@ -17690,7 +17689,7 @@ msgstr "Domínio do Site:"
 
 #: wp-signup.php:74
 msgid "Your address will be "
-msgstr "Seu endereço será"
+msgstr "Seu endereço será "
 
 #: wp-signup.php:76
 msgid "blogname"
@@ -17771,7 +17770,7 @@ msgstr "Obtenha sua própria conta em %s em segundos"
 
 #: wp-signup.php:255
 msgid "Gimme a blog!"
-msgstr "Dê-me um blog!"
+msgstr "Eu quero um site também!"
 
 #: wp-signup.php:258
 msgid "Just a username, please."
