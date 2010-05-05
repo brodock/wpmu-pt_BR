@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WordPress 2.9.2\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-01-19 13:12+0000\n"
-"PO-Revision-Date: 2010-04-27 14:45-0300\n"
+"PO-Revision-Date: 2010-05-05 12:51-0300\n"
 "Last-Translator: Gabriel Mazetto <brodock@gmail.com>\n"
 "Language-Team: NPD-UFSC <gabriel@npd.ufsc.br>\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr "<p class=\"lead-in\">Sua conta foi ativada. Agora você pode fazer <a hr
 #: wp-activate.php:58
 #, php-format
 msgid "<p class=\"lead-in\">Your blog at <a href=\"%1$s\">%2$s</a> is active. You may now login to your blog using your chosen username of \"%3$s\".  Please check your email inbox at %4$s for your password and login instructions.  If you do not receive an email, please check your junk or spam folder.  If you still do not receive an email within an hour, you can <a href=\"%5$s\">reset your password</a>.</p>"
-msgstr "<p class=\"lead-in\">Seu blog em <a href=\"%1$s\">%2$s</a>foi ativado. Agora você pode fazer o login no seu blog usando o nome de usuário escolhido \"%3$s\".  Por favor, confira seu email em %4$s para receber sua senha e instruções de login. Caso não tenha recebido um email, confira suas pastas de lixo eletrônico e spam. Se mesmo assim você não receber um email dentro de uma hora, você pode <a href=\"%5$s\">redefinir sua senha</a>.</p>"
+msgstr "<p class=\"lead-in\">Seu site em <a href=\"%1$s\">%2$s</a>foi ativado. Agora você pode fazer o login no seu site usando o nome de usuário escolhido \"%3$s\".  Por favor, confira seu email em %4$s para receber sua senha e instruções de login. Caso não tenha recebido um email, confira suas pastas de lixo eletrônico e spam. Se mesmo assim você não receber um email dentro de uma hora, você pode <a href=\"%5$s\">redefinir sua senha</a>.</p>"
 
 #: wp-activate.php:62
 msgid "An error occurred during the activation"
@@ -859,7 +859,7 @@ msgstr "Enviar nova imagem de cabeçalho"
 
 #: wp-admin/custom-header.php:296
 msgid "Here you can upload a custom header image to be shown at the top of your blog instead of the default one. On the next screen you will be able to crop the image."
-msgstr "Aqui você pode enviar uma imagem de cabeçalho personalizada para exibi-la na parte superior do blog no lugar da imagem padrão. Na próxima tela, você poderá recortar a imagem."
+msgstr "Aqui você pode enviar uma imagem de cabeçalho personalizada para exibi-la na parte superior do site no lugar da imagem padrão. Na próxima tela, você poderá recortar a imagem."
 
 #: wp-admin/custom-header.php:297
 #, php-format
@@ -1562,7 +1562,7 @@ msgstr "Descrição (opcional)"
 
 #: wp-admin/edit-link-category-form.php:14
 msgid "You do not have sufficient permissions to edit link categories for this blog."
-msgstr "Sem permissões suficientes para editar categorias de links deste blog."
+msgstr "Sem permissões suficientes para editar categorias de links deste site."
 
 #: wp-admin/edit-link-category-form.php:26
 msgid "Edit Link Category"
@@ -1650,7 +1650,7 @@ msgstr "Nome"
 
 #: wp-admin/edit-link-form.php:75
 msgid "Example: Nifty blogging software"
-msgstr "Por exemplo: Magnífico software para blog"
+msgstr "Por exemplo: Magnífico software para site"
 
 #: wp-admin/edit-link-form.php:80
 msgid "Web Address"
@@ -2197,7 +2197,7 @@ msgstr "Este formato, ao qual chamamos WordPress eXtended RSS ou WXR, irá conte
 
 #: wp-admin/export.php:34
 msgid "Once you&#8217;ve saved the download file, you can use the Import function on another WordPress blog to import this blog."
-msgstr "Depois de salvar o arquivo de exportação, você pode utilizar a função de Importação em outro blog WordPress para importar este blog."
+msgstr "Depois de salvar o arquivo de exportação, você pode utilizar a função de Importação em outro site WordPress para importar este site."
 
 #: wp-admin/export.php:36
 #: wp-admin/includes/mu.php:561
@@ -2223,7 +2223,7 @@ msgstr "Sem permissões suficientes para importar conteúdo deste site."
 
 #: wp-admin/import.php:23
 msgid "If you have posts or comments in another system, WordPress can import those into this blog. To get started, choose a system to import from below:"
-msgstr "Se você tiver artigos ou comentários em outro sistema, o WordPress pode importá-los para este blog. Para começar, escolha abaixo o sistema a partir do qual pretende importar:"
+msgstr "Se você tiver artigos ou comentários em outro sistema, o WordPress pode importá-los para este site. Para começar, escolha abaixo o sistema a partir do qual pretende importar:"
 
 #: wp-admin/import.php:45
 msgid "No importers are available."
@@ -2235,7 +2235,7 @@ msgstr "Importar do Blogger"
 
 #: wp-admin/import/blogger.php:51
 msgid "Howdy! This importer allows you to import posts and comments from your Blogger account into your WordPress blog."
-msgstr "Olá! Este importador permite que você importe artigos e comentários de sua conta do Blogger para seu blog do WordPress."
+msgstr "Olá! Este importador permite que você importe artigos e comentários de sua conta do Blogger para seu site do WordPress."
 
 #: wp-admin/import/blogger.php:52
 msgid "To use this importer, you must have a Google account and an upgraded (New, was Beta) blog hosted on blogspot.com or a custom domain (not FTP)."
@@ -2299,7 +2299,7 @@ msgstr "Passo final: Mapeamento de autor"
 
 #: wp-admin/import/blogger.php:199
 msgid "Nothing was imported. Had you already imported this blog?"
-msgstr "Nada foi importado. Você já tinha importado este blog?"
+msgstr "Nada foi importado. Você já tinha importado este site?"
 
 #: wp-admin/import/blogger.php:201
 msgid "Blogger Blogs"
@@ -2307,7 +2307,7 @@ msgstr "Blogs do Blogger"
 
 #: wp-admin/import/blogger.php:202
 msgid "Blog Name"
-msgstr "Nome do Blog"
+msgstr "Nome do blog"
 
 #: wp-admin/import/blogger.php:203
 #: xmlrpc.php:395
@@ -7640,7 +7640,6 @@ msgid "Allow <a href=\"%s\" target=\"_blank\">trackbacks and pingbacks</a> on th
 msgstr "Permitir <a href=\"%s\" target=\"_blank\">trackbacks e  pingbacks</a> nesta página."
 
 #: wp-admin/includes/meta-boxes.php:379
-#, fuzzy
 msgctxt "Url to codex article on Managing Comments"
 msgid "http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments"
 msgstr "http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments"
@@ -7956,7 +7955,7 @@ msgstr ""
 "Caro usuário,\n"
 "\n"
 "Recentemente você requisitou a mudança do endereço de email administrativo em \n"
-"seu blog.\n"
+"seu site.\n"
 "\n"
 "Se isso estiver correto, clique no link a seguir para mudá-lo:\n"
 "###ADMIN_URL###\n"
@@ -8073,9 +8072,8 @@ msgid "Sorry, you must delete files before you can upload any more."
 msgstr "Desculpe, você precisa deletar alguns arquivos antes de poder fazer mais algum envio."
 
 #: wp-admin/includes/mu.php:517
-#, fuzzy
 msgid "You don&#8217;t have permission to view this blog. Please contact the system administrator."
-msgstr "Sem permissão para ver este blog. Contate o administrador do sistema."
+msgstr "Sem permissão para ver este site. Contate o administrador do sistema."
 
 #: wp-admin/includes/mu.php:547
 #: wp-admin/menu.php:309
@@ -8268,7 +8266,7 @@ msgstr "Sem permissão para estar aqui"
 
 #: wp-admin/includes/mu.php:1179
 msgid "You must be a member of at least one blog to use this page."
-msgstr "Você deve ser membro de pelo menos um blog para usar esta página."
+msgstr "Você deve ser membro de pelo menos um site para usar esta página."
 
 #: wp-admin/includes/mu.php:1183
 #: wp-admin/includes/mu.php:1243
@@ -8277,7 +8275,7 @@ msgstr "Meus Sites"
 
 #: wp-admin/includes/mu.php:1187
 msgid "Your blog options have been updated."
-msgstr "Suas opções do blog foram atualizadas."
+msgstr "Suas opções do site foram atualizadas."
 
 #: wp-admin/includes/mu.php:1197
 msgid "Global Settings"
@@ -8585,11 +8583,11 @@ msgstr "Sem permissão para editar artigos. "
 
 #: wp-admin/includes/post.php:450
 msgid "You are not allowed to create pages on this blog."
-msgstr "Sem permissão para criar páginas nesse blog."
+msgstr "Sem permissão para criar páginas nesse site."
 
 #: wp-admin/includes/post.php:453
 msgid "You are not allowed to create posts or drafts on this blog."
-msgstr "Sem permissão para criar artigos ou rascunhos nesse blog."
+msgstr "Sem permissão para criar artigos ou rascunhos nesse site."
 
 #: wp-admin/includes/post.php:819
 msgctxt "post"
@@ -8783,12 +8781,12 @@ msgstr "Pré-visualização indisponível. Salve um rascunho antes."
 
 #: wp-admin/includes/schema.php:280
 msgid "My Blog"
-msgstr "Meu blog"
+msgstr "Meu site"
 
 #: wp-admin/includes/schema.php:281
 #, php-format
 msgid "Just another %s weblog"
-msgstr "Só mais um blog %s"
+msgstr "Só mais um site %s"
 
 #. translators: default date format, see http://php.net/date
 #: wp-admin/includes/schema.php:302
@@ -9831,7 +9829,7 @@ msgid ""
 "--The WordPress Team\n"
 "http://wordpress.org/\n"
 msgstr ""
-"O seu novo blog WordPress foi instalado com sucesso em:\n"
+"O seu novo site WordPress foi instalado com sucesso em:\n"
 "\n"
 "%1$s\n"
 "\n"
@@ -9847,7 +9845,7 @@ msgstr ""
 
 #: wp-admin/includes/upgrade.php:244
 msgid "New WordPress Blog"
-msgstr "Novo blog WordPress"
+msgstr "Novo site WordPress"
 
 #: wp-admin/includes/user.php:34
 #: wp-admin/includes/user.php:86
@@ -10029,9 +10027,8 @@ msgid "Log In"
 msgstr "Entrar"
 
 #: wp-admin/link-add.php:13
-#, fuzzy
 msgid "You do not have sufficient permissions to add links to this blog."
-msgstr "Sem permissões suficientes para adicionar links neste blog."
+msgstr "Sem permissões suficientes para adicionar links neste site."
 
 #: wp-admin/link-add.php:15
 msgid "Add New Link"
@@ -10041,7 +10038,7 @@ msgstr "Adicionar novo link"
 #: wp-admin/link-manager.php:49
 #: wp-admin/link.php:18
 msgid "You do not have sufficient permissions to edit the links for this blog."
-msgstr "Sem permissões suficientes para editar os links deste blog."
+msgstr "Sem permissões suficientes para editar os links deste site."
 
 #: wp-admin/link-manager.php:84
 #, php-format
@@ -10435,7 +10432,7 @@ msgstr "Avatares"
 
 #: wp-admin/options-discussion.php:154
 msgid "An avatar is an image that follows you from weblog to weblog appearing beside your name when you comment on avatar enabled sites.  Here you can enable the display of avatars for people who comment on your blog."
-msgstr "Um avatar é uma imagem que segue você de blog em blog aparecendo ao lado do seu nome quando você comenta em sites com avatares habilitados. Aqui você pode habilitar a exibição de avatares para pessoas que comentam em seu blog."
+msgstr "Um avatar é uma imagem que segue você de site em site aparecendo ao lado do seu nome quando você comenta em sites com avatares habilitados. Aqui você pode habilitar a exibição de avatares para pessoas que comentam em seu site."
 
 #: wp-admin/options-discussion.php:160
 msgid "Avatar Display"
@@ -10858,7 +10855,7 @@ msgstr "<strong>Atenção:</strong> estas páginas não deverão ser a mesma!"
 
 #: wp-admin/options-reading.php:58
 msgid "Blog pages show at most"
-msgstr "As páginas do blog mostram no máximo"
+msgstr "As páginas do site mostram no máximo"
 
 #: wp-admin/options-reading.php:60
 #: wp-admin/options-reading.php:65
@@ -10888,9 +10885,8 @@ msgid "Encoding for pages and feeds"
 msgstr "Codificação para páginas e feeds"
 
 #: wp-admin/options-reading.php:78
-#, fuzzy
 msgid "The <a href=\"http://codex.wordpress.org/Glossary#Character_set\">character encoding</a> of your blog (UTF-8 is recommended, if you are adventurous there are some <a href=\"http://en.wikipedia.org/wiki/Character_set\">other encodings</a>)"
-msgstr "A <a href=\"http://codex.wordpress.org/Glossary#Character_set\">codificação de caracteres</a> de seu blog (UTF-8 é a recomendada, se você for corajoso há algumas <a href=\"http://en.wikipedia.org/wiki/Character_set\">outras codificações</a>)"
+msgstr "A <a href=\"http://codex.wordpress.org/Glossary#Character_set\">codificação de caracteres</a> de seu site (UTF-8 é a recomendada, se você for corajoso há algumas <a href=\"http://en.wikipedia.org/wiki/Character_set\">outras codificações</a>)"
 
 #: wp-admin/options-writing.php:15
 msgid "Writing Settings"
@@ -11018,7 +11014,7 @@ msgstr "Sem permissão para remover esta página da lixeira."
 
 #: wp-admin/plugin-editor.php:13
 msgid "You do not have sufficient permissions to edit plugins for this blog."
-msgstr "Sem permissões suficientes para editar plugins deste blog."
+msgstr "Sem permissões suficientes para editar plugins deste site."
 
 #: wp-admin/plugin-editor.php:15
 msgid "Edit Plugins"
@@ -11105,7 +11101,7 @@ msgstr "Você precisa tornar este arquivo gravável para poder salvar suas alter
 
 #: wp-admin/plugin-install.php:13
 msgid "You do not have sufficient permissions to install plugins on this blog."
-msgstr "Sem permissões suficientes para instalar plugins nesse blog."
+msgstr "Sem permissões suficientes para instalar plugins nesse site."
 
 #: wp-admin/plugin-install.php:28
 msgctxt "Plugin Installer"
@@ -11134,19 +11130,17 @@ msgstr "Sem permissões suficientes para gerenciar plugins neste site."
 #: wp-admin/plugins.php:51
 #: wp-admin/plugins.php:70
 #: wp-admin/plugins.php:98
-#, fuzzy
 msgid "You do not have sufficient permissions to activate plugins for this blog."
-msgstr "Sem permissões suficientes para ativar plugins neste blog."
+msgstr "Sem permissões suficientes para ativar plugins neste site."
 
 #: wp-admin/plugins.php:118
 #: wp-admin/plugins.php:128
-#, fuzzy
 msgid "You do not have sufficient permissions to deactivate plugins for this blog."
-msgstr "Sem permissões suficientes para desativar plugins neste blog."
+msgstr "Sem permissões suficientes para desativar plugins neste site."
 
 #: wp-admin/plugins.php:151
 msgid "You do not have sufficient permissions to delete plugins for this blog."
-msgstr "Sem permissões suficientes para excluir plugins neste blog."
+msgstr "Sem permissões suficientes para excluir plugins neste site."
 
 #: wp-admin/plugins.php:172
 msgid "Delete Plugin(s)"
@@ -11460,7 +11454,7 @@ msgstr "Salvar como rascunho"
 
 #: wp-admin/theme-editor.php:13
 msgid "You do not have sufficient permissions to edit templates for this blog."
-msgstr "Sem permissões suficientes para editar os modelos deste blog."
+msgstr "Sem permissões suficientes para editar os modelos deste site."
 
 #: wp-admin/theme-editor.php:15
 msgid "Edit Themes"
@@ -11740,7 +11734,7 @@ msgstr "O Publique Isso é um bookmarklet: um pequeno sistema que roda em seu na
 
 #: wp-admin/tools.php:85
 msgid "Use Press This to clip text, images and videos from any web page. Then edit and add more straight from Press This before you save or publish it in a post on your blog."
-msgstr "Use o Publique isso para recortar texto, imagens e vídeos de qualquer página da web. Depois edite e adicione mais coisas com o Publique Isso antes de salvar ou publicá-los em um artigo no seu blog."
+msgstr "Use o Publique isso para recortar texto, imagens e vídeos de qualquer página da web. Depois edite e adicione mais coisas com o Publique Isso antes de salvar ou publicá-los em um artigo no seu site."
 
 #: wp-admin/tools.php:86
 msgid "Drag-and-drop the following link to your bookmarks bar or right click it and add it to your favorites for a posting shortcut."
@@ -11750,7 +11744,7 @@ msgstr "Arraste e solte o link abaixo para sua barra de favoritos ou clique com 
 #: wp-admin/update.php:21
 #: wp-admin/update.php:40
 msgid "You do not have sufficient permissions to update plugins for this blog."
-msgstr "Sem permissões suficientes para atualizar plugins neste blog."
+msgstr "Sem permissões suficientes para atualizar plugins neste site."
 
 #: wp-admin/update-core.php:22
 msgid "Upgrade Automatically"
@@ -11908,9 +11902,8 @@ msgstr "Falha ao reativar plugin devido a erro fatal."
 
 #: wp-admin/update.php:68
 #: wp-admin/update.php:96
-#, fuzzy
 msgid "You do not have sufficient permissions to install plugins for this blog."
-msgstr "Sem permissões suficientes para instalar plugins neste blog."
+msgstr "Sem permissões suficientes para instalar plugins neste site."
 
 #: wp-admin/update.php:83
 #, php-format
@@ -11928,15 +11921,13 @@ msgid "Installing Plugin from uploaded file: %s"
 msgstr "Instalando plugin do arquivo enviado: %s"
 
 #: wp-admin/update.php:120
-#, fuzzy
 msgid "You do not have sufficient permissions to update themes for this blog."
-msgstr "Sem permissões suficientes para atualizar temas neste blog."
+msgstr "Sem permissões suficientes para atualizar temas neste site."
 
 #: wp-admin/update.php:142
 #: wp-admin/update.php:172
-#, fuzzy
 msgid "You do not have sufficient permissions to install themes for this blog."
-msgstr "Sem permissões suficientes para instalar temas neste blog."
+msgstr "Sem permissões suficientes para instalar temas neste site."
 
 #: wp-admin/update.php:159
 #, fuzzy, php-format
@@ -12306,7 +12297,7 @@ msgstr "Convite enviado para o novo usuário. Um link de confirmação deverá s
 
 #: wp-admin/user-new.php:104
 msgid "Invitation email sent to user. A confirmation link must be clicked for them to be added to your blog."
-msgstr "Convite enviado para o usuário. Um link de confirmação deverá ser clicado para que ele seja adicionado ao seu blog."
+msgstr "Convite enviado para o usuário. Um link de confirmação deverá ser clicado para que ele seja adicionado ao seu site."
 
 #: wp-admin/user-new.php:107
 msgid "User has been added to your blog."
@@ -12314,11 +12305,11 @@ msgstr "Usuário adicionado ao site."
 
 #: wp-admin/user-new.php:110
 msgid "That user is already a member of this blog."
-msgstr "Esse usuário já é um membro desse blog."
+msgstr "Esse usuário já é um membro desse site."
 
 #: wp-admin/user-new.php:146
 msgid "You can add new users to your blog in two ways:"
-msgstr "Você pode adicionar novos usuários no seu blog de duas maneiras:"
+msgstr "Você pode adicionar novos usuários no seu site de duas maneiras:"
 
 #: wp-admin/user-new.php:146
 msgid "Enter the username and email address of an existing user on this site."
@@ -12756,9 +12747,8 @@ msgid "User&nbsp;Login:"
 msgstr "Login do usuário:"
 
 #: wp-admin/wpmu-blogs.php:290
-#, fuzzy
 msgid "Misc Blog Actions"
-msgstr "Ações diversas do blog"
+msgstr "Ações diversas do site"
 
 #: wp-admin/wpmu-blogs.php:372
 msgid "Search blogs by name"
@@ -12812,7 +12802,7 @@ msgstr "Mais"
 
 #: wp-admin/wpmu-blogs.php:564
 msgid "No blogs found."
-msgstr "Nenhum blog encontrado."
+msgstr "Nenhum site encontrado."
 
 #: wp-admin/wpmu-blogs.php:577
 #: wp-admin/wpmu-blogs.php:606
@@ -12850,22 +12840,20 @@ msgid "You probably need to go back to the <a href='wpmu-options.php'>options pa
 msgstr "Você provavelmente precisa voltar para a <a href='wpmu-options.php'>página de opções</a>"
 
 #: wp-admin/wpmu-edit.php:69
-#, fuzzy
 msgid "Dashboard blog_id must be a blog that already exists"
-msgstr "A blog_id do painel deve ser de um blog existente."
+msgstr "A blog_id do painel deve ser de um site existente."
 
 #: wp-admin/wpmu-edit.php:78
 msgid "My Dashboard"
 msgstr "Painel"
 
 #: wp-admin/wpmu-edit.php:85
-#, fuzzy
 msgid "Problem creating dashboard blog: "
-msgstr "erro: problema ao criar entrada no blog"
+msgstr "Problema ao criar o painel global: "
 
 #: wp-admin/wpmu-edit.php:141
 msgid "Missing blog address or email address."
-msgstr "Faltando endereço do blog ou endereço de email."
+msgstr "Faltando endereço do site ou endereço de email."
 
 #: wp-admin/wpmu-edit.php:143
 msgid "Invalid email address"
@@ -12883,7 +12871,7 @@ msgid ""
 "Address: http://%2s\n"
 "Name: %3s"
 msgstr ""
-"Novo blog criado por %1s\n"
+"Novo site criado por %1s\n"
 "\n"
 "Endereço: http://%2s\n"
 "Nome: %3s"
@@ -12891,47 +12879,47 @@ msgstr ""
 #: wp-admin/wpmu-edit.php:173
 #, php-format
 msgid "[%s] New Blog Created"
-msgstr "[%s] Novo blog criado"
+msgstr "[%s] Novo site criado"
 
 #: wp-admin/wpmu-edit.php:185
 msgid "You probably need to go back to the <a href=\"wpmu-blogs.php\">blogs page</a>"
 msgstr "Você provavelmente precisa voltar para a <a href=\"wpmu-blogs.php\">página de blogs</a>"
 
 #: wp-admin/wpmu-edit.php:414
-#, fuzzy, php-format
+#, php-format
 msgid "You are about to activate the blog %s"
-msgstr "Você está prestes a ativar o blog %s"
+msgstr "Você está prestes a ativar o site %s"
 
 #: wp-admin/wpmu-edit.php:415
-#, fuzzy, php-format
+#, php-format
 msgid "You are about to deactivate the blog %s"
-msgstr "Você está prestes a desativar o blog %s"
+msgstr "Você está prestes a desativar o site %s"
 
 #: wp-admin/wpmu-edit.php:416
-#, fuzzy, php-format
+#, php-format
 msgid "You are about to unarchive the blog %s"
-msgstr "Você está prestes a desarquivar o blog %s"
+msgstr "Você está prestes a desarquivar o site %s"
 
 #: wp-admin/wpmu-edit.php:417
-#, fuzzy, php-format
+#, php-format
 msgid "You are about to archive the blog %s"
-msgstr "Você está prestes a arquivar o blog %s"
+msgstr "Você está prestes a arquivar o site %s"
 
 #: wp-admin/wpmu-edit.php:418
-#, fuzzy, php-format
+#, php-format
 msgid "You are about to unspam the blog %s"
-msgstr "Você está prestes a desmarcar como spam o blog %s"
+msgstr "Você está prestes a desmarcar como spam o site %s"
 
 #  Não tem porque colocar spam em caixa alta. Além disso,
 #: wp-admin/wpmu-edit.php:419
-#, fuzzy, php-format
+#, php-format
 msgid "You are about to mark the blog %s as spam"
-msgstr "Você está prestes a assinalar o blog %s como spam"
+msgstr "Você está prestes a marcar o site %s como spam"
 
 #: wp-admin/wpmu-edit.php:420
-#, fuzzy, php-format
+#, php-format
 msgid "You are about to delete the blog %s"
-msgstr "Você está prestes a excluir o blog %s"
+msgstr "Você está prestes a excluir o site %s"
 
 #: wp-admin/wpmu-edit.php:427
 msgid "WordPress MU &rsaquo; Confirm your action"
@@ -13034,7 +13022,7 @@ msgstr "Desabilitar ou habilitar o registro e quem pode ser registrado. (Padrão
 
 #: wp-admin/wpmu-options.php:56
 msgid "If registration is disabled, please set \"NOBLOGREDIRECT\" in wp-config.php to a url you will redirect visitors to if they visit a non existant blog."
-msgstr "Se o registro estiver desativado, configure \"NOBLOGREDIRECT\" em wp-config.php com um url para a qual você redirecionará os visitantes se eles abrirem um blog inexistente."
+msgstr "Se o registro estiver desativado, configure \"NOBLOGREDIRECT\" em wp-config.php com um url para a qual você redirecionará os visitantes se eles abrirem um site inexistente."
 
 #: wp-admin/wpmu-options.php:62
 msgid "Registration notification"
@@ -13166,9 +13154,8 @@ msgid "The media upload buttons to display on the \"Write Post\" page. Make sure
 msgstr "Os botões de upload de mídia a serem exibidos na página \"Escrever Post\". Certifique-se de ter atualizado os \" Tipos de Arquivos para Upload\" abaixo também."
 
 #: wp-admin/wpmu-options.php:207
-#, fuzzy
 msgid "Blog upload space check"
-msgstr "Cota de upload do Blog"
+msgstr "Cota de upload do site"
 
 #: wp-admin/wpmu-options.php:209
 #: wp-admin/wpmu-options.php:275
@@ -13327,9 +13314,8 @@ msgid "Mark as Spammers"
 msgstr "Marcar como Spammers"
 
 #: wp-admin/wpmu-users.php:125
-#, fuzzy
 msgid "Search Blogs for"
-msgstr "Pesquisar blogs por:"
+msgstr "Pesquisar sites por:"
 
 #: wp-admin/wpmu-users.php:208
 msgid "Y-m-d \\<\\b\\r \\/\\> g:i a"
@@ -13352,12 +13338,12 @@ msgstr "Usuário e senha serão enviados por Email para o endereço de Email aci
 #: wp-app.php:293
 #, php-format
 msgid "AtomPub services are disabled on this blog.  An admin user can enable them at %s"
-msgstr "Os serviços do AtomPub estão desabilitados nesse blog. Um usuário administrador pode habilitá-los em %s"
+msgstr "Os serviços do AtomPub estão desabilitados nesse site. Um usuário administrador pode habilitá-los em %s"
 
 #: wp-app.php:331
 #: wp-app.php:372
 msgid "Sorry, you do not have the right to access this blog."
-msgstr "Você não tem permissão para acessar esse blog"
+msgstr "Você não tem permissão para acessar esse site"
 
 #: wp-app.php:427
 msgid "Sorry, you do not have the right to edit/publish new posts."
@@ -14045,7 +14031,7 @@ msgstr "Mostrar classificação do Link"
 
 #: wp-includes/default-widgets.php:175
 msgid "A search form for your blog"
-msgstr "Um formulário de pesquisa para o seu blog"
+msgstr "Um formulário de pesquisa para o seu site"
 
 #: wp-includes/default-widgets.php:218
 msgid "A monthly archive of your blog&#8217;s posts"
@@ -14121,7 +14107,7 @@ msgstr "Mostrar hierarquia"
 
 #: wp-includes/default-widgets.php:514
 msgid "The most recent posts on your blog"
-msgstr "Os artigos mais recentes do seu blog"
+msgstr "Os artigos mais recentes do seu site"
 
 #: wp-includes/default-widgets.php:515
 #: wp-includes/default-widgets.php:537
@@ -14311,9 +14297,8 @@ msgid "ERROR: %s is not a valid feed template"
 msgstr "ERRO: %s não é um modelo de feed válido"
 
 #: wp-includes/functions.php:1781
-#, fuzzy
 msgid "One or more database tables are unavailable.  The database may need to be <a href=\"maint/repair.php?referrer=is_blog_installed\">repaired</a>."
-msgstr "Uma ou mais tabelas do banco de dados não estão disponíveis. O banco de dados pode precisar <a href=\"maint/repair.php?referrer=is_blog_installed\">reparo</a>."
+msgstr "Uma ou mais tabelas do banco de dados não estão disponíveis. O banco de dados pode precisar de <a href=\"maint/repair.php?referrer=is_blog_installed\">reparos</a>."
 
 #: wp-includes/functions.php:2090
 #: wp-includes/functions.php:2206
@@ -16583,7 +16568,7 @@ msgstr "[%s] Senha perdida/alterada"
 #: wp-includes/pluggable.php:1172
 #, php-format
 msgid "New user registration on your blog %s:"
-msgstr "Registro de novo usuário no seu blog %s:"
+msgstr "Registro de novo usuário no seu site %s:"
 
 #: wp-includes/pluggable.php:1173
 #: wp-includes/pluggable.php:1181
@@ -17045,11 +17030,11 @@ msgstr "O usuário não existe."
 
 #: wp-includes/wpmu-functions.php:778
 msgid "error: Blog URL already taken."
-msgstr "erro: a URL do blog já está sendo usada."
+msgstr "erro: a URL do site já está sendo usada."
 
 #: wp-includes/wpmu-functions.php:785
 msgid "error: problem creating blog entry"
-msgstr "erro: problema ao criar entrada no blog"
+msgstr "erro: problema ao criar publicação no site"
 
 #: wp-includes/wpmu-functions.php:936
 msgid "Please enter a username"
@@ -17122,7 +17107,7 @@ msgstr "Este nome não é permitido"
 
 #: wp-includes/wpmu-functions.php:1050
 msgid "Blog name must be at least 4 characters"
-msgstr "O nome do blog deve conter pelo menos 4 caracteres"
+msgstr "O nome do site deve conter pelo menos 4 caracteres"
 
 #: wp-includes/wpmu-functions.php:1054
 msgid "Sorry, blog names may not contain the character '_'!"
@@ -17150,7 +17135,7 @@ msgstr "Desculpe, este site está reservado!"
 
 #: wp-includes/wpmu-functions.php:1098
 msgid "That blog is currently reserved but may be available in a couple days."
-msgstr "Este blog está reservado atualmente, mas pode ficar disponível em alguns dias."
+msgstr "Este site está reservado atualmente, mas pode ficar disponível em alguns dias."
 
 #: wp-includes/wpmu-functions.php:1173
 #, php-format
@@ -17165,12 +17150,12 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"Para ativar seu blog, clique no seguinte link:\n"
+"Para ativar seu site, clique no seguinte link:\n"
 "\n"
 "%s\n"
 "Depois de ativá-lo, você receberá *outro email* com seu login.\n"
 "\n"
-"Depois de ativá-lo, você pode visitar seu blog aqui:\n"
+"Depois de ativá-lo, você pode visitar seu site aqui:\n"
 "\n"
 "%s"
 
@@ -17202,7 +17187,7 @@ msgstr "Chave de ativação inválida."
 
 #: wp-includes/wpmu-functions.php:1208
 msgid "The blog is already active."
-msgstr "O blog já está ativo."
+msgstr "O site já está ativo."
 
 #: wp-includes/wpmu-functions.php:1224
 msgid "Could not create user"
@@ -17276,7 +17261,6 @@ msgid "about"
 msgstr "sobre"
 
 #: wp-includes/wpmu-functions.php:1566
-#, fuzzy
 msgid ""
 "Dear User,\n"
 "\n"
@@ -17296,7 +17280,7 @@ msgid ""
 msgstr ""
 "Caro usuário,\n"
 "\n"
-"O seu novo blog SITE_NAME foi instalado com sucesso em:\n"
+"O seu novo site SITE_NAME foi instalado com sucesso em:\n"
 "BLOG_URL\n"
 "\n"
 "Você pode fazer login como administrador com os seguintes dados:\n"
@@ -17304,16 +17288,16 @@ msgstr ""
 "Senha: PASSWORD\n"
 "Faça login aqui: BLOG_URLwp-login.php\n"
 "\n"
-"Esperamos que você goste do seu novo blog. \n"
+"Esperamos que você goste do seu novo site. \n"
 "Obrigado!\n"
 "\n"
 "--Equipe do WordPress\n"
 "SITE_NAME"
 
 #: wp-includes/wpmu-functions.php:1600
-#, fuzzy, php-format
+#, php-format
 msgid "New %1$s Blog: %2$s"
-msgstr "Novo blog em %1$s: %2$s"
+msgstr "Novo site em %1$s: %2$s"
 
 #: wp-includes/wpmu-functions.php:1629
 #, fuzzy, php-format
