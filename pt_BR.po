@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WordPress 2.9.2\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-01-19 13:12+0000\n"
-"PO-Revision-Date: 2010-05-05 12:51-0300\n"
+"PO-Revision-Date: 2010-05-05 14:51-0300\n"
 "Last-Translator: Gabriel Mazetto <brodock@gmail.com>\n"
 "Language-Team: NPD-UFSC <gabriel@npd.ufsc.br>\n"
 "MIME-Version: 1.0\n"
@@ -17745,7 +17745,7 @@ msgstr "O blog %s é seu."
 #: wp-signup.php:217
 #, php-format
 msgid "<a href=\"http://%1$s\">http://%2$s</a> is your new blog.  <a href=\"%3$s\">Login</a> as \"%4$s\" using your existing password."
-msgstr "<a href=\"http://%1$s\">http://%2$s</a>é seu novo blog.  <a href=\"%3$s\">Faça login</a> como \"%4$s\" usando sua senha existente."
+msgstr "<a href=\"http://%1$s\">http://%2$s</a>é seu novo site.  <a href=\"%3$s\">Faça login</a> como \"%4$s\" usando sua senha existente."
 
 #: wp-signup.php:242
 #, php-format
@@ -17785,7 +17785,7 @@ msgstr "Registrar-se &raquo;"
 #: wp-signup.php:352
 #, php-format
 msgid "Congratulations! Your new blog, %s, is almost ready."
-msgstr "Parabéns! Seu novo blog, %s, está quase pronto."
+msgstr "Parabéns! Seu novo site, %s, está quase pronto."
 
 #: wp-signup.php:354
 msgid "But, before you can start using your blog, <strong>you must activate it</strong>."
